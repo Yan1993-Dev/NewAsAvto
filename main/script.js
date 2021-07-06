@@ -2,11 +2,10 @@ const slider = document.querySelector('.swiper-container');
 const slider_one = document.querySelector('.swiper-container_one');
 const slider_two = document.querySelector('.swiper-container_two');
 const slider_three = document.querySelector('.swiper-container_three');
-const slider_four = document.querySelector('.slider-container_four')
-const slider_five = document.querySelector('.swiper-container_five')
+const slider_four = document.querySelector('.slider-container_four');
 
 
-let mySwiper = new Swiper (slider, {
+let mySwiper = new Swiper(slider, {
 	slidesPerView: 1,
 	spaceBetween: 10,
 	loop: true,
@@ -28,7 +27,7 @@ let mySwiper = new Swiper (slider, {
 	},
 })
 
-let mySwiper_one = new Swiper (slider_one, {
+let mySwiper_one = new Swiper(slider_one, {
 	slidesPerView: 1,
 	spaceBetween: 10,
 	slideClass: 'swiper-slide_one',
@@ -45,7 +44,7 @@ let mySwiper_one = new Swiper (slider_one, {
 	},
 })
 
-let mySwiper_two = new Swiper (slider_two, {
+let mySwiper_two = new Swiper(slider_two, {
 	slidesPerView: 1,
 	spaceBetween: 10,
 	slideClass: 'swiper-slide_two',
@@ -61,7 +60,7 @@ let mySwiper_two = new Swiper (slider_two, {
 	},
 })
 
-let mySwiper_three = new Swiper (slider_three, {
+let mySwiper_three = new Swiper(slider_three, {
 	slidesPerView: 1,
 	spaceBetween: 10,
 	slideClass: 'swiper-slide_three',
@@ -77,7 +76,7 @@ let mySwiper_three = new Swiper (slider_three, {
 	},
 })
 
-let mySwiper_four = new Swiper (slider_four, {
+let mySwiper_four = new Swiper(slider_four, {
 	slidesPerView: 1,
 	spaceBetween: 10,
 	slideClass: 'slider-container_four',
@@ -91,31 +90,6 @@ let mySwiper_four = new Swiper (slider_four, {
 	navigation: {
 		nextEl: '.swiper-button-next_four',
 		prevEl: '.swiper-button-prev_four',
-	},
-})
-
-
-let mySwiper_five = new Swiper (slider_five, {
-	slidesPerView: 3,
-	spaceBetween: 10,
-	slideClass: 'swiper-container_five',
-	wrapperClass: 'swiper-wrapper_five',
-	loop: true,
-	centerMode: true,
-	observer: true,
-	observeParents: true,
-	keyboard: {
-		enabled: true
-	},
-	pagination: {
-		el: '.swiper_pagination',
-		clickable: true,
-		type : 'custom',
-		bulletClass:'slider_img_title',
-	  },
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
 	},
 })
 
