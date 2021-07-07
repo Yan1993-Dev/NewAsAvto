@@ -22,8 +22,9 @@
 }
 
 .burger__wrapper {
-    height: 38px;
-    width: 208px;
+    position: relative;
+    height: 40px;
+    width: 280px;
     background-color: #3482C6;
     color: #fff;
     text-align: center;
@@ -36,29 +37,85 @@
 
 .burger__btn {
     display: block;
-    position: absolute;
     left: 446px;
     top: 33px;
     cursor: pointer;
     z-index: 2;
+    line-height: 40px;
 }
 
 .burger__line {
     position: absolute;
-    top: 0;
+    top: 8px;
     right: 10px;
     width: 35px;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
 }
 
 .header_btn_wrapper {
-    width: 208px;
-    height: 38px;
-    top: 20px;
+    height: 40px;
+    width: 280px;
+    top: 2px;
     margin-left: 78px;
 }
 
+.second_b {
+    position: absolute;
+    top: 21px;
+    right: 5px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+
+}
+
+.third_b {
+    position: absolute;
+    top: 29px;
+    right: 5px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+
+}
+
+.fourth {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+
+}
+
+.main_menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .3s all;
+}
+
+.burger__catalog {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3482C6;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, .3); 
+}
+
+#burger-menu:checked > .main_menu {
+    max-height: 500px;
+    font-size: 16px;
+}
 
 
 .icon_dot {
@@ -479,7 +536,7 @@
 }
 
 .form_traid-in {
-    margin-left: 135px;
+    margin-left: 160px;
     margin-top: 130px;
     width: 584px;
     height: 600px;
@@ -686,6 +743,12 @@
     margin-left: 288px;
 }
 
+/* стили кнопки аккордеона */
+
+.estimate_btn__js {
+    margin-left: 643px;
+}
+
 .news {
     margin-top: 100px;
 }
@@ -799,7 +862,7 @@
     margin-top: -30px;
 }
 
-.popup_open {
+.estimate_btn {
     display: block;
     z-index: 10;
 }
@@ -905,6 +968,87 @@
     margin-top: 20px;
 }
 
+/* попап для заявки */
+
+.estimate {
+    /* display: none; */
+    Width: 716px;
+    Height: 672px;
+    top: 50px;
+    position: fixed;
+    margin-left: 420px;
+    border-radius: 10px;
+    background-color: #F8FAFD;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.popup_request {
+    margin-left: 255px;
+}
+
+.popup_request__btn {
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(../icons/X.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 669px;
+    padding-bottom: 27px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.popup_request {
+    margin-bottom: 90px;
+}
+
+.popup_request__btn:hover {
+    opacity: .5;
+    z-index: 10;
+}
+
+.popup_request__btn:focus {
+    opacity: .3;
+    z-index: 10;
+}
+
+.open_popup__two_js {
+    position: absolute;
+    margin-left: 70px;
+}
+
+.input__popup {
+    height: 45px;
+}
+
+.popup_req__js {
+    margin-top: 10px;
+    margin-left: 245px;
+}
+
+.input__est {
+    width: 524px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(52, 130, 198, 0.05);
+    box-sizing: border-box;
+    box-shadow: rgb(110 185 241 / 10%) 4px 6px 10px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.field_est {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
 
 
 @media (min-width:374px) and (max-width: 1023px) {
@@ -926,10 +1070,14 @@
         height: 51px;
     }
 
-
     .burger__wrapper {
         position: absolute;
-        margin-left: 10px;
+        margin-left: 300px;
+        height: 46px;
+        width: 46px;
+    }
+    .burger__btn {
+        display: none;
     }
 
     .burger__line {
@@ -958,7 +1106,7 @@
     }
     
     .phone_wrapper {
-        padding-left: 0px;
+        padding-left: 199px;
     }
 
     .icon_dot {
@@ -1093,7 +1241,7 @@
     }
 
     .line_title_three::before {
-        width: 80px;
+        width: 55px;
     }
 
     .slider_title_one {

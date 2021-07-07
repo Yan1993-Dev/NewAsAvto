@@ -120,6 +120,25 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// кнопка заявки
+
+var estimate = document.querySelector('.estimate');
+var openEstimate = document.querySelector('.estimate_btn__js')
+var overlay = document.querySelector('.popup_overlay')
+var popupCloseBtn = estimate.querySelector('.popup_request__btn')
+
+openEstimate.addEventListener('click', function(){
+	estimate.classList.add('estimate_btn');
+	overlay.classList.add('join');
+
+	popupCloseBtn.addEventListener('click', function(){
+		estimate.classList.remove('popup_open');
+		overlay.classList.remove('join')
+	})
+
+})
+
+
 // popup
 
 var popup = document.querySelector('.popup');
@@ -141,3 +160,5 @@ openPopup.addEventListener('click', function(){
 // календарь
 
 // бургер меню 
+
+
