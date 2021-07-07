@@ -747,6 +747,7 @@
 
 .estimate_btn__js {
     margin-left: 643px;
+    position: absolute;
 }
 
 .news {
@@ -851,18 +852,16 @@
     z-index: 10;
 }
 
-
 .open_popup_js {
     position: absolute;
     margin-left: 70px;
 }
 
-
 .popup_cont {
     margin-top: -30px;
 }
 
-.estimate_btn {
+.popup_open {
     display: block;
     z-index: 10;
 }
@@ -970,8 +969,10 @@
 
 /* попап для заявки */
 
+
+/* скрытый попап */
 .estimate {
-    /* display: none; */
+    display: none;
     Width: 716px;
     Height: 672px;
     top: 50px;
@@ -984,11 +985,12 @@
     border-radius: 10px;
     z-index: 10;
 }
-
+ /* заголовок попапа */
 .popup_request {
     margin-left: 255px;
 }
 
+/* кнопка закрытия попапа */
 .popup_request__btn {
     width: 19px;
     height: 19px;
@@ -1003,34 +1005,43 @@
     cursor: pointer;
 }
 
+
+/* кнопка отправки отступ вниз */
 .popup_request {
     margin-bottom: 90px;
 }
 
+/* размытие кнопки закрытия */
 .popup_request__btn:hover {
     opacity: .5;
     z-index: 10;
 }
 
+/* класс открытия попапа в js */
+.estimate_open {
+    display: block;
+    z-index: 50;
+}
+
+/* эффект нажатия на кнопку закрытия */
 .popup_request__btn:focus {
     opacity: .3;
     z-index: 10;
 }
 
-.open_popup__two_js {
-    position: absolute;
-    margin-left: 70px;
-}
-
-.input__popup {
-    height: 45px;
-}
-
+/* расположение кнопки отправки на попапе */
 .popup_req__js {
     margin-top: 10px;
     margin-left: 245px;
 }
 
+/* стили для заголовка формы с текстом */
+.field_est {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+/* стили для формы текста в попапе */
 .input__est {
     width: 524px;
     background: rgb(255, 255, 255);
@@ -1044,10 +1055,7 @@
     line-height: 19px;
 }
 
-.field_est {
-    margin-top: 15px;
-    margin-left: 100px;
-}
+
 
 
 
@@ -1283,8 +1291,13 @@
     .equipment_title_two {
         margin-left: 10px;
     }
+
     .accordion__content {
         margin-left: -281px;
+    }
+
+    .estimate_btn__js {
+        margin-left: 85px;
     }
 
     .slider_title_four {
@@ -1294,6 +1307,48 @@
     .line_title_four::before {
         width: 225px;
         left: 250px;
+    }
+
+    .estimate {
+        width: 314px;
+        height: 520px;
+        top: 1990px;
+        margin-left: 30px;
+    }
+
+    .popup_request__btn {
+        margin-left: 279px;
+    }
+
+    .popup_request {
+        margin-left: 60px;
+    }
+
+    .popup_cont {
+        margin-top: -70px;
+    }
+
+    .field_est {
+        margin-left: 25px;
+    }
+
+    .input__est, 
+    .input__popup {
+        width: 260px;
+    }
+
+    .input__est {
+        height: 80px;
+    }
+
+    .popup_req__js {
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+    .checkbox_popup {
+        margin-top: 25px;
+        margin-left: 45px;
     }
 
     .news {

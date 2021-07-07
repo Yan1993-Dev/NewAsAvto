@@ -123,21 +123,20 @@ document.addEventListener('DOMContentLoaded', () => {
 // кнопка заявки
 
 var estimate = document.querySelector('.estimate');
-var openEstimate = document.querySelector('.estimate_btn__js')
+var estimateBtn = document.querySelector('.estimate_btn__js')
 var overlay = document.querySelector('.popup_overlay')
-var popupCloseBtn = estimate.querySelector('.popup_request__btn')
+var estimateCloseBtn = estimate.querySelector('.popup_request__btn')
 
-openEstimate.addEventListener('click', function(){
-	estimate.classList.add('estimate_btn');
+
+estimateBtn.addEventListener('click', function(){
+	estimate.classList.add('estimate_open');
 	overlay.classList.add('join');
 
-	popupCloseBtn.addEventListener('click', function(){
-		estimate.classList.remove('popup_open');
-		overlay.classList.remove('join')
+	estimateCloseBtn.addEventListener('click', function(){
+		estimate.classList.remove('estimate_open');
+		overlay.classList.remove('join');
 	})
-
 })
-
 
 // popup
 
