@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,11 +21,18 @@
                 <div class="company_logo_wrapper">
                     <a class="logo" href="../main/index.html"><img src="../images/logo.png" alt="company_logo"></a>
                 </div>
-                <div class="header_container">
-                    <div class="header_btn_wrapper">
-                        <button class="btn catalog">
-                            Каталог автомобилей
-                        </button>
+                    <div class="burger__wrapper">
+                        <input type="checkbox" id="burger-menu">
+                        <label for="burger-menu" class="burger__btn">Каталог автомобилей</label>
+                        <div class="burger__line first"></div>
+                        <div class="burger__line second"></div>
+                        <div class="burger__line third"></div>
+                        <div class="burger__line fourth"></div>
+                        <nav class="main_menu">
+                            <a href="" class="burger__catalog">Geely</a>
+                            <a href="" class="burger__catalog">Haval</a>
+                            <a href="" class="burger__catalog">Chery</a>
+                        </nav>
                     </div>
                     <ul class="adress">
                         <li class="adress_item"><img src="../icons/Vector.svg" alt="" class="icon_dot">
@@ -77,10 +84,10 @@
             <div class="slider-container">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide card"><img src="../images/red_tiggo4.jpg" alt="" class="img_slider"></div>
-                        <div class="swiper-slide card"><img src="../images/white_tiggo4.jpg" alt="" class="img_slider"></div>
-                        <div class="swiper-slide card"><img src="../images/w_tiggo4.jpg" alt="" class="img_slider"></div>
-                        <div class="swiper-slide card"><img src="../images/blue_tiggo4.png" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/black_pic.png" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/black_pic.png" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/black_pic.png" alt="" class="img_slider"></div>
+                        <div class="swiper-slide card"><img src="../images/black_pic.png" alt="" class="img_slider"></div>
                     </div>
                     <div class="slider-buttons">
                         <button class="swiper-button-prev"></button>
@@ -170,7 +177,7 @@
                     <input id="check-receipt" type="radio" class="checkbox__input " checked value="Receipt">
                     <label for="check-receipt" class="checkbox__label">Согласие на обработку ПД</label>
                 </div>
-                <button class="btn disabled__btn" type="submit" >Отправить</button>
+                <button class="btn traid__btn" type="submit" >Отправить</button>
             </form>
         </section>
     </div>

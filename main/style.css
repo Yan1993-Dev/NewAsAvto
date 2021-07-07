@@ -1,24 +1,3 @@
-@font-face {
-    font-family: 'Tactic Sans';
-    src: url(../fonts/TacticSansExd-Bld.ttf);
-}
-
-*{
-    margin: 0;
-    max-width: 100%;
-    padding: 1px;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .header {
     margin-bottom: 126px;
 }
@@ -42,12 +21,45 @@ ul {
     height: 62px;
 }
 
+.burger__wrapper {
+    height: 38px;
+    width: 208px;
+    background-color: #3482C6;
+    color: #fff;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#burger-menu {
+    display: none;
+}
+
+.burger__btn {
+    display: block;
+    position: absolute;
+    left: 446px;
+    top: 33px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.burger__line {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+}
+
 .header_btn_wrapper {
     width: 208px;
     height: 38px;
     top: 20px;
     margin-left: 78px;
 }
+
+
 
 .icon_dot {
     color: black;
@@ -187,11 +199,13 @@ ul {
 
 .slider_wrapper_one {
     margin-top: 140px;
+    overflow: hidden;
 }
 
 .slider-container {
     margin-top: -334px;
     margin-left: 832px;
+    overflow: hidden;
 }
 
 .img_slider {
@@ -200,40 +214,35 @@ ul {
     text-align: center;
 }
 
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    display: none;
-}
-
 .slider-buttons {
-    position: absolute;
+    display: flex;
 }
-
 
 .swiper-button-prev {
+    position: absolute;
     background-image: url(../icons/arrowL.svg) 0 0 no-repeat;
     margin-right: 10px; 
-    background-color: #fff;
-    border: #fff;
-    background-position: center;
+    background-color: none;
+    border: none;
+    /* background-position: center; */
     width: 20px;
     height: 20px;
-    background-size: 20px 20px;
+
+    /* background-size: 20px 20px; */
     margin-right: 50px;
 }
 
 .swiper-button-next {
+    position: absolute;
     background-image: url(../icons/arrowR.svg)  0 0 no-repeat;
 	margin-left: 200px;
-    background-color: #fff;
+    background-color: none;
     width: 20px;
     height: 20px;
-    border: #fff;
-    border-radius: 50%;
+    border: none;
     background-position: center;
     background-size: 20px 20px;
-    margin-right: 100px;
+    margin-right: 130px;
 }
 
 .swiper-container {
@@ -242,6 +251,7 @@ ul {
 
 .swiper_pagination {
     padding-left: 60px;
+    margin-left: 30px;
 }
 
 .slider_img_title {
@@ -353,7 +363,14 @@ ul {
     margin-top: 16px;
 }
 
-
+.line_title_threeF::before {
+    content: '';
+    position: absolute;
+    width: 610px;
+    height: 3px;
+    background-color: #3482C6;
+    margin-top: 16px;
+}
 
 
 /* пятый слайдер */
@@ -440,6 +457,13 @@ ul {
 .checkbox {
     padding-top: 15px;
     padding-left: 320px;
+}
+
+.traid__btn {
+    width: 312px;
+    height: 57px;
+    margin-top: 55px;
+    margin-left: 136px;
 }
 
 .credit__btn {
@@ -616,6 +640,7 @@ ul {
     border-radius: 0px;
     background: #3482C6;
     box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
+    cursor: pointer;
 }
 
 .open .accordion__icon {
@@ -763,6 +788,13 @@ ul {
     z-index: 10;
 }
 
+
+.open_popup_js {
+    position: absolute;
+    margin-left: 70px;
+}
+
+
 .popup_cont {
     margin-top: -30px;
 }
@@ -873,6 +905,8 @@ ul {
     margin-top: 20px;
 }
 
+
+
 @media (min-width:374px) and (max-width: 1023px) {
     .header {
         margin-bottom: 50px;
@@ -892,12 +926,31 @@ ul {
         height: 51px;
     }
 
-    .header_btn_wrapper {
-        margin-left: 38px;
+
+    .burger__wrapper {
+        position: absolute;
+        margin-left: 10px;
     }
 
-    .catalog {
-        display: none;
+    .burger__line {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .menu__item {
+        transform: translate(0px, 10%);
+        opacity: 0;
+        visibility: visible;
+        pointer-events: none;
+        transition: all 0,3 ease 0s;
+    }
+
+    .header_btn_wrapper {
+        margin-left: 38px;
     }
 
     .adress {
@@ -953,9 +1006,41 @@ ul {
     }
 
     .form_traid-in {
-        display: none;
         margin-left: 15px;
     }
+
+    .popup {
+        position: fixed;
+        margin-left: 10px;
+        width: 353px;
+    }
+
+    .popup_drive {
+        margin-left: 25px;
+    }
+
+    .popup_drive__btn {
+        margin-left: 315px;
+    }
+
+    .popup__btn {
+        margin-left: 20px;
+    }
+
+    .input__popup {
+        width: 300px;
+    }
+
+    .field_name,
+    .field_phone,
+    .field_calendar {
+        margin-left: 25px;
+    }
+
+    .checkbox_popup {
+        margin-top: -85px;
+    }
+
     .open_popup_js {
         position: absolute;
         margin-top: 320px;
@@ -963,13 +1048,21 @@ ul {
     }
 
     .credit_calc {
+        display: block;
         width: 330px;
+        height: 525px;
     }
+
+    .traid__btn {
+        margin-left: 15px;
+    }
+
     .sub_title {
         font-size: 18px;
         line-height: 22px;
         padding-top: 25px;
     }
+ 
     .label__traid-in {
         font-size: 12px;
         line-height: 16px;
@@ -988,10 +1081,88 @@ ul {
         line-height: 19px;
     }
 
-    .credit__btn{
-        width: 312px;
-        height: 57px;
+    .credit__btn {
+        width: 300px;
+        height: 50px;
         margin-top: 30px;
-        margin-left: 6px;
+        margin-left: 13px;
+    }
+
+    .slider_wrapper_one {
+        margin-top: 70px;
+    }
+
+    .line_title_three::before {
+        width: 80px;
+    }
+
+    .slider_title_one {
+        margin-left: 110px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .slider-buttons_one {
+        display: none;
+    }
+
+    .img_slider_one {
+        width: 414px;
+        height: 267px;
+        margin-left: 0px;
+    }
+    
+    .text_slide {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .line_title_threeF::before {
+        width: 50px;
+    }
+
+    .slider-buttons {
+        display: none;
+    }
+
+    .equipment_to_title {
+        display: none;
+    }
+
+    .equip {
+        margin-top: 50px;
+    }
+
+    .equipment_title_two {
+        margin-left: 10px;
+    }
+    .accordion__content {
+        margin-left: -281px;
+    }
+
+    .slider_title_four {
+        margin-left: 140px;
+    }
+
+    .line_title_four::before {
+        width: 225px;
+        left: 250px;
+    }
+
+    .news {
+        margin-top: 0px;
+    }
+
+    .news_title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .news_container {
+        margin-top: 40px;
+    }
+
+    .feedback_title {
+        font-size: 30px;
+        line-height: 36px;
     }
 }
