@@ -93,7 +93,45 @@ let mySwiper_four = new Swiper(slider_four, {
 	},
 })
 
-// аккордеон
+
+// // самостоятельный слайдер новостей vol.1
+
+// // ищем контейнер с слайдером
+// const wrapper = document.querySelector('.news_wrapper_js');
+// // ищем оболочку для слайдера
+// const innerWrapper = wrapper.querySelector('.news__inner__wrapper_js');
+// // находим сами слайды
+// const slides = innerWrapper.querySelector('.news__slide_js');
+
+
+// const timeAnimation = 500;
+// const width = wrapper.clientWidth;
+// console.log(width);
+// const maxIndex = slides.lengh - 1;
+// let activeIndex = 0;
+
+// function initWidthSlides () {
+// 	for (let slide of slides) {
+// 		slide.styles.width = `${width}px`;
+// 	};
+// }
+// initWidthSlides();
+
+// function setActiveSlide(index) {
+// 	if(index < 0) {
+// 		return;
+// 	}
+// 	if(index >= maxIndex) {
+// 		console.error('Вышли за пределы слайдов!')
+// 		return;
+// 	}
+// 	innerWrapper.style.transform = `translateX(${index * width * (-1)}px)`;
+// 	innerWrapper.style.transition = `transform ${500}ms`;
+// }
+// setActiveSlide(10);
+
+
+// аккордион
 document.addEventListener('DOMContentLoaded', () => {
 	const accordions = document.querySelectorAll('.accordion');
 
@@ -105,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 			self.classList.toggle('open');
 
-			// если открыт аккордеон
+			// если открыт аккордион
 			if (self.classList.contains('open')) {
 				control.setAttribute('aria-expanded', true);
 				content.setAttribute('aria-hidden', false);

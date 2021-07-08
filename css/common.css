@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Tactic Sans';
-    src: local('Tactic Sans Bold'), local('Tactic-Sans-Bold'),
-        url('../fonts/TacticSans-Bld.woff2') format('woff2'),
-        url('../fonts/TacticSans-Bld.woff') format('woff'),
-        url('../fonts/TacticSans-Bld.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
-
 *{
     margin: 0;
     max-width: 100%;

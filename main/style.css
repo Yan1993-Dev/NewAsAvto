@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'TacticSans'; 
+	src: local('TacticSans'),
+		url(/fonts/TacticSans-Bld.otf); 
+}
+
 .header {
     margin-bottom: 126px;
 }
@@ -172,7 +178,8 @@
 
 .nav{
     font-family: 'Tactic Sans-Blt';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
+    font-style: bold;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -184,9 +191,9 @@
 
 .nav_item-link {
     font-family: 'TacticSans-Bld';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
     font-size: 20px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
@@ -198,9 +205,9 @@
 
 .main_title {
     font-family: 'Tactic Sans-Bld';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
     font-size: 58px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
@@ -211,9 +218,9 @@
 
 .sub_text {
     font-family: 'TacticSans-Blt';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
     font-size: 26px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 600;
     line-height: 31px;
     letter-spacing: 0em;
@@ -222,7 +229,8 @@
 
 .sub_text_wrapper {
     font-family: 'Tactic Sans-Bld';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
+    font-style: bold;
     margin-top: 15px;
 }
 .second {
@@ -239,9 +247,9 @@
 
 .title_item {
     font-family: 'TacticSans';
-    src: url(../fonts/TacticSans-Bld.ttf);
+    src: url(../fonts/TacticSans-Bld.otf);
     font-size: 36px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0em;
@@ -435,7 +443,7 @@
 .slider-container_four {
     overflow: hidden;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 180px;
 }
 
 .swiper-wrapper_four {
@@ -468,7 +476,7 @@
     height: 3px;
     left: 850px;
     background-color: #3482C6;
-    margin-top: 16px;
+    margin-top: 15px;
 }
 
 /* слайдеры закончились */
@@ -509,6 +517,7 @@
     box-sizing: border-box;
     box-shadow: 4px 6px 10px rgba(110, 185, 241, 0.1);
     border-radius: 5px;
+    padding-left: 10px;
 }
 
 .checkbox {
@@ -559,6 +568,10 @@
     border-radius: 10px;
 }
 
+.credit_calc_adapt {
+    display: none;
+}
+
 .input_inner {
     opacity: 0.5;
 }
@@ -602,12 +615,17 @@
 }
 
 .equipment_title_two {
-    margin-left: 230px;
-}
-
-.equipment_title_two {
+    margin-left: 140px;
     display: flex;
     align-items: center;
+}
+
+.equipment_item_price_adapt {
+    display: none;
+}
+
+.equipment_item_new_adapt {
+    display: none;
 }
 
 .equipment_item_model {
@@ -656,6 +674,7 @@
 	background-color: transparent;
 	cursor: pointer;
     border: none;
+    margin-bottom: -35px;
 }
 
 .equipment_title_two {
@@ -666,6 +685,7 @@
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 19px;
+    padding-right: 20px;
 }
 
 .accordion__content {
@@ -707,6 +727,10 @@
 	opacity: 1;
 }
 
+.accordion__icon_adapt {
+    display: none;
+}
+
 /* стили контента аккордеона */
 
 .save_title {
@@ -745,14 +769,19 @@
 /* стили кнопки аккордеона */
 
 .estimate_btn__js {
+    margin-top: 55px;
     margin-left: 643px;
     position: absolute;
 }
 
+/* слайдер с новостями */
+
+/* отступ новостей */
 .news {
     margin-top: 100px;
 }
 
+/* заголовок новостей */
 .news_title {
     font-family: 'TacticSans-Bld';
     font-style: normal;
@@ -763,36 +792,43 @@
     text-transform: uppercase;
 }
 
-
+/* конетейнер слайдера */
 .news_container {
-    display: flex;
-    margin-top: 60px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-left: 140px;
-    width: 376px;
-    
 }
 
-.news_card {
-    margin-right: 40px;
+/* слайдер отступы у картинок */
+.news__slider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
 }
 
-.news_card:last-child {
-    margin-right: 0px;
+/* высота в слайдере */
+.news__wrapper {
+    height: 376px;
+    overflow: hidden;
 }
 
-.news_sub-title {
-    font-family: 'TacticSans-Bld';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+/* флекс элементов в слайдере */
+.news__inner__wrapper {
+    display: flex;
+    height: 100%;
+}
+
+/* стили слайдов */
+
+.news__slide {
+    display: flex;
+    flex-shrink: 0;
     align-items: center;
-    margin-top: 48px;
-    margin-bottom: 20px;
-}
-
-.news_text {
-    margin-bottom: 15px;
+    justify-content: center;
+    font-size: 24px;
 }
 
 .feedback_title {
@@ -810,7 +846,7 @@
 .feedback_container {
     display: flex;
     margin-top: 60px;
-    margin-left: 140px;
+    margin-left: 200px;
     width: 376px;
 }
 
@@ -832,6 +868,10 @@
     font-size: 18px;
     line-height: 22px;
     align-items: center;
+}
+
+.equipment_item_adapt {
+    display: none;
 }
 
 /* попап тест драйв */
@@ -1160,9 +1200,20 @@
     .slider_img_title {
         padding-right: 3px;
     }
+    
+    .slider-container_four {
+        margin-top: 60px;
+    }
+
+    .line_title_four::before {
+        margin-top: 54px;
+    }
 
     .form_traid-in {
+        margin-top: 130px;
+        width: 335px;
         margin-left: 15px;
+        height: 520px;
     }
 
     .popup {
@@ -1185,6 +1236,11 @@
 
     .input__popup {
         width: 300px;
+        padding-left: 11px;
+    }
+
+    .input__est {
+        padding-left: 11px;
     }
 
     .field_name,
@@ -1204,12 +1260,28 @@
     }
 
     .credit_calc {
-        display: block;
+        display: none;
         width: 330px;
         height: 525px;
     }
 
+    .credit_calc_adapt {
+        display: block;
+        margin-top: 150px;
+        margin-left: 20px;
+        margin-top: 130px;
+        width: 335px;
+        height: 555px;
+        top: 808px;
+        background: #F8FAFD;
+        border: 1px solid rgba(52, 130, 198, 0.1);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
     .traid__btn {
+        width: 300px;
+        height: 45px;
         margin-left: 15px;
     }
 
@@ -1226,6 +1298,7 @@
 
     .input__traid-in {
         width: 270px;
+        padding-left: 11px;
     }
 
     .checkbox {
@@ -1278,7 +1351,7 @@
     }
 
     .line_title_threeF::before {
-        width: 75px;
+        width: 55px;
     }
 
     .slider-buttons {
@@ -1298,7 +1371,73 @@
     }
 
     .accordion__content {
+        padding-right: 250px;
         margin-left: -281px;
+    }
+
+    /* стили аккордеона */
+
+
+    .accordion__icon {
+        display: block;
+    }
+
+    .accordion__icon_adapt { 
+        margin-right: 10px; transition: transform 0.3s ease-out; 
+    } 
+
+
+    .open .accordion__icon_adapt { 
+        transform: rotate(180deg); 
+    }
+    
+    .equipment_item_adapt {
+        display: block;
+        margin-top: 7px;
+    }
+
+    .equipment_item_price_adapt {
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .equipment_item_new_adapt {
+        display: inline-block;
+    }
+
+    .compl {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .equipment_item_credit_btn {
+        margin-left: 51px;
+        margin-top: 23px;
+    }
+
+    .equipment_item, .accordion__icon_adapt{
+        margin-top: 20px;
+    }
+
+    .save, .design, .comfort {
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .save_title {
+        white-space: nowrap;
+    }
+
+    .equipment_title_two {
+        display: block;
+    }
+
+    .save {
+        margin-left: 287px;
+        padding-left: 17px;
+        padding-right: 290px;
     }
 
     .equipment_title_two {
@@ -1308,24 +1447,36 @@
 
     .equipment_item_model {
         font-size: 18px;
-        margin-right: -199px;
+        margin-right: 15px;
     }
     
     .equipment_item_old_price{
         font-size: 16px;
-        margin-right: -199px;
+        margin-right: 15px;
     }
 
     .equipment_item_new_price {
         font-size: 18px;
-        margin-right: -199px;
+        margin-right: 15px;
+    }
+
+    .equipment_item_new_adapt {
+        margin-top: 9px;
+    }
+
+    .equipment_item_credit_price {
+        margin-top: 20px;
+        padding-left: 40px;
+        white-space: nowrap;
     }
 
     .estimate_btn__js {
+        margin-top: 40px;
         margin-left: 85px;
     }
 
     .slider_title_four {
+        margin-top: 40px;
         margin-left: 140px;
     }
 
@@ -1337,7 +1488,7 @@
     .estimate {
         width: 314px;
         height: 520px;
-        top: 1990px;
+        top: 1400px;
         margin-left: 30px;
     }
 
@@ -1380,6 +1531,12 @@
         margin-top: 0px;
     }
 
+    .news__slider {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
     .news_title {
         font-size: 30px;
         line-height: 36px;
@@ -1392,5 +1549,10 @@
     .feedback_title {
         font-size: 30px;
         line-height: 36px;
+        margin-top: 1px;
+    }
+    .feedback_container {
+        margin-left: 30px;
+        
     }
 }
