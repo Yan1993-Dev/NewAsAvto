@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'TacticSans-Reg';
+    src: local('TacticSans-Reg'),    
+        url(../fonts/TacticSans-Reg.otf);
+    }
+  
+
 *{
     margin: 0;
     max-width: 100%;

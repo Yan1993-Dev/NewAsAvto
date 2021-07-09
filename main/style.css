@@ -1,9 +1,3 @@
-@font-face {
-	font-family: 'TacticSans'; 
-	src: local('TacticSans'),
-		url(/fonts/TacticSans-Bld.otf); 
-}
-
 .header {
     margin-bottom: 126px;
 }
@@ -42,6 +36,8 @@
 }
 
 .burger__btn {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     display: block;
     left: 446px;
     top: 33px;
@@ -176,22 +172,23 @@
     padding-left: 100px;
 }
 
-.nav{
-    font-family: 'Tactic Sans-Blt';
-    src: url(../fonts/TacticSans-Bld.otf);
-    font-style: bold;
+.nav {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
+    font-style: normal;
+    font-weight: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 400px;
+    padding-left: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: black;
 }
 
 .nav_item-link {
-    font-family: 'TacticSans-Bld';
-    src: url(../fonts/TacticSans-Bld.otf);
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-size: 20px;
     font-style: bold;
     font-weight: 400;
@@ -204,10 +201,10 @@
 }
 
 .main_title {
-    font-family: 'Tactic Sans-Bld';
-    src: url(../fonts/TacticSans-Bld.otf);
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-size: 58px;
-    font-style: bold;
+    font-style: normal;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
@@ -217,10 +214,10 @@
 }
 
 .sub_text {
-    font-family: 'TacticSans-Blt';
-    src: url(../fonts/TacticSans-Bld.otf);
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-size: 26px;
-    font-style: bold;
+    font-style: normal;
     font-weight: 600;
     line-height: 31px;
     letter-spacing: 0em;
@@ -228,9 +225,9 @@
 }
 
 .sub_text_wrapper {
-    font-family: 'Tactic Sans-Bld';
-    src: url(../fonts/TacticSans-Bld.otf);
-    font-style: bold;
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
+    font-style: normal;
     margin-top: 15px;
 }
 .second {
@@ -238,7 +235,7 @@
 }
 
 .main_wrapper {
-    margin-left: 260px;
+    margin-left: 215px;
 }
 
 .btn {
@@ -246,10 +243,10 @@
 }
 
 .title_item {
-    font-family: 'TacticSans';
-    src: url(../fonts/TacticSans-Bld.otf);
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-size: 36px;
-    font-style: bold;
+    font-style: normal;
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0em;
@@ -359,12 +356,16 @@
 }
 
 .slider_title_one {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     padding-bottom: 100px;
     margin-left: 680px;
 }
 
 .slider_title_two {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
 }
@@ -397,6 +398,8 @@
 }
 
 .slider_title_three {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
 }
@@ -465,6 +468,8 @@
 }
 
 .slider_title_four {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     margin-left: 750px;
 }
@@ -474,7 +479,7 @@
     position: absolute;
     width: 671px;
     height: 3px;
-    left: 850px;
+    left: 860px;
     background-color: #3482C6;
     margin-top: 15px;
 }
@@ -493,7 +498,8 @@
 
 
 .sub_title {
-    font-family: 'TacticSans-Bld';
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -597,6 +603,8 @@
 /* аккордион */
 
 .equipment_to_title {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     display: flex;
     align-items: center;
     margin-left: 258px;
@@ -612,12 +620,6 @@
 
 .equipment_item_price {
     margin-right: 97px;
-}
-
-.equipment_title_two {
-    margin-left: 140px;
-    display: flex;
-    align-items: center;
 }
 
 .equipment_item_price_adapt {
@@ -678,6 +680,9 @@
 }
 
 .equipment_title_two {
+    margin-left: 205px;
+    display: flex;
+    align-items: center;
     border: 1px solid rgba(52, 130, 198, 0.1);
     background: #F8FAFD;
     box-sizing: border-box;
@@ -734,6 +739,8 @@
 /* стили контента аккордеона */
 
 .save_title {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -744,6 +751,8 @@
 }
 
 .design_title {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -754,6 +763,8 @@
 }
 
 .comfort_title {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     margin-left: 288px;
     padding: 17px;
 }
@@ -783,7 +794,8 @@
 
 /* заголовок новостей */
 .news_title {
-    font-family: 'TacticSans-Bld';
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -832,7 +844,8 @@
 }
 
 .feedback_title {
-    font-family: 'TacticSans-Bld';
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -872,6 +885,11 @@
 
 .equipment_item_adapt {
     display: none;
+}
+
+.feedback_sub-title {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
 }
 
 /* попап тест драйв */
@@ -917,6 +935,8 @@
 }
 
 .popup_drive {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     margin-left: 200px;
     padding-top: 30px;
     margin-bottom: 70px;
@@ -1026,6 +1046,8 @@
 }
  /* заголовок попапа */
 .popup_request {
+    font-family: 'TacticSans-Reg';
+    src: url(../fonts/TacticSans-Reg.otf);
     margin-left: 255px;
 }
 
@@ -1268,7 +1290,7 @@
     .credit_calc_adapt {
         display: block;
         margin-top: 150px;
-        margin-left: 20px;
+        margin-left: 45px;
         margin-top: 130px;
         width: 335px;
         height: 555px;
@@ -1323,7 +1345,7 @@
 
     .line_title_two::before {
         width: 182px;
-        left: 285px;
+        left: 310px;
     }
 
     .line_title_three::before {
@@ -1335,6 +1357,17 @@
         font-size: 30px;
         line-height: 36px;
     }
+
+    .slider_title_two {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slider_title_three {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
     .slider-buttons_one {
         display: none;
     }
@@ -1351,7 +1384,7 @@
     }
 
     .line_title_threeF::before {
-        width: 55px;
+        width: 38px;
     }
 
     .slider-buttons {
@@ -1366,9 +1399,6 @@
         margin-top: 50px;
     }
 
-    .equipment_title_two {
-        margin-left: 10px;
-    }
 
     .accordion__content {
         padding-right: 250px;
@@ -1412,12 +1442,14 @@
     }
 
     .equipment_item_credit_btn {
-        margin-left: 51px;
         margin-top: 23px;
     }
 
     .equipment_item, .accordion__icon_adapt{
-        margin-top: 20px;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 165px;
+
     }
 
     .save, .design, .comfort {
@@ -1430,10 +1462,6 @@
         white-space: nowrap;
     }
 
-    .equipment_title_two {
-        display: block;
-    }
-
     .save {
         margin-left: 287px;
         padding-left: 17px;
@@ -1441,8 +1469,11 @@
     }
 
     .equipment_title_two {
+        display: block;
+        margin-left: 10px;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 40px;
     }
 
     .equipment_item_model {
@@ -1472,17 +1503,17 @@
 
     .estimate_btn__js {
         margin-top: 40px;
-        margin-left: 85px;
+        margin-left: 107px;
     }
 
     .slider_title_four {
         margin-top: 40px;
-        margin-left: 140px;
+        margin-left: 165px;
     }
 
     .line_title_four::before {
         width: 225px;
-        left: 250px;
+        left: 275px;
     }
 
     .estimate {
