@@ -1290,7 +1290,7 @@
     .credit_calc_adapt {
         display: block;
         margin-top: 150px;
-        margin-left: 45px;
+        margin-left: 20px;
         margin-top: 130px;
         width: 335px;
         height: 555px;
@@ -1448,7 +1448,7 @@
     .equipment_item, .accordion__icon_adapt{
         position: absolute;
         margin-top: 225px;
-        margin-left: 165px;
+        margin-left: 140px;
 
     }
 
@@ -1503,7 +1503,7 @@
 
     .estimate_btn__js {
         margin-top: 40px;
-        margin-left: 107px;
+        margin-left: 85px;
     }
 
     .slider_title_four {
