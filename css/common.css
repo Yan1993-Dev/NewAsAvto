@@ -47,3 +47,9 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.container_site {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 110px;
+}
