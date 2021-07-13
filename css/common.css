@@ -49,7 +49,7 @@ ul {
 }
 
 .container_site {
+    max-width: 1400px;
     margin: 0 auto;
-    max-width: 1180px;
-    padding: 0 110px;
+    padding: 0 195px;
 }
