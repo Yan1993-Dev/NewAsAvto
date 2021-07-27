@@ -68,9 +68,9 @@ interface Swiper extends SwiperClass<SwiperEvents> {
   slides: Dom7Array;
 
   /**
-   * Width of container
+   * max-width of container
    */
-  width: number;
+  max-width: number;
 
   /**
    * Height of container

@@ -57,7 +57,7 @@ export default function onTouchStart(event) {
   const edgeSwipeThreshold = params.edgeSwipeThreshold || params.iOSEdgeSwipeThreshold;
   if (
     edgeSwipeDetection &&
-    (startX <= edgeSwipeThreshold || startX >= window.innerWidth - edgeSwipeThreshold)
+    (startX <= edgeSwipeThreshold || startX >= window.innermax-width - edgeSwipeThreshold)
   ) {
     if (edgeSwipeDetection === 'prevent') {
       event.preventDefault();

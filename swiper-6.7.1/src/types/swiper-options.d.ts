@@ -73,7 +73,7 @@ export interface SwiperOptions {
   speed?: number;
 
   /**
-   * Enabled this option and plugin will set width/height on swiper wrapper equal to total size of all slides.
+   * Enabled this option and plugin will set max-width/height on swiper wrapper equal to total size of all slides.
    * Mostly should be used as compatibility fallback option for browser that don't support flexbox layout well
    *
    * @default false
@@ -89,14 +89,14 @@ export interface SwiperOptions {
   virtualTranslate?: boolean;
 
   /**
-   * Swiper width (in px). Parameter allows to force Swiper width.
+   * Swiper max-width (in px). Parameter allows to force Swiper max-width.
    * Useful only if you initialize Swiper when it is hidden and in SSR and Test environments for correct Swiper initialization
    *
    * @default null
    *
    * @note Setting this parameter will make Swiper not responsive
    */
-  width?: number | null;
+  max-width?: number | null;
 
   /**
    * Swiper height (in px). Parameter allows to force Swiper height.
@@ -116,7 +116,7 @@ export interface SwiperOptions {
   autoHeight?: boolean;
 
   /**
-   * Set to `true` to round values of slides width and height to prevent blurry texts on usual
+   * Set to `true` to round values of slides max-width and height to prevent blurry texts on usual
    * resolution screens (if you have such)
    *
    * @default false
@@ -699,17 +699,17 @@ export interface SwiperOptions {
    *   spaceBetween: 10,
    *   // Responsive breakpoints
    *   breakpoints: {
-   *     // when window width is >= 320px
+   *     // when window max-width is >= 320px
    *     320: {
    *       slidesPerView: 2,
    *       spaceBetween: 20
    *     },
-   *     // when window width is >= 480px
+   *     // when window max-width is >= 480px
    *     480: {
    *       slidesPerView: 3,
    *       spaceBetween: 30
    *     },
-   *     // when window width is >= 640px
+   *     // when window max-width is >= 640px
    *     640: {
    *       slidesPerView: 4,
    *       spaceBetween: 40
@@ -742,12 +742,12 @@ export interface SwiperOptions {
    * ```
    */
   breakpoints?: {
-    [width: number]: SwiperOptions;
+    [max-width: number]: SwiperOptions;
     [ratio: string]: SwiperOptions;
   };
 
   /**
-   * Base for breakpoints (beta). Can be `window` or `container`. If set to `window` (by default) then breakpoint keys mean window width. If set to `container` then breakpoint keys treated as swiper container width
+   * Base for breakpoints (beta). Can be `window` or `container`. If set to `window` (by default) then breakpoint keys mean window max-width. If set to `container` then breakpoint keys treated as swiper container max-width
    *
    * @default 'window'
    *

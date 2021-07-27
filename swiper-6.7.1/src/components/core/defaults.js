@@ -13,7 +13,7 @@ export default {
   focusableElements: 'input, select, option, textarea, button, video, label',
 
   // Overrides
-  width: null,
+  max-width: null,
   height: null,
 
   //
@@ -40,7 +40,7 @@ export default {
   // Autoheight
   autoHeight: false,
 
-  // Set wrapper width
+  // Set wrapper max-width
   setWrapperSize: false,
 
   // Virtual Translate

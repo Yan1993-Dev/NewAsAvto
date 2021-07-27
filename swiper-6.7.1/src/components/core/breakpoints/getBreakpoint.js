@@ -20,10 +20,10 @@ export default function getBreakpoint(breakpoints, base = 'window', containerEl)
   for (let i = 0; i < points.length; i += 1) {
     const { point, value } = points[i];
     if (base === 'window') {
-      if (window.matchMedia(`(min-width: ${value}px)`).matches) {
+      if (window.matchMedia(`(min-max-width: ${value}px)`).matches) {
         breakpoint = point;
       }
-    } else if (value <= containerEl.clientWidth) {
+    } else if (value <= containerEl.clientmax-width) {
       breakpoint = point;
     }
   }

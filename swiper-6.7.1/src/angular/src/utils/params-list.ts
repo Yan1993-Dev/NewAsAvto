@@ -10,7 +10,7 @@ export const paramsList = [
   'resizeObserver',
   'nested',
   'focusableElements',
-  '_width',
+  '_max-width',
   '_height',
   'preventInteractionOnTransition',
   'userAgent',

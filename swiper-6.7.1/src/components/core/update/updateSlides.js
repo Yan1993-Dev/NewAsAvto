@@ -8,7 +8,7 @@ export default function updateSlides() {
     }
     // prettier-ignore
     return {
-      'width': 'height',
+      'max-width': 'height',
       'margin-top': 'margin-left',
       'margin-bottom ': 'margin-right',
       'margin-left': 'margin-top',
@@ -151,26 +151,26 @@ export default function updateSlides() {
         slide[0].style.webkitTransform = 'none';
       }
       if (params.roundLengths) {
-        slideSize = swiper.isHorizontal() ? slide.outerWidth(true) : slide.outerHeight(true);
+        slideSize = swiper.isHorizontal() ? slide.outermax-width(true) : slide.outerHeight(true);
       } else {
         // eslint-disable-next-line
-        const width = getDirectionPropertyValue(slideStyles, 'width');
+        const max-width = getDirectionPropertyValue(slideStyles, 'max-width');
         const paddingLeft = getDirectionPropertyValue(slideStyles, 'padding-left');
         const paddingRight = getDirectionPropertyValue(slideStyles, 'padding-right');
         const marginLeft = getDirectionPropertyValue(slideStyles, 'margin-left');
         const marginRight = getDirectionPropertyValue(slideStyles, 'margin-right');
         const boxSizing = slideStyles.getPropertyValue('box-sizing');
         if (boxSizing && boxSizing === 'border-box') {
-          slideSize = width + marginLeft + marginRight;
+          slideSize = max-width + marginLeft + marginRight;
         } else {
-          const { clientWidth, offsetWidth } = slide[0];
+          const { clientmax-width, offsetmax-width } = slide[0];
           slideSize =
-            width +
+            max-width +
             paddingLeft +
             paddingRight +
             marginLeft +
             marginRight +
-            (offsetWidth - clientWidth);
+            (offsetmax-width - clientmax-width);
         }
       }
       if (currentTransform) {
@@ -185,7 +185,7 @@ export default function updateSlides() {
       if (params.roundLengths) slideSize = Math.floor(slideSize);
 
       if (slides[i]) {
-        slides[i].style[getDirectionLabel('width')] = `${slideSize}px`;
+        slides[i].style[getDirectionLabel('max-width')] = `${slideSize}px`;
       }
     }
     if (slides[i]) {
@@ -224,11 +224,11 @@ export default function updateSlides() {
   let newSlidesGrid;
 
   if (rtl && wrongRTL && (params.effect === 'slide' || params.effect === 'coverflow')) {
-    $wrapperEl.css({ width: `${swiper.virtualSize + params.spaceBetween}px` });
+    $wrapperEl.css({ max-width: `${swiper.virtualSize + params.spaceBetween}px` });
   }
   if (params.setWrapperSize) {
     $wrapperEl.css({
-      [getDirectionLabel('width')]: `${swiper.virtualSize + params.spaceBetween}px`,
+      [getDirectionLabel('max-width')]: `${swiper.virtualSize + params.spaceBetween}px`,
     });
   }
 
@@ -237,7 +237,7 @@ export default function updateSlides() {
     swiper.virtualSize =
       Math.ceil(swiper.virtualSize / params.slidesPerColumn) - params.spaceBetween;
     $wrapperEl.css({
-      [getDirectionLabel('width')]: `${swiper.virtualSize + params.spaceBetween}px`,
+      [getDirectionLabel('max-width')]: `${swiper.virtualSize + params.spaceBetween}px`,
     });
     if (params.centeredSlides) {
       newSlidesGrid = [];
@@ -250,7 +250,7 @@ export default function updateSlides() {
     }
   }
 
-  // Remove last grid elements depending on width
+  // Remove last grid elements depending on max-width
   if (!params.centeredSlides) {
     newSlidesGrid = [];
     for (let i = 0; i < snapGrid.length; i += 1) {

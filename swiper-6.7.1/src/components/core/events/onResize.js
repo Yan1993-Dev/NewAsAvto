@@ -3,7 +3,7 @@ export default function onResize() {
 
   const { params, el } = swiper;
 
-  if (el && el.offsetWidth === 0) return;
+  if (el && el.offsetmax-width === 0) return;
 
   // Breakpoints
   if (params.breakpoints) {

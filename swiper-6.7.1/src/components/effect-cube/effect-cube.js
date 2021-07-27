@@ -8,7 +8,7 @@ const Cube = {
       $el,
       $wrapperEl,
       slides,
-      width: swiperWidth,
+      max-width: swipermax-width,
       height: swiperHeight,
       rtlTranslate: rtl,
       size: swiperSize,
@@ -26,7 +26,7 @@ const Cube = {
           $cubeShadowEl = $('<div class="swiper-cube-shadow"></div>');
           $wrapperEl.append($cubeShadowEl);
         }
-        $cubeShadowEl.css({ height: `${swiperWidth}px` });
+        $cubeShadowEl.css({ height: `${swipermax-width}px` });
       } else {
         $cubeShadowEl = $el.find('.swiper-cube-shadow');
         if ($cubeShadowEl.length === 0) {
@@ -115,8 +115,8 @@ const Cube = {
     if (params.shadow) {
       if (isHorizontal) {
         $cubeShadowEl.transform(
-          `translate3d(0px, ${swiperWidth / 2 + params.shadowOffset}px, ${
-            -swiperWidth / 2
+          `translate3d(0px, ${swipermax-width / 2 + params.shadowOffset}px, ${
+            -swipermax-width / 2
           }px) rotateX(90deg) rotateZ(0deg) scale(${params.shadowScale})`,
         );
       } else {

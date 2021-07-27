@@ -138,7 +138,7 @@ export default function slideTo(
     const isH = swiper.isHorizontal();
     let t = -translate;
     if (rtl) {
-      t = wrapperEl.scrollWidth - wrapperEl.offsetWidth - t;
+      t = wrapperEl.scrollmax-width - wrapperEl.offsetmax-width - t;
     }
     if (speed === 0) {
       wrapperEl[isH ? 'scrollLeft' : 'scrollTop'] = t;

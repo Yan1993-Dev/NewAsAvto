@@ -423,7 +423,7 @@ class Swiper {
 
     swiper.slides.each((slideEl) => {
       if (newDirection === 'vertical') {
-        slideEl.style.width = '';
+        slideEl.style.max-width = '';
       } else {
         slideEl.style.height = '';
       }

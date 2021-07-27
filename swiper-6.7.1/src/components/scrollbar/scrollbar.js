@@ -28,7 +28,7 @@ const Scrollbar = {
     }
     if (swiper.isHorizontal()) {
       $dragEl.transform(`translate3d(${newPos}px, 0, 0)`);
-      $dragEl[0].style.width = `${newSize}px`;
+      $dragEl[0].style.max-width = `${newSize}px`;
     } else {
       $dragEl.transform(`translate3d(0px, ${newPos}px, 0)`);
       $dragEl[0].style.height = `${newSize}px`;
@@ -54,9 +54,9 @@ const Scrollbar = {
     const { scrollbar } = swiper;
     const { $dragEl, $el } = scrollbar;
 
-    $dragEl[0].style.width = '';
+    $dragEl[0].style.max-width = '';
     $dragEl[0].style.height = '';
-    const trackSize = swiper.isHorizontal() ? $el[0].offsetWidth : $el[0].offsetHeight;
+    const trackSize = swiper.isHorizontal() ? $el[0].offsetmax-width : $el[0].offsetHeight;
 
     const divider = swiper.size / swiper.virtualSize;
     const moveDivider = divider * (trackSize / swiper.size);
@@ -68,7 +68,7 @@ const Scrollbar = {
     }
 
     if (swiper.isHorizontal()) {
-      $dragEl[0].style.width = `${dragSize}px`;
+      $dragEl[0].style.max-width = `${dragSize}px`;
     } else {
       $dragEl[0].style.height = `${dragSize}px`;
     }

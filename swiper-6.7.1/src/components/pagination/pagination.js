@@ -56,9 +56,9 @@ const Pagination = {
       if (params.dynamicBullets) {
         swiper.pagination.bulletSize = bullets
           .eq(0)
-          [swiper.isHorizontal() ? 'outerWidth' : 'outerHeight'](true);
+          [swiper.isHorizontal() ? 'outermax-width' : 'outerHeight'](true);
         $el.css(
-          swiper.isHorizontal() ? 'width' : 'height',
+          swiper.isHorizontal() ? 'max-width' : 'height',
           `${swiper.pagination.bulletSize * (params.dynamicMainBullets + 4)}px`,
         );
         if (params.dynamicMainBullets > 1 && swiper.previousIndex !== undefined) {

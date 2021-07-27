@@ -174,7 +174,7 @@ const Lazy = {
       ? $(swiper.params.lazy.scrollingElement)
       : $(window);
     const isWindow = $scrollElement[0] === window;
-    const scrollElementWidth = isWindow ? window.innerWidth : $scrollElement[0].offsetWidth;
+    const scrollElementmax-width = isWindow ? window.innermax-width : $scrollElement[0].offsetmax-width;
     const scrollElementHeight = isWindow ? window.innerHeight : $scrollElement[0].offsetHeight;
     const swiperOffset = swiper.$el.offset();
     const { rtlTranslate: rtl } = swiper;
@@ -184,15 +184,15 @@ const Lazy = {
     if (rtl) swiperOffset.left -= swiper.$el[0].scrollLeft;
     const swiperCoord = [
       [swiperOffset.left, swiperOffset.top],
-      [swiperOffset.left + swiper.width, swiperOffset.top],
+      [swiperOffset.left + swiper.max-width, swiperOffset.top],
       [swiperOffset.left, swiperOffset.top + swiper.height],
-      [swiperOffset.left + swiper.width, swiperOffset.top + swiper.height],
+      [swiperOffset.left + swiper.max-width, swiperOffset.top + swiper.height],
     ];
     for (let i = 0; i < swiperCoord.length; i += 1) {
       const point = swiperCoord[i];
       if (
         point[0] >= 0 &&
-        point[0] <= scrollElementWidth &&
+        point[0] <= scrollElementmax-width &&
         point[1] >= 0 &&
         point[1] <= scrollElementHeight
       ) {

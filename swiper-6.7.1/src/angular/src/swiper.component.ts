@@ -61,7 +61,7 @@ export class SwiperComponent implements OnInit {
   @Input() resizeObserver: SwiperOptions['resizeObserver'];
   @Input() nested: SwiperOptions['nested'];
   @Input() focusableElements: SwiperOptions['focusableElements'];
-  @Input() width: SwiperOptions['width'];
+  @Input() max-width: SwiperOptions['max-width'];
   @Input() height: SwiperOptions['height'];
   @Input() preventInteractionOnTransition: SwiperOptions['preventInteractionOnTransition'];
   @Input() userAgent: SwiperOptions['userAgent'];

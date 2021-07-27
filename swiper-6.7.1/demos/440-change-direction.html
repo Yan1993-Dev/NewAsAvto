@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Swiper demo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="max-width=device-max-width, initial-scale=1">
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="../package/swiper-bundle.min.css">
 
@@ -26,7 +26,7 @@
     }
 
     .swiper-container {
-      width: 100%;
+      max-width: 100%;
       height: 100%;
     }
 
@@ -50,7 +50,7 @@
       align-items: center;
     }
 
-    @media (max-width: 760px) {
+    @media (max-max-width: 760px) {
       .swiper-button-next {
         right: 20px;
         transform: rotate(90deg);
@@ -103,8 +103,8 @@
     });
 
     function getDirection() {
-      var windowWidth = window.innerWidth;
-      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+      var windowmax-width = window.innermax-width;
+      var direction = window.innermax-width <= 760 ? 'vertical' : 'horizontal';
 
       return direction;
     }

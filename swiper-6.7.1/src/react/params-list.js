@@ -11,7 +11,7 @@ const paramsList = [
   'nested',
   'focusableElements',
   '_enabled',
-  '_width',
+  '_max-width',
   '_height',
   'preventInteractionOnTransition',
   'userAgent',

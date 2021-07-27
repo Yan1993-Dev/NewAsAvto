@@ -14,7 +14,7 @@ function calcDevice({ userAgent } = {}) {
     android: false,
   };
 
-  const screenWidth = window.screen.width;
+  const screenmax-width = window.screen.max-width;
   const screenHeight = window.screen.height;
 
   const android = ua.match(/(Android);?[\s\/]+([\d.]+)?/); // eslint-disable-line
@@ -43,7 +43,7 @@ function calcDevice({ userAgent } = {}) {
     !ipad &&
     macos &&
     support.touch &&
-    iPadScreens.indexOf(`${screenWidth}x${screenHeight}`) >= 0
+    iPadScreens.indexOf(`${screenmax-width}x${screenHeight}`) >= 0
   ) {
     ipad = ua.match(/(Version)\/([\d.]+)/);
     if (!ipad) ipad = [0, 1, '13_0_0'];

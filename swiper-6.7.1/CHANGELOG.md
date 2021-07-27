@@ -22,7 +22,7 @@
 * **core:** add ParallaxOptions types ([7cc22fe](https://github.com/nolimits4web/Swiper/commit/7cc22fe72bf95a1fa74a6f4226bebb3bdd4527a2)), closes [#4684](https://github.com/nolimits4web/Swiper/issues/4684)
 * **core:** allow `wrapperClass` to be multiple classes ([0d578b0](https://github.com/nolimits4web/Swiper/commit/0d578b0b98bb95141a481d74f1a8ec286bfaad54)), closes [#4680](https://github.com/nolimits4web/Swiper/issues/4680)
 * **core:** make `focusableElements` configurable ([6ff0866](https://github.com/nolimits4web/Swiper/commit/6ff086644805be9992adcb6668198496e64e7707)), closes [#4677](https://github.com/nolimits4web/Swiper/issues/4677)
-* **core:** use `window.matchMedia` to detect window width for breakpoints ([1a4afe0](https://github.com/nolimits4web/Swiper/commit/1a4afe0f86ef6f7978fde8a8caf6522ee87faab2)), closes [#4682](https://github.com/nolimits4web/Swiper/issues/4682)
+* **core:** use `window.matchMedia` to detect window max-width for breakpoints ([1a4afe0](https://github.com/nolimits4web/Swiper/commit/1a4afe0f86ef6f7978fde8a8caf6522ee87faab2)), closes [#4682](https://github.com/nolimits4web/Swiper/issues/4682)
 
 
 
@@ -182,7 +182,7 @@
 
 - **components:** added "resizeObserver" boolean option/prop to enable ResizeObserver ([f03ffbb](https://github.com/nolimits4web/Swiper/commit/f03ffbb0ed2148da44540856251519b0845eeaa6)), closes [#4244](https://github.com/nolimits4web/Swiper/issues/4244)
 - **core:** added support to use ResizeObserver with new "resizeObserver" parameter ([5f80052](https://github.com/nolimits4web/Swiper/commit/5f8005274ee0f379cfe31d4cde65951816595aad)), closes [#4244](https://github.com/nolimits4web/Swiper/issues/4244)
-- **core:** possible to enable breakpoints based on container width (instead of window width) ([42db86d](https://github.com/nolimits4web/Swiper/commit/42db86d209ce0b199b8fd92160a1278c512d2b9e)), closes [#4244](https://github.com/nolimits4web/Swiper/issues/4244)
+- **core:** possible to enable breakpoints based on container max-width (instead of window max-width) ([42db86d](https://github.com/nolimits4web/Swiper/commit/42db86d209ce0b199b8fd92160a1278c512d2b9e)), closes [#4244](https://github.com/nolimits4web/Swiper/issues/4244)
 - init cypress ([6159524](https://github.com/nolimits4web/Swiper/commit/6159524bc33fa8605eccaeec8ef241ae33b6be7d))
 
 # [6.4.15](https://github.com/nolimits4web/Swiper/compare/v6.4.14...v6.4.15) (2021-02-18)
@@ -779,7 +779,7 @@
 
 - Core
   - New `centerInsufficientSlides` parameter to center slides if the amount of slides less than `slidesPerView`
-  - New `breakpointsInverse` parameter (boolean), if enabled then it will count breakpoints in reversed direction, e.g. will override parameters if window width is more than specified breakpoint
+  - New `breakpointsInverse` parameter (boolean), if enabled then it will count breakpoints in reversed direction, e.g. will override parameters if window max-width is more than specified breakpoint
 - Virtual Slides
   - New `addSlidesBefore` and `addSlidesAfter` parameters to increase amount of pre-rendered slides
 - Thumbs
@@ -1148,7 +1148,7 @@
   - Now controllers in `controlBy: 'slide'` (default) mode will respect grid of each other
 - Pagination
   - New `paginationElement` parameter defines which HTML tag will be used to represent single pagination bullet. By default it is `span`
-- New `roundLengths` parameter (by default is `false`) to round values of slides width and height to prevent blurry texts on usual resolution screens
+- New `roundLengths` parameter (by default is `false`) to round values of slides max-width and height to prevent blurry texts on usual resolution screens
 - New `slidesOffsetBefore: 0` and `slidesOffsetAfter: 0` (in px) parameters to add additional slide offset within a container
 - Correct calculation for slides size when use CSS padding on `.swiper-container`
 - Fixed issue with not working onResize handler when swipes are locked
@@ -1172,7 +1172,7 @@
 
 ## 3.0.7 - Released on April 25th, 2015
 
-- New `width` and `height` parameters to force Swiper size, useful when it is hidden on intialization
+- New `max-width` and `height` parameters to force Swiper size, useful when it is hidden on intialization
 - Better support for "Scroll Container". So now Swiper can be used as a scroll container with one single "scrollable"/"swipeable" slide
 - Added lazy loading for background images with `data-background` attribute on required elements
 - New "Sticky Free Mode" (with `freeModeSticky` parameter) which will snap to slides positions in free mode
@@ -1201,7 +1201,7 @@
   - `.once(event, handler)` - add event/callback that will be executed only once
 - Plugins API is back. It allows to write custom Swiper plugins
 - Better support for browser that don't support flexbox layout
-- New parameter `setWrapperSize` (be default it is `false`) to provide better compatibility with browser without flexbox support. Enabled this option and plugin will set width/height on swiper wrapper equal to total size of all slides
+- New parameter `setWrapperSize` (be default it is `false`) to provide better compatibility with browser without flexbox support. Enabled this option and plugin will set max-width/height on swiper wrapper equal to total size of all slides
 - New `virtualTranslate` parameter. When it is enabled swiper will be operated as usual except it will not move. Useful when you may need to create custom slide transition
 - Added support for multiple Pagination containers
 - Fixed `onLazyImage...` callbacks

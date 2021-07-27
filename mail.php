@@ -28,13 +28,13 @@ foreach ( $_POST as $key => $value ) {
 		}
 		$message .= "
 		" . ( ($c = !$c) ? '<tr>':'<tr>' ) . "
-		<td style='padding: 10px; width: auto;'><b>$key:</b></td>
-		<td style='padding: 10px;width: 100%;'>$value</td>
+		<td style='padding: 10px; max-width: auto;'><b>$key:</b></td>
+		<td style='padding: 10px;max-width: 100%;'>$value</td>
 		</tr>
 		";
 	}
 }
-$message = "<table style='width: 50%;'>$message</table>";
+$message = "<table style='max-width: 50%;'>$message</table>";
 
 
 // От кого

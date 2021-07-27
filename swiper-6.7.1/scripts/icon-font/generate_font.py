@@ -10,7 +10,7 @@ SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 BLANK_PATH = os.path.join(SCRIPT_PATH, 'blank.svg')
 INPUT_SVG_DIR = os.path.join(SCRIPT_PATH, '..', '..', 'src/icons/svg')
 OUTPUT_FONT_DIR = os.path.join(SCRIPT_PATH, '..', '..', 'src/icons/font')
-AUTO_WIDTH = True
+AUTO_max-width = True
 KERNING = 15
 
 m = md5.new()
@@ -30,7 +30,7 @@ f.addLookupSubtable("ligatable","ligatable1")
 for char in "0123456789abcdefghijklmnopqrstuvwzxyz_- ":
   glyph = f.createChar(ord(char))
   glyph.importOutlines(BLANK_PATH)
-  glyph.width = 0
+  glyph.max-width = 0
 
 font_name = 'swiper-icons';
 m.update(font_name + ';')
@@ -81,14 +81,14 @@ for dirname, dirnames, filenames in os.walk(INPUT_SVG_DIR):
       if tmpsvgfile:
         os.unlink(tmpsvgfile.name)
 
-      # set glyph size explicitly or automatically depending on autowidth
-      if AUTO_WIDTH:
+      # set glyph size explicitly or automatically depending on automax-width
+      if AUTO_max-width:
         glyph.left_side_bearing = glyph.right_side_bearing = 0
         glyph.round()
 
-    # resize glyphs if autowidth is enabled
-    if AUTO_WIDTH:
-      f.autoWidth(0, 0, 512)
+    # resize glyphs if automax-width is enabled
+    if AUTO_max-width:
+      f.automax-width(0, 0, 512)
 
 fontfile = '%s/swiper-icons' % (OUTPUT_FONT_DIR)
 print fontfile;

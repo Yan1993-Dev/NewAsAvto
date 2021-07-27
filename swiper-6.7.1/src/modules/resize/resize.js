@@ -16,19 +16,19 @@ export default {
         createObserver() {
           if (!swiper || swiper.destroyed || !swiper.initialized) return;
           swiper.resize.observer = new ResizeObserver((entries) => {
-            const { width, height } = swiper;
-            let newWidth = width;
+            const { max-width, height } = swiper;
+            let newmax-width = max-width;
             let newHeight = height;
             entries.forEach(({ contentBoxSize, contentRect, target }) => {
               if (target && target !== swiper.el) return;
-              newWidth = contentRect
-                ? contentRect.width
+              newmax-width = contentRect
+                ? contentRect.max-width
                 : (contentBoxSize[0] || contentBoxSize).inlineSize;
               newHeight = contentRect
                 ? contentRect.height
                 : (contentBoxSize[0] || contentBoxSize).blockSize;
             });
-            if (newWidth !== width || newHeight !== height) {
+            if (newmax-width !== max-width || newHeight !== height) {
               swiper.resize.resizeHandler();
             }
           });

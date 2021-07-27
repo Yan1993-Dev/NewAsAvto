@@ -14,6 +14,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -36,15 +37,14 @@
 }
 
 .logo {
-    width: 107px;
+    max-width: 107px;
     height: 62px;
 }
 
 .header_btn_wrapper {
     height: 40px;
-    width: 280px;
+    max-width: 280px;
     top: 2px;
-    margin-left: 78px;
 }
 
 .wrapper__checkbox {
@@ -93,7 +93,6 @@
     cursor: pointer;
     z-index: 3; 
     color: #FFFFFF;
-    margin-left: 65px;
     border-radius: 10px;
 }
   
@@ -203,7 +202,6 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    padding-left: 160px;
     margin-top: 18px;
 
 }
@@ -221,7 +219,6 @@
     line-height: 22px;
     letter-spacing: 0em;
     margin-top: 18px;
-    margin-left: 50px;
 }
 
 .navigation {

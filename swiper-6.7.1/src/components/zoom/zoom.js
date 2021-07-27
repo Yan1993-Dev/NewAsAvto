@@ -126,11 +126,11 @@ const Zoom = {
     if (!image.isTouched || !gesture.$slideEl) return;
 
     if (!image.isMoved) {
-      image.width = gesture.$imageEl[0].offsetWidth;
+      image.max-width = gesture.$imageEl[0].offsetmax-width;
       image.height = gesture.$imageEl[0].offsetHeight;
       image.startX = getTranslate(gesture.$imageWrapEl[0], 'x') || 0;
       image.startY = getTranslate(gesture.$imageWrapEl[0], 'y') || 0;
-      gesture.slideWidth = gesture.$slideEl[0].offsetWidth;
+      gesture.slidemax-width = gesture.$slideEl[0].offsetmax-width;
       gesture.slideHeight = gesture.$slideEl[0].offsetHeight;
       gesture.$imageWrapEl.transition(0);
       if (swiper.rtl) {
@@ -139,12 +139,12 @@ const Zoom = {
       }
     }
     // Define if we need image drag
-    const scaledWidth = image.width * zoom.scale;
+    const scaledmax-width = image.max-width * zoom.scale;
     const scaledHeight = image.height * zoom.scale;
 
-    if (scaledWidth < gesture.slideWidth && scaledHeight < gesture.slideHeight) return;
+    if (scaledmax-width < gesture.slidemax-width && scaledHeight < gesture.slideHeight) return;
 
-    image.minX = Math.min(gesture.slideWidth / 2 - scaledWidth / 2, 0);
+    image.minX = Math.min(gesture.slidemax-width / 2 - scaledmax-width / 2, 0);
     image.maxX = -image.minX;
     image.minY = Math.min(gesture.slideHeight / 2 - scaledHeight / 2, 0);
     image.maxY = -image.minY;
@@ -243,9 +243,9 @@ const Zoom = {
     image.currentY = newPositionY;
 
     // Define if we need image drag
-    const scaledWidth = image.width * zoom.scale;
+    const scaledmax-width = image.max-width * zoom.scale;
     const scaledHeight = image.height * zoom.scale;
-    image.minX = Math.min(gesture.slideWidth / 2 - scaledWidth / 2, 0);
+    image.minX = Math.min(gesture.slidemax-width / 2 - scaledmax-width / 2, 0);
     image.maxX = -image.minX;
     image.minY = Math.min(gesture.slideHeight / 2 - scaledHeight / 2, 0);
     image.maxY = -image.minY;
@@ -324,15 +324,15 @@ const Zoom = {
     let diffY;
     let translateX;
     let translateY;
-    let imageWidth;
+    let imagemax-width;
     let imageHeight;
-    let scaledWidth;
+    let scaledmax-width;
     let scaledHeight;
     let translateMinX;
     let translateMinY;
     let translateMaxX;
     let translateMaxY;
-    let slideWidth;
+    let slidemax-width;
     let slideHeight;
 
     if (typeof image.touchesStart.x === 'undefined' && e) {
@@ -346,19 +346,19 @@ const Zoom = {
     zoom.scale = gesture.$imageWrapEl.attr('data-swiper-zoom') || params.maxRatio;
     zoom.currentScale = gesture.$imageWrapEl.attr('data-swiper-zoom') || params.maxRatio;
     if (e) {
-      slideWidth = gesture.$slideEl[0].offsetWidth;
+      slidemax-width = gesture.$slideEl[0].offsetmax-width;
       slideHeight = gesture.$slideEl[0].offsetHeight;
       offsetX = gesture.$slideEl.offset().left + window.scrollX;
       offsetY = gesture.$slideEl.offset().top + window.scrollY;
-      diffX = offsetX + slideWidth / 2 - touchX;
+      diffX = offsetX + slidemax-width / 2 - touchX;
       diffY = offsetY + slideHeight / 2 - touchY;
 
-      imageWidth = gesture.$imageEl[0].offsetWidth;
+      imagemax-width = gesture.$imageEl[0].offsetmax-width;
       imageHeight = gesture.$imageEl[0].offsetHeight;
-      scaledWidth = imageWidth * zoom.scale;
+      scaledmax-width = imagemax-width * zoom.scale;
       scaledHeight = imageHeight * zoom.scale;
 
-      translateMinX = Math.min(slideWidth / 2 - scaledWidth / 2, 0);
+      translateMinX = Math.min(slidemax-width / 2 - scaledmax-width / 2, 0);
       translateMinY = Math.min(slideHeight / 2 - scaledHeight / 2, 0);
       translateMaxX = -translateMinX;
       translateMaxY = -translateMinY;
@@ -588,7 +588,7 @@ export default {
         isScaling: false,
         gesture: {
           $slideEl: undefined,
-          slideWidth: undefined,
+          slidemax-width: undefined,
           slideHeight: undefined,
           $imageEl: undefined,
           $imageWrapEl: undefined,
@@ -603,7 +603,7 @@ export default {
           minY: undefined,
           maxX: undefined,
           maxY: undefined,
-          width: undefined,
+          max-width: undefined,
           height: undefined,
           startX: undefined,
           startY: undefined,

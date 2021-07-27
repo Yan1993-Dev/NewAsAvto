@@ -4,11 +4,11 @@ import { bindModuleMethods } from '../../utils/utils';
 const Coverflow = {
   setTranslate() {
     const swiper = this;
-    const { width: swiperWidth, height: swiperHeight, slides, slidesSizesGrid } = swiper;
+    const { max-width: swipermax-width, height: swiperHeight, slides, slidesSizesGrid } = swiper;
     const params = swiper.params.coverflowEffect;
     const isHorizontal = swiper.isHorizontal();
     const transform = swiper.translate;
-    const center = isHorizontal ? -transform + swiperWidth / 2 : -transform + swiperHeight / 2;
+    const center = isHorizontal ? -transform + swipermax-width / 2 : -transform + swiperHeight / 2;
     const rotate = isHorizontal ? params.rotate : -params.rotate;
     const translate = params.depth;
     // Each slide offset from center

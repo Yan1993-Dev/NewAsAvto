@@ -30,7 +30,7 @@ const Swiper = {
     resizeObserver: { type: Boolean, default: undefined },
     nested: { type: Boolean, default: undefined },
     focusableElements: { type: Boolean, default: undefined },
-    width: { type: Number, default: undefined },
+    max-width: { type: Number, default: undefined },
     height: { type: Number, default: undefined },
     preventInteractionOnTransition: { type: Boolean, default: undefined },
     userAgent: { type: String, default: undefined },
