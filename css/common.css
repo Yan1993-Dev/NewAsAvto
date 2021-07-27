@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'TacticSans-Reg';
-    src: local('TacticSans-Reg'),    
-        url(../fonts/TacticSans-Reg.otf);
+    src: local('TacticSans-Reg'),
+        url(../static/fonts/TacticSans-Reg.otf);
     }
-  
 
 *{
     margin: 0;
     max-width: 100%;
     padding: 1px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     text-decoration: none;
 }
 
@@ -46,20 +46,4 @@ ul {
             clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.container_site {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 195px;
-}
-
-
-
-@media (min-width:344px) and (max-width: 1023px) {
-    .container_site {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
 }
