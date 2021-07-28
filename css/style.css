@@ -159,7 +159,6 @@
     display: none;
 }
 
-
 .title {
     margin-top: -85px;
 }
@@ -323,6 +322,130 @@
 
 /* слайдер */
 
+/* линии у заголовков */
+
+.line_exter {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_title_one::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(85% - 1.5px);
+    width: 40%;
+    left: 0;
+    height: 3px;
+    background-color: #3482C6;
+} 
+
+.line__inter {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_title_two::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(85% - 1.5px);
+    width: 40%;
+    right: 0;
+    height: 3px;
+    background-color: #3482C6;
+}
+
+.line__complect {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_title_three::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(85% - 1.5px);
+    width: 35%;
+    left: 0;
+    height: 3px;
+    background-color: #3482C6;
+}
+
+.line__sale {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 155px;
+}
+
+.slider_title_sale::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(90% - 1.5px);
+    width: 40%;
+    right: 0;
+    height: 3px;
+    background-color: #3482C6;
+}
+
+.line__feedback {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_title_feedback::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(50% - 1.5px);
+    width: 40%;
+    right: 0;
+    height: 3px;
+    background-color: #3482C6;
+}
+
+
+.line {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_title_news::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: calc(50% - 1.5px);
+    width: 40%;
+    left: 0;
+    height: 3px;
+    background-color: #3482C6;
+}
+
 .slider_wrapper_one {
     overflow: hidden;
 }
@@ -351,39 +474,6 @@
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
     background: #202020;
     transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.slider-buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.swiper-button-prev {
-    position: absolute;
-    background-image: url(../icons/arrowL.svg) 0 0 no-repeat;
-    margin-right: 10px; 
-    background-color: none;
-    border: none;
-    /* background-position: center; */
-    width: 20px;
-    height: 20px;
-
-    /* background-size: 20px 20px; */
-    margin-right: 50px;
-}
-
-.swiper-button-next {
-    position: absolute;
-    background-image: url(../icons/arrowR.svg)  0 0 no-repeat;
-	margin-left: 200px;
-    background-color: none;
-    width: 20px;
-    height: 20px;
-    border: none;
-    background-position: center;
-    background-size: 20px 20px;
-    margin-right: 130px;
 }
 
 .swiper-container {
@@ -446,7 +536,6 @@
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
-    background-color: rgba(52, 130, 198, 0.2);
     text-align: center;
     margin-top: 100px;
 }
@@ -455,7 +544,6 @@
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
-    background-color: rgba(52, 130, 198, 0.2);
     text-align: center;
     margin-top: 100px;
 }
@@ -466,7 +554,6 @@
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
-    background-color: rgba(52, 130, 198, 0.2);
     text-align: center;
     margin-top: 100px;
 }
@@ -477,9 +564,7 @@
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
-    background-color: rgba(52, 130, 198, 0.2);
     text-align: center;
-    margin-top: 155px;
 }
 
 .swiper-pagination_one {
@@ -496,7 +581,6 @@
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
-    background-color: rgba(52, 130, 198, 0.2);
     text-align: center;
 }
 
@@ -558,7 +642,6 @@
     src: url(../static/fonts/TacticSans-Reg.otf);
     text-transform: uppercase;
     text-align: center;
-    background-color: rgba(52, 130, 198, 0.2);
 }
 
 .feedback_sub-title {
@@ -1086,7 +1169,7 @@
     Height: 672px;
     top: 50px;
     position: fixed;
-    margin-left: 635px;
+    left: calc(30% - 1.5px);
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1305,6 +1388,7 @@
     .nav_item-link {
         margin-right: 30px;
     }
+
     .main_title {
         font-size: 55px;
     }
@@ -1593,10 +1677,9 @@
     }
 }
 
-/* @media (min-width: 768px) */
-
 
 @media (min-width: 424px) and (max-width: 768px) {
+
     .container_site {
         max-width: 768px;
         margin: 0 auto;
@@ -1620,7 +1703,7 @@
     }
 
     .header_inner {
-        margin-left: 0px;
+        justify-content: space-around;
     }
     
     .company_logo {
@@ -1661,7 +1744,7 @@
     }
       
       .wrapper__checkbox:checked ~ .wrapper__menu {
-        right: 30px;
+        right: -30px;
     }
       
       .wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
@@ -1698,8 +1781,8 @@
         height: 41px;
         background: #3482C6;
         position: absolute;
-        top: 20px;
-        right: 5px;
+        top: 30px;
+        right: 25px;
         cursor: pointer;
         z-index: 3; 
     }
@@ -2728,16 +2811,6 @@
         text-align: center;
     }
 
-    .line_title_sale {
-        content: '';
-        position: absolute;
-        width: 125px;
-        height: 3px;
-        left: 230px;
-        background-color: #3482C6;
-        margin-top: 51px;
-    }
-
     .estimate {
         position: fixed;
         width: 314px;
@@ -2806,12 +2879,6 @@
         src: url(../fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
         margin-bottom: 30px;
-    }
-
-    .slider_title_feedback::before {
-        width: 110px;
-        left: 190px;
-        margin-top: 10px;
     }
 
     .news_title {
