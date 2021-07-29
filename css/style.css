@@ -6,6 +6,13 @@
 }
 
 
+.container__sub {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+
 .header {
     margin-bottom: 126px;
 }
@@ -238,8 +245,7 @@
             flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    padding-left: 100px;
+    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -255,7 +261,6 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
-    margin-right: 55px;
 }
 
 .deck::before {
@@ -499,6 +504,7 @@
 .slider-container_one {
     overflow: hidden;
     width: 100%;
+    margin-top: 60px;
 }
 
 .swiper-wrapper_one {
@@ -818,7 +824,7 @@
     margin-left: 50px;
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 29px;
 }
 
@@ -845,7 +851,7 @@
 }
 
 .equipment_item_model {
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 33px;
@@ -854,7 +860,7 @@
     
 }
 .equipment_item_old_price {
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
@@ -865,7 +871,7 @@
 }
 
 .equipment_item_new_price {
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 33px;
@@ -887,13 +893,13 @@
 	background-color: transparent;
 	cursor: pointer;
     border: none;
-    margin-bottom: -35px;
 }
 
 .equipment_title_two {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -901,7 +907,8 @@
     background: #F8FAFD;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 11px 56px 11px 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 10px;
 }
 
@@ -909,7 +916,6 @@
 	max-height: 0;
 	opacity: 0;
 	overflow: hidden;
-	padding: 0 20px;
 	will-change: max-height;
 	-webkit-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -918,13 +924,20 @@
 	        box-sizing: content-box;
 }
 
+.accordion {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-bottom: -35px;
+}
+
+
 .accordion__title {
 	font-weight: bold;
 	font-size: 1.17em;
 }
 
 .accordion__icon {
-    margin-right: 10px;
+    margin-left: 10px;
 	-webkit-transition: -webkit-transform 0.3s ease-out;
 	transition: -webkit-transform 0.3s ease-out;
 	-o-transition: transform 0.3s ease-out;
@@ -935,6 +948,7 @@
 .equipment_item_credit_btn {
     height: 41px;
     width: 208px;
+    margin-right: 5px;
     padding-top: 10px;
     color: #fff;
     border-radius: 0px;
@@ -943,6 +957,7 @@
             box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
     cursor: pointer;
     border-radius: 10px;
+    text-align: center;
 }
 
 .open .accordion__icon {
@@ -971,38 +986,38 @@
 .save_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 17px;
+    margin-left: 35px;
     margin-top: 25px;
     padding: 17px;
 }
 
 .save, .design, .comfort {
     line-height: 25px;
-    margin-left: 17px;
+    margin-left: 35px;
     padding: 17px;
 }
 
 .design_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 17px;
+    margin-left: 35px;
     padding: 17px;
 }
 
 .design {
-    margin-left: 17px;
+    margin-left: 35px;
     padding: 17px;
 }
 
 .comfort_title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 17px;
+    margin-left: 35px;
     padding: 17px;
 }
 
 .comfort {
-    margin-left: 17px;
+    margin-left: 35px;
 }
 
 .equipment_item_adapt {
@@ -1013,7 +1028,7 @@
 
 .estimate_btn__js {
     margin-top: 55px;
-    margin-left: 400px;
+    left: calc(45% - 5.5px);
     position: absolute;
 }
 
@@ -1022,8 +1037,8 @@
 .popup {
     display: none;
     height: 547px;
-    width: 716px;
-    right: 25%;
+    max-width: 530px;
+    left: 35%;
     top: 100px;
     position: fixed;
     align-items: center;
@@ -1051,31 +1066,30 @@
 }
 
 .field_name  {
-    margin-left: 100px;
+    margin-left: 85px;
     z-index: 10;
 }
 
 .field_phone {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 85px;
     z-index: 10;
 }
 
 .popup_drive {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 200px;
+    text-align: center;
     padding-top: 30px;
     margin-bottom: 70px;
     z-index: 10;
     font-size: 24px;
     line-height: 29px;
-    padding-left: 80px;
 }
 
 .input__popup {
     display: block;
-    width: 524px;
+    width: 330px;
     height: 45px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(52, 130, 198, 0.05);
@@ -1097,19 +1111,20 @@
     font-size: 14px;
     line-height: 19px;
     z-index: 10;
+    margin-right: 100px;
 }
 
 .field_calendar {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 85px;
     z-index: 10;
 }
 
 .popup__btn {
-    width: 312px;
+    width: 241px;
     height: 57px;
     margin-top: 25px;    
-    margin-left: 200px;
+    margin-left: 140px;
     z-index: 10;
 }
 
@@ -1121,7 +1136,8 @@
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 669px;
+    margin-left: 466px;
+    margin-right: 15px;
     padding-bottom: 27px;
     z-index: 10;
 }
@@ -1154,7 +1170,8 @@
 }
 
 .checkbox_popup {
-    margin-left: 400px;
+    text-align: right;
+    margin-right: 15px;
     margin-top: 20px;
 }
 
@@ -1164,11 +1181,12 @@
 /* скрытый попап */
 .estimate {
     display: none;
-    Width: 716px;
-    Height: 672px;
-    top: 50px;
+    height: 547px;
+    max-width: 530px;
+    left: 40%;
+    top: 100px;
     position: fixed;
-    left: calc(30% - 1.5px);
+    align-items: center;
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1181,7 +1199,8 @@
 .popup_request {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-left: 255px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 /* кнопка закрытия попапа */
@@ -1193,16 +1212,11 @@
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 669px;
+    margin-left: 480px;
+    margin-right: 15px;
     padding-bottom: 27px;
     z-index: 10;
     cursor: pointer;
-}
-
-
-/* кнопка отправки отступ вниз */
-.popup_request {
-    margin-bottom: 90px;
 }
 
 /* размытие кнопки закрытия */
@@ -1225,19 +1239,23 @@
 
 /* расположение кнопки отправки на попапе */
 .popup_req__js {
-    margin-top: 10px;
-    margin-left: 245px;
+    width: 241px;
+    height: 57px;
+    margin-top: 25px;
+    margin-left: 140px;
+    z-index: 10;
 }
 
 /* стили для заголовка формы с текстом */
 .field_est {
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 85px;
 }
 
 /* стили для формы текста в попапе */
 .input__est {
-    width: 524px;
+    width: 330px;
+    height: 51px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(52, 130, 198, 0.05);
     -webkit-box-sizing: border-box;
@@ -1250,6 +1268,8 @@
     font-size: 14px;
     line-height: 19px;
 }
+
+
 
 
 /* валидация форм */
@@ -1345,11 +1365,7 @@
     }
 
     .estimate {
-        margin-left: 350px;
-    }
-
-    .popup {
-        margin-left: 350px;
+        left: 25%;
     }
 }
 
@@ -1368,6 +1384,10 @@
         right: -157px;
     }
 
+    .slider_title_three::after {
+        width: 30%;
+    }
+
     .wrapper__menu {
         margin-right: 743px;
     }
@@ -1378,10 +1398,6 @@
 
     .adress {
         padding-left: 20px;
-    }
-
-    .nav {
-        padding-left: 45px;
     }
 
     .nav_item-link {
@@ -1399,7 +1415,7 @@
     }
 
     .popup {
-        margin-left: 160px;
+        left: 30%;
     }
 
     .title {
@@ -1444,7 +1460,7 @@
     }
 
     .estimate {
-        margin-left: 145px;
+        left: 25%;
     }
 
     .thanks {
@@ -1524,9 +1540,6 @@
     .phone_wrapper {
         margin-left: 95px;
     }
-    .nav {
-        padding-left: 95px;
-    }
 
     .nav_item-link {
         font-size: 16px;
@@ -1569,8 +1582,8 @@
     }
 
     .popup {
-        margin-left: 16px;
-        top: 10%;
+        left: 23%;
+        top: 35%;
     }
 
     .form_wrapper {
@@ -1718,7 +1731,7 @@
 @media (min-width: 424px) and (max-width: 768px) {
 
     .container_site {
-        max-width: 768px;
+        max-width: 648px;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -1738,7 +1751,7 @@
     /* полосы у заголовков */
 
     .line_exter {
-        max-width: 395px;
+        max-width: 705px;
     }
     
     .slider_title_one::after {
@@ -1751,8 +1764,12 @@
     }
 
     .slider_title_three::after {
-        top: calc(57% - 1.5px);
-        width: 7%;
+        top: calc(77% - 1.5px);
+        width: 20%;
+    }
+
+    .line__sale {
+        margin-top: 50px;
     }
 
     .slider_title_sale::after {
@@ -1935,7 +1952,6 @@
     .nav {
         padding-top: 10px;
         padding-bottom: 10px;
-        justify-content: center;
     }
 
     .nav_item-link {
@@ -1984,8 +2000,7 @@
 
     .popup {
         position: fixed;
-        margin-left: 30px;
-        width: 353px;
+        left: 30%;
     }
 
     .popup_drive {
@@ -1993,7 +2008,7 @@
     }
 
     .popup_drive__btn {
-        margin-left: 315px;
+        margin-left: 300px;
     }
 
     .popup__btn {
@@ -2002,7 +2017,7 @@
     }
 
     .input__popup {
-        width: 300px;
+        max-width: 300px;
         padding-left: 11px;
     }
 
@@ -2108,7 +2123,6 @@
         font-size: 30px;
         line-height: 36px;
         margin-top: 50px;
-        margin-bottom: 30px;
     }
 
     .slider-buttons_one {
@@ -2294,7 +2308,7 @@
 
     .input__est, 
     .input__popup {
-        width: 260px;
+        max-width: 260px;
         font-size: 12px;
     }
 
@@ -2608,7 +2622,6 @@
     }
 
     .nav {
-        padding-left: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -2660,7 +2673,6 @@
     .popup {
         position: fixed;
         margin-left: 12px;
-        width: 353px;
         top: 80px;
     }
 
@@ -3286,7 +3298,6 @@
     }
 
     .nav {
-        padding-left: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -3330,7 +3341,7 @@
 
     .input__popup {
         font-size: 12px;
-        width: 240px;
+        max-width: 240px;
     }
 
     .checkbox__drive {

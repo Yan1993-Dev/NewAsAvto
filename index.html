@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="shortcut icon" href="./static/icons/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -343,7 +344,7 @@
                         </div>
         </div>
         </div>
-        <div class="container_site">
+        <div class="container__sub">
             <div class="equip">
                 <div class="equipment_wrapper">
                     <ul class="equipment_to_title">
@@ -355,7 +356,7 @@
                 <div class="ex ex-3">
                     <ul class="accordion__list">
                         <li class="accordion">
-                            <button class="accordion__control" aria-expanded="false">
+                            <button class="accordion__control" aria-expanded="false"></button>
                                 <span class="accordion__title">
                                     <ul class="equipment_title_two">
                                         <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -380,7 +381,6 @@
                                             </svg></li>
                                     </ul>
                                 </span>
-                            </button>
                             <div class="accordion__content" aria-hidden="true">
                                 <h3 class="save_title">Безопасность</h3>
                                 <ul class="save">
@@ -414,7 +414,7 @@
                             </div>
                         </li>
                         <li class="accordion">
-                            <button class="accordion__control" aria-expanded="false">
+                            <button class="accordion__control" aria-expanded="false"></button>
                                 <span class="accordion__title">
                                     <ul class="equipment_title_two">
                                         <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -439,7 +439,6 @@
                                             </svg></li>
                                     </ul>
                                 </span>
-                            </button>
                             <div class="accordion__content" aria-hidden="true">
                                 <p class="save_title_additionally">В дополнение к комплектации 1,5 MT Base:</p>
                                 <h3 class="save_title">Безопасность</h3>
@@ -474,7 +473,7 @@
                             </div>
                         </li>
                         <li class="accordion">
-                            <button class="accordion__control" aria-expanded="false">
+                            <button class="accordion__control" aria-expanded="false"></button>
                            <span class="accordion__title">
                                     <ul class="equipment_title_two">
                                         <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -499,7 +498,6 @@
                                             </svg></li>
                                     </ul>
                                 </span>
-                            </button>
                             <div class="accordion__content" aria-hidden="true">
                                 <p class="save_title_additionally">В дополнение к комплектации 1,5 MT Comfort:</p>
                                 <h3 class="save_title">Безопасность</h3>
@@ -534,7 +532,7 @@
                             </div>
                         </li>
                         <li class="accordion">
-                            <button class="accordion__control" aria-expanded="false">
+                            <button class="accordion__control" aria-expanded="false"></button>
                                 <span class="accordion__title">
                                     <ul class="equipment_title_two">
                                         <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -559,7 +557,6 @@
                                             </svg></li>
                                     </ul>
                                 </span>
-                            </button>
                             <div class="accordion__content" aria-hidden="true">
                                 <p class="save_title_additionally">В дополнение к комплектации 1,5 MT Comfort:</p>
                                 <h3 class="save_title">Безопасность</h3>
@@ -594,7 +591,7 @@
                             </div>
                         </li>
                         <li class="accordion">
-                            <button class="accordion__control" aria-expanded="false">
+                            <button class="accordion__control" aria-expanded="false"></button>
                                 <span class="accordion__title">
                                     <ul class="equipment_title_two">
                                         <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -619,7 +616,6 @@
                                             </svg></li>
                                     </ul> 
                                 </span>
-                            </button>
                             <div class="accordion__content" aria-hidden="true">
                                 <p class="save_title_additionally">В дополнение к комплектации 1,5 CVT Comfort:</p>
                                 <h3 class="save_title">Безопасность</h3>
@@ -661,6 +657,8 @@
             </button>
         </section> 
         </div>
+
+
         <section class="credit_calc_adapt">
             <h2 class="sub_title">
                 Заявка на расчёт кредита
@@ -863,7 +861,7 @@
                     </div>
                     <div class="field_est">
                         <label for="input__text" class="label__popup">Ваш вопрос</label>
-                        <textarea class="input__est" id="input__text" cols="30" rows="10" placeholder="Опишите Ваш вопрос"></textarea>
+                        <textarea class="input__est" id="input__text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
                     </div>
                 </div>
                 <div class="checkbox_popup">
@@ -882,20 +880,18 @@
         </section>
     </main>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="./scripts/just-validate.min.js"></script>
-        <script src="./scripts/news.js"></script>
-        <script src="./scripts/thanks.js"></script>
-        <script src="./scripts/feedback.js"></script>
+        <script src="./script/just-validate.min.js"></script>
+        <script src="./script/inputmask.min.js"></script>
+        <script src="./script/news.js"></script>
+        <script src="./script/thanks.js"></script>
+        <script src="./script/feedback.js"></script>
         <script src="./mail.php"></script>
-        <script src="./scripts/just-validate.min.js"></script>
-        <script src="./scripts/mail__traid.js"></script>
-        <script src="./scripts/estimate__mail.js"></script>
-        <script src="./scripts/mail.js"></script>
-        <script src="./scripts/title_slider.js"></script>
-        <script src="./scripts/main_slider.js"></script>
-        <script src="./scripts/accordion.js"></script>
-        <script src="./scripts/estimate.js"></script>
-        <script src="./scripts/popup.js"></script>
+        <script src="./script/mail.js"></script>
+        <script src="./script/title_slider.js"></script>
+        <script src="./script/main_slider.js"></script>
+        <script src="./script/accordion.js"></script>
+        <script src="./script/estimate.js"></script>
+        <script src="./script/popup.js"></script>
         <script src="./script.js"></script>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.866453368904!2d49.411252315815794!3d53.57799998002826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4167d7c825fa0d55%3A0xe7119eab7216886e!2z0JPQmiAi0JDRgdCQ0LLRgtC-Ig!5e0!3m2!1sru!2sru!4v1624537743551!5m2!1sru!2sru" width="100%" height="492" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </body>
