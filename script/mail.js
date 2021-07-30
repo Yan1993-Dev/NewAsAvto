@@ -65,4 +65,4 @@ validateForms('.credit_calc_wp', {credit__name:{required:true}, tel__credit:{req
 
 
 // валидация формы с кнопки заявки на кредита адаптива
-validateForms('.credit_calc_adaptiv', {credit__name__adapt:{required:true}, credit__tel__adapt:{required:true}, creditAd__personal:{required:true}});
+// validateForms('.credit_calc_adaptiv', {credit__name__adapt:{required:true}, credit__tel__adapt:{required:true}, creditAd__personal:{required:true}});

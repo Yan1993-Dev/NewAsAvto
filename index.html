@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/common.css">
@@ -87,34 +87,30 @@
                         <p class="sub_text">В кредит за <span class="text_color"> 11 990 р/месяц</span> или меньше!</p>
                         <p class="sub_text second">Подарок: <span class="text_color">5000</span> бонусных рублей!</p>
                     </div>
-                    <button class="btn open_popup_js">
-                        Записаться на Тест-драйв
-                    </button>
                 </div>
             </section>
             <div class="slider_wrapper">
                 <div class="slider-container">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide card"><img data-src="./static/images/platinum_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy">
-                                <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                            <div class="swiper-slide card"><img src="./static/images/platinum_tiggo4.jpg" src="#" alt="">
                             </div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/w_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/w_tiggo4.jpg"  alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/white_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/white_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/red_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/red_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/w_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/w_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/white_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/white_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/red_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/red_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/w_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/w_tiggo4.jpg" alt=""></div>
 
-                            <div class="swiper-slide card"><img data-src="./static/images/white_tiggo4.jpg" src="#" alt="" class="img_slider swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div></div>
+                            <div class="swiper-slide card"><img src="./static/images/white_tiggo4.jpg" alt=""></div>
 
                         </div>
                         <div class="swiper_pagination">
@@ -128,6 +124,11 @@
                             <img src="./static/icons/slider_control_red.svg" alt="" class="slider_img_title">
                         </div>
                     </div>
+                </div>
+                <div class="wrapper__tdr">
+                    <button class="btn open_popup_js">
+                        Записаться на Тест-драйв
+                    </button>
                 </div>
             </div>
         <div class="form_wrapper">
@@ -155,7 +156,7 @@
                             <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                         </div>
                     </div>
-                    <div class="checkbox">
+                    <div class="checkbox__personal">
                         <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
                         <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                     </div>
@@ -186,7 +187,7 @@
                             <input type="text" id="credit__time" class="input__traid-in" placeholder="Срок кредита">
                         </div>
                     </div>
-                    <div class="checkbox">
+                    <div class="checkbox__personal">
                         <input id="credit__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="credit__personal">
                         <label for="credit__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                     </div>
@@ -375,10 +376,7 @@
                                             <li class="equipment_item_new_price">1 124 900 руб</li>
                                         </div>
                                         <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                                        <li><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                                        <li class="equipment_item accordion__icon_adapt"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                        <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                                     </ul>
                                 </span>
                             <div class="accordion__content" aria-hidden="true">
@@ -433,10 +431,7 @@
                                                 <li class="equipment_item_new_price">1 124 900 руб</li>
                                             </div>
                                             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                                            <li ><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                                        <li class="equipment_item accordion__icon_adapt"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                                     </ul>
                                 </span>
                             <div class="accordion__content" aria-hidden="true">
@@ -492,10 +487,7 @@
                                                 <li class="equipment_item_new_price">1 124 900 руб</li>
                                             </div>
                                             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                                            <li ><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                                        <li class="equipment_item accordion__icon_adapt"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                                     </ul>
                                 </span>
                             <div class="accordion__content" aria-hidden="true">
@@ -551,10 +543,7 @@
                                                 <li class="equipment_item_new_price">1 124 900 руб</li>
                                             </div>
                                             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                                            <li><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                                        <li class="equipment_item accordion__icon_adapt"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                                     </ul>
                                 </span>
                             <div class="accordion__content" aria-hidden="true">
@@ -594,9 +583,11 @@
                             <button class="accordion__control" aria-expanded="false"></button>
                                 <span class="accordion__title">
                                     <ul class="equipment_title_two">
-                                        <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                        <div class="accordion__icon-adapt">
+                                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
+                                                </svg></li>
+                                        </div>
                                             <div class="compl">
                                                 <li class="equipment_item_adapt">Комплектация</li>
                                                 <li class="equipment_item_model">1,5 МТ Base</li>
@@ -610,10 +601,7 @@
                                                 <li class="equipment_item_new_price">1 124 900 руб</li>
                                             </div>
                                             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                                            <li><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                                        <li class="equipment_item accordion__icon_adapt"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black"/>
-                                            </svg></li>
+                                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                                     </ul> 
                                 </span>
                             <div class="accordion__content" aria-hidden="true">
@@ -652,13 +640,15 @@
                     </ul>
                 </div>
             </div>
+        <div class="wrapper__est">
             <button class="btn estimate_btn__js">
                 Оставить заявку
             </button>
+        </div>
         </section> 
         </div>
 
-
+<!-- 
         <section class="credit_calc_adapt">
             <h2 class="sub_title">
                 Заявка на расчёт кредита
@@ -689,7 +679,7 @@
                 </div>
                 <button class="btn traid__btn open_thanks_js" type="submit" >Отправить</button>
             </form>
-        </section>
+        </section> -->
         <div class="container_site">
             <div class="line__sale">
                 <h2 class="slider_title_sale">акции</h2>
@@ -841,7 +831,9 @@
                 <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
                 <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
             </div>
-            <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+            <div class="popup__btm__submit">
+                <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+            </div>
         </form>
         <!-- заявка -->
         <section class="estimate__contact estimate_open">
@@ -868,7 +860,9 @@
                     <input id="check-drive" type="checkbox" class="checkbox__input " checked value="drive" data-validate-field="estimate__personal">
                     <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
                 </div>
-                <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
+                <div class="wrapper__submit-est">
+                    <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
+                </div>  
             </form> 
         </section>
         <section class="thanks__popup thanks">

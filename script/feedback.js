@@ -9,12 +9,15 @@ let mySwiper_one = new Swiper('.swiper-container_feedback', {
         delay: 3500,
     },
     breakpoints: {
+        319: {
+            slidesPerView: 1,
+        },
+        512: {
+            slidesPerView: 2,
+        },
         1024: {
             slidesPerView: 3,
         },
-        319: {
-            slidesPerView: 1,
-        }
 },
     slideClass: 'swiper-slide_feedback',
     wrapperClass: 'swiper-wrapper_feedback',
