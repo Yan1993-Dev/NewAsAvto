@@ -36,7 +36,6 @@ let validateForms = function(selector, rules, successModal, yaGoal) {
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === 4) {
                     if(xhr.status === 200) {
-                        console.log('Отправлено');
                     }
                 }
             }
@@ -62,7 +61,3 @@ validateForms('.estimate', {telephone:{required:true}, name__est:{required:true}
 
 // валидация формы с кнопки заявки на кредит
 validateForms('.credit_calc_wp', {credit__name:{required:true}, tel__credit:{required:true}, credit__personal:{required:true}});
-
-
-// валидация формы с кнопки заявки на кредита адаптива
-// validateForms('.credit_calc_adaptiv', {credit__name__adapt:{required:true}, credit__tel__adapt:{required:true}, creditAd__personal:{required:true}});

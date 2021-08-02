@@ -1517,14 +1517,9 @@
         display: none;
     }
 
-    .nav {
-        margin-bottom: -25px;
-    }
-
     .deck::after {
         margin-right: 20px;
         display: block;
-        margin-top: -20px;
     }
 
     /* полосы у заголовков */
@@ -2046,7 +2041,7 @@
 
     .popup {
         position: fixed;
-        left: 30%;
+        left: calc(12% + 2.5px);
     }
 
     .popup_drive {
@@ -2058,7 +2053,7 @@
     }
 
     .popup__btn {
-        margin-left: 20px;
+        margin-left: 40px;
         border-radius: 10px;
     }
 
@@ -2526,7 +2521,7 @@
 
     .line__sale {
         max-width: 365px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
 
     .line {
@@ -2759,7 +2754,7 @@
 
     .popup {
         position: fixed;
-        margin-left: 12px;
+        left: 3%;
         top: 80px;
     }
 
@@ -3031,8 +3026,7 @@
         position: fixed;
         width: 314px;
         height: 520px;
-        top: 1505px;
-        margin-left: 20px;
+        left: 8%;
     }
 
     .credit_calc_adapt {
@@ -3049,7 +3043,7 @@
     }
 
     .popup_request {
-        margin-left: 45px;
+        margin-bottom: 90px;
     }
 
     .popup_cont {
@@ -3415,10 +3409,10 @@
     }
 
     .popup {
-        margin-left: 15px;
         width: 290px;
         height: 500px;
         top: 200px;
+        left: 5%;
     }
 
     .popup_drive {
@@ -3688,9 +3682,9 @@
     }
 
     .estimate {
-        margin-left: -110px;
         width: 288px;
         height: 475px;
+        left: 5%;
     }
 
     .line_title_sale {

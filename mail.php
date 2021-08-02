@@ -1,8 +1,8 @@
-<?
+<?php
 require_once 'PHPMailer/PHPMailerAutoload.php';
 
 $admin_email = array();
-foreach ( $_POST["admin_email"] as $key => $value ) {
+if(isset($files) && is_array($files)) foreach ( $_POST["admin_email"] as $key => $value ) {
 	array_push($admin_email, $value);
 }
 
@@ -15,7 +15,7 @@ $mail->CharSet = 'UTF-8';
 
 $c = true;
 $message = '';
-foreach ( $_POST as $key => $value ) {
+if(isset($files) && is_array($files)) foreach ( $_POST as $key => $value ) {
 	if ( $value != ""  && $key != "admin_email" && $key != "form_subject" ) {
 		if (is_array($value)) {
 			$val_text = '';
@@ -29,7 +29,7 @@ foreach ( $_POST as $key => $value ) {
 		$message .= "
 		" . ( ($c = !$c) ? '<tr>':'<tr>' ) . "
 		<td style='padding: 10px; max-width: auto;'><b>$key:</b></td>
-		<td style='padding: 10px;max-width: 100%;'>$value</td>
+		<td style='padding: 10px; max-width: 100%;'>$value</td>
 		</tr>
 		";
 	}
@@ -41,7 +41,7 @@ $message = "<table style='max-width: 50%;'>$message</table>";
 $mail->setFrom('adm@' . $_SERVER['HTTP_HOST'], 'Your best site');
  
 // Кому
-foreach ( $admin_email as $key => $value ) {
+if(isset($files) && is_array($files)) foreach ( $admin_email as $key => $value ) {
 	$mail->addAddress($value);
 }
 // Тема письма
@@ -54,7 +54,7 @@ $mail->msgHTML($body);
 
 // Приложения
 if ($_FILES){
-	foreach ( $_FILES['file']['tmp_name'] as $key => $value ) {
+	if(isset($files) && is_array($files)) foreach ( $_FILES['file']['tmp_name'] as $key => $value ) {
 		$mail->addAttachment($value, $_FILES['file']['name'][$key]);
 	}
 }
