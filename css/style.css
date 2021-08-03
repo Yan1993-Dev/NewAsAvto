@@ -1050,10 +1050,8 @@
     display: none;
     height: 547px;
     max-width: 530px;
-    left: 35%;
     top: 100px;
     position: fixed;
-    align-items: center;
     border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1061,6 +1059,11 @@
             box-sizing: border-box;
     border-radius: 10px;
     z-index: 10;
+}
+
+.popup__container {
+    display: flex;
+    justify-content: center;
 }
 
 .open_popup_js {
@@ -1136,8 +1139,13 @@
     width: 241px;
     height: 57px;
     margin-top: 25px;    
-    margin-left: 140px;
     z-index: 10;
+    border-radius: 10px;
+}
+
+.popup__btm__submit {
+    display: flex;
+    justify-content: center;
 }
 
 .popup_drive__btn { 
@@ -1195,11 +1203,8 @@
     display: none;
     height: 547px;
     max-width: 530px;
-    left: 50%;
     top: 100px;
     position: fixed;
-    align-items: center;
-    border-radius: 10px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
     -webkit-box-sizing: border-box;
@@ -1238,6 +1243,12 @@
 }
 
 /* класс открытия попапа в js */
+
+.estimate__container {
+    display: flex;
+    justify-content: center;
+}
+
 .estimate_open {
     display: block;
     z-index: 50;
@@ -1385,10 +1396,6 @@
     .equipment_item_comp {
         margin-right: 14px;
     }
-
-    .estimate {
-        left: 25%;
-    }
 }
 
 @media (min-width:1023px) and (max-width: 1239px) {
@@ -1443,10 +1450,6 @@
         margin-left: 450px;
     }
 
-    .popup {
-        left: 25%;
-    }
-
     .title {
         margin-top: -125px;
     }
@@ -1485,10 +1488,6 @@
         font-size: 22px;
     }
 
-    .estimate {
-        left: 25%;
-    }
-
     .thanks {
         display: none;
         margin-left: 240px;
@@ -1496,7 +1495,7 @@
 
 }
 
-@media (min-width:768px) and (max-width: 1023px) {
+@media (min-width:769px) and (max-width: 1023px) {
     .container_site {
         max-width: 710px;
         margin: 0 auto;
@@ -1512,13 +1511,13 @@
     .wrapper__checkbox:checked ~ .wrapper__menu {
         right: 42px;
     }
+    
 
     .deck::before {
         display: none;
     }
 
     .deck::after {
-        margin-right: 20px;
         display: block;
     }
 
@@ -1610,7 +1609,6 @@
     }
 
     .popup {
-        left: 30%;
         top: 10%;
     }
 
@@ -1727,7 +1725,6 @@
     }
 
     .estimate {
-        left: 25%;
         height: 550px;
     }
 
@@ -2041,7 +2038,6 @@
 
     .popup {
         position: fixed;
-        left: calc(12% + 2.5px);
     }
 
     .popup_drive {
@@ -2050,11 +2046,6 @@
 
     .popup_drive__btn {
         margin-left: 300px;
-    }
-
-    .popup__btn {
-        margin-left: 40px;
-        border-radius: 10px;
     }
 
     .input__popup {
@@ -2323,7 +2314,6 @@
     .estimate {
         width: 314px;
         height: 520px;
-        left: 28%;
         top: 15%;
     }
 
@@ -2753,8 +2743,9 @@
     }
 
     .popup {
+        width: 314px;
+        height: 520px;
         position: fixed;
-        left: 3%;
         top: 80px;
     }
 
@@ -2763,12 +2754,7 @@
     }
 
     .popup_drive__btn {
-        margin-left: 315px;
-    }
-
-    .popup__btn {
-        margin-left: 20px;
-        border-radius: 10px;
+        margin-left: 280px;
     }
 
     .input__popup, .input__est {
@@ -3023,10 +3009,8 @@
     }
 
     .estimate {
-        position: fixed;
         width: 314px;
         height: 520px;
-        left: 8%;
     }
 
     .credit_calc_adapt {
@@ -3412,7 +3396,6 @@
         width: 290px;
         height: 500px;
         top: 200px;
-        left: 5%;
     }
 
     .popup_drive {
@@ -3460,7 +3443,6 @@
         width: 240px;
         height: 32px;
         margin-top: 35px;
-        margin-left: 25px;
     }
 
     .slider-container {
@@ -3684,7 +3666,6 @@
     .estimate {
         width: 288px;
         height: 475px;
-        left: 5%;
     }
 
     .line_title_sale {
