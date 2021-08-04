@@ -1251,7 +1251,7 @@
 
 .estimate_open {
     display: block;
-    z-index: 50;
+    z-index: 11;
 }
 
 /* эффект нажатия на кнопку закрытия */
@@ -1313,7 +1313,6 @@
     Height: 402px;
     top: 150px;
     position: fixed;
-    margin-left: 450px;
     border-radius: 10px;
     background-color:#F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
@@ -1321,6 +1320,11 @@
             box-sizing: border-box;
     border-radius: 10px;
     z-index: 15;
+}
+
+.thanks__container {
+    display: flex;
+    justify-content: center;
 }
 
 .thanks_request__btn {
@@ -1487,12 +1491,6 @@
     .equipment_item_new_price {
         font-size: 22px;
     }
-
-    .thanks {
-        display: none;
-        margin-left: 240px;
-    }
-
 }
 
 @media (min-width:769px) and (max-width: 1023px) {
@@ -1737,8 +1735,6 @@
     }
 
     .thanks {
-        display: none;
-        margin-left: 140px;
         Width: 525px;
         Height: 400px;
 }
@@ -2400,8 +2396,6 @@
     }
 
     .thanks {
-        display: none;
-        margin-left: 20px;
         Width: 400px;
         Height: 402px;
     }
@@ -3105,8 +3099,6 @@
     }
 
     .thanks {
-        display: none;
-        margin-left: 20px;
         Width: 330px;
         Height: 310px;
     }
@@ -3713,12 +3705,10 @@
     }
 
     .thanks {
-        display: none;
         Width: 300px;
         Height: 292px;
         top: 150px;
         position: fixed;
-        margin-left: 10px;
     }
 
     .thanks_request__btn {

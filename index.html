@@ -135,8 +135,9 @@
                 <h2 class="sub_title" id="calculator">
                     Заявка на Trade-in
                 </h2>
-                <form class="traid-in_calc" action="mail.php" enctype="multipart/form-data" method="POST">
+                <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
                     <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                     <div class="field">
                         <label for="calc__name" class="label__traid-in">Имя</label>
                         <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -166,8 +167,9 @@
                 <h2 class="sub_title" id="">
                     Заявка на расчёт кредита
                 </h2>
-                <form class="credit_calc_wp" action="mail.php" enctype="multipart/form-data" method="POST">
+                <form class="credit_calc_wp  form__js" action="mail.php" enctype="multipart/form-data" method="POST">
                     <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                     <div class="field">
                         <label for="credit__name" class="label__traid-in">Имя</label>
                         <input type="text" id="credit__name" name="name" class="input__traid-in" data-validate-field="credit__name" placeholder="Ваше имя">
@@ -190,7 +192,7 @@
                         <input id="credit__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="credit__personal">
                         <label for="credit__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                     </div>
-                    <button class="btn traid__btn open_thanks_js" type="submit" >Отправить</button>
+                    <button class="btn traid__btn open_thanks_js" type="submit">Отправить</button>
                 </form>
             </section>
         </div>
@@ -772,7 +774,7 @@
         </div>
         <div class="popup_overlay"></div>
         <div class="popup__container">
-            <form action="mail.php" id="popup__form" class="popup" name="popupIn" enctype="multipart/form-data" method="POST">
+            <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
                 <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                 <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                 <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
@@ -799,7 +801,7 @@
                     <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
                     <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
                 </div>
-                <div class="popup__btm__submit">
+                <div class="popup__btm__submit open_thanks_js">
                     <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
                 </div>
             </form>
@@ -807,7 +809,9 @@
         
         <!-- заявка -->
         <div class="estimate__container">
-                <form action="mail.php"  class="estimate" enctype="multipart/form-data" method="POST">
+                <form action="mail.php"  class="estimate  form__js" enctype="multipart/form-data" method="POST">
+                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                     <button class="popup_request__btn" type="button" aria-label="Close button"></button>
                     <h2 class="popup_request">Оставить заявку</h2>
                     <div class="popup_cont">
@@ -835,13 +839,15 @@
                     </div>  
                 </form> 
         </div>
-        <section class="thanks__popup thanks">
-            <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
-            <div class="thanks__content">
-                <p class="thanks_title">Заявка отправлена</p>
-                <p class="thanks_app">Наш менеджер свяжется с Вами</p>
-            </div>
-        </section>
+        <div class="thanks__container">
+            <section class="thanks__popup thanks">
+                <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
+                <div class="thanks__content">
+                    <p class="thanks_title">Заявка отправлена</p>
+                    <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+                </div>
+            </section>
+        </div>
     </main>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="./script/just-validate.min.js"></script>

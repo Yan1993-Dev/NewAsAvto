@@ -1,23 +1,13 @@
-// попап об отправке заявки
+const $forms = document.querySelectorAll('.form__js')
+const $popup = document.querySelector('.thanks__popup')
+const $closePopup = $popup.querySelector('.thanks_request__btn')
+        $forms.forEach(item => {
+                item.addEventListener('submit', (e) => {
+                        e.preventDefault()
+                        $popup.style.display = 'block'
+                })
+        })
 
-
-// ищем попап
-var thanks = document.querySelector('.thanks__popup');
-// ищем кнопку открывающую отправляющую заявку
-var openThanks = document.querySelector('.open_thanks_js')
-// после открытия вкючаем оверлей
-var overlay = document.querySelector('.popup_overlay')
-// кнопка закрывает попап
-var thanksCloseBtn = thanks.querySelector('.thanks_request__btn')
-
-
-// навешиваем слушатель на клик
-openThanks.addEventListener('click', function() {
-    thanks.classList.add('thanks_open');
-    overlay.classList.add('join')
-
-    thanksCloseBtn.addEventListener('click', function() {
-        thanks.classList.remove('thanks_open');
-        overlay.classList.remove('join');
-    })
-})
+        $closePopup.addEventListener('click', () => {
+                $popup.style.display = 'none'
+        })
