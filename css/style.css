@@ -48,12 +48,6 @@
     height: 62px;
 }
 
-.header_btn_wrapper {
-    height: 40px;
-    max-width: 280px;
-    top: 2px;
-}
-
 .wrapper__checkbox {
     display: none; 
 }
@@ -189,6 +183,7 @@
 
 .second {
     margin-bottom: 45px;
+    padding-top: 10px;
 }
 
 .catalog__menu {
@@ -232,6 +227,13 @@
     width: 100%;
     top: 60px;
     z-index: 8;
+}
+
+#secondary_bar {
+    height: 60px;
+}
+#secondary_bar.bar_fixed{
+    top: 0;
 }
 
 .navigation::before {
@@ -316,23 +318,9 @@
     font-style: normal;
     margin-top: 15px;
 }
-.second {
-    padding-top: 10px;
-}
 
 .btn {
     font-family: 'Noto Sans';
-}
-
-.title_item {
-    font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 43px;
-    letter-spacing: 0em;
-    text-align: left;
 }
 
 .text_color {
@@ -463,10 +451,6 @@
     left: 0;
     height: 3px;
     background-color: #3482C6;
-}
-
-.slider_wrapper_one {
-    overflow: hidden;
 }
 
 .slider-container {
@@ -792,32 +776,6 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 10px;
-}
-
-.credit_calc_adapt {
-    display: none;
-}
-
-.input_inner {
-    opacity: 0.5;
-}
-
-.title_item {
-    font-family: 'TacticSans-Bld';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.sub_text_desc {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
 }
 
 /* аккордион */
@@ -1394,7 +1352,7 @@
     }
 
     .equipment_to_title {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .equipment_item_comp {
@@ -1510,6 +1468,9 @@
         right: 42px;
     }
     
+    .nav {
+        margin-bottom: -20px;
+    }
 
     .deck::before {
         display: none;
@@ -1517,6 +1478,7 @@
 
     .deck::after {
         display: block;
+        margin-top: -18px;
     }
 
     /* полосы у заголовков */
@@ -1744,7 +1706,7 @@
     }
 
     .thanks_request__btn {
-        margin-left: 330px;
+        margin-left: 476px;
     }
 }
 
@@ -1947,7 +1909,7 @@
         margin-top: 20px;
     }
       
-      .wrapper__menu-link {
+    .wrapper__menu-link {
         font-size: 18px;
         line-height: 20px;
         color: #fff;
@@ -1959,13 +1921,9 @@
         -o-transition: all .2s linear;
         transition: all .2s linear; 
     }
-        .wrapper__menu-link:hover {
-          padding-right: 20px; 
-        }
-      
 
-    .header_btn_wrapper {
-        margin-left: 38px;
+    .wrapper__menu-link:hover {
+          padding-right: 20px; 
     }
 
     .adress {
@@ -2078,21 +2036,6 @@
         height: 525px;
     }
 
-    .credit_calc_adapt {
-        display: none;
-        /* margin-top: 150px;
-        margin-left: 20px;
-        margin-top: 130px;
-        width: 368px;
-        height: 555px;
-        top: 808px;
-        background: #F8FAFD;
-        border: 1px solid rgba(52, 130, 198, 0.1);
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        border-radius: 10px; */
-    }
-
     .traid__btn {
         width: 300px;
         height: 45px;
@@ -2139,10 +2082,6 @@
         margin-top: 30px;
         margin-left: 3px;
         border-radius: 10px;
-    }
-
-    .slider_wrapper_one {
-        margin-top: 70px;
     }
 
     .slider_title_one {
@@ -2665,11 +2604,6 @@
     .wrapper__menu-link:hover {
         padding-right: 20px; 
     }
-      
-
-    .header_btn_wrapper {
-        margin-left: 38px;
-    }
 
     .adress {
         display: none;
@@ -2781,21 +2715,6 @@
         height: 525px;
     }
 
-    .credit_calc_adapt {
-        display: block;
-        margin-top: 150px;
-        margin-left: 20px;
-        margin-top: 130px;
-        width: 335px;
-        height: 555px;
-        top: 808px;
-        background: #F8FAFD;
-        border: 1px solid rgba(52, 130, 198, 0.1);
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        border-radius: 10px;
-    }
-
     .traid__btn {
         width: 300px;
         height: 45px;
@@ -2839,10 +2758,6 @@
 
     .slider-container_one {
         margin-top: 20px;
-    }
-
-    .slider_wrapper_one {
-        margin-top: 70px;
     }
 
     .slider_title_one {
@@ -3005,10 +2920,6 @@
     .estimate {
         width: 314px;
         height: 520px;
-    }
-
-    .credit_calc_adapt {
-        margin-left: 10px;
     }
 
     .news {
@@ -3341,11 +3252,6 @@
     .wrapper__menu-link:hover {
         padding-right: 20px; 
     }
-      
-
-    .header_btn_wrapper {
-        margin-left: 38px;
-    }
 
     .adress {
         display: none;
@@ -3387,7 +3293,7 @@
     .popup {
         width: 290px;
         height: 500px;
-        top: 200px;
+        top: 80px;
     }
 
     .popup_drive {
