@@ -12,11 +12,6 @@
     padding: 0 100px;
 }
 
-
-.header {
-    margin-bottom: 126px;
-}
-
 .header_inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -223,17 +218,12 @@
 }
 
 .navigation {
-    position: fixed;
+    position: sticky;
     width: 100%;
-    top: 60px;
+    top: -20px;
     z-index: 8;
-}
-
-#secondary_bar {
-    height: 60px;
-}
-#secondary_bar.bar_fixed{
-    top: 0;
+    margin-bottom: 100px;
+    opacity: 0.9;
 }
 
 .navigation::before {
@@ -1272,7 +1262,8 @@
     top: 150px;
     position: fixed;
     border-radius: 10px;
-    background-color:#F8FAFD;
+    background-color:#3482C6;
+    color: #fff;
     border: 1px solid rgba(52, 130, 198, 0.1);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -1327,6 +1318,34 @@
     opacity: .3;
     z-index: 15;
 }
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background:rgba(52, 130, 198, 1);
+    color: #444;
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+  }
+
+  .arrow__up {
+      margin-top: 10px;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
 
 
 
@@ -1481,6 +1500,10 @@
         margin-top: -18px;
     }
 
+    .header {
+        margin-bottom: -20px;
+    }
+
     /* полосы у заголовков */
 
     .line_exter {
@@ -1539,7 +1562,6 @@
 
     .main_title {
         font-size: 42px;
-        margin-top: 50px;
     }
     .sub_text {
         font-size: 14px;
@@ -1781,7 +1803,7 @@
     }
 
     .header {
-        margin-bottom: 50px;
+        margin-bottom: -20px;
     }
 
     .header_inner {
@@ -1953,8 +1975,8 @@
 
     .main_title {
         font-size: 42px;
-        margin-top: 85px;
         padding-bottom: 15px;
+        margin-top: 30px;
     }
     .sub_text {
         font-size: 14px;
@@ -3114,7 +3136,7 @@
     }
 
     .header {
-        margin-bottom: 75px;
+        margin-bottom: -10px;
     }
 
     .main_title {
@@ -3274,7 +3296,7 @@
 
     .main_title {
         font-size: 32px;
-        margin-top: 80px;
+        margin-top: 10px;
     }
 
     .form_wrapper {

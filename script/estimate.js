@@ -15,3 +15,8 @@ estimateBtn.addEventListener('click', function(){
 		overlay.classList.remove('join');
 	})
 })
+
+overlay.addEventListener('click', function(){
+	estimate.classList.remove('estimate_open');
+	overlay.classList.remove('join');
+})
