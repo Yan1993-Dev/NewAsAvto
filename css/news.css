@@ -389,8 +389,7 @@
 }
 
 .category__image {
-    max-width: 230px;
-    height: 230px;
+    width: 100%;
 }
 
 .category__item {
