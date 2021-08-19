@@ -306,18 +306,96 @@
     display: none;
 }
 
-.main_title {
+.title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    font-size: 58px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: 70px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     margin-top: 70px;
     padding-bottom: 40px;
 }
+
+.title__image {
+    margin-top: 20px;
+}
+
+.news__date {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.news__date-info {
+    background-color: #3482C6;
+    color: #FFFFFF;
+}
+
+.news__desc-text {
+    margin-bottom: 30px;
+}
+
+.static__back {
+    background-image: url(../images/erik-mclean-AaYAElNOxsQ-unsplash.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap__form {
+    display: flex;
+    justify-content: flex-start;
+    display: block;
+}
+
+.auto {
+    height: 350px;
+    max-width: 453px;
+    background-color: #F8FAFD;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.auto__title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popup_cont {
+    margin-left: 50px;
+}
+
+.field_name {
+    margin-bottom: 15px;
+}
+
+.label__popup {
+    margin-right: 250px;
+}
+
+.field_phone {
+    margin-bottom: 15px;
+}
+
+.field_calendar {
+    margin-bottom: 15px;
+}
+
+.checkbox_popup {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input__popup {
+    max-width: 350px;
+    width: 300px;
+}
+
 
 .line_exter {
     max-width: 1200px;
@@ -337,6 +415,7 @@
 .slider_title_one {
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .slider_title_one::after {
@@ -345,67 +424,18 @@
     position: absolute;
     z-index: 5;
     top: calc(51% - 1.5px);
-    width: 40%;
+    width: 35%;
     left: 0;
     height: 3px;
     background-color: #009bd8;
-} 
-
-.line__sale {
-    max-width: 1200px;
-    position: relative;
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
 }
 
-.line__sale::after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 5;
-    top: calc(22% - 1.5px);
-    width: 35%;
-    right: 0;
-    height: 3px;
-    background-color: #009bd8;
+.slider-container {
+    overflow: hidden;
 }
 
-.categoty {
-    margin-top: 50px;
-}
-
-.category__list {
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.category__image {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.category__item {
-    min-height: 270px;
-    width: 280px;
-    margin: 0 10px 100px 20px;
-    position: relative;
+.news__card {
+    margin-bottom: 15px;
 }
 
 .date__info {
@@ -419,94 +449,5 @@
 }
 
 .category__title__wrap {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
-
-.category__desc {
-    margin-bottom: 25px;
-}
-
-.category__info {
-    border-bottom: 1px solid #000;
-}
-
-.station__form {
-    background-image: url(../images/evgeny-tchebotarev-aiwuLjLPFnU-unsplash.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.sale__est {
-    margin-bottom: 50px;
-}
-
-.wrap__form {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.auto {
-    height: 350px;
-    max-width: 453px;
-    background-color: #F8FAFD;
-    border: 1px solid rgba(52, 130, 198, 0.1);
-    box-sizing: border-box;
-    border-radius: 10px;
-    z-index: 10;
-}
-
-.auto__title {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.station__sale {
-    background-image: url(../images/erik-mclean-AaYAElNOxsQ-unsplash.png);
-    background-size: cover;
-    background-position: center;
-    margin-top: 100px;
-}
-
-.input__popup {
-    max-width: 300px;
-    width: 300px;
-}
-
-.auto__sale {
-    height: 350px;
-    max-width: 453px;
-    border-radius: 10px;
-    margin-left: 925px;
-    background-color: #F8FAFD;
-    border: 1px solid rgba(52, 130, 198, 0.1);
-    box-sizing: border-box;
-    border-radius: 10px;
-    z-index: 10;
-}
-
-.label__popup {
-    margin-right: 200px;
-}
-
-.checkbox_popup {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.popup_cont {
-    margin-left: 50px;
-}
-
-.field_name {
-    margin-bottom: 17px;
-}
-
-.field_phone {
-    margin-bottom: 17px;
-}
-
-.field_calendar {
-    margin-bottom: 17px;
-}
-
