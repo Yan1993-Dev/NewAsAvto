@@ -237,13 +237,6 @@
     background-color: black;
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    .navigation::before{
-        height: 60px; } 
-}
-}
-
 .nav {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -787,7 +780,7 @@
 }
 
 .input__traid-in{
-    width: 524px;
+    width: 410px;
     height: 45px;   
     background: #FFFFFF;
     border: 1px solid rgba(52, 130, 198, 0.05);
@@ -801,21 +794,24 @@
 
 .checkbox__personal {
     padding-top: 15px;
-    padding-left: 320px;
+    padding-left: 212px;
+}
+
+.popup__btn__flex {
+    display: flex;
+    justify-content: center;
 }
 
 .traid__btn {
     width: 312px;
     height: 57px;
     margin-top: 55px;
-    margin-left: 136px;
 }
 
 .credit__btn {
     width: 312px;
     height: 57px;
     margin-top: 55px;
-    margin-left: 136px;
 }
 
 .form_wrapper {
@@ -825,10 +821,7 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: -45px;
+    justify-content: center;
 }
 
 .form_traid-in {
