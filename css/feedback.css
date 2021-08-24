@@ -1,5 +1,5 @@
 .container_site {
-    max-width: 1400px;
+    max-width: 1115px;
     margin: 0 auto;
     padding: 0 195px;
 }
@@ -392,7 +392,6 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -495,13 +494,38 @@
     transition: all 500ms ease;
 }
 
-.category__title:hover {
-    opacity: 0.5;
-}
-
 .category__title__wrap {
     margin-bottom: 25px;
-}
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .category__title__wrap:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .category__title__wrap:hover:before, .category__title__wrap:focus:before, .category__title__wrap:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 
 .auto__desc {
     margin-bottom: 25px;
@@ -510,6 +534,10 @@
 .category__desc {
     margin-bottom: 25px;
 }
+
+/* .category__desc::selection {background: #ccc;}
+.category__desc::-moz-selection {background: #ccc;}
+.category__desc::-webkit-selection {background: #ccc; color:#fff;} */
 
 .sale__est {
     margin-bottom: 50px;
@@ -615,12 +643,14 @@
 
 @media (min-width: 1261px) and (max-width: 1366px) {
     .container_site {
+        max-width: 1035px;
         padding: 0 50px;
     }
 }
 
 @media (min-width: 1020px) and (max-width: 1261px) {
     .container_site {
+        max-width: 975px;
         padding: 0 20px;
     }
 
@@ -631,6 +661,7 @@
 
 @media (min-width: 760px) and (max-width: 1020px) {
     .container_site {
+        max-width: 665px;
         padding: 0 20px;
     }
 
@@ -716,6 +747,7 @@
 
 @media (min-width: 414px) and (max-width: 760px) {
     .container_site {
+        max-width: 349px;
         padding: 0 20px;
     }
 
@@ -729,7 +761,7 @@
     }
 
     .slider_title_one::after {
-        width: 35%;
+        width: 32%;
     }
 
     .category__item {
@@ -815,6 +847,7 @@
 
 @media (min-width: 320px) and (max-width: 414px) {
     .container_site {
+        max-width: 315px;
         padding: 0 5px;
     }
 
