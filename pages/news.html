@@ -57,7 +57,6 @@
         </div>
     </header>
     <main class="main"> 
-        <main>
             <div class="container_site">
                 <div class="line_exter">
                     <h2 class="slider_title_one" id="exterier">Новости</h2>
@@ -212,34 +211,34 @@
                     <section class="station__form">
                         <div class="container_site">
                             <div class="wrap__form">
-                                <form action="mail.php" id="popup__form" class="auto" name="popupIn" enctype="multipart/form-data" method="POST">
+                                <form action="mail.php" id="news__form" class="news__form news__style" name="popupIn" enctype="multipart/form-data" method="POST">
                                     <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                                     <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
-                                    <h2 class="auto__title">Экспресс-заявка</h2>
+                                    <h2 class="news__title">Экспресс-заявка</h2>
                                     <div class="popup_cont">
-                                    <div class="field_name">
-                                        <label for="drive__name" class="label__popup">Имя</label>
-                                        <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
-                                    </div>
-                                    <div class="field__wrapper">
-                                        <div class="field_phone">
-                                            <label for="drive__phone" class="label__popup">Телефон</label>
-                                            <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
+                                        <div class="field_name">
+                                            <label for="drive__name" class="label__popup">Имя</label>
+                                            <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
                                         </div>
-                                    </div>
-                                    <div class="field__wrapper">
-                                        <div class="field_est"></div>
-                                            <label for="input__text" class="label__popup">Ваш вопрос</label>
-                                            <textarea class="input__est" id="input__text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
+                                        <div class="field__wrapper">
+                                            <div class="field_phone">
+                                                <label for="drive__phone" class="label__popup">Телефон</label>
+                                                <input type="tel" id="drive__phone" data-validate-field="tel_news" class="input__popup" name="tel" placeholder="Ваш телефон">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="checkbox_popup">
-                                        <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
-                                        <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
-                                    </div>
-                                    <div class="popup__btm__submit open_thanks_js btn_wrap">
-                                        <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
-                                    </div>
+                                        <div class="field__wrapper">
+                                            <div class="field_est"></div>
+                                                <label for="input__text" class="label__popup">Ваш вопрос</label>
+                                                <textarea class="input__est" id="input__text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="checkbox_popup">
+                                            <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="checkbox__news">
+                                            <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                                        </div>
+                                        <div class="popup__btm__submit open_thanks_js btn_wrap">
+                                            <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -248,10 +247,10 @@
                 </div>
         </main>
 </body>
-<script src="../script/news__card.js"></script>
-<script src="../mail.php"></script>
-<script src="../script/inputmask.min.js"></script>
 <script src="../script/just-validate.min.js"></script>
 <script src="../script/inputmask.min.js"></script>
+<script src="../script/news__card.js"></script>
+<script src="../mail.php"></script>
+<script src="../script/mail.js"></script>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.866453368904!2d49.411252315815794!3d53.57799998002826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4167d7c825fa0d55%3A0xe7119eab7216886e!2z0JPQmiAi0JDRgdCQ0LLRgtC-Ig!5e0!3m2!1sru!2sru!4v1624537743551!5m2!1sru!2sru" width="100%" height="492" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </html>

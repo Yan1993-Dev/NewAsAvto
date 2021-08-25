@@ -30,14 +30,13 @@ let validateForms = function(selector, rules, successModal, yaGoal) {
 // валидация формы с кнопки записаться на тест драйв
 validateForms('.popup', {tel:{required:true}, personal:{required:true} },'.thanks_open','send goal');
 
-
 // валидация формы с поля рассчета трейд-ина
 validateForms('.traid-in_calc', {tel__traid:{required:true}, man__traid:{required:true}, model__traid:{required:true}, name__traid:{required:true}, traid__personal:{required:true} },'.thanks_open' ,'send goal');
-
 
 // валидация формы с кнопки предложение после аккордеона
 validateForms('.estimate', {telephone:{required:true}, name__est:{required:true}, estimate__personal:{required:true} },'.thanks_open' ,'send goal');
 
-
 // валидация формы с кнопки заявки на кредит
 validateForms('.credit_calc_wp', {credit__name:{required:true}, tel__credit:{required:true}, credit__personal:{required:true} },'.thanks_open' ,'send goal');
+
+validateForms('.news__form', {tel_news:{required:true}, checkbox__news:{required:true}});

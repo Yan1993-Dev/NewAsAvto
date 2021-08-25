@@ -468,7 +468,7 @@
     justify-content: flex-end;
 }
 
-.auto {
+.news__style {
     height: 350px;
     max-width: 453px;
     background-color: #F8FAFD;
@@ -478,7 +478,7 @@
     z-index: 10;
 }
 
-.auto__title {
+.news__title {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
