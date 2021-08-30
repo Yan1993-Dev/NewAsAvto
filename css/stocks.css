@@ -29,21 +29,6 @@
     padding-bottom: 8px;
 }
 
-.header_container{
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-
 .logo {
     max-width: 107px;
     height: 62px;
@@ -165,11 +150,6 @@
     .wrapper__menu-link:hover {
       padding-right: 20px; 
     }
-  
-
-.adapt {
-    display: none;
-}
 
 .btn_wrap {
     display: flex;
@@ -193,11 +173,6 @@
 .btn:hover {
     -webkit-box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
             box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
-}
-
-.second {
-    margin-bottom: 45px;
-    padding-top: 10px;
 }
 
 .catalog__menu {
@@ -252,21 +227,9 @@
 }
 
 .title {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
-.title::after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 5;
-    top: calc(51% - 1.5px);
-    width: 40%;
-    left: 0;
-    height: 3px;
-    background-color: #009bd8;
-} 
 
 .flex {
     display: flex;
@@ -274,6 +237,7 @@
     justify-content: center;
     align-items: center;
   }
+  
   .content {
     height: 100%;
     width: 45%;
@@ -422,7 +386,29 @@
     margin-bottom: 10px;
 }
 
-  .station__form {
+
+.wrap__form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auto {
+    height: 350px;
+    max-width: 453px;
+    background-color: #F8FAFD;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.auto__title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.station__form {
     padding: 40px 0;
     background-image: url(../images/image__red_car.png);
     background-size: cover;
@@ -492,6 +478,7 @@
 .field_phone {
     margin-bottom: 17px;
 }
+
 
 
 .line_exter {
@@ -572,4 +559,339 @@
 
 .category__title:hover {
     opacity: 0.5;
+}
+
+@media (min-width: 1366px) and (max-width: 1540px) {
+    .container_site {
+        padding: 0 20px;
+    }
+}
+
+
+@media (min-width: 1261px) and (max-width: 1366px) {
+    .container_site {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1020px) and (max-width: 1261px) {
+    .container_site {
+        max-width: 980px;
+        padding: 0 20px;
+    }
+
+    .wrapper__menu {
+        margin-right: 768px;
+    }
+    .title__image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1020px) {
+    .container_site {
+        max-width: 940px;
+        padding: 0 20px;
+    }
+
+    .wrapper__menu {
+        margin-right: 548px;
+    }
+    
+    .title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .auto {
+        height: 290px;
+        max-width: 400px;
+    }
+
+    .auto__title {
+        font-size: 14px;
+        margin-bottom: -5px;
+    }
+
+    .label__popup {
+        font-size: 12px;
+    }
+
+    .field_name {
+        margin-bottom: 5px;
+    }
+
+    .input__popup  {
+        font-size: 12px;
+    }
+
+    .field_phone {
+        margin-bottom: 5px;
+    }
+
+    .field_calendar {
+        margin-bottom: 5px;
+    }
+
+    .checkbox__drive {
+        font-size: 12px;
+    }
+
+    .popup__btn  {
+        font-size: 12px;
+    }
+
+    .slider_title_one {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .slider_title_one::after {
+        width: 27%;
+    }
+
+    .date__info {
+        margin-bottom: 10px;
+    }
+
+    .date__info-item {
+        font-size: 10px;
+    }
+
+    .category__title {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .category__desc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 760px) {
+    .container_site {
+        padding: 0 20px;
+    }
+
+    .wrapper__menu {
+        margin-right: 100px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .news__desc-title {
+        font-size: 14px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .checkbox_popup {
+        margin-bottom: 5px;
+    }
+
+    .slider_title_one {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .slider_title_one::after {
+        width: 13%;
+    }
+
+    .date__info {
+        margin-bottom: 10px;
+    }
+
+    .date__info-item {
+        font-size: 12px;
+    }
+
+    .category__title__wrap {
+        margin-bottom: 10px;
+    }
+
+    .category__title {
+        font-size: 14px;
+        color: #000;
+    }
+
+    .category__desc {
+        font-size: 12px;
+    }    
+    
+    .auto__desc {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .wrap__form {
+        justify-content: center;
+    }
+
+    .station__form {
+        margin-top: 20px;
+    }
+
+    .auto {
+        height: 290px;
+        max-width: 400px;
+    }
+
+    .auto__title {
+        font-size: 14px;
+        margin-bottom: -5px;
+    }
+
+    .label__popup {
+        font-size: 12px;
+    }
+
+    .field_name {
+        margin-bottom: 5px;
+    }
+
+    .input__popup  {
+        font-size: 12px;
+    }
+
+    .field_phone {
+        margin-bottom: 5px;
+    }
+
+    .field_calendar {
+        margin-bottom: 5px;
+    }
+
+    .checkbox__drive {
+        font-size: 12px;
+    }
+
+    .label__popup {
+        margin-right: 230px;
+    }
+
+    .popup__btn  {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .container_site {
+        padding: 0 5px;
+    }
+
+    .slider_title_one::after {
+        width: 30%;
+    }
+
+    .title {
+        font-size: 16px;
+        line-height: 40px;
+        margin-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .title__image {
+        margin-top: 5px;
+    }
+
+    .news__desc-title {
+        font-size: 14px;
+    }
+
+    .auto__title {
+        font-size: 14px;
+    }
+
+    .label__popup {
+        margin-right: 155px;
+    }
+
+    .input__popup {
+        max-width: 250px;
+        width: 250px;
+    }
+
+    .slider_title_one {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .slider_title_one::after {
+        width: 12%;
+    }
+
+    .date__info-item {
+        font-size: 12px;
+    }
+
+    .category__title {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .category__desc {
+        font-size: 12px;
+    }
+
+    .date__info {
+        margin-bottom: 10px;
+    }
+
+    
+    .wrap__form {
+        justify-content: center;
+    }
+
+    .auto {
+        max-width: 300px;
+    }
+
+    .auto__title {
+        font-size: 14px;
+    }
+
+    .popup_cont {
+        margin-left: 20px;
+    }
+
+    .label__popup {
+        font-size: 12px;
+    }
+
+    .input__popup {
+        font-size: 12px;
+    }
+
+    .label__popup {
+        margin-right: 160px;
+    }
+
+    .input__popup {
+        width: 250px;
+    }
+
+    .checkbox__drive {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
 }

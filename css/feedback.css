@@ -29,21 +29,6 @@
     padding-bottom: 8px;
 }
 
-.header_container{
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-}
-
 .logo {
     max-width: 107px;
     height: 62px;
@@ -165,11 +150,6 @@
     .wrapper__menu-link:hover {
       padding-right: 20px; 
     }
-  
-
-.adapt {
-    display: none;
-}
 
 .title {
     margin-top: -85px;
@@ -197,11 +177,6 @@
 .btn:hover {
     -webkit-box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
             box-shadow: 0px 0px 20px rgba(52, 130, 198, 0.4);
-}
-
-.second {
-    margin-bottom: 45px;
-    padding-top: 10px;
 }
 
 .catalog__menu {
@@ -238,63 +213,6 @@
     line-height: 22px;
     letter-spacing: 0em;
     margin-top: 18px;
-}
-
-.navigation {
-    position: sticky;
-    width: 100%;
-    top: -20px;
-    z-index: 8;
-    margin-bottom: 100px;
-    opacity: 0.9;
-}
-
-.navigation::before {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-}
-
-.nav {
-    font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
-    font-style: normal;
-    font-weight: normal;
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-    justify-content: space-between;
-    position: relative;
-    z-index: 10;
-    padding-top: 35px;
-}
-
-.nav_item-link {
-    font-family: 'TacticSans-Reg';
-    src: url(../static/fonts/TacticSans-Reg.otf);
-    font-size: 20px;
-    font-style: bold;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
 }
 
 .deck::before {
@@ -792,7 +710,6 @@
         font-size: 12px;
         margin-bottom: 5px;
     }
-
     
     .auto__desc {
         font-size: 12px;
