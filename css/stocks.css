@@ -341,7 +341,7 @@
     opacity: 0.5;
 }
 
-  .content__title:before {
+.content__title:before {
     content: "";
     position: absolute;
     z-index: -1;
