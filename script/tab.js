@@ -8,7 +8,6 @@ function onTabClick(item) {
         let currentBtn = item;
         let tabId = currentBtn.getAttribute("data-tab");
         let currentTab = document.querySelector(tabId);
-
         if( ! currentBtn.classList.contains('active') ) {
             tabsBtn.forEach(function(item) {
                 item.classList.remove('active');
@@ -24,4 +23,4 @@ function onTabClick(item) {
     });
 }
 
-document.querySelector('.tabs__nav-btn').click();
+document.querySelector('.tabs__nav-btn').click("#tab_2");
