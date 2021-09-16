@@ -136,6 +136,40 @@
     background-color: #ddd;
 }
 
+.nav__bar {
+    margin-top: 50px;
+}
+
+.nav__bar__ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__bar__li {
+    margin-right: 20px;
+}
+
+li.nav__bar__li:last-child {
+    margin-right: 0px;
+}
+
+.nav__bar__item {
+    color: #000;
+    padding: 20px;
+}
+
+.nav__bar__item:hover {
+    background-color: #C4C4C4;
+}
+
+.title__tabs {
+    margin-top: 50px;
+}
+
+.title__tabs {
+    text-align: center;
+}
+
 .tabs {
     max-width: 1200px;
     margin: 50px auto;
