@@ -38,6 +38,7 @@ ul {
 textarea {
     resize: none;
 }
+
 .visually-hidden {
     position: absolute;
     max-width: 1px;

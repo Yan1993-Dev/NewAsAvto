@@ -1,14 +1,19 @@
 .container_site {
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 195px;
 }
 
-
-.container__sub {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 100px;
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    background: #009bd8;
+    width: 208px;
+    height: 38px;
+    border: 0;
+    border-radius: 10px;
 }
 
 .header {
@@ -129,15 +134,6 @@
 .nav__item__link:hover {
     transition: 0.3s;
     background-color: #ddd;
-}
-
-.deck::before {
-    content: 'Комплектации и цены';
-}
-
-.deck::after {
-    content: 'Цены';
-    display: none;
 }
 
 .main_title {
@@ -700,7 +696,7 @@
 .credit__btn {
     width: 312px;
     height: 57px;
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .form_wrapper {

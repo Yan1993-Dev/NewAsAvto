@@ -22,3 +22,15 @@
 .maps {
     margin-top: 50px;
 }
+
+.map__list {
+    display: flex;
+}
+
+.map__list {
+    margin-bottom: 20px;
+}
+
+.map__desc {
+    margin-bottom: 50px;
+}

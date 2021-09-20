@@ -1,11 +1,19 @@
 .container_site {
-    max-width: 1115px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 195px;
 }
 
-.container__auto {
-    margin: 0 auto;
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    background: #009bd8;
+    width: 208px;
+    height: 38px;
+    border: 0;
+    border-radius: 10px;
 }
 
 .header {
@@ -128,77 +136,16 @@
     background-color: #ddd;
 }
 
-.main_title {
+.slider_title_one {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    font-size: 58px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: 70px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 70px;
-    padding-bottom: 40px;
-}
-
-.line_exter {
-    max-width: 1200px;
-    position: relative;
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slider_title_one {
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.slider_title_one::after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 5;
-    top: calc(51% - 1.5px);
-    width: 40%;
-    left: 0;
-    height: 3px;
-    background-color: #009bd8;
-} 
-
-.line__sale {
-    max-width: 1200px;
-    position: relative;
-    display: -webkit-flex;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.line__sale::after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 5;
-    top: calc(22% - 1.5px);
-    width: 35%;
-    right: 0;
-    height: 3px;
-    background-color: #009bd8;
 }
 
 .categoty {
@@ -215,6 +162,7 @@
     display: -o-flex;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .category__image {
@@ -294,7 +242,7 @@
 .category__item {
     min-height: 270px;
     max-width: 280px;
-    margin: 0 10px 100px 20px;
+    margin: 0 50px 100px 20px;
     position: relative;
 }
 
@@ -356,10 +304,6 @@
 .category__desc {
     margin-bottom: 25px;
 }
-
-/* .category__desc::selection {background: #ccc;}
-.category__desc::-moz-selection {background: #ccc;}
-.category__desc::-webkit-selection {background: #ccc; color:#fff;} */
 
 .sale__est {
     margin-bottom: 50px;
