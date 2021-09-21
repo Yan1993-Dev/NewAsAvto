@@ -980,12 +980,6 @@
         line-height: calc(32/18);
     }
 
-    .nav__item__link__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
-    }
-
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
@@ -1512,7 +1506,7 @@
 
 @media (min-width: 320px) and (max-width: 420px) {
     .container_site {
-        max-width: 600px;
+        max-width: 350px;
         margin: 0 auto;
         padding: 0 20px;
     }

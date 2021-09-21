@@ -145,10 +145,6 @@
     justify-content: center;
 }
 
-.nav__bar__li {
-    margin-right: 20px;
-}
-
 li.nav__bar__li:last-child {
     margin-right: 0px;
 }
@@ -190,7 +186,6 @@ li.nav__bar__li:last-child {
     font-size: 20px;
     background-color: #fff;
     border: 0;
-    border-right: 1px solid #ddd;
     cursor: pointer;
 }
 
@@ -235,8 +230,49 @@ li.nav__bar__li:last-child {
 }
 
 .tabs__content {
-    padding: 30px;
+    padding: 10px;
     background-color: #fff;
+}
+
+.tabs__item {
+    overflow-y: auto;
+}
+
+.bb {
+    border-bottom: 2px solid black;
+}
+
+.top__title {
+    border-bottom: 1px solid #ddd;
+}
+
+.left__title {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.price {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top__title {
+    font-size: 14px;
+}
+
+.price__item {
+    background: #fff;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    min-width: 100px;
+    white-space: normal;
 }
 
 .tabs__item {
@@ -732,6 +768,19 @@ li.nav__bar__li:last-child {
     .nav__item__link {
         font-size: 14px;
     }
+
+    .model_catalog__title {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    .model_catalog__price {
+        font-size: 14px;
+    }
+
+    .mobile__header {
+        display: none;
+    }
 }
 
 @media (min-width: 660px) and (max-width: 880px) {
@@ -760,6 +809,221 @@ li.nav__bar__li:last-child {
         height: 75px;
         margin-right: 0px;
     }
+
+    .header {
+        margin-left: 100px; 
+    }
+
+    .header__mobile_btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__mobile_btn:hover {
+        opacity: 0.5;
+    }
+
+    .header__close__btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .header__close__btn:hover {
+        opacity: 0.5;
+    }
+
+    .mobile__header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.4s;
+        z-index: 50;
+        transform: translateX(-1000px);
+    }
+
+    .open {
+        transform: translateX(0px);
+    }
+
+    .mobile__header__container {
+        background: #47A0ED;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_phone_btn {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .nav__item__link__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+    .mob__phone {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #47A0ED;
+        display: inline-block;
+        color: #47A0ED;
+        font-size: 14px;
+        line-height: 17px;
+        background: #fff;
+        width: 208px;
+        height: 38px;
+        border: 0;
+        display: block;
+    }
+
+    .mob__text {
+        text-align: center;
+        color: #47A0ED;
+    }
+
+    .work__title__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__saloon__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__tech__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+        margin-bottom: 20px;
+    }
+
+    .phone__mobile {
+        font-size: 16px;
+        line-height: calc(32/16);
+        color: #fff;
+    }
+
+    .politics__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav__bar {
+        margin-top: 10px;
+    }
+    
+    
+    .title__tabs {
+        margin-top: 20px;
+    }
+
+    .tabs {
+        margin-top: 20px;
+    }
+
+    .nav__bar__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        text-align: center;
+    }
+
+    .nav__bar__li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__bar__item {
+        padding: 10px;
+    }
+
+    .tabs__nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    
+    .tabs__nav__btn {
+        text-transform: uppercase;
+    }
+    
+    .form_traid-in {
+        margin-left: 5px;
+        width: 370px;
+        height: 495px;
+    }
+
+    .sub_title {
+        font-size: 18px;
+    }
+
+    .input__traid-in {
+        width: 270px;
+    }
+
+    .label__traid-in {
+        font-size: 12px;
+    }
+    
+    .input__traid-in {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .checkbox__personal {
+        padding-left: 120px;
+    }
+
+    .checkbox__label {
+        font-size: 12px;
+    }
+
+    .credit__btn {
+        width: 285px;
+        height: 40px;
+    }
+    
+    .wrapper__footer {
+        font-size: 12px;
+    }
+
+    .wrapper__footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__section {
+        margin-right: 1px;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+
+    .footer__list__item {
+        text-align: center;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 660px) {
@@ -787,5 +1051,496 @@ li.nav__bar__li:last-child {
         max-width: 185px;
         height: 75px;
         margin-right: 0px;
+    }
+    
+    .header {
+        margin-left: 50px; 
+    }
+
+    .header__mobile_btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__mobile_btn:hover {
+        opacity: 0.5;
+    }
+
+    .header__close__btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .header__close__btn:hover {
+        opacity: 0.5;
+    }
+
+    .mobile__header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.4s;
+        z-index: 50;
+        transform: translateX(-1000px);
+    }
+
+    .open {
+        transform: translateX(0px);
+    }
+
+    .mobile__header__container {
+        background: #47A0ED;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_phone_btn {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .nav__item__link__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+    .mob__phone {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #47A0ED;
+        display: inline-block;
+        color: #47A0ED;
+        font-size: 14px;
+        line-height: 17px;
+        background: #fff;
+        width: 208px;
+        height: 38px;
+        border: 0;
+        display: block;
+    }
+
+    .mob__text {
+        text-align: center;
+        color: #47A0ED;
+    }
+
+    .work__title__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__saloon__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__tech__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+        margin-bottom: 20px;
+    }
+
+    .phone__mobile {
+        font-size: 16px;
+        line-height: calc(32/16);
+        color: #fff;
+    }
+
+    .politics__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav__bar {
+        margin-top: 10px;
+    }
+    
+    .title__tabs {
+        margin-top: 20px;
+    }
+
+    .tabs {
+        margin-top: 20px;
+    }
+
+    .tabs__nav-btn {
+        padding: 10px 10px;
+    }
+
+    .tabs__nav-btn {
+        font-size: 14px;
+    }
+
+    .nav__bar__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        text-align: center;
+    }
+
+    .nav__bar__li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__bar__item {
+        padding: 10px;
+    }
+
+    .tabs__nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    
+    .tabs__nav__btn {
+        text-transform: uppercase;
+    }
+    
+    .form_traid-in {
+        margin-left: 5px;
+        width: 360px;
+        height: 490px;
+    }
+
+    .sub_title {
+        font-size: 18px;
+    }
+
+    .label__traid-in {
+        font-size: 12px;
+    }
+
+    .flex__cont {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .input__traid-in {
+        width: 295px;
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .checkbox__personal {
+        padding-left: 90px;
+    }
+
+    .checkbox__label {
+        font-size: 12px;
+    }
+
+    .credit__btn {
+        width: 265px;
+        height: 40px;
+    }
+    
+    .wrapper__footer {
+        font-size: 12px;
+    }
+
+    .wrapper__footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__section {
+        margin-right: 1px;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+
+    .footer__list__item {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 420px) {
+    .container_site {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .adress {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .rev__phone {
+        display: none;
+    }
+
+    .work__detail {
+        display: none;
+    }
+
+    .company__logo {
+        max-width: 185px;
+        height: 75px;
+        margin-right: 0px;
+    }
+
+    .model_catalog__image {
+        width: 150px;
+        height: 100px;
+    }
+    .tabs__link__fl {
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        margin-left: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        margin-left: 30px; 
+    }
+
+    .header__mobile_btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__mobile_btn:hover {
+        opacity: 0.5;
+    }
+
+    .header__close__btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .header__close__btn:hover {
+        opacity: 0.5;
+    }
+
+    .mobile__header {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.4s;
+        z-index: 50;
+        transform: translateX(-1000px);
+    }
+
+    .open {
+        transform: translateX(0px);
+    }
+
+    .mobile__header__container {
+        background: #47A0ED;
+        height: 100vh;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile_phone_btn {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .nav__item__link__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+    .mob__phone {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #47A0ED;
+        display: inline-block;
+        color: #47A0ED;
+        font-size: 14px;
+        line-height: 17px;
+        background: #fff;
+        width: 208px;
+        height: 38px;
+        border: 0;
+        display: block;
+    }
+
+    .mob__text {
+        text-align: center;
+        color: #47A0ED;
+    }
+
+    .work__title__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__saloon__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+    }
+
+    .work__tech__mobile {
+        font-size: 16px;
+        line-height: calc(24/16);
+        margin-bottom: 20px;
+    }
+
+    .phone__mobile {
+        font-size: 16px;
+        line-height: calc(32/16);
+        color: #fff;
+    }
+
+    .politics__mobile {
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: calc(32/18);
+    }
+
+
+    .nav__bar__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+
+    .title__tabs {
+        margin-top: 20px;
+    }
+
+    .tabs {
+        margin-top: 20px;
+    }
+
+    .tabs__nav-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }    
+
+    .nav__bar__li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__bar__item {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tabs__nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+    
+    .tabs__nav__btn {
+        text-transform: uppercase;
+    }
+
+
+
+    
+    .flex__cont {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form_traid-in {
+        width: 360px;
+        height: 490px;
+    }
+
+    .sub_title {
+        font-size: 16px;
+    }
+
+    .label__traid-in {
+        font-size: 12px;
+    }
+
+    .field {
+        padding-left: 20px;
+    }
+    
+    .input__traid-in {
+        width: 230px;
+        font-size: 12px;
+        height: 40px;
+    }
+    
+    .checkbox__personal {
+        padding-left: 90px;
+    }
+
+    .checkbox__label {
+        font-size: 12px;
+    }
+
+    .credit__btn {
+        width: 245px;
+        height: 40px;
+    }
+
+    .wrapper__footer {
+        font-size: 12px;
+    }
+
+    .wrapper__footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__section {
+        margin-right: 1px;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+
+    .footer__list__item {
+        text-align: center;
     }
 }
