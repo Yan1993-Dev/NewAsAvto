@@ -200,6 +200,7 @@ li.nav__bar__li:last-child {
 
 .tabs__nav-btn.active {
     color: #000;
+    background-color: #2098D1;
 }
 
 .sub__tabs__nav {
@@ -210,6 +211,7 @@ li.nav__bar__li:last-child {
 .sub__nav-btn {
     padding: 15px 30px;
     font-size: 20px;
+    line-height: calc(38/20);
     background-color: #fff;
     border: 0;
     border-right: 1px solid #ddd;
@@ -225,12 +227,8 @@ li.nav__bar__li:last-child {
     background-color: #ddd;
 }
 
-.tabs__nav-btn.active {
-    color: #000;
-}
-
 .tabs__content {
-    padding: 10px;
+    text-align: center;
     background-color: #fff;
 }
 
@@ -238,16 +236,24 @@ li.nav__bar__li:last-child {
     overflow-y: auto;
 }
 
+.table__title {
+    font-size: 16px;
+    line-height: calc(30/16);
+    margin-bottom: 10px;
+}
+
 .bb {
     border-bottom: 2px solid black;
 }
 
 .top__title {
+    text-align: center;
     border-bottom: 1px solid #ddd;
 }
 
 .left__title {
     font-size: 14px;
+    line-height: calc(28/14);
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
@@ -255,6 +261,7 @@ li.nav__bar__li:last-child {
 
 .price {
     font-size: 14px;
+    line-height: calc(28/14);
     text-align: center;
     margin-left: 20px;
     padding-right: 20px;
@@ -271,6 +278,7 @@ li.nav__bar__li:last-child {
     text-align: center;
     border-bottom: 1px solid #ddd;
     font-size: 14px;
+    line-height: calc(28/14);
     min-width: 100px;
     white-space: normal;
 }
@@ -943,7 +951,7 @@ li.nav__bar__li:last-child {
     .nav__bar__ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
         text-align: center;
     }
 

@@ -1,6 +1,17 @@
+.wrapper__map {
+    display: flex;
+}
+
+.wrapper__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
 .slider-container {
     overflow: hidden;
-    width: 100%;
+    max-width: 550px;
     margin-top: 50px;
 }
 
@@ -11,8 +22,6 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    width: 100%;
-    height: 100%;
 }
 
 .category__image {
@@ -32,5 +41,5 @@
 }
 
 .map__desc {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
