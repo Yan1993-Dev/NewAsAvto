@@ -798,15 +798,6 @@
         font-size: 14px;
     }
 
-    .seo__title {
-        font-size: 20px;
-        margin-top: 50px;
-    }
-
-    .seo__sub_title {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
 
     .background__credit {
         margin-top: 50px;
@@ -839,6 +830,16 @@
 
     .credit__label {
         font-size: 14px;
+    }
+    
+    .seo__title {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .seo__sub_title {
+        font-size: 14px;
+        margin-bottom: 30px;
     }
 
     .seo__list__title {
