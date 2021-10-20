@@ -9,6 +9,10 @@ sliders.forEach((el) => {
 		centerMode: true,
 		observer: true,
 		observeParents: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
 		
 		breakpoints: {
             319: {
