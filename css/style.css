@@ -99,17 +99,17 @@
     border: 0;
 }
 
+.phone__icon {
+    max-width: 18px;
+    height: 18px;
+    margin-right: 15px;
+    margin-bottom: -3px;
+}
+
 .text__phone {
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
-    margin-left: -12px;
-}
-
-.text__phone::before {
-    content: url(../static/icons/revPhone.svg);max-width: 18px;
-    max-height: 18px;
-    margin-right: 15px;
 }
 
 .nav {
@@ -180,11 +180,42 @@
 
 .title__content__item {
     font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.content_li {
+    padding: 50px ;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    -moz-box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    border-radius: 10px;
 }
 
 .content__item {
     margin-bottom: 15px;
     color: #fff;
+}
+
+.content__item::before {
+    content: url(../static/icons/blue__arr.svg);
+    margin-right: 5px;
+}
+
+.sub__content__item::before {
+    content: url(../static/icons/blue__arr.svg);
+    margin-right: 5px;
+}
+
+.sub__content {
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    -moz-box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
+    border-radius: 10px;
 }
 
 .sub__content__item {
@@ -356,7 +387,7 @@
 }
 
 .input__credit {
-    width: 410px;
+    width: 350px;
     height: 45px;
     background: #FFFFFF;
     border: 1px solid rgba(52, 130, 198, 0.05);
@@ -370,7 +401,7 @@
 
 .checkbox__credit {
     padding-top: 20px;
-    padding-left: 212px;
+    padding-left: 138px;
 }
 
 .checkbox__personal {
@@ -566,7 +597,7 @@
     background-image: linear-gradient(black,
     transparent 80%,
     transparent 20%,
-    black), url(../static/images/content__img__one.jpg);
+    black), url(../static/images/tiggo4Banner.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 100px;
@@ -616,6 +647,10 @@
     margin-bottom: 10px;
 }
 
+footer {
+    background-color: #F8F8F8;
+}
+
 .wrapper__footer {
     display: flex;
     margin-top: 50px;
@@ -623,12 +658,50 @@
 
 .info {
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .info__item__title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
 }
+
+.info__item {
+    color: #000;
+    cursor: pointer;
+}
+.info__item {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .info__item:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .info__item:hover:before, .info__item:focus:before, .info__item:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 
 .maps {
     margin-top: 50px;
@@ -673,33 +746,9 @@
     font-size: 16px;
     line-height: calc(24/16);
     text-align: center;
-    margin-left: -12px;
-}
-
-.text__phone__footer::before {
-    content: url(../static/icons/revPhone.svg);
-    max-width: 18px;
-    max-height: 18px;
-    margin-right: 15px;
-    margin-top: 10px;
 }
 
 /* попап */
-
-.popup__footer {
-    display: none;
-    height: 547px;
-    max-width: 530px;
-    top: 100px;
-    position: fixed;
-    border-radius: 10px;
-    background-color: #F8FAFD;
-    border: 1px solid rgba(52, 130, 198, 0.1);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-radius: 10px;
-    z-index: 10;
-}
 
 .popup {
     display: none;
@@ -859,6 +908,31 @@
     margin-top: 20px;
 }
 
+#yamap, #map{height:200px;margin-bottom:300px}
+.map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;transform:none;top:70%}
+.map .contacts_block .name{font-size:12px}
+.map .contacts_block .items{font-size:11px}
+.map .contacts_block li.visible .items{margin:5px 0 20px}
+.test-drive+.map{margin-top:-40px}
+.map{position:relative;padding:0;margin-top:30px}
+.map .contacts_block{position:absolute;z-index:9;padding:40px;background-color:#fff;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:370px;-webkit-box-shadow:0 0 10px rgba(0,0,0,.15);box-shadow:0 0 10px rgba(0,0,0,.15);border-radius:2px;font-weight:400;margin-left:90px}
+.map .contacts_block ul{padding-left:18px}
+.map .contacts_block .title{font-weight:700;margin-bottom:30px}
+.map .contacts_block .name{font-size:14px;color:#494949;cursor:pointer}
+.map .contacts_block .name:hover{font-weight:400;color:#241010}
+.map .contacts_block li{margin:10px 0}
+.map .contacts_block li::before{content:'';display:block;width:8px;height:8px;background-image:url(../static/images/arrow-b.svg);margin-left:-18px;margin-right:10px;margin-bottom:-15px}
+.map .contacts_block .items{font-size:12px;font-weight:400;text-decoration:none;max-height:0;overflow:hidden;-webkit-transition:max-height .3s;transition:max-height .3s}
+.map .contacts_block .items .item{padding-left:23px;margin:8px 0}
+.map .contacts_block .items .item::before{content:'';display:inline-block;width:13px;height:13px;margin-left:-23px;margin-right:10px;background-size:contain;background-position:center;background-repeat:no-repeat;vertical-align:middle}
+.map .contacts_block .items .item.addr::before{background-image:url(../static/images/map.svg)}
+.map .contacts_block .items .item.tel::before{background-image:url(../static/images/phone.svg)}
+.map .contacts_block .items .item.site::before{background-image:url(../static/images/site.svg)}
+.map .contacts_block li.visible .items{max-height:100px;margin:10px 0 25px}
+.map .contacts_block li.visible .name{font-weight:500;text-decoration:underline;color:#241010}
+.map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
+.map+footer{margin-top:0}
+
 @media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
@@ -925,7 +999,7 @@
     }
 }
 
-@media (min-width: 880px) and (max-width: 1024px) {
+@media (min-width: 910px) and (max-width: 1024px) {
     .container_site {
         max-width: 900px;
         margin: 0 auto;
@@ -960,7 +1034,8 @@
         font-size: 12px;
         line-height: calc(20/12);    
         margin-right: 10px;
-        padding-right: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .model_catalog__title {
@@ -1114,7 +1189,7 @@
     }
 }
 
-@media (min-width: 660px) and (max-width: 880px) {
+@media (min-width: 660px) and (max-width: 910px) {
     .container_site {
         max-width: 700px;
         margin: 0 auto;
@@ -1135,14 +1210,6 @@
         margin-bottom: 10px;
     }
 
-    .adress {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 12px;
-        line-height: calc(18/12);
-    }
-
     .footer__logo {
         margin-right: 0;
     }
@@ -1158,6 +1225,7 @@
 
     .info {
         margin-right: 0px;
+        align-items: center;
     }
 
     .wrapper__phone__footer {
@@ -1175,6 +1243,7 @@
     .phone {
         display: none;
     }
+
     .rev__phone {
         display: none;
     }
@@ -1193,6 +1262,7 @@
         width: 150px;
         height: 100px;
     }
+
     .tabs__link__fl {
         margin-right: 25px;
         margin-bottom: 10px;
@@ -1336,21 +1406,18 @@
         font-size: 18px;
     }
 
-    .input__traid-in {
-        width: 270px;
-    }
-
     .label__traid-in {
         font-size: 12px;
     }
     
     .input__traid-in {
+        width: 245px;
         font-size: 12px;
         height: 40px;
     }
 
     .checkbox__personal {
-        padding-left: 120px;
+        padding-left: 85px;
     }
 
     .checkbox__label {
@@ -1358,8 +1425,12 @@
     }
 
     .credit__btn {
-        width: 285px;
+        width: 230px;
         height: 40px;
+    }
+    
+    .content_li {
+        margin-right: 10px;
     }
 
     .title {
@@ -1384,6 +1455,30 @@
         width: 180px;
         padding: 5px;
         font-size: 14px;
+    }
+
+    .content_li {
+        padding: 20px;
+    }
+
+    .title__content__item {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .content__item {
+        font-size: 14px;
+        line-height: calc(22/14); 
+    }
+    
+    .sub__content {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .sub__content__item {
+        font-size: 12px;
+        line-height: calc(20/12);
     }
 
     .credit_calc {
@@ -1497,6 +1592,7 @@
 
     .info {
         margin-right: 0px;
+        align-items: center;
     }
 
     .info__item__title {
@@ -1533,6 +1629,7 @@
         width: 150px;
         height: 100px;
     }
+
     .tabs__link__fl {
         margin-right: 25px;
         margin-bottom: 10px;
@@ -1667,6 +1764,7 @@
     }
 
     .form_traid-in {
+        margin-top: 20px;
         width: 360px;
         height: 490px;
     }
@@ -1683,6 +1781,10 @@
         width: 295px;
         font-size: 12px;
         height: 40px;
+    }
+
+    .sub__content {
+        margin-left: 0px;
     }
 
     .checkbox__personal {
@@ -1805,9 +1907,6 @@
 
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
         flex-direction: column;
         align-items: center;
     }
@@ -1855,15 +1954,12 @@
 
     .info {
         margin-right: 0px;
+        align-items: center;
     }
 
     .info__item__title {
         margin-top: 10px;
         text-align: center;
-    }
-
-    .hidden__adapt {
-        display: none;
     }
 
     .info__item {
@@ -2029,8 +2125,13 @@
     }
 
     .form_traid-in {
+        margin-top: 20px;
         width: 360px;
         height: 490px;
+    }
+
+    .sub__content {
+        margin-left: 0px;
     }
 
     .sub_title {
@@ -2046,7 +2147,7 @@
     }
     
     .input__traid-in {
-        width: 230px;
+        width: 245px;
         font-size: 12px;
         height: 40px;
     }
