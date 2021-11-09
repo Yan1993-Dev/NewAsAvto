@@ -549,6 +549,7 @@
     .adress {
         display: flex;
         flex-direction: column;
+        text-align: center;
         align-items: center;
         font-size: 12px;
         line-height: calc(18/12);
@@ -814,6 +815,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         font-size: 12px;
         line-height: calc(18/12);
     }
@@ -1062,6 +1064,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         font-size: 12px;
         line-height: calc(18/12);
     }
