@@ -247,10 +247,44 @@
     padding-top: 20px;
 }
 
-.img__title {
+.img__geely {
+    max-width: 186px;
+    height: 75px;
+}
+
+.img__haval {
+    max-width: 240px;
+    height: 40px;
+}
+
+.img__chery {
+    max-width: 180px;
+    height: 75px;
+}
+
+.img__exeed {
     max-width: 160px;
     height: 50px;
-    margin-right: 30px;
+}
+
+.img__changan {
+    max-width: 160px;
+    height: 90px;
+}
+
+.img__faw {
+    max-width: 160px;
+    height: 90px;
+}
+
+.img__jac {
+    max-width: 160px;
+    height: 50px;
+}
+
+.img__gw {
+    max-width: 180px;
+    height: 50px;
 }
 
 .field {

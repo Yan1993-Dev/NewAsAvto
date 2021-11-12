@@ -232,6 +232,9 @@ li.nav__bar__li:last-child {
     color: #fff;
     background-color: #2098D1;
 }
+.tabs__nav-btn:checked {
+    background-color: #2098D1;
+}
 
 .sub__tab__link {
     margin-bottom: 20px;
@@ -411,8 +414,11 @@ label {
   .tab-content {
     display: none;
   }
-  
-  .tab-radio:checked + .tab-content,
+
+  .tab-radio:checked + .tab-content {
+    display: block;
+  }
+
   .tab-radio:checked + .sub-tab-content {
     display: block;
   }
