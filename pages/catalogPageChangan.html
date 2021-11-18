@@ -18,7 +18,7 @@
     <div class="container_site">
         <header class="header">
             <button class="header__mobile_btn">
-                <svg width="79" height="69" viewBox="0 0 79 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="79" height="69" viewBox="0 0 79 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="79" height="69" fill="#47A0ED"/>
                     <line x1="14" y1="14.5" x2="64" y2="14.5" stroke="black"/>
                     <line x1="14.012" y1="33.5" x2="64.012" y2="33.5" stroke="white" stroke-width="5"/>
@@ -90,7 +90,19 @@
     </div>
         <nav class="nav">
             <ul class="navigation">
-                <li class="nav__item"><a href="../pages/card__auto.html" class="nav__item__link">Новые авто</a></li>
+                <li class="nav__item"><a href="../pages/catalogCars.html" class="nav__item__link">Новые авто</a>
+                    <ul class="nav__nav">
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGeely.html" class="nav__nav__link">GEELY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageHaval.html" class="nav__nav__link">HAVAL</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChery.html" class="nav__nav__link">CHERY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageExeed.html" class="nav__nav__link">EXEED</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChangan.html" class="nav__nav__link">CHANGAN</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageFaw.html" class="nav__nav__link">FAW</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageJac.html" class="nav__nav__link">JAC</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGWM.html" class="nav__nav__link">GWM Pickup</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogCars.html" class="nav__nav__link">Все автомобили</a></li>
+                    </ul>
+                    </li>
                 <li class="nav__item"><a href="../pages/service.html" class="nav__item__link">Сервис</a></li>
                 <li class="nav__item"><a href="../pages/stocks.html" class="nav__item__link">Акции</a></li>
                 <li class="nav__item"><a href="#" class="nav__item__link">Кредит</a></li>
@@ -151,7 +163,7 @@
                         </div>
                         <section class="form_traid-in">
                             <h2 class="sub_title" id="calculator">
-                                Заявка на Trade-in
+                                Заявка на Тест-драйв
                             </h2>
                             <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
                                 <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
@@ -166,11 +178,38 @@
                                         <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                     </div>
                                     <div class="field">
-                                        <label for="input_traid" class="label__traid-in">Время записи</label>
+                                        <label for="input_traid" class="label__traid-in">Выберите марку</label>
+                                        <select name="DC" class="input__traid-in">
+                                            <option value="s3" class="input__traid-in" >CHANGAN</option>
+                                           </select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="input_traid" class="label__traid-in">Выберите модель</label>
                                         <select name="DC" class="input__traid-in">
                                             <option value="s1" class="input__traid-in">CHANGAN CS35PLUS</option>
                                             <option value="s2" class="input__traid-in">CHANGAN CS55</option>
                                             <option value="s5" class="input__traid-in">CHANGAN CS75FL</option>
+                                           </select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
+                                        <input type="date" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
+                                    </div>
+                                    <div class="field">
+                                        <label for="input_traid" class="label__traid-in">Время записи</label>
+                                        <select name="DC" class="input__traid-in">
+                                            <option value="s1" class="input__traid-in">08:00</option>
+                                            <option value="s2" class="input__traid-in">09:00</option>
+                                            <option value="s5" class="input__traid-in">10:00</option>
+                                            <option value="s6" class="input__traid-in">11:00</option>
+                                            <option value="s7" class="input__traid-in">12:00</option>
+                                            <option value="s8" class="input__traid-in">13:00</option>
+                                            <option value="s9" class="input__traid-in">14:00</option>
+                                            <option value="s10" class="input__traid-in">15:00</option>
+                                            <option value="s11" class="input__traid-in">16:00</option>
+                                            <option value="s12" class="input__traid-in">17:00</option>
+                                            <option value="s13" class="input__traid-in">18:00</option>
+                                            <option value="s14" class="input__traid-in">19:00</option>
                                            </select>
                                     </div>
                                     <div class="field">
@@ -401,6 +440,15 @@
                     </div>
                 </form>
             </div>
+            <div class="thanks__container">
+                <section class="thanks__popup thanks">
+                    <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
+                    <div class="thanks__content">
+                        <p class="thanks_title">Заявка отправлена</p>
+                        <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer>
             <div class="container_site">
@@ -465,6 +513,7 @@
 <script src="../script/inputmask.min.js"></script>
 <script src="../script/mail.js"></script>
 <script src="../script/burger.js"></script>
+<script src="../script/thanks.js"></script>
 <script src="../script/app.js"></script>
 <script src="../script/popup.js"></script>
 <script src="../script/footer__popup.js"></script>

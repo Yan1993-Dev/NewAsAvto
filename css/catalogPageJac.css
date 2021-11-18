@@ -124,11 +124,6 @@
     background-color: #47A0ED;
 }
 
-.nav__item {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .nav__item__link {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -145,6 +140,45 @@
     transition: 0.3s;
     background-color: #2D7CC0;
 }
+
+/* стили для выпадающего списка */
+nav ul li {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul li:hover > ul {
+    display: block;
+    z-index: 20;
+  }
+  nav ul li {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul li a {
+    display: block;
+    text-transform: uppercase;
+    z-index: 20;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  nav ul ul li {
+    float: none;
+    position: relative;
+  }
+  nav ul ul li a {
+    color: #fff;
+    padding: 10px;
+    background-color: #47A0ED;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  nav ul ul ul {
+    position: absolute;
+  }
 
 .title__cont {
     display: flex;
@@ -218,7 +252,7 @@
 
 .form_traid-in {
     width: 470px;
-    height: 540px;
+    height: 615px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
     -webkit-box-sizing: border-box;
@@ -820,6 +854,79 @@ footer {
     text-align: right;
     margin-right: 15px;
     margin-top: 20px;
+}
+
+
+.thanks {
+    display: none;
+    Width: 300px;
+    Height: 200px;
+    top: 250px;
+    position: fixed;
+    border-radius: 10px;
+    background-color:#3482C6;
+    color: #fff;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 15;
+}
+
+
+.thanks__container {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.thanks_request__btn {
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(../static/icons/X__white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 255px;
+    padding-bottom: 27px;
+    z-index: 15;
+    cursor: pointer;
+}
+
+.thanks_title {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+.thanks_request__btn:hover {
+    opacity: .5;
+    z-index: 10;
+}
+
+.thanks_app {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* стили для открытия попапа */
+
+.thanks_open {
+    display: block;
+    z-index: 60;
+}
+
+.thanks_request__btn:focus {
+    opacity: .3;
+    z-index: 15;
 }
 
 

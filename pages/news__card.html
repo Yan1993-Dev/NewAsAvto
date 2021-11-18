@@ -20,7 +20,7 @@
     <div class="container_site">
         <header class="header">
             <button class="header__mobile_btn">
-                <svg width="79" height="69" viewBox="0 0 79 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="79" height="69" viewBox="0 0 79 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="79" height="69" fill="#47A0ED"/>
                     <line x1="14" y1="14.5" x2="64" y2="14.5" stroke="black"/>
                     <line x1="14.012" y1="33.5" x2="64.012" y2="33.5" stroke="white" stroke-width="5"/>
@@ -92,7 +92,19 @@
     </div>
         <nav class="nav">
             <ul class="navigation">
-                <li class="nav__item"><a href="../pages/card__auto.html" class="nav__item__link">Новые авто</a></li>
+                <li class="nav__item"><a href="../pages/catalogCars.html" class="nav__item__link">Новые авто</a>
+                    <ul class="nav__nav">
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGeely.html" class="nav__nav__link">GEELY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageHaval.html" class="nav__nav__link">HAVAL</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChery.html" class="nav__nav__link">CHERY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageExeed.html" class="nav__nav__link">EXEED</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChangan.html" class="nav__nav__link">CHANGAN</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageFaw.html" class="nav__nav__link">FAW</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageJac.html" class="nav__nav__link">JAC</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGWM.html" class="nav__nav__link">GWM Pickup</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogCars.html" class="nav__nav__link">Все автомобили</a></li>
+                    </ul>
+                    </li>
                 <li class="nav__item"><a href="../pages/service.html" class="nav__item__link">Сервис</a></li>
                 <li class="nav__item"><a href="../pages/stocks.html" class="nav__item__link">Акции</a></li>
                 <li class="nav__item"><a href="#" class="nav__item__link">Кредит</a></li>
@@ -314,6 +326,15 @@
     </main>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.866453368904!2d49.411252315815794!3d53.57799998002826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4167d7c825fa0d55%3A0xe7119eab7216886e!2z0JPQmiAi0JDRgdCQ0LLRgtC-Ig!5e0!3m2!1sru!2sru!4v1624537743551!5m2!1sru!2sru" width="100%" height="492" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </main>
+    <div class="thanks__container">
+        <section class="thanks__popup thanks">
+            <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
+            <div class="thanks__content">
+                <p class="thanks_title">Заявка отправлена</p>
+                <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+            </div>
+        </section>
+    </div>
     <footer>
         <div class="container_site">
             <div class="wrapper__footer">
@@ -377,6 +398,7 @@
 <script src="../script/just-validate.min.js"></script>
 <script src="../script/inputmask.min.js"></script>
 <script src="../script/burger.js"></script>
+<script src="../script/thanks.js"></script>
 <script src="../mail.php"></script>
 <script src="../script/mail.js"></script>
 </html>
