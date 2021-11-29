@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="https://stoavtos.ru/favicon.svg" type="image/svg+xml">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/credit.css">
+    <title>StoAvto</title>
+</head>
+<body>
+    <div class="container_site">
+        <header class="header">
+            <button class="header__mobile_btn">
+                <svg width="79" height="69" viewBox="0 0 79 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="79" height="69" fill="#47A0ED"/>
+                    <line x1="14" y1="14.5" x2="64" y2="14.5" stroke="black"/>
+                    <line x1="14.012" y1="33.5" x2="64.012" y2="33.5" stroke="white" stroke-width="5"/>
+                    <line x1="14.012" y1="50.5" x2="64.012" y2="50.5" stroke="white" stroke-width="5"/>
+                    <line x1="14" y1="16.5" x2="64" y2="16.5" stroke="white" stroke-width="5"/>
+                    </svg>
+            </button>
+                <div class="mobile__header">
+                    <div class="mobile__header__container">
+                        <nav class="nav__mobile">
+                            <ul class="navigation__mobile">
+                                <li class="nav__item__mobile"><a href="./pages/card__auto.html" class="nav__item__link__mobile">Тест-драйв</a></li>
+                                <li class="nav__item__mobile"><a href="../pages/credit.html" class="nav__item__link__mobile">Кредит</a></li>
+                                <li class="nav__item__mobile"><a href="../pages/traidIn.html" class="nav__item__link__mobile">Traid-in</a></li>
+                                <li class="nav__item__mobile"><a href="./pages/stocks.html" class="nav__item__link__mobile">Акции</a></li>
+                                <li class="nav__item__mobile"><a href="./pages/news.html" class="nav__item__link__mobile">Новости</a></li>
+                                <li class="nav__item__mobile"><a href="./pages/service.html" class="nav__item__link__mobile">Сервис</a></li>
+                                <li class="nav__item__mobile"><a href="./pages/feedback.html" class="nav__item__link__mobile">Отзывы</a></li>
+                                <li class="nav__item__mobile"><a href="" class="nav__item__link__mobile">О нас</a></li>
+                            </ul>
+                            <div class="mobile__desc">
+                                <a href="tel: +7 (846) 215-07-58" class="phone__mobile"><img src="../static/icons/phone.svg" alt="" class="phone__icon">+7 (846) 215-07-58</a>
+                            <a href="#" class="mob__phone"><p class="mob__text">Заказать звонок</p></a>
+                            <div class="work__detail__mobile">
+                                <p class="work__title__mobile">График работы (без выходных)</p>
+                                <p class="work__saloon__mobile">Автосалон: пн-вс 09:00-21:00</p>
+                                <p class="work__tech__mobile">СТО: пн-вс 08:00-20:00</p>
+                            </div>
+                        </div>
+                            <a href="#" class="politics__mobile">Политика конфиденциальности</a>
+                        </nav>
+                        <button class="header__close__btn">
+                            <svg width="58" height="43" viewBox="0 0 58 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="58" height="43" fill="#47A0ED"/>
+                                <line y1="-2.5" x2="34.7626" y2="-2.5" transform="matrix(0.69484 0.719164 -0.69484 0.719164 15 9)" stroke="white" stroke-width="5"/>
+                                <line y1="-2.5" x2="34.7512" y2="-2.5" transform="matrix(0.694846 -0.719159 0.694835 0.719169 18.0918 33.9917)" stroke="white" stroke-width="5"/>
+                                </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="logo_container">
+                    <a class="logo" href="../index.html"><img src="../static/images/logo.png" alt="company_logo" class="company__logo"></a>
+                </div>
+                <a href="tel: +7 (846) 215-07-58" class="mobile_phone_btn"><svg width="35" height="37" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.363 3.33006L26.928 0.854078C26.2288 0.585624 25.4647 0.947113 25.1171 1.70458L21.4824 9.71205C21.1644 10.4127 21.279 11.2863 21.7667 11.8396L25.324 15.9302C22.6374 21.3931 18.3225 25.718 13.1819 27.9257L10.3784 23.0905C9.99402 22.4282 9.28956 22.1442 8.64829 22.3913L1.31949 25.215C0.618709 25.4932 0.183646 26.3164 0.286732 27.1738L1.23996 35.0654C1.33943 35.8849 1.90327 36.5287 2.61654 36.6038C18.7818 38.3071 33.0254 24.2631 34.4107 5.19346C34.4712 4.36079 34.0375 3.58842 33.363 3.33006Z" fill="#47A0ED"/>
+                    </svg>
+                </a>
+                <div class="adress hidden__adapt">
+                    <ul class="addr hidden__adapt">
+                        <li class="addr__item">г. Самара, Аэропортовское шоссе, 1Ж</li>
+                        <li class="addr__item">г. Самара, ул. Алма-Атинская, 87</li>
+                        <li class="addr__item">г. Самара, Карла-Маркса, 412Б (кузовной ремонт)</li>
+                    </ul>
+                    <ul class="addr hidden__adapt">
+                        <li class="addr__item">г. Самара, Южное шоссе 12а, строение 4</li>
+                        <li class="addr__item">пос. Тимофеевка (г. Тольятти), ул. Солнечная 1А</li>
+                    </ul>
+                </div>
+                <div class="wrapper__phone">
+                    <a href="tel: +7 (846) 215-07-58" class="phone"><img src="../static/icons/phone.svg" alt="" class="phone__icon">+7 (846) 215-07-58</a>
+                    <a href="#" class="rev__phone"><p class="text__phone open_popup_js">Заказать звонок</p></a>
+                    <div class="work__detail">
+                        <p class="work__title">График работы (без выходных)</p>
+                        <p class="work__saloon">Автосалон: пн-вс 09:00-21:00</p>
+                        <p class="work__tech">СТО: пн-вс 08:00-20:00</p>
+                    </div>
+                </div>
+        </header>
+    </div>
+        <nav class="nav">
+            <ul class="navigation">
+                <li class="nav__item"><a href="../pages/catalogCars.html" class="nav__item__link">Новые авто</a>
+                    <ul class="nav__nav">
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGeely.html" class="nav__nav__link">GEELY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageHaval.html" class="nav__nav__link">HAVAL</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChery.html" class="nav__nav__link">CHERY</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageExeed.html" class="nav__nav__link">EXEED</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageChangan.html" class="nav__nav__link">CHANGAN</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageFaw.html" class="nav__nav__link">FAW</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageJac.html" class="nav__nav__link">JAC</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogPageGWM.html" class="nav__nav__link">GWM Pickup</a></li>
+                        <li class="nav__nav__item"><a href="../pages/catalogCars.html" class="nav__nav__link">Все автомобили</a></li>
+                    </ul>
+                    </li>
+                <li class="nav__item"><a href="../pages/service.html" class="nav__item__link">Сервис</a></li>
+                <li class="nav__item"><a href="../pages/stocks.html" class="nav__item__link">Акции</a></li>
+                <li class="nav__item"><a href="../pages/credit.html" class="nav__item__link">Кредит</a></li>
+                <li class="nav__item"><a href="../pages/traidIn.html" class="nav__item__link">Трейд-ин</a></li>
+                <li class="nav__item"><a href="../pages/news.html" class="nav__item__link">Новости</a></li>
+                <li class="nav__item"><a href="../pages/feedback.html" class="nav__item__link">Отзывы</a></li>
+                <li class="nav__item"><a href="#" class="nav__item__link">О нас</a></li>
+                <li class="nav__item"><a href="#" class="nav__item__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="background">
+                <div class="poster__container">
+                    <div class="title__poster">
+                        <p class="title__poster__text">Максимум возможностей, максимум выгоды — автокредит от АсАвто!</p>
+                        <p class="title__desc__poster">Для тех, кто ищет выгоду — отправьте заявку на кредит и получите персональные выгодные условия.</p>
+                    </div>
+                    <ul class="offer">
+                        <li class="offer__item">Кредит без первого взноса</li>
+                        <li class="offer__item">Кредитная программа «Авторассрочка»</li>
+                        <li class="offer__item">Кредит без КАСКО и Страхования жизни</li>
+                        <li class="offer__item">Кредитная программа 60 дней без платежей</li>
+                        <li class=""><a href="#calculator" class="offer__rev text__phone">Получить кредит</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container_site">
+                <div class="title">
+                    <h1 class="text__title" id="calculator">Заявка на кредит</h1>
+                </div>
+                <div class="choise__container">
+                    <section class="section__tabs">
+
+                            <div class="tabs">
+                                <div class="tabs__nav">
+                                    <button class="tabs__nav-btn" type="button" id="geely"><label for="main-tab-1"><img src="../static/images/GEELY.png" class="tab__img" alt=""></label></button>
+                                    <button class="tabs__nav-btn" type="button" id="Haval"><label for="main-tab-2"><img src="../static/images/HAVAL.png" class="tab__img" alt=""></label></button>
+                                    <button class="tabs__nav-btn" type="button" id="chery"><label for="main-tab-3"><img src="../static/images/CHERY.png" class="tab__img" alt=""></label></button>
+                                    <button class="tabs__nav-btn" type="button" id="Exeed"><label for="main-tab-4"><img src="../static/images/EXEED.png" class="tab__img" alt=""></label></button>
+                                    <button class="tabs__nav-btn" type="button" id="Faw"><label for="main-tab-5"><img src="../static/images/FAW.png" class="tab__img" alt=""></label></button>
+                                    <button class="tabs__nav-btn" type="button" id="Changan"><label for="main-tab-6"><img src="../static/images/CHANGAN.png" class="tab__img" alt=""></label></button>
+                                </div>
+                                <div class="model__container">
+                                    <!-- Tab Container -->
+                                    <input class="tab-radio" id="main-tab-1" name="main-group" type="radio">
+                                    <div class="tab-content">
+                                            <div class="sub-tabs-container">
+                                                <label class="sub__tabs__item" for="sub-tab-1">ATLAS PRO</label>
+                                                <label class="sub__tabs__item" for="sub-tab-2">COOLRAY</label>
+                                                <label class="sub__tabs__item" for="sub-tab-3">TUGELLA</label>
+                                                <label class="sub__tabs__item" for="sub-tab-6">ATLAS</label>
+                                            </div>
+                                    </div>  
+                                        <input class="tab-radio" id="main-tab-2" name="main-group" type="radio"/>
+                                            <div class="tab-content">
+                                                <div class="sub-tabs-container">
+                                                <label class="sub__tabs__item" for="sub-tab2-1">F7</label>
+                                                <label class="sub__tabs__item" for="sub-tab2-2">F7X</label>
+                                                <label class="sub__tabs__item" for="sub-tab2-3">JOLION</label>
+                                            </div>
+                                        </div>
+                                        <input class="tab-radio" id="main-tab-3" name="main-group" type="radio"/>
+                                        <div class="tab-content">
+                                            <div class="sub-tabs-container">
+                                            <!-- NOTE: due to id note below, remember to match the for-->
+                                                <label class="sub__tabs__item" for="sub-tab3-1">TIGGO 4</label>
+                                                <label class="sub__tabs__item" for="sub-tab3-2">TIGGO 7PRO</label>
+                                                <label class="sub__tabs__item" for="sub-tab3-3">TIGGO 8</label>
+                                                <label class="sub__tabs__item" for="sub-tab3-4">TIGGO 8PRO</label>
+                                            </div>
+                                        </div>
+                                        <input class="tab-radio" id="main-tab-4" name="main-group" type="radio"/>
+                                        <div class="tab-content">
+                                            <div class="sub-tabs-container">
+                                            <!-- NOTE: due to id note below, remember to match the for-->
+                                            <label class="sub__tabs__item" for="sub-tab4-1">TXL</label>
+                                            <label class="sub__tabs__item" for="sub-tab4-1">TXL FL</label>
+                                            </div>
+                                        </div>
+                                            <input class="tab-radio" id="main-tab-5" name="main-group" type="radio"/>
+                                                <div class="tab-content">
+                                                    <div class="sub-tabs-container">
+                                                    <!-- NOTE: due to id note below, remember to match the for-->
+                                                    <label class="sub__tabs__item" for="sub-tab5-1">BESTURN X80</label>
+                                                    <label class="sub__tabs__item" for="sub-tab5-2">BESTURN X40</label>
+                                                    </div>
+                                                </div>
+                                            <input class="tab-radio" id="main-tab-6" name="main-group" type="radio"/>
+                                            <div class="tab-content">
+                                                <div class="sub-tabs-container">
+                                                <!-- NOTE: due to id note below, remember to match the for-->
+                                                <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-1">S3</label>
+                                                <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-2">S5</label>
+                                                <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-3">J7</label>
+                                                <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-4">S7</label>
+                                                <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-5">T6</label>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                    <input class="tab-radio" id="sub-tab-1" name="sub-group" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                        <div class="container__model__view">
+                            <section class="form_traid-in">
+                                <h2 class="sub_title">
+                                    Заполните форму
+                                </h2>
+                                <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+                                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                                    <div class="field">
+                                        <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
+                                        <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                                    </div>
+                                    <div class="field">
+                                        <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
+                                        <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                                    </div>
+                                    <div class="field">
+                                        <label for="calc__name" class="label__traid-in">Ваше имя*</label>
+                                        <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="field__wrapper">
+                                        <div class="field">
+                                            <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                            <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox__personal">
+                                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
+                                        <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                    </div>
+                                    <div class="popup__btn__flex">
+                                        <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                                    </div>
+                                </form>
+                            </section>
+                            <div class="model__visual__container">
+                                <p class="model__title">ATLAS PRO</p>
+                                <img src="../static/images/atlasPro.png" alt="" class="model__img">
+                                <p class="model__est">Кредит без первого взноса</p>
+                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab-2" name="sub-group" type="radio">
+                    <div class="sub-tab-content">
+                     
+                    </div>
+                    <input class="tab-radio" id="sub-tab-3" name="sub-group" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+        
+                    </div>
+                    <input class="tab-radio" id="sub-tab-4" name="sub-group" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+               
+                    </div>
+                    <input class="tab-radio" id="sub-tab-5" name="sub-group" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                  
+                    </div>
+                    <input class="tab-radio" id="sub-tab-6" name="sub-group" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                 
+                    </div>
+                  </div>
+
+                  <input class="tab-radio" id="main-tab-2" name="main-group" type="radio"/>
+                  <div class="tab-content">
+                    <div class="sub-tabs-container">
+                      <label class="sub__tabs__item" for="sub-tab2-1">F7</label>
+                      <label class="sub__tabs__item" for="sub-tab2-2">F7X</label>
+                      <label class="sub__tabs__item" for="sub-tab2-3">JOLION</label>
+                    </div>
+                    <input class="tab-radio" id="sub-tab2-1" name="sub-group2" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                   
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-2" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                
+                    </div>
+                  </div>
+                  
+                   <!-- Tab Container -->
+                  <input class="tab-radio" id="main-tab-3" name="main-group" type="radio"/>
+                  <div class="tab-content">
+                    <div class="sub-tabs-container">
+                    <!-- NOTE: due to id note below, remember to match the for-->
+                      <label class="sub__tabs__item" for="sub-tab3-1">TIGGO 4</label>
+                      <label class="sub__tabs__item" for="sub-tab3-2">TIGGO 7PRO</label>
+                      <label class="sub__tabs__item" for="sub-tab3-3">TIGGO 8</label>
+                      <label class="sub__tabs__item" for="sub-tab3-4">TIGGO 8PRO</label>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab3-1" name="sub-group3" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                 
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab3-2" name="sub-group3" type="radio">
+                    <div class="sub-tab-content">
+                  
+                    </div>
+                  </div>
+                  
+                   <!-- Tab Container -->
+                  <input class="tab-radio" id="main-tab-4" name="main-group" type="radio"/>
+                  <div class="tab-content">
+                    <div class="sub-tabs-container">
+                    <!-- NOTE: due to id note below, remember to match the for-->
+                      <label class="sub__tabs__item" for="sub-tab4-1">TXL</label>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab4-1" name="sub-group4" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                   
+                    </div>
+                  </div>
+                  
+                   <!-- Tab Container -->
+                  <input class="tab-radio" id="main-tab-5" name="main-group" type="radio"/>
+                  <div class="tab-content">
+                    <div class="sub-tabs-container">
+                    <!-- NOTE: due to id note below, remember to match the for-->
+                      <label class="sub__tabs__item" for="sub-tab5-1">BESTURN X80</label>
+                      <label class="sub__tabs__item" for="sub-tab5-2">BESTURN X40</label>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab5-1" name="sub-group5" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                        
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab5-2" name="sub-group5" type="radio">
+                    <div class="sub-tab-content">
+                        
+                    </div>
+                  </div>
+                  
+                   <!-- Tab Container -->
+                  <input class="tab-radio" id="main-tab-6" name="main-group" type="radio"/>
+                  <div class="tab-content">
+                    <div class="sub-tabs-container">
+                    <!-- NOTE: due to id note below, remember to match the for-->
+                      <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-1">S3</label>
+                      <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-2">S5</label>
+                      <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-3">J7</label>
+                      <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-4">S7</label>
+                      <label class="sub__tabs__item tabs__nav-btn" for="sub-tab6-5">T6</label>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab6-1" name="sub-group6" type="radio" checked="checked">
+                    <div class="sub-tab-content">
+                        
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab6-2" name="sub-group6" type="radio">
+                    <div class="sub-tab-content">
+                       
+                    </div>
+                  </div>
+                </div>
+                <div class="container_site">
+                    <div class="container__descrip">
+                        <div class="special__est">
+                            <p class="title__est">Отправь заявку на кредит — получи гарантированную скидку</p>
+                            <div class="apply__content">
+                                <ul class="apply__list">
+                                    <li class="apply__list__item"><img src="../static/icons/phone.svg" alt="" class="allpy__list__img">Решение по кредиту за 30 минут!</li>
+                                    <li class="apply__list__item"><img src="../static/icons/phone.svg" alt="" class="allpy__list__img">Одобрение 98% клиентов.</li>
+                                </ul>
+                            </div>
+                            <p class="title__est">Минимальная ставка от 0% годовых</p>
+                            <p class="special__desc">Процентная ставка зависит от марки, модели, срока кредита, первоначального взноса и программы автокредитования.</p>
+                            <p class="title__est">Оформление по 2 документам</p>
+                            <p class="special__desc">Паспорт РФ и водительское удостоверение. Также возьмите с собой СНИЛС, для ИП — свидетельство о регистрации.</p>
+                        </div>
+                        <div class="instructor__container">
+                            <p class="title__est">Выполните 4 простых шага</p>
+                            <p class="title__est">Первый пункт</p>
+                            <p class="instructor__desc">Выберите марку</p>
+                            <p class="title__est">Второй пункт</p>
+                            <p class="instructor__desc">Выберите модель</p>
+                            <p class="title__est">Третий пункт</p>
+                            <p class="instructor__desc">Заполните форму</p>
+                            <p class="title__est">Четвертый пункт</p>
+                            <p class="instructor__desc">Нажмите кнопку отправить</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+            <div class="container_site">
+                <div class="title"><h1 class="text__title">Требования к заемщикам</h1></div>
+                <div class="card__container">
+                    <ul class="card__list">
+                        <div class="card__tactical">
+                            <li class="card__list__item">
+                                <ul class="card">
+                                    <li class="card__item icon"><img src="../static/icons/dock.png" alt=""></li>
+                                    <li class="credit__conditions__card__title">Документы</li>
+                                    <li class="card__item__desc">ПАСПОРТ и второй документ на выбор: в/у, СНИЛС, загран. паспорт, ИНН </li>
+                                </ul>
+                            </li>
+                        </div>
+                       <div class="card__tactical">
+                        <li class="card__list__item"> 
+                            <ul class="card">
+                                <li class="card__item icon"><img src="../static/icons/acc.png" alt=""></li>
+                                <li class="credit__conditions__card__title">Возраст</li>
+                                <li class="card__item__desc">от 18 до 85 лет</li>
+                            </ul>
+                        </li>
+                       </div>
+                       <div class="card__tactical">
+                        <li class="card__list__item"> 
+                            <ul class="card">
+                                <li class="card__item icon"><img src="../static/icons/flag.png" alt=""></li>
+                                <li class="credit__conditions__card__title">Гражданство</li>
+                                <li class="card__item__desc">Российская Федерация</li>
+                            </ul>
+                        </li>
+                       </div>
+                       <div class="card__tactical">
+                        <li class="card__list__item"> 
+                            <ul class="card">
+                                <li class="card__item icon"><img src="../static/icons/world.png" alt=""></li>
+                                <li class="credit__conditions__card__title">Постоянная/временная регистрация</li>
+                                <li class="card__item__desc">срок действия регистрации не должен закончиться ранее срока кредита</li>
+                            </ul>
+                        </li>
+                       </div>
+                        <div class="card__tactical">
+                            <li class="card__list__item"> 
+                                <ul class="card">
+                                    <li class="card__item icon"><img src="../static/icons/work.png" alt=""></li>
+                                    <li class="credit__conditions__card__title">Стаж</li>
+                                    <li class="card__item__desc">не менее 3х месяцев</li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="card__tactical">
+                            <li class="card__list__item"> 
+                                <ul class="card">
+                                    <li class="card__item icon"><img src="../static/icons/work.png" alt=""></li>
+                                    <li class="credit__conditions__card__title">Срок кредитования</li>
+                                    <li class="card__item__desc">От 6 месяцев до 7 лет</li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                    <p class="card__desc">К сожалению, банки не кредитуют данные регионы: Магаданская область, Республика Дагестан, 
+                        Карачаево-Черкесская Республика, 
+                        Республика Ингушетия, Республика Северная Осетия, Республика Кабардино-Балкария, Чеченская Республика.</p>
+                </div>
+            </div>
+            <div class="container_site">
+                <h2 class="banks">Банки-партнеры</h2>
+                <ul class="bank__logo__content">
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                                <img src="../static/icons/vtb.png" alt="" class="bank__logo">
+                            <p class="bank__title">Банк ВТБ</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций No 1000. Получена 08.07.2015.</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/Bank_ZENIT.png" alt="" class="bank__logo">
+                            <p class="bank__title">Зенит</p>
+                            <p class="bank__license">Лицензия на осуществление банковских операций № 3255 от 16.12.2014 г.</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/sovcombank-330x150.png" alt="" class="bank__logo">
+                            <p class="bank__title">Совком Банк</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (05.12.2014)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/unicreditbank-logo-t.png" alt="" class="bank__logo">
+                            <p class="bank__title">ЮниКредит Банк</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (22.12.2014)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/logo-bistrobank.png" alt="" class="bank__logo">
+                            <p class="bank__title">Быстро Банк</p>
+                            <p class="bank__license">Лицензия на осуществление банковских операций (26.02.2015)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/logo.png" alt="" class="bank__logo">
+                            <p class="bank__title">Сетелем</p>
+                            <p class="bank__license">Лицензия на осуществление банковских операций (27.06.2013)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/logo-2.png" alt="" class="bank__logo">
+                            <p class="bank__title">ЛокоБанк</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (14.09.2015)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/657ca779_resizedScaled_1020to573.jpg" alt="" class="bank__logo">
+                            <p class="bank__title">УралСиб Банк</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (10.09.2015)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/sprite.png" alt="" class="bank__logo">
+                            <p class="bank__title">Банк Союз</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (10.09.2015)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                        <svg width="158" height="30" viewBox="0 0 158 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 15.0027C0 6.72405 6.70808 0.0106477 14.9814 0V5.4197C9.7001 5.43035 5.4197 9.71606 5.4197 14.9973C5.4197 20.2893 9.71075 24.575 14.9974 24.575C20.2573 24.575 24.5803 20.3265 24.5803 14.9601L30 14.9654C30 23.2813 23.2813 30 14.9974 30C6.71873 30 0 23.2866 0 15.0027Z" fill="#222222"/>
+                                <path d="M8.38501 15.0027C8.38501 11.3293 11.3664 8.3479 15.0398 8.3479C18.7133 8.3479 21.6947 11.3293 21.6947 15.0027C21.6947 18.6762 18.7133 21.6576 15.0398 21.6576C11.3611 21.6576 8.38501 18.6762 8.38501 15.0027Z" fill="#222222"/>
+                                <path d="M19.6504 6.57507C19.6504 4.46682 21.3594 2.76318 23.4623 2.76318C25.5705 2.76318 27.2742 4.47215 27.2742 6.57507C27.2742 8.678 25.5652 10.387 23.4623 10.387C21.3594 10.387 19.6504 8.678 19.6504 6.57507Z" fill="#222222"/>
+                                <path d="M141.093 10.0993L140.625 12.4312C139.507 17.5102 139.092 19.1499 138.123 24.2023L137.91 24.3833L134.822 24.4738L134.673 24.2608L135.913 19.0594L136.275 17.3558C134.95 17.3292 133.629 17.3025 132.304 17.3025C131.271 17.3025 130.478 17.3185 129.674 17.3398C129.221 19.3842 128.843 21.1836 128.263 24.2076L128.05 24.3886L124.967 24.4791L124.818 24.2662L126.059 19.0647L126.543 16.7968C127.358 13.2298 127.512 12.4418 127.997 9.14637L128.21 8.93342C129.631 8.7524 129.961 8.69384 131.415 8.39038L131.564 8.60334L131.239 10.1047L130.77 12.4365L130.281 14.6512C131.393 14.6725 132.506 14.6938 133.619 14.6938C134.801 14.6938 135.573 14.6725 136.888 14.6459C137.308 12.7134 137.484 11.6592 137.857 9.14637L138.069 8.93342C139.491 8.7524 139.826 8.69384 141.274 8.39038L141.424 8.60334L141.093 10.0993Z" fill="#222222"/>
+                                <path d="M102.756 16.8925C102.969 16.0088 103.118 15.1303 103.118 14.2785C103.118 11.212 101.143 10.6956 100.02 10.6956C95.2495 10.6956 94.6426 18.1117 94.6426 19.235C94.6426 21.6681 96.1013 22.7328 97.7411 22.7328C100.994 22.7275 102.208 19.3841 102.756 16.8925ZM105.919 17.8349C105.248 20.4489 103.395 24.9742 97.6825 24.9742C93.6417 24.9742 91.4216 22.8766 91.4216 18.7452C91.4216 18.2129 91.4642 17.6166 91.5547 16.9937C91.5707 16.8393 91.592 16.6849 91.6186 16.5305C92.7153 9.68402 95.6807 3.1889 102.197 3.12502C103.07 3.11437 104.827 3.02386 106.025 2.7417L105.583 5.47817C104.38 5.78695 102.469 5.94667 101.356 5.95732C99.9718 5.97329 99.0135 6.49503 98.3533 7.13389C98.0233 7.448 97.773 7.78873 97.5707 8.10816C97.3737 8.41694 97.23 8.70443 97.1235 8.92271C97.9913 8.65119 98.9443 8.48083 100.02 8.48083C104.002 8.48083 106.371 10.7009 106.371 14.6192C106.371 15.6787 106.19 16.7701 105.919 17.8349Z" fill="#222222"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M118.579 20.4916C118.243 20.7631 117.913 21.0666 117.578 21.2795C116.79 21.764 115.762 21.9769 114.948 21.9769C112.196 21.9769 111.408 19.6504 111.408 18.197C111.408 18.0426 111.466 14.1455 114.644 11.9681C116.428 10.7595 118.392 10.701 119.393 10.701C119.846 10.701 120.304 10.7329 120.756 10.7329L118.579 20.4916ZM124.355 8.6992L124.206 8.45431L120.032 8.42236C117.253 8.42236 113.351 8.60338 110.534 11.8989C109.262 13.4108 108.117 16.0142 108.117 18.3993C108.117 22.1792 110.625 24.3567 113.713 24.3567C116.284 24.3567 117.615 23.2387 118.126 22.8128L117.913 24.0213L118.062 24.2343L120.905 24.1757L121.118 23.9627C121.725 20.3638 121.933 19.2138 122.992 14.5555L124.355 8.6992Z" fill="#222222"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M49.0328 16.2058C48.4632 18.8838 47.7977 19.6664 47.4676 20.0869C46.9565 20.7205 46.1739 21.2582 45.2742 21.2582C44.2839 21.2582 43.4694 20.779 43.1393 19.8154C43.0488 19.6078 42.9583 19.2138 42.9583 18.4951C42.9583 17.1109 43.5918 13.6823 44.7312 12.2076C45.0612 11.819 45.7853 10.9725 47.1961 10.9725C48.969 10.9725 49.331 12.5377 49.331 13.6504C49.331 14.5821 49.1819 15.4552 49.0328 16.2058ZM53.9627 17.3505C54.2023 16.3602 54.3514 15.3327 54.3514 14.3425C54.3514 12.5377 53.9894 10.8554 52.4561 9.47116C51.0399 8.2094 49.118 7.78882 47.2227 7.78882C39.402 7.78882 37.9272 15.0399 37.9272 17.803C37.9272 20.0603 38.5608 21.7107 39.8811 22.8554C41.3239 24.1171 43.4321 24.4206 44.9973 24.4206C47.2813 24.4206 49.2405 23.9414 50.9548 22.5253C52.5519 21.2316 53.4836 19.331 53.9627 17.3505Z" fill="#222222"/>
+                                <path d="M66.2451 11.9255H65.8991C65.6169 13.1234 65.2975 14.5129 64.8023 16.7276L64.3179 18.969C63.7748 21.5457 63.6843 22.1793 63.3489 24.2715L63.136 24.4206L57.8973 24.5431L57.7482 24.3301C58.6586 20.7844 58.8396 20.0923 59.718 16.2112L60.0534 14.7258C60.325 13.5013 60.4953 12.7028 60.6337 11.9521H60.4687L58.8396 11.9787L55.3258 12.1012L55.1768 11.8563L56.1776 8.31057L56.4225 8.15618H66.687L71.8937 8.06567L72.0748 8.24669L71.1058 11.819L70.8609 12.032L67.8955 11.9095H66.2451V11.9255Z" fill="#222222"/>
+                                <path d="M84.1012 11.8829L78.3727 11.9309C78.3727 11.9309 77.6593 14.2201 77.0364 16.7703C76.4135 19.3204 75.7054 22.1527 75.2848 24.245L75.0666 24.394L70.1633 24.5165L70.0195 24.3035C71.0683 20.7578 71.276 20.0657 72.3088 16.1846L72.7028 14.6993C73.0328 13.4215 73.2085 12.607 73.4108 11.8297L74.268 8.28401L74.5022 8.13494H84.4153L89.622 8.04443L89.8137 8.22545C89.8137 8.22545 88.8075 13.15 88.1793 16.4987C87.551 19.8475 86.827 24.2397 86.827 24.2397L86.6194 24.3887L81.5085 24.4952L81.3487 24.2822C82.158 20.7578 82.7383 18.1758 83.1748 16.1633C83.6167 14.1616 83.9148 12.7454 84.1012 11.8829Z" fill="#222222"/>
+                                <path d="M147.227 15.0292C147.945 14.401 148.371 14.0071 149.361 13.0434C150.421 12.0159 152.992 9.354 153.477 8.83759L153.807 8.65657H157.283L157.374 8.92809C157.07 9.19961 156.921 9.32206 155.713 10.3496C155.228 10.7435 154.925 11.047 154.35 11.5581L150.421 15.189L155.106 24.1118L154.925 24.3567L151.571 24.4472L151.326 24.2662C150.538 22.3922 150.325 21.9662 149.239 19.7622L147.12 15.4658C146.455 18.4418 146.045 20.3158 145.299 24.2076L145.086 24.3886L142.004 24.4791L141.855 24.2662L143.095 19.0647L143.58 16.7968C144.394 13.2298 144.549 12.4418 145.033 9.14637L145.246 8.93342C146.668 8.7524 146.998 8.69384 148.451 8.39038L148.6 8.60334L148.275 10.1047L147.807 12.4365L147.227 15.0292Z" fill="#222222"/>
+                            </svg>
+                            <p class="bank__title">ОПТ Банк</p>
+                            <p class="bank__license">Генеральная лицензия на осуществление банковских операций (27.11.2014)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/c175b927bcce4b782b0d1bf668e75dd8.png" alt="" class="bank__logo">
+                            <p class="bank__title">ЭкспоБанк</p>
+                            <p class="bank__license">Универсальная лицензия на осуществление банковских операций (09.08.2021)</p>   
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/tinkoff.png" alt="" class="bank__logo">
+                            <p class="bank__title">Тинькофф</p>
+                            <p class="bank__license">Лицензия на осуществление банковских операций (24.03.2015)</p>  
+                        </div>
+                    </li>
+                    <li class="bank__logo__item">
+                        <div class="bank__container__card">
+                            <img src="../static/icons/creditEU.png" alt="" class="bank__logo">
+                            <p class="bank__title">Кредит ЕвропаБанк</p>
+                            <p class="bank__license">Универсальная лицензия на осуществление банковских операций (03.09.2019)</p>   
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="container_site">
+                <div class="wrapper__footer">
+                    <div class="footer__logo_container">
+                        <a class="footer__logo" href="index.html"><img src="../static/images/logo.png" alt="company_logo" class="footer__logo"></a>
+                    </div>
+                    <a href="tel: +7 (846) 215-07-58" class="mobile_phone_btn hidden__adapt"><svg class="hidden__adapt" width="35" height="37" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.363 3.33006L26.928 0.854078C26.2288 0.585624 25.4647 0.947113 25.1171 1.70458L21.4824 9.71205C21.1644 10.4127 21.279 11.2863 21.7667 11.8396L25.324 15.9302C22.6374 21.3931 18.3225 25.718 13.1819 27.9257L10.3784 23.0905C9.99402 22.4282 9.28956 22.1442 8.64829 22.3913L1.31949 25.215C0.618709 25.4932 0.183646 26.3164 0.286732 27.1738L1.23996 35.0654C1.33943 35.8849 1.90327 36.5287 2.61654 36.6038C18.7818 38.3071 33.0254 24.2631 34.4107 5.19346C34.4712 4.36079 34.0375 3.58842 33.363 3.33006Z" fill="#47A0ED"/>
+                        </svg>
+                    </a>
+                    <div class="adress">
+                        <ul class="info">
+                            <li class="info__item__title">Марки а/м</li>
+                            <li><a href="./pages/catalogPageGeely.html" class="info__item">Geely</a></li>
+                            <li><a href="./pages/catalogPageHaval.html" class="info__item">Haval</a></li>
+                            <li><a href="./pages/catalogPageChery.html" class="info__item">Ghery</a></li>
+                            <li><a href="./pages/catalogPageGWM.html" class="info__item">GWM</a></li>
+                            <li><a href="./pages/catalogPageExeed.html" class="info__item">Exeed</a></li>
+                            <li><a href="./pages/catalogPageChangan.html" class="info__item">Changan</a></li>
+                            <li><a href="./pages/catalogPageFaw.html" class="info__item">Faw</a></li>
+                            <li><a href="./pages/catalogPageJac.html" class="info__item">Jac</a></li>
+                        </ul> 
+                        <ul class="info">
+                            <li class="info__item__title">Покупателям</li>
+                            <li><a href="./pages/card__auto.html" class="info__item">Новые авто</a></li>
+                            <li><a href="./pages/service.html" class="info__item">Сервис</a></li>
+                            <li><a href="./pages/stocks.html" class="info__item">Акции</a></li>
+                            <li><a href="#" class="info__item">Трейд-ин</a></li>
+                        </ul>
+                        <ul class="info">
+                            <li class="info__item__title">Про компанию</li>
+                            <li><a href="./pages/feedback.html" class="info__item">Отзывы</a></li>
+                            <li><a href="./pages/news.html" class="info__item">Новости</a></li>
+                            <li><a href="#" class="info__item">О нас</a></li>
+                            <li><a href="#" class="info__item">Контакты</a></li>
+                        </ul>
+                        <ul class="addr">
+                            <li class="addr__item">г. Самара, Аэропортовское шоссе 1Ж</li>
+                            <li class="addr__item">пос. Тимофеевка (г. Тольятти), ул. Солнечная 1А</li>
+                            <li class="addr__item">г. Самара, Южное шоссе 12а, строение 4</li>
+                            <li class="addr__item">г. Самара, ул. Алма-Атинская 87</li>
+                            <li class="addr__item">г. Самара, Карла-Маркса 412Б (кузовной ремонт)</li>
+                        </ul>
+                    </div>
+                    <div class="wrapper__phone__footer">
+                        <a href="tel: +7 (846) 215-07-58" class="phone__footer"><img src="../static/icons/phone.svg" alt="" class="phone__icon">+7 (846) 215-07-58</a>
+                        <a href="#" class="rev__phone__footer"><p class="text__phone__footer footer__open__js">Заказать звонок</p></a>
+                        <div class="work__detail">
+                            <p class="work__title">График работы (без выходных)</p>
+                            <p class="work__saloon">Автосалон: пн-вс 09:00-21:00</p>
+                            <p class="work__tech">СТО: пн-вс 08:00-20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="popup_overlay"></div>
+        <div class="popup__container">
+            <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
+                <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+                <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
+                <h2 class="popup_drive">Заявка на обратный звонок</h2>
+                <div class="popup_cont">
+                    <div class="field_name">
+                        <label for="drive__name" class="label__popup">Имя*</label>
+                        <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_phone">
+                            <label for="drive__phone" class="label__popup">Телефон*</label>
+                            <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_calendar">
+                            <label for="drive__calendar" class="label__popup">Выберите день*</label>
+                            <input type="date" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox_popup">
+                    <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
+                    <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                </div>
+                <div class="popup__btm__submit">
+                    <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+        <div class="thanks__container">
+            <section class="thanks__popup thanks">
+                <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
+                <div class="thanks__content">
+                    <p class="thanks_title">Заявка отправлена</p>
+                    <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+                </div>
+            </section>
+        </div>
+</body>
+<script src="../script/just-validate.min.js"></script>
+<script src="../script/inputmask.min.js"></script>
+<script src="../script/changeModel.js"></script>
+<script src="../script/burger.js"></script>
+<script src="../script/popup.js"></script>
+<script src="../script/paint.js"></script>
+<script src="../script/thanks.js"></script>
+<script src="../script/footerPopup.js"></script>
+<script src="../script/app.js"></script>
+</html>

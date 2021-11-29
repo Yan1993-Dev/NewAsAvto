@@ -211,15 +211,12 @@ nav ul li {
 
 .title__tabs {
     margin-top: 50px;
-}
-
-.title__tabs {
     text-align: center;
 }
 
 .tabs {
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 .sub__tabs {
@@ -249,6 +246,7 @@ button .tabs__nav-btn:active {
     padding: 20px;
     font-size: 20px;
     background-color: #fff;
+    border-radius: 10px;
     border: 0;
 }
 
@@ -264,11 +262,12 @@ button .tabs__nav-btn:active {
 .tabs__nav-btn:hover {
     transition: 0.3s;
     background-color: #ddd;
+    border-radius: 10px;
 }
 
 .tabs__nav-btn.active {
-    color: #fff;
     background-color: #cafdff;
+    border-radius: 10px;
 }
 .tabs__nav-btn:checked {
     background-color: #2098D1;
@@ -434,7 +433,8 @@ label {
 }
 
 .color__js {
-    background-color: #47A0ED;
+    background-color: #cce3fc;
+    border-radius: 10px;
 }
 
 .sub-tabs-container {
