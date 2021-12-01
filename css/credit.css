@@ -172,7 +172,7 @@
 /* стили для выпадающего списка */
 nav ul li {
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
   nav ul li:hover > ul {
@@ -181,7 +181,7 @@ nav ul li {
   }
   nav ul li {
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
   nav ul li a {
@@ -192,7 +192,6 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.1);
   }
   nav ul ul li {
     float: none;
@@ -202,7 +201,9 @@ nav ul li {
     color: #fff;
     padding: 10px;
     background-color: #47A0ED;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    margin-right: -20px;
+    border-radius: 10px;
   }
   nav ul ul ul {
     position: absolute;
@@ -210,15 +211,21 @@ nav ul li {
 
 .background {
     background-image: url(../static/images/test__four.jpg);
-    padding: 40px 40px 220px 40px;
+    padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 60%;
 }
 
 .poster__container {
     display: flex;
     margin-top: 30px;
+}
+
+.colors__poster {
+    background-color: rgba(151, 178, 250, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .title__poster__text {
@@ -239,14 +246,14 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .offer__item {
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255);
     width: 390px;
     text-align: center;
 }
@@ -323,11 +330,6 @@ button .tabs__nav-btn:active {
     background-color: #fff;
     border-radius: 10px;
     border: 0;
-}
-
-.sub__tabs__item:hover {
-    transition: 0.3s;
-    background-color: #ddd;
 }
 
 .tabs__nav-btn:last-child {
@@ -507,6 +509,10 @@ label {
     cursor: pointer;
 }
 
+.label__traid-in {
+    opacity: 0.7;
+}
+
 .color__js {
     background-color: #cce3fc;
     border-radius: 10px;
@@ -515,6 +521,7 @@ label {
 .sub-tabs-container {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
   
   .tab-radio {
@@ -546,6 +553,11 @@ label {
   }
   
 
+  .active {
+      background-color: #91cfeb81;
+      transition: 0.8s;
+  }
+
 .card__container {
     margin-top: 40px;
 }
@@ -566,21 +578,21 @@ label {
 
 .card__list__item {
     margin-bottom: 20px;
-    background-color: #5697e7;
+    background-color: #6caeff;
     border-radius: 15px;
-    padding: 32px;
+    padding: 15px;
     height: 200px;
     width: 350px;
 }
 
 .icon {
     text-align: left;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .credit__conditions__card__title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
     text-align: right;
@@ -691,6 +703,7 @@ label {
     width: 312px;
     height: 57px;
     margin-top: 20px;
+    letter-spacing: 1px;
 }
 
 
@@ -710,7 +723,9 @@ label {
     font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .special__desc {
@@ -728,8 +743,7 @@ label {
 
 .allpy__list__img {
     margin-right: 20px;
-    width: 50px;
-    height: 50px;
+    width: 75px;
 }
 
 .model__container {
@@ -750,12 +764,13 @@ label {
 
 .container__model__view {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .model__visual__container {
     display: flex;
     flex-direction: column;
+    margin-left: 155px;
 }
 
 .model__img {
@@ -763,12 +778,25 @@ label {
     margin-bottom: 50px;
 }
 
-.model__est {
+.model__list {
     display: flex;
-    align-items: baseline;
-    font-size: 14px;
-    line-height: calc(20/14);
-    font-weight: 600;
+    flex-direction: column;
+}
+
+.model__list__item {
+    display: flex;
+    align-items: center;
+}
+
+.icon__model {
+    max-width: 75px;
+}
+
+.model__est {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: calc(22/16);
+    font-weight: 500;
 }
 
 .container__descrip {
@@ -779,7 +807,72 @@ label {
 .instructor__desc {
     font-size: 18px;
     line-height: calc(26/18);
-    margin-bottom: 10px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.number__est__one {
+    position: relative;
+}
+
+.number__est__one::before {
+    content: '';
+    background-image: url(../static/icons/number__one.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    margin-left: -45px;
+}
+
+.number__est__two {
+    position: relative;
+}
+
+.number__est__two::before {
+    content: '';
+    background-image: url(../static/icons/number__two.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    margin-left: -45px;
+}
+
+.number__est__three {
+    position: relative;
+}
+
+.number__est__three::before {
+    content: '';
+    background-image: url(../static/icons/number__three.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    margin-left: -45px;
+}
+
+.number__est__four {
+    position: relative;
+}
+
+.number__est__four::before {
+    content: '';
+    background-image: url(../static/icons/number__four.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    margin-left: -45px;
+}
+
+.number__est {
+    width: 50px;
+    margin-right: 20px;
 }
 
 .banks {
@@ -1128,8 +1221,8 @@ footer {
 
 .thanks {
     display: none;
-    Width: 300px;
-    Height: 200px;
+    Width: 400px;
+    Height: 300px;
     top: 250px;
     position: fixed;
     border-radius: 10px;
@@ -1163,7 +1256,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 255px;
+    margin-left: 355px;
     padding-bottom: 27px;
     z-index: 15;
     cursor: pointer;
@@ -1171,9 +1264,9 @@ footer {
 
 .thanks_title {
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .thanks_request__btn:hover {
@@ -1183,7 +1276,7 @@ footer {
 
 .thanks_app {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* стили для открытия попапа */

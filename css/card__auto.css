@@ -1306,12 +1306,11 @@ nav ul li {
 
 
 /* окно об отправке формы, что всё успешно */
-
 .thanks {
     display: none;
-    Width: 300px;
-    Height: 200px;
-    top: 150px;
+    Width: 400px;
+    Height: 300px;
+    top: 250px;
     position: fixed;
     border-radius: 10px;
     background-color:#3482C6;
@@ -1322,6 +1321,7 @@ nav ul li {
     border-radius: 10px;
     z-index: 15;
 }
+
 
 .thanks__container {
     display: -webkit-box;
@@ -1343,7 +1343,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 255px;
+    margin-left: 355px;
     padding-bottom: 27px;
     z-index: 15;
     cursor: pointer;
@@ -1351,9 +1351,9 @@ nav ul li {
 
 .thanks_title {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .thanks_request__btn:hover {
@@ -1363,7 +1363,7 @@ nav ul li {
 
 .thanks_app {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* стили для открытия попапа */

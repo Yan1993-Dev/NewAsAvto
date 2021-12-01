@@ -172,7 +172,7 @@
 /* стили для выпадающего списка */
 nav ul li {
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
   nav ul li:hover > ul {
@@ -181,7 +181,7 @@ nav ul li {
   }
   nav ul li {
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
   nav ul li a {
@@ -192,7 +192,6 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0.1);
   }
   nav ul ul li {
     float: none;
@@ -202,7 +201,9 @@ nav ul li {
     color: #fff;
     padding: 10px;
     background-color: #47A0ED;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    margin-right: -20px;
+    border-radius: 10px;
   }
   nav ul ul ul {
     position: absolute;
@@ -1085,8 +1086,8 @@ footer {
 
 .thanks {
     display: none;
-    Width: 300px;
-    Height: 200px;
+    Width: 400px;
+    Height: 300px;
     top: 250px;
     position: fixed;
     border-radius: 10px;
@@ -1120,7 +1121,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 255px;
+    margin-left: 355px;
     padding-bottom: 27px;
     z-index: 15;
     cursor: pointer;
@@ -1128,9 +1129,9 @@ footer {
 
 .thanks_title {
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .thanks_request__btn:hover {
@@ -1140,7 +1141,7 @@ footer {
 
 .thanks_app {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* стили для открытия попапа */
@@ -1154,31 +1155,6 @@ footer {
     opacity: .3;
     z-index: 15;
 }
-
-#yamap, #map{height:200px;margin-bottom:300px}
-.map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;-ms-transform:none;transform:none;top:70%}
-.map .contacts_block .name{font-size:12px}
-.map .contacts_block .items{font-size:11px}
-.map .contacts_block li.visible .items{margin:5px 0 20px}
-.test-drive+.map{margin-top:-40px}
-.map{position:relative;padding:0;margin-top:30px}
-.map .contacts_block{position:absolute;z-index:9;padding:40px;background-color:#fff;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:370px;-webkit-box-shadow:0 0 10px rgba(0,0,0,.15);box-shadow:0 0 10px rgba(0,0,0,.15);border-radius:2px;font-weight:400;margin-left:90px}
-.map .contacts_block ul{padding-left:18px}
-.map .contacts_block .title{font-weight:700;margin-bottom:30px}
-.map .contacts_block .name{font-size:14px;color:#494949;cursor:pointer}
-.map .contacts_block .name:hover{font-weight:400;color:#241010}
-.map .contacts_block li{margin:10px 0}
-.map .contacts_block li::before{content:'';display:block;width:8px;height:8px;background-image:url(../static/images/arrow-b.svg);margin-left:-18px;margin-right:10px;margin-bottom:-15px}
-.map .contacts_block .items{font-size:12px;font-weight:400;text-decoration:none;max-height:0;overflow:hidden;-webkit-transition:max-height .3s;-o-transition:max-height .3s;transition:max-height .3s}
-.map .contacts_block .items .item{padding-left:23px;margin:8px 0}
-.map .contacts_block .items .item::before{content:'';display:inline-block;width:13px;height:13px;margin-left:-23px;margin-right:10px;background-size:contain;background-position:center;background-repeat:no-repeat;vertical-align:middle}
-.map .contacts_block .items .item.addr::before{background-image:url(../static/images/map.svg)}
-.map .contacts_block .items .item.tel::before{background-image:url(../static/images/phone.svg)}
-.map .contacts_block .items .item.site::before{background-image:url(../static/images/site.svg)}
-.map .contacts_block li.visible .items{max-height:100px;margin:10px 0 25px}
-.map .contacts_block li.visible .name{font-weight:500;text-decoration:underline;color:#241010}
-.map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
-.map+footer{margin-top:0}
 
 @media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
@@ -1852,7 +1828,7 @@ footer {
 
 @media (min-width: 420px) and (max-width: 660px) {
     .container_site {
-        max-width: 600px;
+        max-width: 500px;
         margin: 0 auto;
         padding: 0 2px;
     }

@@ -52,3 +52,28 @@ textarea {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+#yamap, #map{height: 557px;}
+.map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;-ms-transform:none;transform:none;top:70%}
+.map .contacts_block .name{font-size:12px}
+.map .contacts_block .items{font-size:11px}
+.map .contacts_block li.visible .items{margin:5px 0 20px}
+.test-drive+.map{margin-top:-40px}
+.map{position:relative;padding:0;margin-top:30px}
+.map .contacts_block{position:absolute;z-index:9;padding:40px;background-color:#fff;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:370px;-webkit-box-shadow:0 0 10px rgba(0,0,0,.15);box-shadow:0 0 10px rgba(0,0,0,.15);border-radius:2px;font-weight:400;margin-left:90px}
+.map .contacts_block ul{padding-left:18px}
+.map .contacts_block .title{font-weight:700;margin-bottom:30px}
+.map .contacts_block .name{font-size:14px;color:#494949;cursor:pointer}
+.map .contacts_block .name:hover{font-weight:400;color:#241010}
+.map .contacts_block li{margin:10px 0}
+.map .contacts_block li::before{content:'';display:block;width:8px;height:8px;background-image:url(../static/images/arrow-b.svg);margin-left:-18px;margin-right:10px;margin-bottom:-15px}
+.map .contacts_block .items{font-size:12px;font-weight:400;text-decoration:none;max-height:0;overflow:hidden;-webkit-transition:max-height .3s;-o-transition:max-height .3s;transition:max-height .3s}
+.map .contacts_block .items .item{padding-left:23px;margin:8px 0}
+.map .contacts_block .items .item::before{content:'';display:inline-block;width:13px;height:13px;margin-left:-23px;margin-right:10px;background-size:contain;background-position:center;background-repeat:no-repeat;vertical-align:middle}
+.map .contacts_block .items .item.addr::before{background-image:url(../static/images/map.svg)}
+.map .contacts_block .items .item.tel::before{background-image:url(../static/images/phone.svg)}
+.map .contacts_block .items .item.site::before{background-image:url(../static/images/site.svg)}
+.map .contacts_block li.visible .items{max-height:100px;margin:10px 0 25px}
+.map .contacts_block li.visible .name{font-weight:500;text-decoration:underline;color:#241010}
+.map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
+.map+footer{margin-top:0}

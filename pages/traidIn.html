@@ -111,59 +111,95 @@
         </nav>
         <main>
             <div class="background">
-                <ul class="offer">
-                    <li class="offer__item">0 руб. оценка автомобиля</li>
-                    <li class="offer__item">Время оценки 15 минут</li>
-                    <li class="offer__item">100 000 р. доп. выгода при покупке в кредит</li>
-                    <li class=""><a href="#calculator" class="offer__rev text__phone" >Заявка на Traid-in</a></li>
-                </ul>
-            </div>
-            <div class="container_site">
-                <div class="title">
-                    <h1 class="text__title" id="calculator">Заявка на Trade-in</h1>
-                </div>
-                <div class="traid__in__position">
-                    <section class="form_traid-in">
-                        <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
-                            <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
-                            <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
-                            <div class="field">
-                                <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
-                                <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                <div class="poster__container">
+                    <div class="title__poster">
+                        <div class="colors__poster">
+                            <div class="color__poster">
+                                <p class="title__poster__text">Максимум возможностей, максимум выгоды — автокредит от АсАвто!</p>
+                                <p class="title__desc__poster">Для тех, кто ищет выгоду — отправьте заявку на кредит и получите персональные выгодные условия.</p>
                             </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
-                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
-                            </div>
-                            <div class="field">
-                                <label for="calc__name" class="label__traid-in">Ваше имя*</label>
-                                <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
-                            </div>
-                            <div class="field__wrapper">
-                                <div class="field">
-                                    <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
-                                </div>
-                            </div>
-                            <div class="checkbox__personal">
-                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
-                            </div>
-                            <div class="popup__btn__flex">
-                                <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
-                            </div>
-                        </form>
-                    </section>
+                        </div>
+                    </div>
+                    <ul class="offer">
+                        <li class="offer__item">Кредит без первого взноса</li>
+                        <li class="offer__item">Кредитная программа «Авторассрочка»</li>
+                        <li class="offer__item">Кредит без КАСКО и Страхования жизни</li>
+                        <li class="offer__item">Кредитная программа 60 дней без платежей</li>
+                        <li class=""><a href="#calculator" class="offer__rev text__phone">Получить кредит</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="container_site">
-                <div class="title"><h1 class="text__title">Требования к заемщикам</h1></div>
+                    <div class="title">
+                        <h1 class="text__title" id="calculator">Заявка на Trade-in</h1>
+                    </div>
+                    <div class="container__descrip">
+                        <div class="traid__in__position">
+                            <section class="form_traid-in">
+                                <h2 class="sub_title">
+                                    Заполните форму
+                                </h2>
+                                <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+                                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                                    <div class="field">
+                                        <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
+                                        <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                                    </div>
+                                    <div class="field">
+                                        <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
+                                        <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                                    </div>
+                                    <div class="field">
+                                        <label for="calc__name" class="label__traid-in">Ваше имя*</label>
+                                        <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="field__wrapper">
+                                        <div class="field">
+                                            <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                            <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox__personal">
+                                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
+                                        <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                    </div>
+                                    <div class="popup__btn__flex">
+                                        <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                        <ul class="instructor__container">
+                            <li><p class="title__est">Выполните 4 простых шага</p></li>
+                            <div class="steps">
+                                <li class="title__est number__est__one">Первый пункт</li>
+                                <li class="instructor__desc">Выберите марку</li>
+                            </div>
+                            <div class="steps">
+                                <li class="title__est number__est__two">Второй пункт</li>
+                                <li class="instructor__desc">Выберите модель</li>
+                            </div>
+                            <div class="steps">
+                                <li class="title__est number__est__three">Третий пункт</li>
+                                <li class="instructor__desc">Заполните форму</li>
+                            </div>
+                            <div class="steps">
+                                <li class="title__est number__est__four">Четвертый пункт</li>
+                                <li class="instructor__desc">Нажмите кнопку отправить</li>
+                            </div>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            <div class="container_site">
+                <div class="title"><h1 class="text__title">Преимущества программы Trade-in в АсАвто</h1></div>
                 <div class="card__container">
                     <ul class="card__list">
                         <div class="card__tactical">
                             <li class="card__list__item">
                                 <ul class="card">
-                                    <li class="card__item icon"><img src="../static/icons/dock.png" alt=""></li>
+                                    <li class="card__item icon"><img src="../static/icons/agreement.png" alt=""></li>
                                     <li class="credit__conditions__card__title">Документы</li>
                                     <li class="card__item__desc">ПАСПОРТ и второй документ на выбор: в/у, СНИЛС, загран. паспорт, ИНН </li>
                                 </ul>
@@ -172,7 +208,7 @@
                        <div class="card__tactical">
                         <li class="card__list__item"> 
                             <ul class="card">
-                                <li class="card__item icon"><img src="../static/icons/acc.png" alt=""></li>
+                                <li class="card__item icon"><img src="../static/icons/registration.png" alt=""></li>
                                 <li class="credit__conditions__card__title">Возраст</li>
                                 <li class="card__item__desc">от 18 до 85 лет</li>
                             </ul>
@@ -181,7 +217,7 @@
                        <div class="card__tactical">
                         <li class="card__list__item"> 
                             <ul class="card">
-                                <li class="card__item icon"><img src="../static/icons/flag.png" alt=""></li>
+                                <li class="card__item icon"><img src="../static/icons/russia.png" alt=""></li>
                                 <li class="credit__conditions__card__title">Гражданство</li>
                                 <li class="card__item__desc">Российская Федерация</li>
                             </ul>
@@ -190,16 +226,90 @@
                        <div class="card__tactical">
                         <li class="card__list__item"> 
                             <ul class="card">
-                                <li class="card__item icon"><img src="../static/icons/world.png" alt=""></li>
+                                <li class="card__item icon"><img src="../static/icons/placeholder.png" alt=""></li>
                                 <li class="credit__conditions__card__title">Постоянная/временная регистрация</li>
                                 <li class="card__item__desc">срок действия регистрации не должен закончиться ранее срока кредита</li>
                             </ul>
                         </li>
                        </div>
+                        <div class="card__tactical">
+                            <li class="card__list__item"> 
+                                <ul class="card">
+                                    <li class="card__item icon"><img src="../static/icons/working.png" alt=""></li>
+                                    <li class="credit__conditions__card__title">Стаж</li>
+                                    <li class="card__item__desc">не менее 3х месяцев</li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="card__tactical">
+                            <li class="card__list__item"> 
+                                <ul class="card">
+                                    <li class="card__item icon"><img src="../static/icons/dates.png" alt=""></li>
+                                    <li class="credit__conditions__card__title">Срок кредитования</li>
+                                    <li class="card__item__desc">От 6 месяцев до 7 лет</li>
+                                </ul>
+                            </li>
+                        </div>
                     </ul>
+                    <p class="card__desc">К сожалению, банки не кредитуют данные регионы: Магаданская область, Республика Дагестан, 
+                        Карачаево-Черкесская Республика, 
+                        Республика Ингушетия, Республика Северная Осетия, Республика Кабардино-Балкария, Чеченская Республика.</p>
                 </div>
             </div>
         </main>
+        <section class="map">
+            <div class="container">
+                <div class="contacts_block">
+                    <div class="title">Дилерские центры Chery</div>
+                    <ul class="list_unstyled">
+                        <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}'
+                            data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">
+                            <div class="name">Автосалон АсАвто на Алма-Атинской</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Алма-Атинская, 87</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li data-coordinates='{"lat": 53.25195107740439, "lng": 50.36005176768642}' data-center='{"lat": 53.25195107740439, "lng": 50.346}'
+                            data-zoom="14">
+                            <div class="name">АсАвто на Аэропортовском шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Аэропортовское шоссе, 1Ж</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>                    
+                        <li data-coordinates='{"lat": 53.137290, "lng": 50.179647}' data-center='{"lat": 53.139475, "lng": 50.167675}' data-zoom="14">
+                            <div class="name">АсАвто на Южном шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Южное шоссе 12А, строение 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>            
+                        <li data-coordinates='{"lat": 53.578003950614864, "lng": 49.41344120138184}' data-center='{"lat": 53.578003950614864, "lng": 49.40}'
+                            data-zoom="14">
+                            <div class="name">АсАвто в пос.Тимофеевка (г. Тольятти)</div>
+                            <div class="items">
+                                <div class="item addr">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li  data-coordinates='{"lat": 51.557420, "lng": 46.066993}' data-center='{"lat": 51.557420, "lng": 46.052}' data-zoom="14">
+                            <div class="name">ГК АсАвто, г. Саратов</div>
+                            <div class="items">
+                                <div class="item addr">г. Саратов, Соколовая гора, 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="yamap"></div>
+        </section>
         <footer>
             <div class="container_site">
                 <div class="wrapper__footer">
@@ -294,12 +404,15 @@
             <section class="thanks__popup thanks">
                 <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
                 <div class="thanks__content">
-                    <p class="thanks_title">Заявка отправлена</p>
-                    <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+                    <p class="thanks_title">Заявка успешно отправлена</p>
+                    <p class="thanks_app">Мы получили Вашу заявку,
+                            наши сотрудники скоро свяжуться с вами.
+                              Будьте на связи!</p>
                 </div>
             </section>
         </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../script/just-validate.min.js"></script>
 <script src="../script/inputmask.min.js"></script>
 <script src="../script/changeModel.js"></script>
@@ -308,4 +421,6 @@
 <script src="../script/thanks.js"></script>
 <script src="../script/footerPopup.js"></script>
 <script src="../script/app.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7f013289-5438-4a62-907e-2403a22c712e" type="text/javascript"></script>
+<script src="../script/yMap.js"></script>
 </html>

@@ -444,12 +444,120 @@
                 <section class="thanks__popup thanks">
                     <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
                     <div class="thanks__content">
-                        <p class="thanks_title">Заявка отправлена</p>
-                        <p class="thanks_app">Наш менеджер свяжется с Вами</p>
+                        <p class="thanks_title">Заявка успешно отправлена</p>
+                        <p class="thanks_app">Мы получили Вашу заявку,
+                            наши сотрудники скоро свяжуться с вами.
+                              Будьте на связи!</p>
                     </div>
                 </section>
             </div>
         </main>
+        <section class="map">
+            <div class="container">
+                <div class="contacts_block">
+                    <div class="title">Дилерские центры Chery</div>
+                    <ul class="list_unstyled">
+                        <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}'
+                            data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">
+                            <div class="name">Автосалон АсАвто на Алма-Атинской</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Алма-Атинская, 87</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li data-coordinates='{"lat": 53.25195107740439, "lng": 50.36005176768642}' data-center='{"lat": 53.25195107740439, "lng": 50.346}'
+                            data-zoom="14">
+                            <div class="name">АсАвто на Аэропортовском шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Аэропортовское шоссе, 1Ж</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>                    
+                        <li data-coordinates='{"lat": 53.137290, "lng": 50.179647}' data-center='{"lat": 53.139475, "lng": 50.167675}' data-zoom="14">
+                            <div class="name">АсАвто на Южном шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Южное шоссе 12А, строение 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>            
+                        <li data-coordinates='{"lat": 53.578003950614864, "lng": 49.41344120138184}' data-center='{"lat": 53.578003950614864, "lng": 49.40}'
+                            data-zoom="14">
+                            <div class="name">АсАвто в пос.Тимофеевка (г. Тольятти)</div>
+                            <div class="items">
+                                <div class="item addr">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li  data-coordinates='{"lat": 51.557420, "lng": 46.066993}' data-center='{"lat": 51.557420, "lng": 46.052}' data-zoom="14">
+                            <div class="name">ГК АсАвто, г. Саратов</div>
+                            <div class="items">
+                                <div class="item addr">г. Саратов, Соколовая гора, 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="yamap"></div>
+        </section>
+        <section class="map">
+            <div class="container">
+                <div class="contacts_block">
+                    <div class="title">Дилерские центры Chery</div>
+                    <ul class="list_unstyled">
+                        <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}'
+                            data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">
+                            <div class="name">Автосалон АсАвто на Алма-Атинской</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Алма-Атинская, 87</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li data-coordinates='{"lat": 53.25195107740439, "lng": 50.36005176768642}' data-center='{"lat": 53.25195107740439, "lng": 50.346}'
+                            data-zoom="14">
+                            <div class="name">АсАвто на Аэропортовском шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Аэропортовское шоссе, 1Ж</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>                    
+                        <li data-coordinates='{"lat": 53.137290, "lng": 50.179647}' data-center='{"lat": 53.139475, "lng": 50.167675}' data-zoom="14">
+                            <div class="name">АсАвто на Южном шоссе</div>
+                            <div class="items">
+                                <div class="item addr">г. Самара, Южное шоссе 12А, строение 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>            
+                        <li data-coordinates='{"lat": 53.578003950614864, "lng": 49.41344120138184}' data-center='{"lat": 53.578003950614864, "lng": 49.40}'
+                            data-zoom="14">
+                            <div class="name">АсАвто в пос.Тимофеевка (г. Тольятти)</div>
+                            <div class="items">
+                                <div class="item addr">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                        <li  data-coordinates='{"lat": 51.557420, "lng": 46.066993}' data-center='{"lat": 51.557420, "lng": 46.052}' data-zoom="14">
+                            <div class="name">ГК АсАвто, г. Саратов</div>
+                            <div class="items">
+                                <div class="item addr">г. Саратов, Соколовая гора, 4</div>
+                                <div class="item tel"><a href="tel:+78462151228">+7 (8462) 15-12-28</a></div>
+                                <div class="item site"><a href="https://asavto.chery.ru/">https://asavto.chery.ru/</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="yamap"></div>
+        </section>
         <footer>
             <div class="container_site">
                 <div class="wrapper__footer">
@@ -518,4 +626,6 @@
 <script src="../script/popup.js"></script>
 <script src="../script/footer__popup.js"></script>
 <script src="../script.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7f013289-5438-4a62-907e-2403a22c712e" type="text/javascript"></script>
+<script src="../script/yMap.js"></script>
 </html>
