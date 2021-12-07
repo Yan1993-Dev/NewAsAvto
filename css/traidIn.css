@@ -287,6 +287,7 @@ footer {
 .poster__container {
     display: flex;
     margin-top: 30px;
+    justify-content: space-around;
 }
 
 .colors__poster {
@@ -427,11 +428,19 @@ footer {
 .instructor__desc {
     font-size: 18px;
     line-height: calc(26/18);
+    
+}
+
+.traid__in__position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .steps {
     display: flex;
     flex-direction: column;
+    width: 390px;
 }
 
 .number__est__one {
@@ -483,6 +492,21 @@ footer {
 .number__est__four::before {
     content: '';
     background-image: url(../static/icons/number__four.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    position: absolute;
+    margin-left: -45px;
+}
+
+
+.number__est__five {
+    position: relative;
+}
+
+.number__est__five::before {
+    content: '';
+    background-image: url(../static/icons/number__five.png);
     width: 35px;
     height: 35px;
     background-size: cover;
@@ -988,7 +1012,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1266,7 +1290,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1530,7 +1554,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1883,7 +1907,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }

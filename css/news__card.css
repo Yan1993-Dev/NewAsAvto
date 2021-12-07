@@ -914,7 +914,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1247,7 +1247,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1532,7 +1532,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }

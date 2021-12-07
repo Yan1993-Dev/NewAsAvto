@@ -1460,7 +1460,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1856,7 +1856,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -2238,6 +2238,7 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                margin-top: 400px;
     }
 
     .footer__section {
@@ -2283,7 +2284,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -2322,7 +2323,7 @@ footer {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -2356,6 +2357,7 @@ footer {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__mobile_btn:hover {
@@ -2547,7 +2549,7 @@ footer {
     }
 
     .credit_calc {
-        width: 275px;
+        width: 360px;
         height: 495px;
         margin-bottom: 20px;
     }
@@ -2561,7 +2563,7 @@ footer {
     }
 
     .input__credit {
-        width: 230px;
+        width: 300px;
     }
 
     .checkbox__credit {
@@ -2664,10 +2666,6 @@ footer {
     }
 
     .wrapper__footer {
-        font-size: 12px;
-    }
-
-    .wrapper__footer {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -2675,6 +2673,8 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                font-size: 12px;
+                margin-top: 450px;
     }
 
     .footer__section {

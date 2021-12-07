@@ -220,6 +220,7 @@ nav ul li {
 .poster__container {
     display: flex;
     margin-top: 30px;
+    justify-content: space-around;
 }
 
 .colors__poster {
@@ -572,23 +573,24 @@ label {
     color: #fff;
 }
 
-.card {
-    text-align: center;
-}
-
 .card__list__item {
     margin-bottom: 20px;
-    background-color: #6caeff;
-    border-radius: 15px;
-    padding: 15px;
+    border: 15px solid #6caeff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
     height: 200px;
     width: 350px;
 }
 
+.card {
+    text-align: center;
+    border-radius: 15px;
+}
+
 .icon {
     text-align: left;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 60px;
 }
 
 .credit__conditions__card__title {
@@ -596,12 +598,14 @@ label {
     font-weight: 600;
     margin-bottom: 10px;
     text-align: right;
+    color: black;
 }
 
 .card__item__desc {
     font-size: 14px;
     text-align: right;
     opacity: 0.8;
+    color: black;
 }
 
 .card__desc {
@@ -616,7 +620,7 @@ label {
 
 .form_traid-in {
     width: 470px;
-    height: 540px;
+    height: 600px;
     background-color: #F8FAFD;
     border: 1px solid rgba(52, 130, 198, 0.1);
     -webkit-box-sizing: border-box;
@@ -1402,7 +1406,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1680,7 +1684,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1944,7 +1948,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -2297,7 +2301,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }

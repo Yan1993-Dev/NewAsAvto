@@ -14,6 +14,7 @@
     height: 38px;
     border: 0;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .header {
@@ -1181,6 +1182,26 @@ nav ul li {
     margin-top: 20px;
 }
 
+
+.title__popup {
+    display: none;
+    height: 547px;
+    max-width: 530px;
+    top: 100px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: #F8FAFD;
+    border: 1px solid rgba(52, 130, 198, 0.1);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.title__popup.opened {
+    display: block;
+}
+
 /* попап для заявки */
 
 
@@ -1247,6 +1268,7 @@ nav ul li {
     z-index: 11;
 }
 
+
 /* эффект нажатия на кнопку закрытия */
 .popup_request__btn:focus {
     opacity: .3;
@@ -1306,6 +1328,7 @@ nav ul li {
 
 
 /* окно об отправке формы, что всё успешно */
+
 .thanks {
     display: none;
     Width: 400px;
@@ -1508,81 +1531,6 @@ nav ul li {
     color: #000;
     cursor: pointer;
 }
-
-
-
-.thanks {
-    display: none;
-    Width: 300px;
-    Height: 200px;
-    top: 250px;
-    position: fixed;
-    border-radius: 10px;
-    background-color:#3482C6;
-    color: #fff;
-    border: 1px solid rgba(52, 130, 198, 0.1);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-radius: 10px;
-    z-index: 15;
-}
-
-
-.thanks__container {
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-
-.thanks_request__btn {
-    width: 19px;
-    height: 19px;
-    background-color: transparent;
-    background-image: url(../static/icons/X.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    margin-left: 255px;
-    padding-bottom: 27px;
-    z-index: 15;
-    cursor: pointer;
-}
-
-.thanks_title {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 10%;
-    margin-bottom: 10px;
-}
-
-.thanks_request__btn:hover {
-    opacity: .5;
-    z-index: 10;
-}
-
-.thanks_app {
-    text-align: center;
-    font-size: 14px;
-}
-
-/* стили для открытия попапа */
-
-.thanks_open {
-    display: block;
-    z-index: 60;
-}
-
-.thanks_request__btn:focus {
-    opacity: .3;
-    z-index: 15;
-}
-
 
 @media (min-width: 1240px) and (max-width: 1340px) {
     .container_site {
@@ -1789,7 +1737,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -2270,7 +2218,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -3106,7 +3054,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -3976,7 +3924,7 @@ nav ul li {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }

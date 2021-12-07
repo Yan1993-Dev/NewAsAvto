@@ -181,6 +181,84 @@ nav ul li {
     position: absolute;
   }
 
+  
+.background {
+    background-image: url(../static/images/test__four.jpg);
+    padding: 40px 40px 100px 40px;
+    margin-top: -2px;
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+.poster__container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.colors__poster {
+    background-color: rgba(151, 178, 250, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title__poster__text {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 20px;
+}
+
+.title__desc__poster {
+    font-size: 18px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10%;
+}
+
+.offer__item {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255);
+    width: 390px;
+    text-align: center;
+}
+
+.text__title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    background-color: #DDDDDD;
+}
+
+.offer__rev {
+    text-align: center;
+    padding: 22px;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 17px;
+    background: #009bd8;
+    width: 300px;
+    height: 60px;
+}
+
 .title__cont {
     display: flex;
     align-items: center;
@@ -236,7 +314,7 @@ nav ul li {
     line-height: calc(32/18);
 }
 
-.background {
+.background__fos {
     padding: 40px 0;
     background-image: linear-gradient(black,
     transparent 80%,
@@ -1215,7 +1293,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1583,7 +1661,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }
@@ -1946,7 +2024,7 @@ footer {
         display: none;
     }
 
-    .addr {
+    .addr__list {
         text-align: center;
         margin-top: 10px;
     }

@@ -77,3 +77,15 @@ textarea {
 .map .contacts_block li.visible .name{font-weight:500;text-decoration:underline;color:#241010}
 .map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
 .map+footer{margin-top:0}
+
+@media (max-width:767.98px) {
+    .map .contacts_block{margin-left:0}
+}
+
+@media (max-width:575.98px) {
+    #yamap, #map{height:200px;}
+    .map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;transform:none;top:100%}
+    .map .contacts_block .name{font-size:12px}
+    .map .contacts_block .items{font-size:11px}
+    .map .contacts_block li.active .items{margin:5px 0 20px}
+}
