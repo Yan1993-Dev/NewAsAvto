@@ -78,8 +78,12 @@ textarea {
 .map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
 .map+footer{margin-top:0}
 
+@media (max-width:905.98px) {
+    .map .contacts_block{margin-left:0; top: 140%;}
+}
+
 @media (max-width:767.98px) {
-    .map .contacts_block{margin-left:0}
+    .map .contacts_block{margin-left:0; top: 140%;}
 }
 
 @media (max-width:575.98px) {

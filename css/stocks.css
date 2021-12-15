@@ -20,7 +20,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 45px;
+    margin-bottom: -45px;
 }
 
 .header__mobile_btn {
@@ -125,8 +126,8 @@
 }
 
 .nav__item__link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 30px;
@@ -183,7 +184,7 @@ nav ul li {
 
   
 .background__poster {
-    background-image: url(../static/images/joli.jpg);
+    background-image: url(../static/images/sale__top.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -1001,6 +1002,10 @@ nav ul li {
         margin: 0 auto;
         padding: 0 20px;
     }
+
+    .nav__item__link {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1020px) and (max-width: 1261px) {
@@ -1050,7 +1055,7 @@ nav ul li {
     }
 }
 
-@media (min-width: 760px) and (max-width: 1020px) {
+@media (min-width: 920px) and (max-width: 1020px) {
     .container_site {
         max-width: 940px;
         padding: 0 20px;
@@ -1092,9 +1097,9 @@ nav ul li {
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
-        margin-right: 10px;
-        padding-right: 20px;
-        padding-left: 20px;
+        margin-right: 5px;
+        padding-right: 18px;
+        padding-left: 18px;
     }
 
     .model_catalog__title {
@@ -1295,6 +1300,7 @@ nav ul li {
     }
 
     .header {
+        margin-bottom: 10px;
         justify-content: center;
     }
 
@@ -1428,6 +1434,49 @@ nav ul li {
 
     .model_catalog__price {
         font-size: 14px;
+    }
+
+    
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        max-width: 200px;
+        padding: 16px;
+        height: 50px;
+    }
+    
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 10px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer {
+        margin-left: 0%;
+    }
+
+    .text__title {
+        font-size: 16px;
+    }
+    
+    .tabs__nav {
+        flex-wrap: wrap;
     }
 
     .flex__cont {
@@ -1570,6 +1619,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
+        margin-top: 450px;
     }
 
     .footer__section {
@@ -1643,6 +1693,7 @@ nav ul li {
     }
 
     .header {
+        margin-bottom: 10px;
         margin-left: 30px;
     }
     
@@ -1772,6 +1823,99 @@ nav ul li {
 
     .wrapper__phone__footer {
         padding-left: 0px;
+    }
+    
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        max-width: 200px;
+        padding: 16px;
+        height: 50px;
+    }
+    
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 10px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer {
+        margin-left: 0%;
+    }
+
+    .text__title {
+        font-size: 16px;
+    }
+    
+    .tabs__nav {
+        flex-wrap: wrap;
+    }
+
+    
+    .container__model__view {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .model__visual__container {
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .form_traid-in {
+        margin-top: 20px;
+        width: 310px;
+        height: 490px;
+    }
+
+    .model__img {
+        width: 250px;
+    }
+
+    .container__descrip {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .instructor__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        padding-left: 15%;
+    }
+
+    .sub_title {
+        font-size: 18px;
+    }
+
+    .label__traid-in {
+        font-size: 12px;
+    }
+    
+    .input__traid-in {
+        width: 295px;
+        font-size: 12px;
+        height: 40px;
     }
 
     .phone {
@@ -1905,19 +2049,18 @@ nav ul li {
         margin-bottom: 20px;
     }
 
-    .form_traid-in {
-        margin-top: 20px;
-        width: 360px;
-        height: 490px;
+    .content__item {
+        font-size: 14px;
     }
 
     .input__traid-in {
-        max-width: 235px;
+        max-width: 250px;
         font-size: 12px;
         height: 40px;
     }
 
     .checkbox__personal {
+        font-size: 14px;
         padding-left: 85px;
     }
 
@@ -1933,6 +2076,7 @@ nav ul li {
     .wrapper__footer {
         flex-direction: column;
         align-items: center;
+        margin-top: 420px;
     }
 
     .footer__section {

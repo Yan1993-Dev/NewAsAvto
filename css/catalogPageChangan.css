@@ -20,7 +20,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 45px;
+    margin-bottom: -45px;
 }
 
 .header__mobile_btn {
@@ -125,8 +126,8 @@
 }
 
 .nav__item__link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 30px;
@@ -319,7 +320,7 @@ nav ul li {
     background-image: linear-gradient(black,
     transparent 80%,
     transparent 20%,
-    black), url(../static/images/75__banner.jpg);
+    black), url(../static/images/Changan__poster.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -433,6 +434,7 @@ nav ul li {
 }
 
 .content_li {
+    max-width: 600px;
     padding: 50px ;
     background-color: rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 0px 0px 100px 20px rgba(166, 166, 166, 0.36);
@@ -664,7 +666,7 @@ nav ul li {
 }
 
 .seo__list-item::before {
-    content: url(../static/icons/arr.svg);
+    content: url(../static/icons/blue__arr.svg);
     margin-right: 5px;
 }
 
@@ -1008,6 +1010,7 @@ footer {
 }
 
 
+
 @media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
@@ -1053,6 +1056,10 @@ footer {
 
     .header__close__btn {
         display: none;
+    }
+
+    .nav__item__link {
+        font-size: 16px;
     }
 
     .mobile__header {
@@ -1108,9 +1115,9 @@ footer {
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
-        margin-right: 10px;
-        padding-right: 20px;
-        padding-left: 20px;
+        margin-right: 5px;
+        padding-right: 18px;
+        padding-left: 18px;
     }
 
     .model_catalog__title {
@@ -1128,6 +1135,11 @@ footer {
 
     .tabs__link__fl {
         margin-right: 40px;
+    }
+
+    .content_li {
+        max-width: 445px;
+        margin-right: 30px;
     }
 
     .flex__cont {
@@ -1346,6 +1358,7 @@ footer {
 
     .header {
         margin-left: 100px;
+        margin-bottom: 10px;
     }
 
     .nav {
@@ -1473,9 +1486,70 @@ footer {
         font-size: 14px;
     }
 
+
+    .text__title {
+        font-size: 16px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(20/14);
+    }
+    
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .offer__item {
+        width: 290px;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        padding: 15px;
+        width: 290px;
+        height: 50px;
+    }
+
+    .tabs__nav-btn {
+        padding: 10px 20px;
+        margin: 0px;
+        width: 110px;
+    }
+
+    .sub__tabs__item {
+        font-size: 14px;
+    }
+
+    .container__model__view {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .model__visual__container {
+        margin-left: 0px;
+    }
+
+    .container__descrip {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title__est {
+        font-size: 16px;
+    }
+
+    .special__desc {
+        font-size: 14px;
+    }
+
     .form_traid-in {
         width: 370px;
-        height: 495px;
+        height: 725px;
     }
 
     .sub_title {
@@ -1487,7 +1561,7 @@ footer {
     }
     
     .input__traid-in {
-        width: 245px;
+        width: 260px;
         font-size: 12px;
         height: 40px;
     }
@@ -1506,7 +1580,8 @@ footer {
     }
     
     .content_li {
-        margin-right: 10px;
+        max-width: 385px;
+        margin-right: 20px;
     }
 
     .title {
@@ -1617,12 +1692,10 @@ footer {
     }
 
     .wrapper__footer {
-        font-size: 12px;
-    }
-
-    .wrapper__footer {
         flex-direction: column;
         align-items: center;
+        margin-top: 450px;
+        font-size: 12px;
     }
 
     .footer__section {
@@ -1707,12 +1780,42 @@ footer {
         height: 100px;
     }
 
+    
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 10px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer {
+        margin-left: 0%;
+    }
+
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
     .tabs__link__fl {
         margin-right: 25px;
         margin-bottom: 10px;
     }
 
     .header {
+        margin-bottom: 10px;
         margin-left: 55px;
     }
 
@@ -1843,7 +1946,7 @@ footer {
     .form_traid-in {
         margin-top: 20px;
         width: 360px;
-        height: 490px;
+        height: 725px;
     }
 
     .sub_title {
@@ -1986,6 +2089,7 @@ footer {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
+        margin-top: 450px;
     }
 
     .footer__section {
@@ -2075,6 +2179,7 @@ footer {
     }
 
     .header {
+        margin-bottom: 10px;
         margin-left: 20px;
     }
 
@@ -2193,6 +2298,69 @@ footer {
         padding: 5px 5px; 
     }
 
+
+    
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 20px;
+    }
+    
+    .offer {
+        align-items: center;
+        margin-left: 0%;
+    }
+
+    .tabs__nav {
+        flex-wrap: wrap;
+    }
+
+    .container__descrip {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-tabs-container {
+        flex-wrap: wrap;
+    }
+
+    .model__container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .container__model__view {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sub__tabs__item {
+        font-size: 16px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+ 
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .offer__rev {
+        font-size: 12px;
+        max-width: 200px;
+        padding: 16px;
+        height: 50px;
+    }
+
     .tabs__link__fl {
         margin-right: 20px;
     }
@@ -2205,7 +2373,7 @@ footer {
     .form_traid-in {
         margin-top: 20px;
         width: 360px;
-        height: 490px;
+        height: 725px;
     }
 
     .sub__content {
@@ -2352,13 +2520,17 @@ footer {
         justify-content: center;
     }
 
-    .wrapper__footer {
-        font-size: 12px;
+
+    .content__item {
+        font-size: 14px;
     }
 
+
     .wrapper__footer {
+        font-size: 12px;
         flex-direction: column;
         align-items: center;
+        margin-top: 430px;
     }
 
     .footer__section {

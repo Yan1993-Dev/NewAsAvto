@@ -27,7 +27,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 50px;
+            margin-top: 45px;
+            margin-bottom: -45px;
 }
 
 .header__mobile_btn {
@@ -149,8 +150,8 @@
 }
 
 .nav__item__link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 30px;
@@ -518,6 +519,7 @@ footer {
     width: 50px;
     margin-right: 20px;
 }
+
 .title__est {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -1200,6 +1202,11 @@ footer {
                 flex-direction: column;
     }
 
+    .container__descrip {
+        align-items: center;
+        flex-direction: column;
+    }
+
     .model_catalog__title {
         font-size: 16px;
         padding-bottom: 5px;
@@ -1218,7 +1225,26 @@ footer {
         margin-bottom: 40px;
     }
 
+    .title__est {
+        font-size: 18px;
+    }
+
+    .instructor__desc {
+        font-size: 14px;
+    }
+
+    .form_traid-in {
+        width: 325px;
+    }
+
+    .input__traid-in {
+        width: 270px;
+    }
     
+    .checkbox__personal {
+        padding-left: 80px;
+    }
+
     .wrapper__footer {
         font-size: 12px;
         -webkit-box-orient: vertical;
@@ -1490,6 +1516,67 @@ footer {
     .special__est {
         margin-bottom: 40px;
     }
+    
+    .text__title {
+        font-size: 16px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(20/14);
+    }
+    
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .offer__item {
+        width: 290px;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        padding: 15px;
+        width: 290px;
+        height: 50px;
+    }
+
+    .tabs__nav-btn {
+        padding: 10px 20px;
+        margin: 0px;
+        width: 110px;
+    }
+
+    .sub__tabs__item {
+        font-size: 14px;
+    }
+
+    .container__model__view {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .model__visual__container {
+        margin-left: 0px;
+    }
+
+    .container__descrip {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title__est {
+        font-size: 16px;
+    }
+
+    .special__desc {
+        font-size: 14px;
+    }
+    
 
     .card__list {
         justify-content: center;
@@ -1507,6 +1594,7 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                margin-top: 420px;
     }
 
     .footer__section {
@@ -1742,11 +1830,50 @@ footer {
         height: 50px;
     }
     
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 10px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer {
+        margin-left: 0%;
+    }
     
     .form_traid-in {
         margin-top: 20px;
         width: 360px;
-        height: 490px;
+        height: 540px;
+    }
+
+    .model__img {
+        width: 250px;
+    }
+
+    .container__descrip {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .instructor__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        padding-left: 15%;
     }
 
     .sub_title {
@@ -1861,6 +1988,11 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                margin-top: 350px;
+    }
+
+    .sub-tabs-container {
+        flex-wrap: wrap;
     }
 
     .footer__section {
@@ -2086,6 +2218,65 @@ footer {
     .text__title {
         font-size: 14px;
     }
+
+    
+    .poster__container {
+        flex-direction: column;
+    }
+
+    .colors__poster {
+        margin-bottom: 20px;
+    }
+    
+    .offer {
+        align-items: center;
+        margin-left: 0%;
+    }
+
+    .tabs__nav {
+        flex-wrap: wrap;
+    }
+
+    .container__descrip {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-tabs-container {
+        flex-wrap: wrap;
+    }
+
+    .model__container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .container__model__view {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sub__tabs__item {
+        font-size: 16px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .model__visual__container {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .model__img {
+        max-width: 300px;
+    }
     
     .apply__list {
         flex-direction: column;
@@ -2122,8 +2313,8 @@ footer {
     
     .form_traid-in {
         margin-top: 20px;
-        width: 360px;
-        height: 490px;
+        width: 310px;
+        height: 545px;
     }
 
     .sub__content {
@@ -2143,7 +2334,7 @@ footer {
     }
     
     .input__traid-in {
-        width: 300px;
+        width: 270px;
         font-size: 12px;
         height: 40px;
     }
@@ -2159,6 +2350,11 @@ footer {
     .credit__btn {
         width: 245px;
         height: 40px;
+    }
+
+    .instructor__desc {
+        font-size: 14px;
+        text-align: center;
     }
 
     .card__list {
@@ -2244,6 +2440,7 @@ footer {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+                margin-top: 355px;
     }
     
     .offer__item {
