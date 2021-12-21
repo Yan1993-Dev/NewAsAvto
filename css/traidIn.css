@@ -297,6 +297,15 @@ footer {
     border-radius: 10px;
 }
 
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
+}
+
 .title__poster__text {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -312,11 +321,11 @@ footer {
 }
   
 .background {
-    background-image: url(../static/images/test__n.jpg);
+    background-image: url(../static/images/td__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
-    background-position: 50% 60%;
+    background-position: 60% 60%;
 }
 
 .offer {
@@ -333,6 +342,7 @@ footer {
     text-align: center;
     width: 390px;
     background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid;
 }
 
 
@@ -1179,17 +1189,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1475,18 +1488,21 @@ footer {
 
     .work__title__mobile {
         font-size: 16px;
+        color: white;
         line-height: calc(24/16);
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1805,17 +1821,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .offer__item {
@@ -2202,17 +2221,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .text__title {

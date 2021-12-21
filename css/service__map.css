@@ -177,7 +177,7 @@ nav ul li {
 
   
 .background {
-    background-image: url(../static/images/test__four.jpg);
+    background-image: url(../static/images/service__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -194,6 +194,15 @@ nav ul li {
     background-color: rgba(151, 178, 250, 0.8);
     padding: 20px;
     border-radius: 10px;
+}
+
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
 }
 
 .title__poster__text {
@@ -218,11 +227,12 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -285,6 +295,7 @@ nav ul li {
 
 .category__image {
     flex-shrink: 0;
+    height: 280px;
 }
 
 .maps__title {
@@ -623,29 +634,26 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
         color: #fff;
-    }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
     }
 
     .nav {
@@ -825,29 +833,26 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
         color: #fff;
-    }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
     }
 
     .nav {
@@ -1048,29 +1053,26 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
         color: #fff;
-    }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
     }
 
     .nav__bar__ul {

@@ -1183,6 +1183,15 @@ nav ul li {
     margin-top: 20px;
 }
 
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
+}
+
 
 .title__popup {
     display: none;
@@ -1891,17 +1900,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -2373,17 +2385,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
 
@@ -3203,17 +3218,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
 
@@ -4073,17 +4091,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .deck::before {

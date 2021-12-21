@@ -213,7 +213,7 @@ nav ul li {
   
 
   .background__poster {
-    background-image: url(../static/images/service__top.jpg);
+    background-image: url(../static/images/service__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -246,6 +246,7 @@ nav ul li {
     font-size: 18px;
 }
 
+
 .offer {
     display: flex;
     flex-direction: column;
@@ -254,11 +255,12 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -589,12 +591,9 @@ label {
     margin-right: 5px;
 }
   
- .background {
+ .background__fos {
     padding: 40px 0;
-    background-image: linear-gradient(black,
-    transparent 80%,
-    transparent 20%,
-    black), url(../static/images/mirror__content__img.jpg);
+    background-image: url(../static/images/service__fos.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -732,6 +731,10 @@ label {
     font-weight: 600;
 }
 
+.repair__li {
+    max-width: 500px;
+}
+
 .content__item {
     margin-bottom: 15px;
     color: #fff;
@@ -810,6 +813,12 @@ label {
 .seo__list-item::before {
     content: url(../static/icons/blue__arr.svg);
     margin-right: 5px;
+}
+
+.seo__text__afterTable {
+    font-size: 10px;
+    line-height: calc(18/10);
+    margin-bottom: 10px;
 }
 
 .seo__text {
@@ -1635,17 +1644,20 @@ label {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
@@ -1653,15 +1665,7 @@ label {
         line-height: calc(32/16);
         color: #fff;
     }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
-    }
-
-    
-    
+   
     .text__title {
         font-size: 16px;
     }
@@ -2010,29 +2014,26 @@ label {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
         color: #fff;
-    }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
     }
 
     .nav {
@@ -2390,17 +2391,20 @@ label {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .phone__mobile {
@@ -2408,14 +2412,6 @@ label {
         line-height: calc(32/16);
         color: #fff;
     }
-
-    .politics__mobile {
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: calc(32/18);
-    }
-
-    
     
     .poster__container {
         flex-direction: column;

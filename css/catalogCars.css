@@ -190,7 +190,7 @@ nav ul li {
 
   
 .background {
-    background-image: url(../static/images/test__four.jpg);
+    background-image: url(../static/images/all__top.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -1523,17 +1523,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1952,17 +1955,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .offer__item {
@@ -2349,17 +2355,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .tabs__nav-btn {

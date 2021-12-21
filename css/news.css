@@ -177,8 +177,8 @@ nav ul li {
 
   
 .background__poster {
-    background-image: url(../static/images/test__two.jpg);
-    padding: 40px 40px 100px 40px;
+    background-image: url(../static/images/news__top.jpg);
+    padding: 40px 40px 40px 40px;
     margin-top: -2px;
     background-size: cover;
     background-position: 50% 70%;
@@ -194,6 +194,15 @@ nav ul li {
     background-color: rgba(151, 178, 250, 0.8);
     padding: 20px;
     border-radius: 10px;
+}
+
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
 }
 
 .title__poster__text {
@@ -224,6 +233,7 @@ nav ul li {
     background-color: rgba(255, 255, 255);
     width: 390px;
     text-align: center;
+    border: 1px solid;
 }
 
 .title__poster__contain {
@@ -1311,17 +1321,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1786,17 +1799,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .offer__item {
@@ -2170,17 +2186,20 @@ nav ul li {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .nav {

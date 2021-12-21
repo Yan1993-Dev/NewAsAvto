@@ -185,7 +185,7 @@ nav ul li {
 
   
 .background {
-    background-image: url(../static/images/test__four.jpg);
+    background-image: url(../static/images/Changan__top.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -226,11 +226,12 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -1459,17 +1460,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1917,17 +1921,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .tabs__nav-btn {
@@ -2281,17 +2288,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .tabs__nav-btn {

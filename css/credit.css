@@ -211,7 +211,7 @@ nav ul li {
   }
 
 .background {
-    background-image: url(../static/images/test__four.jpg);
+    background-image: url(../static/images/credit__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -230,6 +230,15 @@ nav ul li {
     border-radius: 10px;
 }
 
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
+}
+
 .title__poster__text {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -243,7 +252,6 @@ nav ul li {
 .title__desc__poster {
     font-size: 18px;
 }
-
 .offer {
     display: flex;
     flex-direction: column;
@@ -252,12 +260,14 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
+    border: 1px solid;
 }
 
 .text__title {
@@ -715,6 +725,9 @@ label {
     letter-spacing: 1px;
 }
 
+.instructor__container {
+    margin-left: 100px;
+}
 
 .special__est {
     display: flex;
@@ -815,6 +828,8 @@ label {
 
 .instructor__desc {
     font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     line-height: calc(26/18);
 }
 
@@ -1576,17 +1591,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -1889,17 +1907,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .mobile__desc {
@@ -2216,17 +2237,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .offer__item {
@@ -2637,17 +2661,20 @@ footer {
     .work__title__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__saloon__mobile {
         font-size: 16px;
         line-height: calc(24/16);
+        color: white;
     }
 
     .work__tech__mobile {
         font-size: 16px;
         line-height: calc(24/16);
         margin-bottom: 20px;
+        color: white;
     }
 
     .text__title {

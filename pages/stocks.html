@@ -51,7 +51,6 @@
                                 <p class="work__tech__mobile">СТО: пн-вс 08:00-20:00</p>
                             </div>
                         </div>
-                            <a href="#" class="politics__mobile">Политика конфиденциальности</a>
                         </nav>
                         <button class="header__close__btn">
                             <svg width="58" height="43" viewBox="0 0 58 43" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +116,7 @@
             </ul>
         </nav>
         <main class="main">
-            <div class="background__poster">
+            <div class="background">
                 <div class="poster__container">
                     <div class="title__poster">
                         <div class="colors__poster">
@@ -129,10 +128,9 @@
                     </div>
                     <ul class="offer">
                         <li class="offer__item">Актуальные предложения</li>
-                        <li class="offer__item">Постоянные обновления</li>
-                        <li class="offer__item">Выгодные условия программ</li>
-                        <li class="offer__item">Воспользуйтесь специальными предложениями</li>
-                        <li class=""><a href="#calculator" class="offer__rev text__phone">Получить кредит</a></li>
+                        <li class="offer__item">Скидки по программе Trade-in</li>
+                        <li class="offer__item">Выгодные кредитные программы</li>
+                        <li class="offer__item">Подарки и преимущества</li>
                     </ul>
                 </div>
             </div>
@@ -274,21 +272,18 @@
               </div>
             </div>
               
-           <div class="background">
+           <div class="background__fos">
                     <div class="container_site">
                         <div class="flex__cont">
                             <div class="middle">
                                 <ul class="content_li">
-                                    <li class="content__item title__content__item">Преимущества  Трейд Ин</li>
-                                    <li class="content__item">Высокая оценка вашего авто</li>
-                                    <li class="content__item">Скидка на новый автомобиль до 250 000 руб.</li>
-                                    <li class="content__item">Гарантируем юридическую безопасность</li>
-                                    <li class="content__item">Оформим сделку за 30 минут</li>
+                                    <li class="title__content__item">На выбор доступно множество акций и специальных предложений. Вас что-то заинтересовало или есть вопрос? </li>
+                                    <li class="title__content__item">Оставьте заявку на обратный звонок! Специалист отдела продаж свяжется с Вами и ответит на все вопросы. </li>
                                 </ul>
                             </div>
                             <section class="form_traid-in">
                                 <h2 class="sub_title" id="calculator">
-                                    Заявка на Trade-in
+                                    Заявка на обратный звонок
                                 </h2>
                                 <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
                                     <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
@@ -303,12 +298,8 @@
                                             <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                         </div>
                                         <div class="field">
-                                            <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                                            <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
-                                        </div>
-                                        <div class="field">
-                                            <label for="input_traid" class="label__traid-in">Модель</label>
-                                            <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                                                    <label for="drive__calendar" class="label__traid">Выберите день*</label>
+                                                    <input type="date" id="drive__datapicker" class="input__traid-in _req" placeholder="Нажмите">
                                         </div>
                                     </div>
                                     <div class="checkbox__personal">
@@ -325,7 +316,7 @@
                 </div>
             <div class="container_site">
                 <div class="line_exter">
-                    <h2 class="slider_title_one" id="exterier">Другие наши новости</h2>
+                    <h2 class="slider_title_one" id="exterier">Новости</h2>
                 </div>
             </div>
             <div class="container_site">
@@ -473,7 +464,7 @@
         <section class="map">
             <div class="container">
                 <div class="contacts_block">
-                    <div class="title">Дилерские центры Chery</div>
+                    <div class="title">Дилерские центры «АсАвто»</div>
                     <ul class="list_unstyled">
                         <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}'
                             data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">

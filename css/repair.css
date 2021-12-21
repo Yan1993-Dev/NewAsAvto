@@ -212,7 +212,7 @@ nav ul li {
 
   
 .background {
-    background-image: url(../static/images/test__four.jpg);
+    background-image: url(../static/images/service__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -231,6 +231,15 @@ nav ul li {
     border-radius: 10px;
 }
 
+.title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: calc(28/24);
+}
+
 .title__poster__text {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
@@ -245,6 +254,7 @@ nav ul li {
     font-size: 18px;
 }
 
+
 .offer {
     display: flex;
     flex-direction: column;
@@ -253,11 +263,12 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -424,8 +435,8 @@ li.nav__bar__li:last-child {
 }
 
 .seo__text {
-    font-size: 14px;
-    line-height: calc(33/14);
+    font-size: 10px;
+    line-height: calc(18/10);
 }
 
 table {
