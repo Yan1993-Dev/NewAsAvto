@@ -320,7 +320,7 @@ nav ul li {
     background-image: linear-gradient(black,
     transparent 80%,
     transparent 20%,
-    black), url(../static/images/GWM__poster.jpg);
+    black), url(../static/images/gwm__fos.jpg);
     background-size: cover;
     background-position: center;
 }

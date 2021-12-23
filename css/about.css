@@ -213,7 +213,8 @@ nav ul li {
   .title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     font-size: 24px;
     line-height: calc(28/24);
@@ -262,12 +263,14 @@ nav ul li {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255);
     width: 390px;
+    font-size: 18px;
     text-align: center;
+    border: 1px solid;
 }
 
 
@@ -1114,6 +1117,58 @@ footer {
 
     .footer__list__item {
         text-align: center;
+    }
+
+    
+    .popup {
+        top: 10%;
+    }
+
+    .form_wrapper {
+        margin-left: 0px;
+    }
+
+    .form_traid-in {
+        width: 338px;
+        height: 540px;
+    }
+
+    .credit_calc {
+        width: 338px;
+        height: 540px;
+    }
+
+    .sub_title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .field {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .label__traid-in {
+        font-size: 12px;
+    }
+
+    .input__traid-in {
+        font-size: 12px;
+        max-width: 290px;
+    }
+
+    .checkbox__personal {
+        padding-left: 90px;
+    }
+
+    .credit__btn {
+        margin-top: 30px;
+        height: 50px;
+    }
+
+    .traid__btn {
+        margin-top: 30px;
+        height: 50px;
     }
 }
 

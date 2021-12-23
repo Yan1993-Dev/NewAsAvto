@@ -117,7 +117,7 @@
         </nav>
     <main>
         <div class="container_site">
-                <h1 class="title">Chery и iFlytek углубили всестороннее  стратегическое сотрудничество</h1>
+                <h1 class="title__news">Chery и iFlytek углубили всестороннее  стратегическое сотрудничество</h1>
             <div>
                 <div class="title__image">
                     <img src="../images/big.jpg" alt="title" class="title__img">
@@ -141,58 +141,49 @@
                     </div>
             </div>
         </div>
-        <div class="background__credit">
+        <div class="background__fos">
             <div class="container_site">
                 <div class="flex__cont">
-                    <section class="credit_calc">
-                        <h2 class="sub_title" id="">
-                            Заявка на расчёт кредита
+                    <div class="middle">
+                        <ul class="content_li">
+                            <li class="title__content__item">Заинтересовала какая-то новость? Есть вопросы? </li>
+                            <li class="title__content__item">Оставьте заявку на обратный звонок! Специалист отдела продаж свяжется с Вами и ответит на все вопросы.
+                            </li>
+                        </ul>
+                    </div>
+                    <section class="form_traid-in">
+                        <h2 class="sub_title" id="calculator">
+                            Заявка на обратный звонок
                         </h2>
-                        <form class="credit_calc_wp  form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                        <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
                             <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                             <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
-                            <div class="field__credit">
-                                <label for="credit__name" class="credit__name">Имя*</label>
-                                <input type="text" id="credit__name" name="name" class="input__credit" data-validate-field="credit__name" placeholder="Ваше имя">
+                            <div class="field">
+                                <label for="calc__name" class="label__traid-in">Имя*</label>
+                                <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
                             </div>
                             <div class="field__wrapper">
-                                <div class="field__credit">
-                                    <label for="credit__form__phone" class="credit__name">Телефон*</label>
-                                    <input type="tel" id="credit__form__phone" name="tel" class="input__credit" data-validate-field="tel__credit" placeholder="Ваш телефон">
+                                <div class="field">
+                                    <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                 </div>
-                                <div class="field__credit">
-                                    <label for="input__initial" class="credit__name">Первый взнос</label>
-                                    <input type="text" id="input__initial" class="input__credit" placeholder="Сумма первого взноса">
-                                </div>
-                                <div class="field__credit">
-                                    <label for="credit__time" class="credit__name">Срок</label>
-                                    <input type="text" id="credit__time" class="input__credit" placeholder="Срок кредита">
+                                <div class="field">
+                                            <label for="drive__calendar" class="label__traid">Выберите день*</label>
+                                            <input type="date" id="drive__datapicker" class="input__traid-in _req" placeholder="Нажмите">
                                 </div>
                             </div>
-                            <div class="checkbox__credit">
-                                <input id="credit__personal__inf" type="checkbox" class="credit__radio" checked value="Receipt" data-validate-field="credit__personal">
-                                <label for="credit__personal__inf" class="credit__label">Согласие на обработку ПД</label>
+                            <div class="checkbox__personal">
+                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
+                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
                             </div>
                             <div class="popup__btn__flex">
-                                <button class="btn traid__btn open_thanks_js" type="submit">Отправить</button>
+                                <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                             </div>
                         </form>
                     </section>
-                    <ul class="sub__content">
-                        <li class="title__content__item">Возможности и условия кредитования:</li>
-                        <li class="sub__content__item">Более 15 банков партнеров, индивидуальный подбор кредитных программ</li>
-                        <li class="sub__content__item">Без первоначального взноса</li>
-                        <li class="sub__content__item">Страхование КАСКО по желанию клиента</li>
-                        <li class="sub__content__item">Кредит по 2-м документам без справки о доходах</li>
-                        <li class="sub__content__item">Срок кредитования от 6 месяцев до 8 лет</li>
-                        <li class="sub__content__item">Возможность досрочного погашения кредита без штрафа и комиссии</li>
-                        <li class="sub__content__item">Рефинансирование автокредита для автомобилей trade-in</li>
-                        <li class="sub__content__item">Возможность оформить дополнительное оборудование и ТО в кредит</li>
-                    </ul>
                 </div>
             </div>
         </div>
-
         <div class="container_site">
             <div class="line_exter">
                 <h2 class="slider_title_one" id="exterier">Другие наши новости</h2>
@@ -289,39 +280,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container_site">
-                <p class="seo__title">Эксклюзивный официальный дилер Chery и CHERYEXEED в Самаре и Тольятти</p>
-                <p class="seo__sub_title">Группа компаний «АсАвто» – это партнер китайского автоконцерна Chery с многолетним опытом реализации автомобилей ведущих китайских производителей. 
-                    Дилерские центры компании работают по стандартам бренда, поэтому покупателей ждут все преимущества покупки у официального представителя.</p>
-                <p class="seo__list__title">На территориях всех трёх комфортабельных дилерских центров располагаются шоурумы, в которых представлены все модели Chery и CHERYEXEED:</p>
-                <ul>
-                    <li class="seo__list-item">Tiggo 8 Pro;</li>
-                    <li class="seo__list-item">Tiggo 8;</li>
-                    <li class="seo__list-item">Tiggo 7 Pro;</li>
-                    <li class="seo__list-item">Tiggo 4;</li>
-                    <li class="seo__list-item">TXL.</li>
-                </ul>
-                <p class="seo__text">На автомобили в наличии действует специальное предложение с выгодой до 230 000 рублей.</p>
-                <p class="seo__list__title">Кроме этого, для покупателей действуют и другие предложения:</p>
-                <ul>
-                    <li class="seo__list-item">Программа Chery Trade-In. Покупатель может сдать старый автомобиль и получить дополнительную скидку от стоимости нового авто. Чтобы получить оценку автомобиля, достаточно оставить заявку на этом сайте.</li>
-                    <li class="seo__list-item">Бронь автомобиля в режиме онлайн. Для того, чтобы зарезервировать выбранный автомобиль, не обязательно ехать в салон. Достаточно отправить заявку через данный сайт.</li>
-                    <li class="seo__list-item">Тест-драйв. Вы сможете лично оценить возможности понравившейся модели: поведение на дороге, возможности подвески и тормозной системы, уровень комфорта в салоне, мощность двигателя.</li>
-                    <li class="seo__list-item">Программа кредитования CHERY FINANCE от крупных банков и страховых организаций. Для покупателей, которым не хватает собственных средств на покупку авто, разработаны специальные предложения: кредиты с пониженной ставкой и отсрочкой платежа, страховые программы на особых условиях.</li>
-                </ul>
-                <p class="seo__text">Для получения кредита не обязательно приезжать в салон, заявки принимаются через сайт компании. Чтобы получить займ достаточно двух документов.</p>
-                <p class="seo__list__title">Покупка автомобиля в «АсАвто» – это:</p>
-                <ul>
-                    <li class="seo__list-item">высокое качество обслуживания;</li>
-                    <li class="seo__list-item">персональный менеджер;</li>
-                    <li class="seo__list-item">бонусные программы для постоянных клиентов;</li>
-                    <li class="seo__list-item">гарантийное и постгарантийное обслуживание в собственном техническом центре;</li>
-                    <li class="seo__list-item">оригинальное оборудование, запчасти и инструменты;</li>
-                    <li class="seo__list-item">гарантия производителя на все автомобили;</li>
-                    <li class="seo__list-item">вся линейка автомобилей Chery в шоуруме.</li>
-                </ul>
-                <p class="seo__text">На территории автосалона расположена уютная зона отдыха с детской комнатой, кофе и закусками.</p>
             </div>
     </main>
     <div class="thanks__container">

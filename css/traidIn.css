@@ -336,12 +336,13 @@ footer {
 }
 
 .offer__item {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-    text-align: center;
+    background-color: rgba(255, 255, 255);
     width: 390px;
-    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    text-align: center;
     border: 1px solid;
 }
 
@@ -437,8 +438,8 @@ footer {
 }
 
 .instructor__desc {
-    font-size: 18px;
-    line-height: calc(26/18);
+    font-size: 16px;
+    line-height: calc(24/16);
     
 }
 
@@ -463,6 +464,7 @@ footer {
     background-image: url(../static/icons/number__one.png);
     width: 35px;
     height: 35px;
+    top: -5px;
     background-size: cover;
     position: absolute;
     margin-left: -45px;
@@ -477,6 +479,7 @@ footer {
     background-image: url(../static/icons/number__two.png);
     width: 35px;
     height: 35px;
+    top: -5px;
     background-size: cover;
     position: absolute;
     margin-left: -45px;
@@ -491,6 +494,7 @@ footer {
     background-image: url(../static/icons/number__three.png);
     width: 35px;
     height: 35px;
+    top: -5px;
     background-size: cover;
     position: absolute;
     margin-left: -45px;
@@ -505,21 +509,8 @@ footer {
     background-image: url(../static/icons/number__four.png);
     width: 35px;
     height: 35px;
-    background-size: cover;
-    position: absolute;
-    margin-left: -45px;
-}
-
-
-.number__est__five {
-    position: relative;
-}
-
-.number__est__five::before {
-    content: '';
-    background-image: url(../static/icons/number__five.png);
-    width: 35px;
-    height: 35px;
+    margin: auto;
+    top: -5px;
     background-size: cover;
     position: absolute;
     margin-left: -45px;
@@ -530,10 +521,19 @@ footer {
     margin-right: 20px;
 }
 
-.title__est {
+.title__est__top {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title__est {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;

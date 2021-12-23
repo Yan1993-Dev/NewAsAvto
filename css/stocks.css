@@ -457,7 +457,7 @@ nav ul li {
     background-image: linear-gradient(black,
     transparent 80%,
     transparent 20%,
-    black), url(../static/images/stocks__fos.jpg);
+    black), url(../static/images/3_stocks__fos.jpg);
     background-size: cover;
     background-position: center;
 }

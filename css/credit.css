@@ -739,10 +739,19 @@ label {
     display: flex;
 }
 
-.title__est {
+.title__est__top {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title__est {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
+    font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
