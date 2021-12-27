@@ -57,7 +57,7 @@
 }
 
 .addr__item::before {
-    content: url(../icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -759,7 +759,7 @@ nav ul li {
     z-index: 15;
 }
 
-@media (min-width: 1366px) and (max-width: 1540px) {
+@media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;

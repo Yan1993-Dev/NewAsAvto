@@ -57,7 +57,7 @@
 }
 
 .addr__item::before {
-    content: url(../icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 

@@ -57,7 +57,7 @@
 }
 
 .addr__item::before {
-    content: url(../icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -178,7 +178,7 @@ nav ul li {
   
 .background__poster {
     background-image: url(../static/images/feedback__new__img.jpg);
-    padding: 40px 40px 100px 40px;
+    padding: 40px 40px 170px 40px;
     margin-top: -2px;
     background-size: cover;
     background-position: 50% 60%;
@@ -984,7 +984,7 @@ footer {
 }
 
 
-@media (min-width: 1366px) and (max-width: 1540px) {
+@media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;

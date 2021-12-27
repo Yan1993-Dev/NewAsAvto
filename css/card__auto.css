@@ -58,7 +58,7 @@
 }
 
 .addr__item::before {
-    content: url(../icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -559,7 +559,7 @@ nav ul li {
 }
 
 .input__traid-in{
-    width: 510px;
+    width: 380px;
     height: 45px;   
     background: #FFFFFF;
     border: 1px solid rgba(52, 130, 198, 0.05);
@@ -573,7 +573,7 @@ nav ul li {
 
 .checkbox__personal {
     padding-top: 15px;
-    padding-left: 212px;
+    padding-left: 180px;
 }
 
 .popup__btn__flex {
@@ -584,13 +584,13 @@ nav ul li {
 .traid__btn {
     width: 312px;
     height: 57px;
-    margin-top: 55px;
+    margin-top: 25px;
 }
 
 .credit__btn {
     width: 312px;
     height: 57px;
-    margin-top: 55px;
+    margin-top: 25px;
 }
 
 .form_wrapper {
@@ -606,8 +606,8 @@ nav ul li {
 
 .form_traid-in {
     margin-top: 130px;
-    width: 584px;
-    height: 600px;
+    width: 440px;
+    height: 560px;
     top: 808px;
     background-color: #eff5ff;
     border: 1px solid rgba(52, 130, 198, 0.3);
@@ -619,8 +619,8 @@ nav ul li {
 .credit_calc {
     margin-left: 20px;
     margin-top: 130px;
-    width: 584px;
-    height: 600px;
+    width: 440px;
+    height: 560px;
     top: 808px;
     background-color: #eff5ff;
     border: 1px solid rgba(52, 130, 198, 0.3);
@@ -2772,14 +2772,14 @@ nav ul li {
     .slider_title_news {
         font-size: 18px;
         font-family: 'TacticSans-Reg';
-        src: url(../fonts/TacticSans-Reg.otf);
+        src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
     }
 
     .slider_title_feedback {
         font-size: 18px;
         font-family: 'TacticSans-Reg';
-        src: url(../fonts/TacticSans-Reg.otf);
+        src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
         margin-bottom: 15px;
     }
@@ -3579,13 +3579,13 @@ nav ul li {
     
     .slider_title_news {
         font-family: 'TacticSans-Reg';
-        src: url(../fonts/TacticSans-Reg.otf);
+        src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
     }
 
     .slider_title_feedback {
         font-family: 'TacticSans-Reg';
-        src: url(../fonts/TacticSans-Reg.otf);
+        src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
         margin-bottom: 15px;
         margin-top: -50px;

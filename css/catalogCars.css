@@ -57,7 +57,7 @@
 }
 
 .addr__item::before {
-    content: url(../icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -393,7 +393,7 @@ nav ul li {
 
 .img__changan {
     max-width: 160px;
-    height: 90px;
+    height: 50px;
 }
 
 .img__faw {
