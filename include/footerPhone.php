@@ -1,0 +1,1 @@
+<a href="tel:+7(8846)215-00-07" class="phone__footer"><img src="<?=SITE_TEMPLATE_PATH?>/static/icons/phone.svg" alt="" class="phone__icon">8 (846) 215 00 07</a>

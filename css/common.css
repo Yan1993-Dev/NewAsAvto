@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'TacticSans-Reg';
     src: local('TacticSans-Reg'),
@@ -72,8 +79,9 @@ textarea {
 .map .contacts_block .items .item::before{content:'';display:inline-block;width:13px;height:13px;margin-left:-23px;margin-right:10px;background-size:contain;background-position:center;background-repeat:no-repeat;vertical-align:middle}
 .map .contacts_block .items .item.addr::before{background-image:url(../static/images/map.svg)}
 .map .contacts_block .items .item.tel::before{background-image:url(../static/images/phone.svg)}
+.map .contacts_block .items .item.clock::before{background-image:url(../static/icons/clock.svg)}
 .map .contacts_block .items .item.site::before{background-image:url(../static/icons/envelopes.png)}
-.map .contacts_block li.visible .items{max-height:100px;margin:10px 0 25px}
+.map .contacts_block li.visible .items{max-height:160px;margin:10px 0 25px}
 .map .contacts_block li.visible .name{font-weight:500;text-decoration:underline;color:#241010}
 .map .contacts_block li.visible::before{background-image:url(../static/images/arrow-t.svg)}
 .map+footer{margin-top:0}
@@ -88,8 +96,14 @@ textarea {
 
 @media (max-width:575.98px) {
     #yamap, #map{height:200px;}
-    .map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;transform:none;top:100%}
+    .map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;-ms-transform:none;transform:none;top:100%}
     .map .contacts_block .name{font-size:12px}
     .map .contacts_block .items{font-size:11px}
     .map .contacts_block li.active .items{margin:5px 0 20px}
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.5;
+    line-height: calc(18/12);
 }

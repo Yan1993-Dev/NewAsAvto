@@ -193,6 +193,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
+    margin-top: -10px;
   }
   nav ul ul li {
     float: none;
@@ -471,6 +472,7 @@ table {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    align-items: center;
 }
 
 .phone__footer {
@@ -739,3 +741,32 @@ table {
     opacity: .3;
     z-index: 15;
 }
+
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #009bd8;
+    color: #444;
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+  }
+
+  .arrow__up {
+      margin-top: 10px;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }

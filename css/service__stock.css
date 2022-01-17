@@ -28,10 +28,6 @@
     display: none;
 }
 
-/* .header__close__btn {
-    display: none;
-} */
-
 .mobile__header {
     display: none;
 }
@@ -158,6 +154,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
+    margin-top: -10px;
   }
   nav ul ul li {
     float: none;
@@ -345,6 +342,7 @@ nav ul li {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    align-items: center;
 }
 
 .phone__footer {
@@ -618,6 +616,36 @@ nav ul li {
     z-index: 15;
 }
 
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #009bd8;
+    color: #444;
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+  }
+
+  .arrow__up {
+      margin-top: 10px;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+
+
 @media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
@@ -793,6 +821,11 @@ nav ul li {
         display: none;
     }
 
+    .header {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
     .adress {
         display: flex;
         flex-direction: column;
@@ -940,6 +973,34 @@ nav ul li {
         color: #fff;
     }
 
+    
+    .text__title {
+        font-size: 16px;
+    }
+
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(20/14);
+    }
+    
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer__item {
+        width: 290px;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        padding: 15px;
+        width: 290px;
+        height: 50px;
+    }
+
     .nav {
         display: none;
     }
@@ -952,10 +1013,11 @@ nav ul li {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
     }
 
     .nav__bar__item {
-        padding: 10px;
+        padding: 20px;
     }
 
     .sub_title {
@@ -1003,15 +1065,17 @@ nav ul li {
     #loadMore {
         font-size: 14px;
     }
-
     
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+                margin-top: 500px;
     }
 
     .footer__section {
@@ -1084,6 +1148,8 @@ nav ul li {
     
     .header {
         justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 0px;
     }
 
     .header__mobile_btn {
@@ -1203,6 +1269,29 @@ nav ul li {
         color: white;
     }
 
+    
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+    
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        max-width: 200px;
+        padding: 16px;
+        height: 50px;
+    }
+
     .phone__mobile {
         font-size: 16px;
         line-height: calc(32/16);
@@ -1250,14 +1339,11 @@ nav ul li {
         font-size: 14px;
     }
 
-    
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
         flex-direction: column;
         align-items: center;
+        margin-top: 500px;
     }
 
     .footer__section {
@@ -1346,7 +1432,21 @@ nav ul li {
 
     .header {
         justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 0px;
     }
+
+    .nav__bar__item {
+        padding: 15px;
+    }
+
+    .stock__image {
+        max-width: 285px;
+      }
+
+      .service__stock__item {
+          margin-right: 0px;
+      }
 
     .company__logo {
         max-width: 185px;
@@ -1390,6 +1490,32 @@ nav ul li {
         transform: translateX(0px);
     }
 
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .offer__rev {
+        font-size: 12px;
+        max-width: 200px;
+        padding: 16px;
+        height: 50px;
+    }
+
+    .title__est {
+        font-size: 14px;
+        text-align: center;
+    }
     
 
     .mobile_phone_btn {

@@ -138,6 +138,10 @@
     line-height: calc(33/18);
 }
 
+.checked__link {
+    background-color: #2D7CC0;
+}
+
 .nav__item__link:hover {
     transition: 0.3s;
     background-color: #2D7CC0;
@@ -194,6 +198,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
+    margin-top: -10px;
   }
   nav ul ul li {
     float: none;
@@ -1007,6 +1012,7 @@ label {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    align-items: center;
 }
 
 .phone__footer {
@@ -1313,6 +1319,35 @@ label {
     opacity: .3;
     z-index: 15;
 }
+
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #009bd8;
+    color: #444;
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+  }
+
+  .arrow__up {
+      margin-top: 10px;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
 
 
 @media (min-width: 1366px) and (max-width: 1510px) {
@@ -1846,11 +1881,9 @@ label {
     
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
         flex-direction: column;
         align-items: center;
+        margin-top: 500px;
     }
 
     .footer__section {
@@ -2100,10 +2133,18 @@ label {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
+        padding-bottom: 0px;
     }
 
     .nav__bar__item {
         padding: 10px;
+        padding: 10px;
+        max-width: 175px;
+        height: 65px;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
 
     .tabs__nav {
@@ -2182,14 +2223,12 @@ label {
     .seo__text {
         font-size: 14px;
     }
-    
-    .wrapper__footer {
-        font-size: 12px;
-    }
 
     .wrapper__footer {
+        font-size: 12px;
         flex-direction: column;
         align-items: center;
+        margin-top: 480px;
     }
 
     .footer__section {
@@ -2502,6 +2541,7 @@ label {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
     }
 
     .sub__tabs__item {
@@ -2512,6 +2552,8 @@ label {
 
     .nav__bar__item {
         padding: 10px;
+        margin-right: 0px;
+        max-width: 150px;
         font-size: 14px;
     }
 
@@ -2601,11 +2643,9 @@ label {
 
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
         flex-direction: column;
         align-items: center;
+        margin-top: 480px;
     }
 
     .footer__section {

@@ -166,6 +166,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
+    margin-top: -10px;
   }
   nav ul ul li {
     float: none;
@@ -183,6 +184,32 @@ nav ul li {
     position: absolute;
   }
 
+  .checked__link {
+    background-color: #2D7CC0;
+}
+
+.cat__list{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -100px;
+}
+
+.cat__list__item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cat__list__inner {
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.ar__right {
+    padding-right: 10px;
+}
 
 .main_title {
     font-family: 'TacticSans-Reg';
@@ -1316,6 +1343,7 @@ nav ul li {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    align-items: center;
 }
 
 .phone__footer {
@@ -1692,7 +1720,7 @@ nav ul li {
         bottom: 0;
         transition: 0.4s;
         z-index: 50;
-        transform: translateX(-1000px);
+        transform: translateX(-1030px);
     }
 
     .open {
@@ -1738,6 +1766,11 @@ nav ul li {
         height: 38px;
         border: 0;
         display: block;
+    }
+
+    .cat__list {
+        margin-top: 40px;
+        margin-bottom: -40px;
     }
 
     .mob__text {
@@ -1967,7 +2000,7 @@ nav ul li {
     .thanks {
         Width: 525px;
         Height: 400px;
-}
+    }
 
     .thanks_title {
         margin-top: 20%;
@@ -1975,15 +2008,6 @@ nav ul li {
 
     .thanks_request__btn {
         margin-left: 476px;
-    }
-
-    .wrapper__footer {
-        font-size: 12px;
-    }
-
-    .wrapper__footer {
-        flex-direction: column;
-        align-items: center;
     }
 
     .footer__section {
@@ -1999,6 +2023,9 @@ nav ul li {
     }
 
     .wrapper__footer {
+        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
         font-size: 12px;
         flex-direction: column;
         align-items: center;
@@ -2175,6 +2202,11 @@ nav ul li {
 
     .mobile_phone_btn {
         display: block;
+    }
+
+    .cat__list {
+        margin-top: 40px;
+        margin-bottom: -70px;
     }
 
     .mob__phone {
@@ -2836,7 +2868,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
-        margin-top: 475px;
+        margin-top: 480px;
     }
 
     .footer__section {
@@ -3045,6 +3077,10 @@ nav ul li {
         color: white;
     }
 
+    .cat__list {
+        margin-top: 40px;
+        margin-bottom: -70px;
+    }
 
     .deck::before {
         display: none;
@@ -3634,12 +3670,6 @@ nav ul li {
         margin-left: 290px;
     }
 
-    .wrapper__footer {
-        font-size: 12px;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .footer__section {
         margin-right: 1px;
     }
@@ -3657,6 +3687,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
+        margin-top: 480px;
     }
 
     .footer__section {
@@ -3844,6 +3875,11 @@ nav ul li {
     .mob__text {
         text-align: center;
         color: #47A0ED;
+    }
+
+    .cat__list {
+        margin-top: 10px;
+        margin-bottom: -70px;
     }
 
     .work__title__mobile {
@@ -4409,7 +4445,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
-        margin-top: 445px;
+        margin-top: 480px;
     }
 
     .footer__section {

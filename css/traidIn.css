@@ -163,6 +163,10 @@
     line-height: calc(33/18);
 }
 
+.checked__link {
+    background-color: #2D7CC0;
+}
+
 .nav__item__link:hover {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -193,6 +197,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
+    margin-top: -10px;
   }
   nav ul ul li {
     float: none;
@@ -650,6 +655,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-left: 20px;
+    align-items: center;
 }
 
 .phone__footer {
@@ -912,6 +918,35 @@ footer {
     opacity: .3;
     z-index: 15;
 }
+
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #009bd8;
+    color: #444;
+    cursor: pointer;
+    border-radius: 15px;
+    display: none;
+  }
+
+  .arrow__up {
+      margin-top: 10px;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
 
 
 @media (min-width: 1366px) and (max-width: 1510px) {
@@ -1597,20 +1632,12 @@ footer {
     .card__list {
         justify-content: center;
     }
-    
-    .wrapper__footer {
-        font-size: 12px;
-    }
 
     .wrapper__footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-                margin-top: 420px;
+        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 480px;
     }
 
     .footer__section {
@@ -2000,14 +2027,9 @@ footer {
 
     .wrapper__footer {
         font-size: 12px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-                margin-top: 350px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 480px;
     }
 
     .sub-tabs-container {
@@ -2449,20 +2471,11 @@ footer {
         margin-bottom: 40px;
     }
 
-    
     .wrapper__footer {
         font-size: 12px;
-    }
-
-    .wrapper__footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-                margin-top: 355px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 480px;
     }
     
     .offer__item {
