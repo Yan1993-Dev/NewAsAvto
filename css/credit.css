@@ -324,6 +324,7 @@ nav ul li {
 .tabs__nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 

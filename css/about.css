@@ -426,10 +426,11 @@ nav ul li {
 }
 
 .tabs__nav-btn {
+    display: flex;
     text-align: center;
+    align-items: center;
     padding: 15px 30px;
     margin: 5px;
-    width: 230px;
     background-color: #fff;
     border: 0;
     cursor: pointer;

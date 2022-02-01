@@ -732,7 +732,7 @@ nav ul li {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 30;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -975,6 +975,21 @@ nav ul li {
         grid-template-rows: 2fr 1fr;
         text-align: center;
     }
+    
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
 
     .map__list__item {
         margin-bottom: 20px;
@@ -1170,6 +1185,27 @@ nav ul li {
         margin-top: 10px;
     }
 
+    .offer {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .offer__item {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
     .wrapper__footer {
         font-size: 12px;
         flex-direction: column;
@@ -1319,6 +1355,23 @@ nav ul li {
         padding: 30px;
         display: flex;
         justify-content: space-between;
+    }
+
+    
+    .title__poster__text {
+        font-size: 14px;
+        line-height: calc(22/14);
+    }
+
+    .title__desc__poster {
+        font-size: 12px;
+        line-height: calc(18/12);
+    }
+
+    .offer {
+        display: flex;
+        align-items: center;
+        margin-left: 0%;
     }
 
     .mobile_phone_btn {

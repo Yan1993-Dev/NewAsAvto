@@ -1,0 +1,1 @@
+<li class="apply__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/accept.png" alt="" class="allpy__list__img">Решение по кредиту за 30 минут!</li>

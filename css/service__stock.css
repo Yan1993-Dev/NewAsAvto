@@ -621,7 +621,7 @@ nav ul li {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 30;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -1279,6 +1279,12 @@ nav ul li {
         font-size: 12px;
         line-height: calc(18/12);
     }
+
+    .offer {
+        display: flex;
+        align-items: center;
+        margin-left: 0%;
+    }
     
     .offer__item {
         padding: 10px;
@@ -1498,6 +1504,12 @@ nav ul li {
     .title__desc__poster {
         font-size: 12px;
         line-height: calc(18/12);
+    }
+
+    .offer {
+        display: flex;
+        align-items: center;
+        margin-left: 0%;
     }
 
     .offer__item {

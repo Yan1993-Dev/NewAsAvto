@@ -313,6 +313,7 @@ nav ul li {
 
 .tabs__nav {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -500,7 +501,7 @@ button .tabs__nav-btn:active {
 }
 
 .tab__img {
-    width: 290px;
+    width: 100px;
     flex-shrink: 0;
 }
 
@@ -1325,7 +1326,7 @@ label {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 30;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -1394,7 +1395,6 @@ label {
         font-size: 12px;
         line-height: calc(20/12);
         margin-right: 10px;
-        padding-right: 5px;
     }
 
     .sub-tab-content {
@@ -1780,9 +1780,8 @@ label {
     }
 
     .nav__bar__ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 
@@ -1790,6 +1789,7 @@ label {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
     }
 
     .nav__bar__item {
@@ -2077,8 +2077,6 @@ label {
         margin-top: 10px;
     }
 
-    
-    
     .poster__container {
         flex-direction: column;
     }
@@ -2098,6 +2096,8 @@ label {
     }
     
     .offer {
+        display: flex;
+        align-items: center;
         margin-left: 0%;
     }
 
@@ -2123,10 +2123,11 @@ label {
     }
 
     .nav__bar__ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
+        display: flex;
+        flex-direction: column;
         text-align: center;
+        justify-content: center;
+
     }
 
     .nav__bar__li {
@@ -2134,6 +2135,7 @@ label {
         justify-content: center;
         align-items: center;
         margin-right: 0px;
+        margin-bottom: 10px;
         padding-bottom: 0px;
     }
 
@@ -2141,7 +2143,7 @@ label {
         padding: 10px;
         padding: 10px;
         max-width: 175px;
-        height: 65px;
+        height: 50px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -2518,9 +2520,8 @@ label {
     }
 
     .nav__bar__ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 

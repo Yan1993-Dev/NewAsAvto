@@ -1,0 +1,1 @@
+<li class="apply__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/kyc.png" alt="" class="allpy__list__img">Одобрение 98% клиентов.</li>
