@@ -2,7 +2,31 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
 ?>
-
+        <nav class="nav">
+            <ul class="navigation">
+                <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
+                    <ul class="nav__nav">
+                        <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
+                        <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                        <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
+                        <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                        <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                        <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
+                        <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
+                        <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                        <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
+                    </ul>
+                    </li>
+                <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
+                <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
+                <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
+                <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+                <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
+                <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+                <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
+                <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+            </ul>
+        </nav>
 <main>
     <div class="container_site">
         <div class="slider_wrapper">

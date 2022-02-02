@@ -84,5 +84,6 @@ IncludeTemplateLangFile(__FILE__); // перевод файлов
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/footerPopup.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/script.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/yMap.js"></script>
-
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/title_slider.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/main_slider.js"></script>
 </html>

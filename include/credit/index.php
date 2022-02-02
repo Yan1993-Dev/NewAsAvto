@@ -3238,18 +3238,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TUGELLA</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__tugella.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab-104" name="sub-group" type="radio">
@@ -3293,18 +3292,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">ATLAS</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlas.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__atlas.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -3356,18 +3354,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">F7</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__f7.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab-122" name="sub-group2" type="radio">
@@ -3411,18 +3408,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">F7X</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__f7x.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab-133" name="sub-group2" type="radio">
@@ -3466,18 +3462,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">JOLION</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__jolion.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -3531,18 +3526,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TIGGO 4</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4__tabs.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__tiggo4.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab3-2" name="sub-group2" type="radio">
@@ -3586,18 +3580,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TIGGO 7PRO</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__tiggo7pro.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab3-3" name="sub-group2" type="radio">
@@ -3641,18 +3634,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TIGGO 8</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8pro.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__tiggo8.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab3-4" name="sub-group2" type="radio">
@@ -3696,18 +3688,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TIGGO 8PRO</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__tiggo8pro.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -3759,18 +3750,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TXL FL</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLFLTwo.jpg" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__txl.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab4-3" name="sub-group2" type="radio">
@@ -3814,18 +3804,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">TXL VX</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VXTWO.jpg" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__vx.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -3878,18 +3867,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">BESTURN X80</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/x80.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__b80x.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab5-2" name="sub-group2" type="radio">
@@ -3933,18 +3921,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">BESTURN X40</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/x40.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__b40x.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab5-3" name="sub-group2" type="radio">
@@ -3988,18 +3975,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">BESTUNE T77</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77.jpg" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__77t.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
@@ -4052,18 +4038,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">CS35PLUS</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__35.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab6-2" name="sub-group2" type="radio">
@@ -4107,18 +4092,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">CS55</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/55.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__55.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                             <input class="tab-radio" id="sub-tab6-3" name="sub-group2" type="radio">
@@ -4162,18 +4146,17 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                                             </div>
                                         </form>
                                     </section>
-                                    <div class="model__visual__container">
-                                        <p class="model__title">CS75FL</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75.png" alt="" class="model__img">
-                                        <ul class="model__list">
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредит без первого взноса</p>
-                                            </li>
-                                            <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/dollar-bill.png" alt="" class="icon__model">
-                                                <p class="model__est">Кредитная программа 60 дней без платежей</p>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__75.php"
+                                        )
+                                    ); ?>
                                 </div>
                             </div>
                         </div>
