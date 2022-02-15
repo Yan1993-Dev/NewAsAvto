@@ -1,3 +1,4 @@
+import Swiper from 'swiper/dist/js/swiper.min.js';
 const slider_one = document.querySelectorAll('.swiper-container_one');
 
 slider_one.forEach((el) => {

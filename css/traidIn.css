@@ -66,7 +66,7 @@
 }
 
 .addr__item::before {
-    content: url(../static/icons/Vector.svg);
+    content: url(../local/templates/NewAsAvto/static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -326,7 +326,7 @@ footer {
 }
   
 .background {
-    background-image: url(../static/images/td__new.jpg);
+    background-image: url(../local/templates/NewAsAvto/static/images/td__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -466,7 +466,7 @@ footer {
 
 .number__est__one::before {
     content: '';
-    background-image: url(../static/icons/number__one.png);
+    background-image: url(../local/templates/NewAsAvto/static/images/number__one.png);
     width: 35px;
     height: 35px;
     top: -5px;
@@ -481,7 +481,7 @@ footer {
 
 .number__est__two::before {
     content: '';
-    background-image: url(../static/icons/number__two.png);
+    background-image: url(../local/templates/NewAsAvto/static/images/number__two.png);
     width: 35px;
     height: 35px;
     top: -5px;
@@ -496,7 +496,7 @@ footer {
 
 .number__est__three::before {
     content: '';
-    background-image: url(../static/icons/number__three.png);
+    background-image: url(../local/templates/NewAsAvto/static/images/number__three.png);
     width: 35px;
     height: 35px;
     top: -5px;
@@ -511,7 +511,7 @@ footer {
 
 .number__est__four::before {
     content: '';
-    background-image: url(../static/icons/number__four.png);
+    background-image: url(../local/templates/NewAsAvto/static/images/number__four.png);
     width: 35px;
     height: 35px;
     margin: auto;
@@ -804,7 +804,7 @@ footer {
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../static/icons/X.svg);
+    background-image: url(../local/templates/NewAsAvto/static/icons/X.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -880,7 +880,7 @@ footer {
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../static/icons/X__white.svg);
+    background-image: url(../local/templates/NewAsAvto/static/icons/X__white.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;

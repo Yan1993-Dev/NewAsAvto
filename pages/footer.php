@@ -75,6 +75,7 @@ IncludeTemplateLangFile(__FILE__); // перевод файлов
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7f013289-5438-4a62-907e-2403a22c712e" type="text/javascript"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/index.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/app.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/news.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/button__up.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/tab.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/just-validate.min.js"></script>
@@ -82,8 +83,12 @@ IncludeTemplateLangFile(__FILE__); // перевод файлов
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/mail.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/burger.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/footerPopup.js"></script>
-<script src="<?= SITE_TEMPLATE_PATH ?>/script/script.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/yMap.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/script.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/title.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/accordion.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/title_slider.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/main_slider.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/feedback.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/script/estimate.js"></script>
 </html>

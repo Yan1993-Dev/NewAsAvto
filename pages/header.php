@@ -10,31 +10,7 @@
     $APPLICATION->ShowHead();
     ?>
     <?php
-    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/style.css");
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/common.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/about.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/card__auto.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogCars.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageExeed.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageFaw.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageGWM.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageHaval.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/catalogPageJac.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/contact.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/credit.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/feedback.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/news__card.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/news.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/repair.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/service__map.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/service__stock.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/service.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/stocks.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/stock__page.css");
-    // Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/css/traidIn.css");
     ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">

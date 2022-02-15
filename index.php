@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
 ?>
+
         <nav class="nav">
             <ul class="navigation">
                 <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
@@ -207,28 +209,28 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                     </div>
                     <div class="tabs__item" id="tab_3">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="./chery/tiggo4/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4__tabs.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 4</h3>
                                     <p class="model_catalog__price">от 1 124 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="./chery/tiggo7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 7pro</h3>
                                     <p class="model_catalog__price">от 1 719 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="./chery/tiggo8/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8</h3>
                                     <p class="model_catalog__price">от 1 401 990 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="./chery/tiggo8pro/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8pro</h3>
@@ -737,4 +739,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     </div>
 </main>
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); 
+$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH."/script/index.js");
+$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH."/script/index.js");
+?>

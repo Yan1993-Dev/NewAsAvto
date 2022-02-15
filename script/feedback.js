@@ -1,6 +1,6 @@
 const slider__feedback = document.querySelector('.swiper-container_feedback');
 
-let mySwiper_one = new Swiper('.swiper-container_feedback', {
+let mySwiper_feedback = new Swiper('.swiper-container_feedback', {
     loop: true,
     slidesPerView:3,
     spaceBetween:10,
