@@ -55,7 +55,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/atlaspro/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">atlas Pro</h3>
@@ -64,7 +64,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/coolray/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">coolray</h3>
@@ -73,16 +73,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/GS.png" alt=""></div>
-                        <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">GS</h3>
-                            <p class="model_catalog__price">от 1 219 990 руб.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/tugella/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tugella</h3>
@@ -106,7 +97,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/haval/f7/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">f7</h3>
@@ -115,7 +106,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/haval/f7x/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">f7x</h3>
@@ -124,7 +115,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/haval/jolion/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">jolion</h3>
@@ -199,7 +190,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/exeed/txl/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">EXEED TXL</h3>
@@ -208,7 +199,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/exeed/vx/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLFL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">TXL FL</h3>
@@ -232,7 +223,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/changan/35/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35+.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS35PLUS</h3>
@@ -241,7 +232,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/changan/55/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS55</h3>
@@ -250,7 +241,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/changan/75/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
@@ -274,7 +265,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/faw/x40/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/40.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">BESTURN X40</h3>
@@ -283,10 +274,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/80.png" alt=""></div>
+                    <a href="/faw/t77/index.php" class="tabs__link__fl">
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77__preview.png" alt=""></div>
                         <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">BESTURN X80</h3>
+                            <h3 class="model_catalog__title">BESTUNE T77</h3>
                             <p class="model_catalog__price">от 1 361 990 руб.</p>
                         </div>
                     </a>
@@ -307,7 +298,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/jac/s3/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s3.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">JAC S3</h3>
@@ -316,7 +307,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/jac/j7/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/j7.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">JAC J7</h3>
@@ -325,7 +316,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/jac/s7/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s7.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">JAC S7</h3>
@@ -334,7 +325,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/jac/t6/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t6.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">JAC T6</h3>
@@ -343,7 +334,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/jac/s5/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s5.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">JAC S5</h3>
@@ -367,7 +358,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             ); ?>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/gwm/wingle/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/wingle.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">GWM Wingle 7</h3>

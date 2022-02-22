@@ -49,7 +49,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         </section>
         <div class="slider_wrapper">
             <div class="slider-container">
-                <div class="swiper-container">
+                <div class="swiper-container__title">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt="">
                         </div>

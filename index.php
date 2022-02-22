@@ -1,34 +1,34 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
 ?>
 
-        <nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
-                        <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+<nav class="nav">
+    <ul class="navigation">
+        <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
+            <ul class="nav__nav">
+                <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
+                <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
+                <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
+                <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
+                <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
-        </nav>
+        </li>
+        <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
+        <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
+        <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
+        <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+        <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
+        <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+        <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
+        <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+    </ul>
+</nav>
 <main>
     <div class="container_site">
         <div class="slider_wrapper">
@@ -145,60 +145,46 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                 <div class="tabs__content">
                     <div class="tabs__item active" id="tab_1">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlas.png" alt="model"></div>
-                                <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">Atlas</h3>
-                                    <p class="model_catalog__price">от 1 401 990 руб.</p>
-                                </div>
-                            </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt="model"></div>
-                                <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">coolray</h3>
-                                    <p class="model_catalog__price">от 1 361 990 руб.</p>
-                                </div>
-                            </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/GS.png" alt="model"></div>
-                                <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">GS</h3>
-                                    <p class="model_catalog__price">от 1 219 990 руб.</p>
-                                </div>
-                            </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt="model"></div>
-                                <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">tugella</h3>
-                                    <p class="model_catalog__price">от 2 699 990 руб.</p>
-                                </div>
-                            </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/geely/atlaspro/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">atlas Pro</h3>
                                     <p class="model_catalog__price">от 2 119 990 руб.</p>
                                 </div>
                             </a>
+                            <a href="/geely/coolray/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt="model"></div>
+                                <div class="tabs__item__desc">
+                                    <h3 class="model_catalog__title">coolray</h3>
+                                    <p class="model_catalog__price">от 1 361 990 руб.</p>
+                                </div>
+                            </a>
+                            <a href="/geely/tugella/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt="model"></div>
+                                <div class="tabs__item__desc">
+                                    <h3 class="model_catalog__title">tugella</h3>
+                                    <p class="model_catalog__price">от 2 699 990 руб.</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="tabs__item" id="tab_2">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/haval/f7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">f7</h3>
                                     <p class="model_catalog__price">от 1 604 000 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/haval/f7x/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">f7x</h3>
                                     <p class="model_catalog__price">от 1 654 000 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/haval/jolion/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">jolion</h3>
@@ -209,28 +195,28 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_3">
                         <div class="tabs__item__fl">
-                            <a href="./chery/tiggo4/index.php" class="tabs__link__fl">
+                            <a href="/chery/tiggo4/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4__tabs.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 4</h3>
                                     <p class="model_catalog__price">от 1 124 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./chery/tiggo7/index.php" class="tabs__link__fl">
+                            <a href="/chery/tiggo7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 7pro</h3>
                                     <p class="model_catalog__price">от 1 719 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./chery/tiggo8/index.php" class="tabs__link__fl">
+                            <a href="/chery/tiggo8/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8</h3>
                                     <p class="model_catalog__price">от 1 401 990 руб.</p>
                                 </div>
                             </a>
-                            <a href="./chery/tiggo8pro/index.php" class="tabs__link__fl">
+                            <a href="/chery/tiggo8pro/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8pro</h3>
@@ -241,10 +227,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_4">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL.png" alt="model"></div>
+                            <a href="/exeed/txl/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL__perview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">CHERYEXEED</h3>
+                                    <h3 class="model_catalog__title">VX</h3>
+                                    <p class="model_catalog__price">от 2 149 900 руб.</p>
+                                </div>
+                            </a>
+                            <a href="/exeed/vx/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VX.png" alt="model"></div>
+                                <div class="tabs__item__desc">
+                                    <h3 class="model_catalog__title">TXL FL</h3>
                                     <p class="model_catalog__price">от 2 149 900 руб.</p>
                                 </div>
                             </a>
@@ -252,21 +245,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_5">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/changan/35/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35+.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS35PLUS</h3>
                                     <p class="model_catalog__price">от 1 124 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/changan/55/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS55</h3>
                                     <p class="model_catalog__price">от 1 719 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/changan/75/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
@@ -277,22 +270,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_6">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/40.png" alt="model"></div>
+                            <a href="/faw/x40/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/x40__perview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">BESTURN X40</h3>
                                     <p class="model_catalog__price">от 1 124 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/80.png" alt="model"></div>
-                                <div class="tabs__item__desc">
-                                    <h3 class="model_catalog__title">BESTURN X80</h3>
-                                    <p class="model_catalog__price">от 1 719 900 руб.</p>
-                                </div>
-                            </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
-                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77.jpg" alt="model"></div>
+                            <a href="/faw/t77/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77preview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">BESTUNE T77</h3>
                                     <p class="model_catalog__price">от 1 401 990 руб.</p>
@@ -302,35 +288,35 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_7">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/jac/s3/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s3.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">JAC S3</h3>
                                     <p class="model_catalog__price">от 1 124 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/jac/j7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/j7.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">JAC J7</h3>
                                     <p class="model_catalog__price">от 1 719 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/jac/s7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s7.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">JAC S7</h3>
                                     <p class="model_catalog__price">от 1 401 990 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/jac/t6/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t6.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">JAC T6</h3>
                                     <p class="model_catalog__price">от 1 609 900 руб.</p>
                                 </div>
                             </a>
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/jac/s5/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/s5.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">JAC S5</h3>
@@ -341,7 +327,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_8">
                         <div class="tabs__item__fl">
-                            <a href="./pages/card__auto.html" class="tabs__link__fl">
+                            <a href="/gwm/wingle/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/wingle.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">GWM Wingle 7</h3>
@@ -739,7 +725,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/style.css");
     </div>
 </main>
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); 
-$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH."/script/index.js");
-$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH."/script/index.js");
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");
+$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH . "/script/index.js");
+$APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH . "/script/index.js");
 ?>

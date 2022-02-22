@@ -52,7 +52,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
             </div>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/atlaspro/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">atlas Pro</h3>
@@ -61,7 +61,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/coolray/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">coolray</h3>
@@ -70,16 +70,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                     </a>
                 </li>
                 <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/GS.png" alt=""></div>
-                        <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">GS</h3>
-                            <p class="model_catalog__price">от 1 219 990 руб.</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="catalog__item__li">
-                    <a href="../pages/card__auto.html" class="tabs__link__fl">
+                    <a href="/geely/tugella/index.php" class="tabs__link__fl">
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tugella</h3>

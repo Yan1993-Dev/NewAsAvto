@@ -1,16 +1,17 @@
-const sliders = document.querySelectorAll('.swiper-container');
+const slider__title = document.querySelectorAll('.swiper-container__title');
 
 
-sliders.forEach((el) => {
+slider__title.forEach((el) => {
 	let mySwiper = new Swiper (el, {
 		slidesPerView: 1,
 		spaceBetween: 10,
-		loop: true,
+		loop: false,
 		centerMode: true,
 		observer: true,
 		observeParents: true,
+		autoplay: false,
 		keyboard: {
-			enabled: true
+			enabled: true,
 		},
 		pagination: {
 			el: '.swiper_pagination',
