@@ -4,8 +4,7 @@
         <div class="slider-container_one">
             <div class="swiper-container_one">
                 <div class="swiper-wrapper_one">
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" alt="" class="img_slider_one swiper-lazy">
                         <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и
                             современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и
 
@@ -16,8 +15,7 @@
                             хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
                             и, даже спортивный вид.</p>
                     </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" alt="" class="img_slider_one">
                         <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и
                             современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и
 
@@ -28,8 +26,7 @@
                             хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
                             и, даже спортивный вид.</p>
                     </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" alt="" class="img_slider_one">
                         <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и
                             современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и
 
@@ -40,8 +37,7 @@
                             хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый,
                             и, даже спортивный вид.</p>
                     </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
+                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interier_one.png" src="#" alt="" class="img_slider_one">
                         <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и
                             современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и
 

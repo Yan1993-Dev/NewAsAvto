@@ -58,9 +58,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/traidIn.css");
                                 <h2 class="sub_title">
                                     Заполните форму
                                 </h2>
-                                <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
-                                    <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
-                                    <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                                <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
                                     <div class="field">
                                         <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
                                         <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">

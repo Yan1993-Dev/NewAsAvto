@@ -4,7 +4,6 @@ let mySwiper_feedback = new Swiper('.swiper-container_feedback', {
     loop: true,
     slidesPerView:3,
     spaceBetween:10,
-    lazy: true,
     autoplay: {
         delay: 3500,
     },

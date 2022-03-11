@@ -59,7 +59,6 @@ IncludeTemplateLangFile(__FILE__); // перевод файлов
                         "PATH" => "/include/workFooter.php"
                     )
                 ); ?>
-
                 <a class="back_to_top" title="Наверх"><svg class="arrow__up" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
                         <path d="M0 0h24v24H0V0z" fill="none" />
                         <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z" />
@@ -80,8 +79,9 @@ IncludeTemplateLangFile(__FILE__); // перевод файлов
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/tab.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/just-validate.min.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/inputmask.min.js"></script>
-<script src="<?= SITE_TEMPLATE_PATH ?>/script/mail.js"></script>
+
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/burger.js"></script>
+
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/footerPopup.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/yMap.js"></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/script/script.js"></script>

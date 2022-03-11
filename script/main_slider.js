@@ -1,4 +1,3 @@
-import Swiper from 'swiper/dist/js/swiper.min.js';
 const slider_one = document.querySelectorAll('.swiper-container_one');
 
 slider_one.forEach((el) => {
@@ -9,7 +8,6 @@ slider_one.forEach((el) => {
 		wrapperClass: 'swiper-wrapper_one',
 		loop: true,
 		centerMode: true,
-		lazy: true,
 		pagination: {
 			el: '.swiper-pagination_one',
 			clickable: true,

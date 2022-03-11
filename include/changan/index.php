@@ -97,7 +97,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                             <h2 class="sub_title" id="calculator">
                                 Запись на Тест-драйв
                             </h2>
-                            <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                            <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
                                 <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                                 <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                                 <div class="field">
@@ -322,7 +322,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
             </div>
             <div class="popup_overlay"></div>
             <div class="popup__container">
-                <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
+                <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
                     <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                     <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                     <button class="popup_drive__btn" type="button" aria-label="Close button"></button>

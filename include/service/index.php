@@ -42,10 +42,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
     ); ?>
     <nav class="nav__bar">
         <ul class="nav__bar__ul">
-            <li class="nav__bar__li"><a href="./service.html" class="nav__bar__item color__target">Техническое обслуживание</a></li>
-            <li class="nav__bar__li"><a href="./repair.html" class="nav__bar__item color__notarget">Ремонт автомобиля</a></li>
-            <li class="nav__bar__li"><a href="./service__stock.html" class="nav__bar__item color__notarget">Акции сервиса</a></li>
-            <li class="nav__bar__li"><a href="./service__map.html" class="nav__bar__item color__notarget">Схема проезда</a></li>
+            <li class="nav__bar__li"><a href="/servis/index.php" class="nav__bar__item color__target">Техническое обслуживание</a></li>
+            <li class="nav__bar__li"><a href="/remont-avtomobilya/index.php" class="nav__bar__item color__notarget">Ремонт автомобиля</a></li>
+            <li class="nav__bar__li"><a href="/aktsii-servisa/index.php" class="nav__bar__item color__notarget">Акции сервиса</a></li>
+            <li class="nav__bar__li"><a href="/skhema-proezda/index.php" class="nav__bar__item color__notarget">Схема проезда</a></li>
         </ul>
     </nav>
     <section class="section__tabs">
@@ -1273,9 +1273,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                     <h2 class="sub_title" id="calculator">
                         Заявка на ТО
                     </h2>
-                    <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
-                        <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
-                        <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
                         <div class="field">
                             <label for="calc__name" class="label__traid-in">Имя*</label>
                             <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -1350,9 +1348,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
     ); ?>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-        <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
-            <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
-            <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+        <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Заявка на обратный звонок</h2>
             <div class="popup_cont">

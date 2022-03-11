@@ -24,7 +24,6 @@
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-        <p class="save_title_additionally">В дополнение к комплектации 1,5 CVT Techno:</p>
         <h3 class="save_title">Дизайн</h3>
         <ul class="save">
             <li class="save_item">17-дюймовые алюминиевые литые диски

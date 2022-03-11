@@ -76,9 +76,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
                 </li>
                 <li class="catalog__item__li">
                     <a href="./tiggo8/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8pro.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8NEW.png" alt=""></div>
                         <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">tiggo 8</h3>
+                            <h3 class="model_catalog__title">tiggo 8NEW</h3>
                             <p class="model_catalog__price">от 1 401 990 руб.</p>
                         </div>
                     </a>
@@ -115,7 +115,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
                     <h2 class="sub_title" id="calculator">
                         Запись на Тест-драйв
                     </h2>
-                    <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
                         <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                         <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                         <div class="field">
@@ -330,9 +330,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
                             ); ?>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-        <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
-            <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
-            <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+        <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Заявка на обратный звонок</h2>
             <div class="popup_cont">

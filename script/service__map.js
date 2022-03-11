@@ -1,10 +1,11 @@
-const sliders = document.querySelectorAll('.swiper-container');
+const sliders = document.querySelectorAll('.swiper-container__map');
 
 
 sliders.forEach((el) => {
-	let mySwiper = new Swiper (el, {
+	let mySwiper__map = new Swiper (el, {
 		slidesPerView: 1,
 		spaceBetween: 10,
+		wrapperClass: 'swiper-wrapper__map',
 		loop: true,
 		centerMode: true,
 		observer: true,

@@ -96,7 +96,7 @@ textarea {
 
 @media (max-width:575.98px) {
     #yamap, #map{height:200px;}
-    .map .contacts_block{padding:30px 20px 20px;width:calc(100% - 30px);-webkit-transform:none;-ms-transform:none;transform:none;top:100%}
+    .map .contacts_block{padding:30px 20px 20px;width:calc(100% - 0px);-webkit-transform:none;-ms-transform:none;transform:none;top:100%}
     .map .contacts_block .name{font-size:12px}
     .map .contacts_block .items{font-size:11px}
     .map .contacts_block li.active .items{margin:5px 0 20px}

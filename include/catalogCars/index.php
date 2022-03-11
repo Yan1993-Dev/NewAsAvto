@@ -158,9 +158,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                 </li>
                 <li class="catalog__item__li">
                     <a href="/chery/tiggo8/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8pro.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8NEW.png" alt=""></div>
                         <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">tiggo 8</h3>
+                            <h3 class="model_catalog__title">tiggo 8new</h3>
                             <p class="model_catalog__price">от 1 401 990 руб.</p>
                         </div>
                     </a>
@@ -191,18 +191,18 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             <ul class="catalog__list">
                 <li class="catalog__item__li">
                     <a href="/exeed/txl/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LX.png" alt=""></div>
                         <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">EXEED TXL</h3>
+                            <h3 class="model_catalog__title">LX</h3>
                             <p class="model_catalog__price">от 2 149 900 руб.</p>
                         </div>
                     </a>
                 </li>
                 <li class="catalog__item__li">
                     <a href="/exeed/vx/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLFL.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VX.png" alt=""></div>
                         <div class="tabs__item__desc">
-                            <h3 class="model_catalog__title">TXL FL</h3>
+                            <h3 class="model_catalog__title">VX</h3>
                             <p class="model_catalog__price">от 1 361 990 руб.</p>
                         </div>
                     </a>
@@ -275,7 +275,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                 </li>
                 <li class="catalog__item__li">
                     <a href="/faw/t77/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77__preview.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77preview.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">BESTUNE T77</h3>
                             <p class="model_catalog__price">от 1 361 990 руб.</p>
@@ -389,7 +389,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     <h2 class="sub_title" id="calculator">
                         Запись на Тест-драйв
                     </h2>
-                    <form class="traid-in_calc form__js" action="mail.php" enctype="multipart/form-data" method="POST">
+                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
                         <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
                         <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
                         <div class="field">
@@ -638,7 +638,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
     ); ?>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-        <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
+        <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
             <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
             <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>

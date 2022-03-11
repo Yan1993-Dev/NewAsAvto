@@ -248,9 +248,7 @@
         </footer>
         <div class="popup_overlay"></div>
         <div class="popup__container">
-            <form action="mail.php" id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
-                <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
-                <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
+            <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
                 <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
                 <h2 class="popup_drive">Заявка на обратный звонок</h2>
                 <div class="popup_cont">

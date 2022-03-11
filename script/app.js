@@ -7,5 +7,4 @@ $(document).ready(function(){
         $("#loadMore").text(" ").addClass("noContent");
       }
     });
-    
   })

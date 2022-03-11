@@ -378,7 +378,7 @@ nav ul li {
     text-align: center;
 }
 
-.swiper-wrapper {
+.swiper-wrapper__map {
     display: -webkit-box;
     display: -moz-flex;
     display: -ms-flexbox;

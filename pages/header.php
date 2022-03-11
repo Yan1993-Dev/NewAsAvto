@@ -41,15 +41,14 @@
                 <div class="mobile__header__container">
                     <nav class="nav__mobile">
                         <ul class="navigation__mobile">
-                            <li class="nav__item__mobile"><a href="../pages/card__auto.html" class="nav__item__link__mobile">Тест-драйв</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/credit.html" class="nav__item__link__mobile">Кредит</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/traidIn.html" class="nav__item__link__mobile">Traid-in</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/stocks.html" class="nav__item__link__mobile">Акции</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/news.html" class="nav__item__link__mobile">Новости</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/service.html" class="nav__item__link__mobile">Сервис</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/feedback.html" class="nav__item__link__mobile">Отзывы</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/about.html" class="nav__item__link__mobile">О нас</a></li>
-                            <li class="nav__item__mobile"><a href="../pages/contact.html" class="nav__item__link__mobile">Контакты</a></li>
+                            <li class="nav__item__mobile"><a href="../kredit/index.php" class="nav__item__link__mobile">Кредит</a></li>
+                            <li class="nav__item__mobile"><a href="../treyd-in/index.php" class="nav__item__link__mobile">Traid-in</a></li>
+                            <li class="nav__item__mobile"><a href="../aktsii/index.php" class="nav__item__link__mobile">Акции</a></li>
+                            <li class="nav__item__mobile"><a href="../novosti/index.php" class="nav__item__link__mobile">Новости</a></li>
+                            <li class="nav__item__mobile"><a href="../servis/index.php" class="nav__item__link__mobile">Сервис</a></li>
+                            <li class="nav__item__mobile"><a href="../otzyvy/index.php" class="nav__item__link__mobile">Отзывы</a></li>
+                            <li class="nav__item__mobile"><a href="../o-nas/index.php" class="nav__item__link__mobile">О нас</a></li>
+                            <li class="nav__item__mobile"><a href="../kontakty/index.php" class="nav__item__link__mobile">Контакты</a></li>
                         </ul>
                         <div class="mobile__desc">
                             <a href="tel:+7(8846)215-00-07" class="phone__mobile"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/phoneMobile.svg" alt="phone" class="phone__icon">8 (846) 215 00 07</a>
