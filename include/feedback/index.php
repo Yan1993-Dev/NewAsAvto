@@ -4,30 +4,30 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 ?>
 <nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
-                        <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+    <ul class="navigation">
+        <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
+            <ul class="nav__nav">
+                <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
+                <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
+                <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
+                <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
+                <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
-        </nav>
+        </li>
+        <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
+        <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
+        <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
+        <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+        <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
+        <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+        <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
+        <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+    </ul>
+</nav>
 <main>
     <div class="background__poster">
         <div class="poster__container">
@@ -263,7 +263,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                     <h2 class="sub_title" id="calculator">
                         Заявка на обратный звонок
                     </h2>
-                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                         <div class="field">
                             <label for="calc__name" class="label__traid-in">Имя*</label>
                             <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -271,17 +271,18 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <div class="field__wrapper">
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
                                 <label for="drive__calendar" class="label__traid">Выберите день*</label>
-                                <input type="date" id="drive__datapicker" class="input__traid-in _req" placeholder="Нажмите">
+                                <input type="date" id="drive__datapicker" name="datepicker" class="input__traid-in _req" placeholder="Нажмите">
                             </div>
                         </div>
-                        <div class="checkbox__personal">
-                            <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                            <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                        <div class="checkbox_popup">
+                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                         </div>
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                        <input type="hidden" name="SUBJECT" value=" Заявка на Обратный звонок из Отзывов*">
                         <div class="popup__btn__flex">
                             <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                         </div>

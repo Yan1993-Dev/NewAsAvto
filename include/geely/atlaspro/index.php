@@ -89,7 +89,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <h2 class="sub_title" id="calculator">
                     Заявка на Trade-in
                 </h2>
-                <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                     <div class="field">
                         <label for="calc__name" class="label__traid-in">Имя*</label>
                         <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -97,7 +97,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                            <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                            <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input__manufacturer" class="label__traid-in">Марка</label>
@@ -108,10 +108,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                         </div>
                     </div>
-                    <div class="checkbox__personal">
-                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                        <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                     </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Atlas Pro*">
                     <div class="popup__btn__flex">
                         <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                     </div>
@@ -121,7 +122,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <h2 class="sub_title" id="">
                     Заявка на расчёт кредита
                 </h2>
-                <form class="credit_calc_wp  form__js" enctype="multipart/form-data" method="POST">
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                     <div class="field">
                         <label for="credit__name" class="label__traid-in">Имя*</label>
                         <input type="text" id="credit__name" name="name" class="input__traid-in" data-validate-field="credit__name" placeholder="Ваше имя">
@@ -129,7 +130,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="credit__form__phone" class="label__traid-in">Телефон*</label>
-                            <input type="tel" id="credit__form__phone" name="tel" class="input__traid-in" data-validate-field="tel__credit" placeholder="Ваш телефон">
+                            <input type="tel" id="credit__form__phone" name="phone" class="input__traid-in" data-validate-field="tel__credit" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input__initial" class="label__traid-in">Первый взнос</label>
@@ -140,10 +141,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             <input type="text" id="credit__time" class="input__traid-in" placeholder="Срок кредита">
                         </div>
                     </div>
-                    <div class="checkbox__personal">
-                        <input id="credit__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="credit__personal">
-                        <label for="credit__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                     </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Atlas Pro*">
                     <div class="popup__btn__flex">
                         <button class="btn traid__btn open_thanks_js" type="submit">Отправить</button>
                     </div>
@@ -426,7 +428,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
     </div>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-        <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
+        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Тест драйв</h2>
             <div class="popup_cont">
@@ -437,7 +439,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <div class="field__wrapper">
                     <div class="field_phone">
                         <label for="drive__phone" class="label__popup">Телефон*</label>
-                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
+                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="phone" placeholder="Ваш телефон">
                     </div>
                 </div>
                 <div class="field__wrapper">
@@ -448,22 +450,23 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 </div>
             </div>
             <div class="checkbox_popup">
-                <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
-                <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
             </div>
+            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Geely*">
             <div class="popup__btm__submit open_thanks_js">
                 <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
             </div>
         </form>
     </div>
     <div class="popup__container">
-        <form id="popup__form" class="title__popup__js  title__popup" name="popupIn" enctype="multipart/form-data" method="POST">
+        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_drive__btn popup_drive__btn__js" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Заявка на обратный звонок</h2>
             <div class="popup_cont">
                 <div class="field_name">
                     <label for="drive__name" class="label__popup">Имя*</label>
-                    <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
+                    <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="phone" placeholder="Ваше имя">
                 </div>
                 <div class="field__wrapper">
                     <div class="field_phone">
@@ -479,9 +482,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 </div>
             </div>
             <div class="checkbox_popup">
-                <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
-                <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
             </div>
+            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Geely*">
             <div class="popup__btm__submit">
                 <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
             </div>
@@ -490,7 +494,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
 
     <!-- заявка -->
     <div class="estimate__container">
-        <form class="estimate  form__js" enctype="multipart/form-data" method="POST">
+        <form class="form form__js estimate" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_request__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_request">Оставить заявку</h2>
             <div class="popup_cont">
@@ -501,7 +505,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <div class="field__wrapper">
                     <div class="field_phone">
                         <label for="estimate__phone" class="label__popup">Телефон*</label>
-                        <input type="tel" id="estimate__phone" name="tel" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
+                        <input type="tel" id="estimate__phone" name="phone" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
                     </div>
                 </div>
                 <div class="field_est">
@@ -510,9 +514,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 </div>
             </div>
             <div class="checkbox_popup">
-                <input id="check-drive" type="checkbox" class="checkbox__input " checked value="drive" data-validate-field="estimate__personal">
-                <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
+                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
             </div>
+            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Geely*">
             <div class="wrapper__submit-est">
                 <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
             </div>

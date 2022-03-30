@@ -5,31 +5,31 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
 ?>
 
 <main>
-<nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
-                        <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
-            </ul>
-        </nav>
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
+                <ul class="nav__nav">
+                    <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
+                    <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                    <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
+                    <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                    <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                    <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
+                    <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
+                    <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                    <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
+                </ul>
+            </li>
+            <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
+            <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
+            <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
+            <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+            <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
+            <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+            <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
+            <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+        </ul>
+    </nav>
     <div class="background">
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
@@ -134,7 +134,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                 <label class="sub__tabs__item" for="sub-tab-1">ATLAS PRO</label>
                                 <label class="sub__tabs__item" for="sub-tab-101">COOLRAY</label>
                                 <label class="sub__tabs__item" for="sub-tab-103">TUGELLA</label>
-                                <label class="sub__tabs__item" for="sub-tab-104">ATLAS</label>
                             </div>
                             <input class="tab-radio" id="sub-tab-1" name="sub-group" type="radio">
                             <div class="sub-tab-content">
@@ -143,7 +142,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -151,7 +150,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -166,10 +165,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит AtlasPro*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -196,7 +196,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -204,7 +204,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -219,10 +219,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Coolray*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -248,7 +249,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -256,7 +257,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -271,10 +272,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tugella*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -289,58 +291,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             "AREA_FILE_SUFFIX" => "inc",
                                             "EDIT_TEMPLATE" => "",
                                             "PATH" => "/include/credit__tugella.php"
-                                        )
-                                    ); ?>
-                                </div>
-                            </div>
-                            <input class="tab-radio" id="sub-tab-104" name="sub-group" type="radio">
-                            <div class="sub-tab-content">
-                                <div class="container__model__view">
-                                    <section class="form_traid-in">
-                                        <h2 class="sub_title">
-                                            Заполните форму
-                                        </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
-                                            <div class="field">
-                                                <label for="calc__name" class="label__traid-in">Ваше имя*</label>
-                                                <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
-                                            </div>
-                                            <div class="field__wrapper">
-                                                <div class="field">
-                                                    <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
-                                                </div>
-                                            </div>
-                                            <div class="field">
-                                                <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
-                                            </div>
-                                            <div class="field">
-                                                <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
-                                            </div>
-                                            <div class="field">
-                                                <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
-                                            </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
-                                            </div>
-                                            <div class="popup__btn__flex">
-                                                <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
-                                            </div>
-                                        </form>
-                                    </section>
-                                    <? $APPLICATION->IncludeComponent(
-                                        "bitrix:main.include",
-                                        "",
-                                        array(
-                                            "AREA_FILE_RECURSIVE" => "Y",
-                                            "AREA_FILE_SHOW" => "file",
-                                            "AREA_FILE_SUFFIX" => "inc",
-                                            "EDIT_TEMPLATE" => "",
-                                            "PATH" => "/include/credit__atlas.php"
                                         )
                                     ); ?>
                                 </div>
@@ -360,7 +310,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -368,7 +318,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -383,10 +333,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит F7*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -412,7 +363,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -420,7 +371,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -435,10 +386,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит F7x*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -464,7 +416,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -472,7 +424,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -487,10 +439,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Jolion*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -526,7 +479,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -534,7 +487,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -549,10 +502,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 4*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -578,7 +532,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -586,7 +540,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -601,10 +555,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 7Pro*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -630,7 +585,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -638,7 +593,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -653,10 +608,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 8*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -682,7 +638,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -690,7 +646,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -705,10 +661,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 8Pro*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -742,7 +699,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -750,7 +707,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -765,10 +722,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит LX*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -794,7 +752,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -802,7 +760,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -817,10 +775,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит VX*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -855,7 +814,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -863,7 +822,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -878,10 +837,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит BESTURN X80*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -907,7 +867,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -915,7 +875,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -930,10 +890,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит BESTURN X40*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -959,7 +920,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -967,7 +928,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -982,10 +943,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит BESTUNE T77*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -1020,7 +982,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -1028,7 +990,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -1043,10 +1005,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит CS35 Plus*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -1072,7 +1035,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -1080,7 +1043,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -1095,10 +1058,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит CS55*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -1124,7 +1088,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                         <h2 class="sub_title">
                                             Заполните форму
                                         </h2>
-                                        <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                             <div class="field">
                                                 <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                                 <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -1132,7 +1096,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             <div class="field__wrapper">
                                                 <div class="field">
                                                     <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                                    <input type="tel" id="drive__phone" data-validate-field="tel" class="input__traid-in" name="tel" placeholder="Ваш телефон">
+                                                    <input type="tel" id="drive__phone" data-validate-field="tel" class="input__traid-in" name="phone" placeholder="Ваш телефон">
                                                 </div>
                                             </div>
                                             <div class="field">
@@ -1147,10 +1111,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
                                                 <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
-                                            <div class="checkbox__personal">
-                                                <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                                                <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит CS75FL*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>

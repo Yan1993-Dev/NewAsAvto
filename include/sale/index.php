@@ -211,10 +211,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/stocks.css");
                     </ul>
                 </div>
                 <section class="form_traid-in">
-                    <h2 class="sub_title" id="calculator">
+                    <h2 class="sub_title" id="">
                         Заявка на обратный звонок
                     </h2>
-                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                         <div class="field">
                             <label for="calc__name" class="label__traid-in">Имя*</label>
                             <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -222,17 +222,18 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/stocks.css");
                         <div class="field__wrapper">
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
                                 <label for="drive__calendar" class="label__traid">Выберите день*</label>
-                                <input type="date" id="drive__datapicker" class="input__traid-in _req" placeholder="Нажмите">
+                                <input type="date" name="datepicker" id="drive__datapicker" class="input__traid-in _req" placeholder="Нажмите">
                             </div>
                         </div>
-                        <div class="checkbox__personal">
-                            <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                            <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                        <div class="checkbox_popup">
+                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                         </div>
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                        <input type="hidden" name="SUBJECT" value=" Заявка на обратный звонок*">
                         <div class="popup__btn__flex">
                             <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                         </div>

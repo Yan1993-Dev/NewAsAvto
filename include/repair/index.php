@@ -573,7 +573,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                     <h2 class="sub_title" id="calculator">
                         Заявка на ремонт
                     </h2>
-                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                         <div class="field">
                             <label for="calc__name" class="label__traid-in">Имя*</label>
                             <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -581,22 +581,23 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                         <div class="field__wrapper">
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
                                 <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                                <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                                <input type="text" id="input__manufacturer" name="marka-re" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Модель</label>
-                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                                <input type="text" id="input_traid" name="model-re" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                             </div>
                             <div class="field">
                                 <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
-                                <input type="date" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
+                                <input type="date" id="input__manufacturer" name="datepicker" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Время записи</label>
+                                <input type="hidden" name="time-picker">
                                 <select name="DC" class="input__traid-in">
                                     <option value="s1" class="input__traid-in">08:00</option>
                                     <option value="s2" class="input__traid-in">09:00</option>
@@ -614,6 +615,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                             </div>
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
+                                <input type="hidden" name="location-picker">
                                 <select name="DC" class="input__traid-in">
                                     <option value="s1" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
                                     <option value="s2" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
@@ -623,10 +625,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 </select>
                             </div>
                         </div>
-                        <div class="checkbox__personal">
-                            <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                            <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                        <div class="checkbox_popup">
+                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                         </div>
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                        <input type="hidden" name="SUBJECT" value=" Заявка на ремонт*">
                         <div class="popup__btn__flex">
                             <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                         </div>
