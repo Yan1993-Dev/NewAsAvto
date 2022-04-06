@@ -14,13 +14,13 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
             <ul class="nav__nav">
                 <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
                 <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageChery.html" class="nav__nav__link">CHERY</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageExeed.html" class="nav__nav__link">EXEED</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageChangan.html" class="nav__nav__link">CHANGAN</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageFaw.html" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageJac.html" class="nav__nav__link">JAC</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogPageGWM.html" class="nav__nav__link">GWM Pickup</a></li>
-                <li class="nav__nav__item"><a href="/pages/catalogCars.html" class="nav__nav__link">Все автомобили</a></li>
+                <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
+                <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
+                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a>
             </ul>
         </li>
         <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
@@ -36,7 +36,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
 <main>
     <div class="container_site">
         <ul class="cat__list">
-            <li class="cat__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/arrowL.svg" alt=""><img src="../static/icons/arrowL.svg" alt="" class="ar__right"><a href="../pages/catalogCars.html" class="cat__list__inner">Назад в каталог</a></li>
+            <li class="cat__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/arrowL.svg" alt=""><img src="../static/icons/arrowL.svg" alt="" class="ar__right"><a href="/novye-avto/index.php" class="cat__list__inner">Назад в каталог</a></li>
         </ul>
         <section class="title">
             <? $APPLICATION->IncludeComponent(
@@ -55,25 +55,15 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
             <div class="slider-container">
                 <div class="swiper-container__title">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt="">
-                        </div>
-
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt=""></div>
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
                     </div>
                     <div class="swiper_pagination">
                         <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
@@ -93,7 +83,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 <h2 class="sub_title" id="calculator">
                     Заявка на Trade-in
                 </h2>
-                <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                     <div class="field">
                         <label for="calc__name" class="label__traid-in">Имя*</label>
                         <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -101,21 +91,22 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                            <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                            <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
-                            <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                            <input type="text" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                            <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
+                            <input type="text" id="input__manufacturer" name="td-model" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
                         </div>
                         <div class="field">
-                            <label for="input_traid" class="label__traid-in">Модель</label>
-                            <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                            <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
+                            <input type="text" id="input_traid" name="select-tradein" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                         </div>
                     </div>
-                    <div class="checkbox__personal">
-                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                        <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                     </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на Trade-in Tiggo 8*">
                     <div class="popup__btn__flex">
                         <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                     </div>
@@ -125,7 +116,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 <h2 class="sub_title" id="">
                     Заявка на расчёт кредита
                 </h2>
-                <form class="credit_calc_wp  form__js" enctype="multipart/form-data" method="POST">
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                     <div class="field">
                         <label for="credit__name" class="label__traid-in">Имя*</label>
                         <input type="text" id="credit__name" name="name" class="input__traid-in" data-validate-field="credit__name" placeholder="Ваше имя">
@@ -133,21 +124,22 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="credit__form__phone" class="label__traid-in">Телефон*</label>
-                            <input type="tel" id="credit__form__phone" name="tel" class="input__traid-in" data-validate-field="tel__credit" placeholder="Ваш телефон">
+                            <input type="phone" id="credit__form__phone" name="phone" class="input__traid-in" data-validate-field="tel__credit" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input__initial" class="label__traid-in">Первый взнос</label>
-                            <input type="text" id="input__initial" class="input__traid-in" placeholder="Сумма первого взноса">
+                            <input type="text" id="input__initial" name="select-credit" class="input__traid-in" placeholder="Сумма первого взноса">
                         </div>
                         <div class="field">
                             <label for="credit__time" class="label__traid-in">Срок</label>
-                            <input type="text" id="credit__time" class="input__traid-in" placeholder="Срок кредита">
+                            <input type="text" id="credit__time" name="credit-time" class="input__traid-in" placeholder="Срок кредита">
                         </div>
                     </div>
-                    <div class="checkbox__personal">
-                        <input id="credit__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="credit__personal">
-                        <label for="credit__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                     </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 8*">
                     <div class="popup__btn__flex">
                         <button class="btn traid__btn open_thanks_js" type="submit">Отправить</button>
                     </div>
@@ -381,7 +373,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     </div>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-        <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
+    <form class="form title__popup__js  title__popup" id="popup__form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Тест драйв</h2>
             <div class="popup_cont">
@@ -392,20 +384,21 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 <div class="field__wrapper">
                     <div class="field_phone">
                         <label for="drive__phone" class="label__popup">Телефон*</label>
-                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
+                        <input type="phone" id="drive__phone" data-validate-field="tel" class="input__popup" name="phone" placeholder="Ваш телефон">
                     </div>
                 </div>
                 <div class="field__wrapper">
                     <div class="field_calendar">
                         <label for="drive__calendar" class="label__popup">Выберите день*</label>
-                        <input type="date" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
+                        <input type="date" name="datepicker" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
                     </div>
                 </div>
             </div>
             <div class="checkbox_popup">
-                <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
-                <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
             </div>
+            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Tiggo8*">
             <div class="popup__btm__submit open_thanks_js">
                 <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
             </div>
@@ -445,7 +438,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
 
     <!-- заявка -->
     <div class="estimate__container">
-        <form class="estimate  form__js" enctype="multipart/form-data" method="POST">
+        <form class="form form__js estimate" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_request__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_request">Оставить заявку</h2>
             <div class="popup_cont">
@@ -456,18 +449,19 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 <div class="field__wrapper">
                     <div class="field_phone">
                         <label for="estimate__phone" class="label__popup">Телефон*</label>
-                        <input type="tel" id="estimate__phone" name="tel" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
+                        <input type="phone" id="estimate__phone" name="phone" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
                     </div>
                 </div>
                 <div class="field_est">
                     <label for="input__text" class="label__popup">Ваш вопрос</label>
-                    <textarea class="input__est" id="input__text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
+                    <textarea class="input__est" id="input__text" name="input-text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
                 </div>
             </div>
             <div class="checkbox_popup">
-                <input id="check-drive" type="checkbox" class="checkbox__input " checked value="drive" data-validate-field="estimate__personal">
-                <label for="check-drive" class="checkbox__drive">Согласие на обработку ПД</label>
+                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
             </div>
+            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+            <input type="hidden" name="SUBJECT" value=" Оставить заявку*">
             <div class="wrapper__submit-est">
                 <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
             </div>

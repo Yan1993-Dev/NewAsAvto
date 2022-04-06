@@ -1297,31 +1297,29 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Время записи</label>
-                                <input type="hidden" name="time-picker">
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">08:00</option>
-                                    <option value="s2" class="input__traid-in">09:00</option>
-                                    <option value="s5" class="input__traid-in">10:00</option>
-                                    <option value="s6" class="input__traid-in">11:00</option>
-                                    <option value="s7" class="input__traid-in">12:00</option>
-                                    <option value="s8" class="input__traid-in">13:00</option>
-                                    <option value="s9" class="input__traid-in">14:00</option>
-                                    <option value="s10" class="input__traid-in">15:00</option>
-                                    <option value="s11" class="input__traid-in">16:00</option>
-                                    <option value="s12" class="input__traid-in">17:00</option>
-                                    <option value="s13" class="input__traid-in">18:00</option>
-                                    <option value="s14" class="input__traid-in">19:00</option>
+                                <select name="time-picker" class="input__traid-in">
+                                    <option value="08:00" class="input__traid-in">08:00</option>
+                                    <option value="09:00" class="input__traid-in">09:00</option>
+                                    <option value="10:00" class="input__traid-in">10:00</option>
+                                    <option value="11:00" class="input__traid-in">11:00</option>
+                                    <option value="12:00" class="input__traid-in">12:00</option>
+                                    <option value="13:00" class="input__traid-in">13:00</option>
+                                    <option value="14:00" class="input__traid-in">14:00</option>
+                                    <option value="15:00" class="input__traid-in">15:00</option>
+                                    <option value="16:00" class="input__traid-in">16:00</option>
+                                    <option value="17:00" class="input__traid-in">17:00</option>
+                                    <option value="18:00" class="input__traid-in">18:00</option>
+                                    <option value="19:00" class="input__traid-in">19:00</option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <input type="hidden" name="location-picker">
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="s2" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="s3" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="s3" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="s4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                                <select name="choose_dc" class="input__traid-in">
+                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
                                 </select>
                             </div>
                         </div>

@@ -14,7 +14,7 @@ const selModel = document.querySelector('.rate-form__model'),
 
     document.querySelector('.rate-form__mark select').addEventListener('change', function (e) {
 
-        selModel.innerHTML = '<label for="input_traid" class="label__traid-in">Выберите модель</label> <select name="model" class="input__traid-in"><option value="" class="input__traid-in">Выберите модель</option></select>';
+        selModel.innerHTML = '<label for="input_traid" class="label__traid-in">Выберите модель</label> <select name="choose_test" class="input__traid-in"><option value="" class="input__traid-in">Выберите модель</option></select>';
         models[this.value].forEach(val => {
             selModel.querySelector('select').innerHTML += `<option value="${val}">${val}</option>`;
         });

@@ -1259,9 +1259,10 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     }
 
     .checkbox_popup {
-        text-align: right;
-        margin-right: 15px;
-        margin-top: 20px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 12px;
     }
 
 
@@ -1323,6 +1324,10 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     .thanks_app {
         text-align: center;
         font-size: 16px;
+    }
+
+    .thanks__content {
+        margin-top: 65px;
     }
 
     /* стили для открытия попапа */

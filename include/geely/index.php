@@ -104,30 +104,30 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                         <div class="field__wrapper">
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Выберите марку</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s3" class="input__traid-in">GEELY</option>
+                                <select name="choose_marka" class="input__traid-in">
+                                    <option value="GEELY" class="input__traid-in">GEELY</option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Выберите модель</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">ATLAS PRO</option>
-                                    <option value="s2" class="input__traid-in">COOLRAY</option>
-                                    <option value="s6" class="input__traid-in">TUGELLA</option>
+                                <select name="choose_model" class="input__traid-in">
+                                    <option value="ATLAS PRO" class="input__traid-in">ATLAS PRO</option>
+                                    <option value="COOLRAY" class="input__traid-in">COOLRAY</option>
+                                    <option value="TUGELLA" class="input__traid-in">TUGELLA</option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="s2" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="s3" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="s3" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="s4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                                <select name="choose_dc" class="input__traid-in">
+                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
                                 </select>
                             </div>
                         </div>

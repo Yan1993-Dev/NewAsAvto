@@ -155,21 +155,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
                                             <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит AtlasPro*">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит ATLAS PRO*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -209,15 +209,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -262,15 +262,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -323,15 +323,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -376,15 +376,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -429,15 +429,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -492,15 +492,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -545,15 +545,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -598,15 +598,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -651,15 +651,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -712,15 +712,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -765,15 +765,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -827,15 +827,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -880,15 +880,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -933,15 +933,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -995,15 +995,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -1048,15 +1048,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
@@ -1101,15 +1101,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                             </div>
                                             <div class="field">
                                                 <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
-                                                <input type="number" id="input__manufacturer" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Срок кредита</label>
-                                                <input type="text" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
                                             </div>
                                             <div class="field">
                                                 <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
-                                                <input type="number" id="input_traid" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
                                             </div>
                                             <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных

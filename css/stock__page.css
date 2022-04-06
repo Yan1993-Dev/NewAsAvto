@@ -369,8 +369,13 @@ nav ul li {
 
 .checkbox_popup {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.thanks__content {
+    margin-top: 65px;
 }
 
 .input__popup {

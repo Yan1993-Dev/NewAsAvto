@@ -114,7 +114,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageJac.css");
                 <h2 class="sub_title" id="calculator">
                     Запись на Тест-драйв
                 </h2>
-                <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                     <div class="field">
                         <label for="calc__name" class="label__traid-in">Имя*</label>
                         <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -122,39 +122,40 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageJac.css");
                     <div class="field__wrapper">
                         <div class="field">
                             <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                            <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                            <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                         </div>
                         <div class="field">
                             <label for="input_traid" class="label__traid-in">Выберите марку</label>
-                            <select name="DC" class="input__traid-in">
+                            <select name="choose_marka" class="input__traid-in">
                                 <option value="s3" class="input__traid-in">JAC</option>
                             </select>
                         </div>
                         <div class="field">
                             <label for="input_traid" class="label__traid-in">Выберите модель</label>
-                            <select name="DC" class="input__traid-in">
-                                <option value="s1" class="input__traid-in">JAC S3</option>
-                                <option value="s2" class="input__traid-in">JAC J7</option>
-                                <option value="s5" class="input__traid-in">JAC S7</option>
-                                <option value="s6" class="input__traid-in">JAC T6</option>
-                                <option value="s7" class="input__traid-in">JAC S5</option>
+                            <select name="choose_model" class="input__traid-in">
+                                <option value="JAC S3" class="input__traid-in">JAC S3</option>
+                                <option value="JAC J7" class="input__traid-in">JAC J7</option>
+                                <option value="JAC S7" class="input__traid-in">JAC S7</option>
+                                <option value="JAC T6" class="input__traid-in">JAC T6</option>
+                                <option value="JAC S5" class="input__traid-in">JAC S5</option>
                             </select>
                         </div>
                         <div class="field">
                             <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                            <select name="DC" class="input__traid-in">
-                                <option value="s1" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                <option value="s2" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                <option value="s3" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                <option value="s3" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                <option value="s4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                            <select name="choose_dc" class="input__traid-in">
+                                <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
                             </select>
                         </div>
                     </div>
-                    <div class="checkbox__personal">
-                        <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                        <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
-                    </div>
+                    <div class="checkbox_popup">
+                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                        </div>
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                        <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Jac*">
                     <div class="popup__btn__flex">
                         <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                     </div>

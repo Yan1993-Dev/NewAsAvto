@@ -60,14 +60,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/traidIn.css");
                                 </h2>
                                 <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                                     <div class="field">
-                                        <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
-                                        <input type="text" id="input__manufacturer" name="td-model" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
-                                    </div>
-                                    <div class="field">
-                                        <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
-                                        <input type="text" id="input_traid" name="select-model" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
-                                    </div>
-                                    <div class="field">
                                         <label for="calc__name" class="label__traid-in">Ваше имя*</label>
                                         <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
                                     </div>
@@ -76,6 +68,14 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/traidIn.css");
                                             <label for="calc__phone" class="label__traid-in">Телефон*</label>
                                             <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                                         </div>
+                                    </div>
+                                    <div class="field">
+                                        <label for="input__manufacturer" class="label__traid-in">Марка вашего автомобиля</label>
+                                        <input type="text" id="input__manufacturer" name="select-tradein" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                                    </div>
+                                    <div class="field">
+                                        <label for="input_traid" class="label__traid-in">Модель вашего автомобиля</label>
+                                        <input type="text" id="input_traid" name="td-model" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
                                     </div>
                                     <div class="checkbox_popup">
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных

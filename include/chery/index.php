@@ -1,33 +1,33 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css");
 ?>
 <nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
-                        <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
+    <ul class="navigation">
+        <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
+            <ul class="nav__nav">
+                <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
+                <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
+                <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
+                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
-        </nav>
+        </li>
+        <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
+        <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
+        <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
+        <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+        <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
+        <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+        <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
+        <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
+    </ul>
+</nav>
 <main>
     <div class="background">
         <? $APPLICATION->IncludeComponent(
@@ -99,25 +99,23 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
         <div class="container_site">
             <div class="flex__cont">
                 <div class="middle">
-                <? $APPLICATION->IncludeComponent(
-                "bitrix:main.include",
-                "",
-                array(
-                    "AREA_FILE_RECURSIVE" => "Y",
-                    "AREA_FILE_SHOW" => "file",
-                    "AREA_FILE_SUFFIX" => "inc",
-                    "EDIT_TEMPLATE" => "",
-                    "PATH" => "/include/chery__text.php"
-                )
-            ); ?>
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/chery__text.php"
+                        )
+                    ); ?>
                 </div>
                 <section class="form_traid-in">
                     <h2 class="sub_title" id="calculator">
                         Запись на Тест-драйв
                     </h2>
-                    <form class="traid-in_calc form__js" enctype="multipart/form-data" method="POST">
-                        <input type="hidden" name="admin_mail[]" value="taur.game@gmail.com">
-                        <input type="hidden" name="admin_mail[]" value="asavtomotors.ru@yandex.ru">
+                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                         <div class="field">
                             <label for="calc__name" class="label__traid-in">Имя*</label>
                             <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
@@ -125,38 +123,39 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
                         <div class="field__wrapper">
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="tel" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Выберите марку</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s3" class="input__traid-in">CHERY</option>
+                                <select name="choose_marka" class="input__traid-in">
+                                    <option value="CHERY" class="input__traid-in">CHERY</option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label for="input_traid" class="label__traid-in">Время записи</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">TIGGO 4</option>
-                                    <option value="s2" class="input__traid-in">TIGGO 7 PRO</option>
-                                    <option value="s5" class="input__traid-in">TIGGO 8</option>
-                                    <option value="s6" class="input__traid-in">TIGGO 8 PRO</option>
+                                <select name="choose_model" class="input__traid-in">
+                                    <option value="TIGGO 4" class="input__traid-in">TIGGO 4</option>
+                                    <option value="TIGGO 7 PRO" class="input__traid-in">TIGGO 7 PRO</option>
+                                    <option value="TIGGO 8" class="input__traid-in">TIGGO 8</option>
+                                    <option value="TIGGO 8 PRO" class="input__traid-in">TIGGO 8 PRO</option>
                                 </select>
                             </div>
                             <div class="field">
                                 <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <select name="DC" class="input__traid-in">
-                                    <option value="s1" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="s2" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="s3" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="s3" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="s4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                                <select name="choose_dc" class="input__traid-in">
+                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="checkbox__personal">
-                            <input id="calc__personal__inf" type="checkbox" class="checkbox__input " checked value="Receipt" data-validate-field="traid__personal">
-                            <label for="calc__personal__inf" class="checkbox__label">Согласие на обработку ПД</label>
+                        <div class="checkbox_popup">
+                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                         </div>
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                        <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв Chery*">
                         <div class="popup__btn__flex">
                             <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                         </div>
@@ -318,16 +317,16 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogPageChery.css");
     </div>
     </div>
     <? $APPLICATION->IncludeComponent(
-                                "bitrix:main.include",
-                                "",
-                                array(
-                                    "AREA_FILE_RECURSIVE" => "Y",
-                                    "AREA_FILE_SHOW" => "file",
-                                    "AREA_FILE_SUFFIX" => "inc",
-                                    "EDIT_TEMPLATE" => "",
-                                    "PATH" => "/include/chery__seo.php"
-                                )
-                            ); ?>
+        "bitrix:main.include",
+        "",
+        array(
+            "AREA_FILE_RECURSIVE" => "Y",
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "",
+            "PATH" => "/include/chery__seo.php"
+        )
+    ); ?>
     <div class="popup_overlay"></div>
     <div class="popup__container">
         <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">

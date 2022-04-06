@@ -43,6 +43,18 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                         <div class="swiper-slide card">
                             <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/first_pay.jpg" class="category__image" alt="poster"></a>
                         </div>
+                        <div class="swiper-slide card">
+                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLzero.jpg" class="category__image" alt="poster"></a>
+                        </div>
+                        <div class="swiper-slide card">
+                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LXnew.jpg" class="category__image" alt="poster"></a>
+                        </div>
+                        <div class="swiper-slide card">
+                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLnew.jpg" class="category__image" alt="poster"></a>
+                        </div>
+                        <div class="swiper-slide card">
+                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/testactii.jpg" class="category__image" alt="poster"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -226,10 +238,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                     </div>
                     <div class="tabs__item" id="tab_4">
                         <div class="tabs__item__fl">
-                            <a href="/exeed/txl/index.php" class="tabs__link__fl">
+                            <a href="/exeed/lx/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LX.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">LX</h3>
+                                    <p class="model_catalog__price">от 2 149 900 руб.</p>
+                                </div>
+                            </a>
+                            <a href="/exeed/txl/index.php" class="tabs__link__fl">
+                                <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL__perview.png" alt="model"></div>
+                                <div class="tabs__item__desc">
+                                    <h3 class="model_catalog__title">TXL FL</h3>
                                     <p class="model_catalog__price">от 2 149 900 руб.</p>
                                 </div>
                             </a>
@@ -408,6 +427,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
             <li class="content__stock">
                 <a href="./stock__page.html">
                     <p class="content__title">Скидка по Traid-in</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/testactii.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="#" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
+                <a href="./stock__page.html">
+                    <p class="content__title">Скидка по Traid-in</p>
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="#" class="btn__info">Узнать больше</a>
@@ -435,7 +463,34 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
             <li class="content__stock">
                 <a href="./stock__page.html">
                     <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/caskosmall.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
+                <a href="./stock__page.html">
+                    <p class="content__title">Скидка по Traid-in</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LXsmall.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
+                <a href="./stock__page.html">
+                    <p class="content__title">Скидка по Traid-in</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLsmall.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
+                <a href="./stock__page.html">
+                    <p class="content__title">Скидка по Traid-in</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VXsmall.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="./stock__page.html" class="btn__info">Узнать больше</a>
                     </div>
@@ -453,97 +508,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
             <li class="content__stock">
                 <a href="./stock__page.html">
                     <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/first_pay.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/first_pay.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/first_pay.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="./stock__page.html" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="./stock__page.html">
-                    <p class="content__title">Скидка по Traid-in</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/traid__in.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/AUTOzeroSmall.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="./stock__page.html" class="btn__info">Узнать больше</a>
                     </div>

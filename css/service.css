@@ -225,7 +225,7 @@ nav ul ul ul {
 
 
 .background__poster {
-    background-image: url(../local/templates/NewAsAvto/static/images/service__new.jpg);
+    background-image: url(../static/images/service__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -606,7 +606,7 @@ table {
 
 .background__fos {
     padding: 40px 0;
-    background-image: url(../local/templates/NewAsAvto/static/images/service__fos.jpg);
+    background-image: url(../static/images/service__fos.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1254,11 +1254,15 @@ table {
 }
 
 .checkbox_popup {
-    text-align: right;
+    text-align: center;
     margin-right: 15px;
     margin-top: 20px;
+    font-size: 12px;
 }
 
+.thanks__content {
+    margin-top: 65px;
+}
 
 .thanks {
     display: none;

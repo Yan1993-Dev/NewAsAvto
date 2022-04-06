@@ -1,19 +1,19 @@
-var estimate = document.querySelector('.title__popup');
-var estimateBtn = document.querySelector('.title__popup__js')
+var titleForm = document.querySelector('.title__popup');
+var titleBtn = document.querySelector('.title__popup__js')
 var overlay = document.querySelector('.popup_overlay')
-var estimateCloseBtn = estimate.querySelector('.popup_drive__btn__js')
+var titleCloseBtn = titleForm.querySelector('.popup_drive__btn')
 
-estimateBtn.addEventListener('click', function(){
-	estimate.classList.add('opened');
+titleBtn.addEventListener('click', function(){
+	titleForm.classList.add('opened');
 	overlay.classList.add('join');
 
-	estimateCloseBtn.addEventListener('click', function(){
-		estimate.classList.remove('opened');
+	titleCloseBtn.addEventListener('click', function(){
+		titleForm.classList.remove('opened');
 		overlay.classList.remove('join');
 	})
 })
 
 overlay.addEventListener('click', function(){
-	estimate.classList.remove('opened');
+	titleForm.classList.remove('opened');
 	overlay.classList.remove('join');
 })
