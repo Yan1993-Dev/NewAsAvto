@@ -7,25 +7,25 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
     <ul class="navigation">
         <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
             <ul class="nav__nav">
-                <li class="nav__nav__item"><a href="../geely/index.php" class="nav__nav__link">GEELY</a></li>
-                <li class="nav__nav__item"><a href="../haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                <li class="nav__nav__item"><a href="../chery/index.php" class="nav__nav__link">CHERY</a></li>
-                <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
-                <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
+                <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
+                <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
+                <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
+                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
         </li>
-        <li class="nav__item"><a href="../servis/index.php" class="nav__item__link">Сервис</a></li>
-        <li class="nav__item"><a href="../aktsii/index.php" class="nav__item__link">Акции</a></li>
-        <li class="nav__item"><a href="../kredit/index.php" class="nav__item__link">Кредит</a></li>
-        <li class="nav__item"><a href="../treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-        <li class="nav__item"><a href="../novosti/index.php" class="nav__item__link">Новости</a></li>
-        <li class="nav__item"><a href="../otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-        <li class="nav__item"><a href="../o-nas/index.php" class="nav__item__link">О нас</a></li>
-        <li class="nav__item"><a href="../kontakty/index.php" class="nav__item__link">Контакты</a></li>
+        <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
+        <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
+        <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
+        <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+        <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
+        <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+        <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
+        <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
     </ul>
 </nav>
 <main>
@@ -252,12 +252,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
         <div class="pagination">
             <ul class="pagination_list">
                 <li class="pagination_list_item p-fist"><a href="../otzyvy/index.php">1</a></li>
-                <li class="pagination_list_item p-second"><a href="../otzyvy/otzyvy-vtoraya/index.php">2</a></li>
-                <li class="pagination_list_item p-three"><a href="../otzyvy/otzyvy-tretya/index.php">3</a></li>
-                <li class="pagination_list_item p-four"><a href="../otzyvy/otzyvy-chetvertaya/index.php">4</a></li>
-                <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
-                <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
-                <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li>
+                <li class="pagination_list_item p-second"><a href="../otzyvy-vtoraya/index.php">2</a></li>
+                <li class="pagination_list_item p-three"><a href="../otzyvy-tretya/index.php">3</a></li>
+                <li class="pagination_list_item p-four"><a href="../otzyvy-chetvertaya/index.php">4</a></li>
+                <li class="pagination_list_item p-five"><a href="../otzyvy-pyataya/index.php">5</a></li>
+                <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
+                <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li>
             </ul>
         </div>
     </div>

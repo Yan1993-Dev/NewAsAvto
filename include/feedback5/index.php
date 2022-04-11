@@ -252,12 +252,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
         <div class="pagination">
             <ul class="pagination_list">
                 <li class="pagination_list_item p-fist"><a href="../otzyvy/index.php">1</a></li>
-                <li class="pagination_list_item p-second"><a href="../otzyvy/otzyvy-vtoraya/index.php">2</a></li>
-                <li class="pagination_list_item p-three"><a href="../otzyvy/otzyvy-tretya/index.php">3</a></li>
-                <li class="pagination_list_item p-four"><a href="../otzyvy/otzyvy-chetvertaya/index.php">4</a></li>
-                <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
-                <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
-                <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li>
+                <li class="pagination_list_item p-second"><a href="../otzyvy-vtoraya/index.php">2</a></li>
+                <li class="pagination_list_item p-three"><a href="../otzyvy-tretya/index.php">3</a></li>
+                <li class="pagination_list_item p-four"><a href="../otzyvy-chetvertaya/index.php">4</a></li>
+                <li class="pagination_list_item p-five"><a href="../otzyvy-pyataya/index.php">5</a></li>
+                <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
+                <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li>
             </ul>
         </div>
     </div>
