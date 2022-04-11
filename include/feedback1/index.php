@@ -5,7 +5,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 ?>
 <nav class="nav">
     <ul class="navigation">
-        <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
+        <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
             <ul class="nav__nav">
                 <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
                 <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
