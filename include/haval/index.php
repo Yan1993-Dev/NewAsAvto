@@ -50,12 +50,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageHaval.css")
 <div class="container_site">
     <div class="catalog__cont">
         <div class="title__cont">
-            <img src="../static/images/HAVAL.png" alt="" class="img__haval sub__title">
+            <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/HAVAL.png" alt="" class="img__haval sub__title">
         </div>
         <ul class="catalog__list">
             <li class="catalog__item__li">
                 <a href="/haval/f7/index.php" class="tabs__link__fl">
-                    <div class="model_catalog__image"><img src="../static/images/f7.png" alt=""></div>
+                    <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">f7</h3>
                         <p class="model_catalog__price">от 1 604 000 руб.</p>
@@ -64,7 +64,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageHaval.css")
             </li>
             <li class="catalog__item__li">
                 <a href="/haval/f7x/index.php" class="tabs__link__fl">
-                    <div class="model_catalog__image"><img src="../static/images/f7x.png" alt=""></div>
+                    <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">f7x</h3>
                         <p class="model_catalog__price">от 1 654 000 руб.</p>
@@ -73,7 +73,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageHaval.css")
             </li>
             <li class="catalog__item__li">
                 <a href="/haval/jolion/index.php" class="tabs__link__fl">
-                    <div class="model_catalog__image"><img src="../static/images/jolion__car.png" alt=""></div>
+                    <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">jolion</h3>
                         <p class="model_catalog__price">от 1 259 000 руб.</p>

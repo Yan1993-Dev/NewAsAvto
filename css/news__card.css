@@ -190,8 +190,11 @@ nav ul li {
     background-color: #DDDDDD;
 }
 
-.title__img {
+.title__image {
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .title {

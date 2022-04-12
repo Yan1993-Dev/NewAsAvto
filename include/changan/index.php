@@ -49,12 +49,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
     <div class="container_site">
         <div class="catalog__cont">
             <div class="title__cont">
-                <img src="../static/images/CHANGAN.png" alt="" class="img__changan sub__title">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/CHANGAN.png" alt="" class="img__changan sub__title">
             </div>
             <ul class="catalog__list">
                 <li class="catalog__item__li">
                     <a href="/changan/35/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="../static/images/35+.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35+.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS35PLUS</h3>
                             <p class="model_catalog__price">от 2 119 990 руб.</p>
@@ -63,7 +63,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                 </li>
                 <li class="catalog__item__li">
                     <a href="/changan/55/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="../static/images/changanCs55.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS55</h3>
                             <p class="model_catalog__price">от 1 361 990 руб.</p>
@@ -72,7 +72,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                 </li>
                 <li class="catalog__item__li">
                     <a href="/changan/75/index.php" class="tabs__link__fl">
-                        <div class="model_catalog__image"><img src="../static/images/75FL.png" alt=""></div>
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
                             <p class="model_catalog__price">от 1 219 990 руб.</p>

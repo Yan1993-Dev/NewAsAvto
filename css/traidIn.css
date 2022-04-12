@@ -326,7 +326,7 @@ footer {
 }
   
 .background {
-    background-image: url(../local/templates/NewAsAvto/static/images/td__new.jpg);
+    background-image: url(../static/images/td__new.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;

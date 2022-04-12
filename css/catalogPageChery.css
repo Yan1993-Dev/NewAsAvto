@@ -196,7 +196,7 @@ nav ul ul ul {
 }
 
 .background {
-    background-image: url(../local/templates/NewAsAvto/static/images/test__four.jpg);
+    background-image: url(../static/images/test__four.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;

@@ -202,7 +202,7 @@ nav ul ul ul {
 
 
 .background {
-    background-image: url(../local/templates/NewAsAvto/static/images/all__top.jpg);
+    background-image: url(../static/images/all__top.jpg);
     padding: 40px 40px 100px 40px;
     margin-top: -2px;
     background-size: cover;
@@ -347,7 +347,7 @@ nav ul ul ul {
     background-image: linear-gradient(black,
             transparent 80%,
             transparent 20%,
-            black), url(../local/templates/NewAsAvto/static/images/9_all_models.jpg);
+            black), url(../static/images/9_all_models.jpg);
     background-size: cover;
     background-position: center;
 }

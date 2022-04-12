@@ -49,7 +49,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageExeed.css")
 <div class="container_site">
     <div class="catalog__cont">
         <div class="title__cont">
-            <img src="../static/icons/exeedNew.png" alt="" class="img__title sub__title">
+            <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/exeedNew.png" alt="" class="img__title sub__title">
         </div>
         <ul class="catalog__list">
             <li class="catalog__item__li">

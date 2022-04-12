@@ -50,12 +50,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageFaw.css");
 <div class="container_site">
     <div class="catalog__cont">
         <div class="title__cont">
-            <img src="../static/images/FAW.png" alt="" class="img__title sub__title">
+            <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/FAW.png" alt="" class="img__title sub__title">
         </div>
         <ul class="catalog__list">
             <li class="catalog__item__li">
                 <a href="/faw/x40/index.php" class="tabs__link__fl">
-                    <div class="model_catalog__image"><img src="../static/images/40.png" alt=""></div>
+                    <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/40.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">BESTURN X40</h3>
                         <p class="model_catalog__price">от 2 119 990 руб.</p>
@@ -64,7 +64,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageFaw.css");
             </li>
             <li class="catalog__item__li">
                 <a href="/faw/t77/index.php" class="tabs__link__fl">
-                    <div class="model_catalog__image"><img src="../static/images/80.png" alt=""></div>
+                    <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/80.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">BESTURN X80</h3>
                         <p class="model_catalog__price">от 1 361 990 руб.</p>
