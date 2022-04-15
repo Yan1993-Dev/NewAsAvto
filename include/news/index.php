@@ -328,6 +328,19 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="./news__card.html" class="category__info">Читать далее</a>
         </li>
+        <li class="category__item">
+          <a href="./wcwl/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/a17738ac172fedb34727fc55c127b9d4.jpg" alt="" /></a>
+          <div class="date__info">
+            <p class="date__info-item">18.08.2021</p>
+          </div>
+          <div class="category__title__wrap">
+            <a href="./wcwl/index.php" class="category__title">WCWL - WITH CHERY WITH LOVE!</a>
+          </div>
+          <p class="category__desc">
+          Летний творческий конкурс #CheryOnTour #WithCheryWithLove для всех владельцев Chery!
+          </p>
+          <a href="./wcwl/index.php" class="category__info">Читать далее</a>
+        </li>
       </ul>
     </div>
   </div>
