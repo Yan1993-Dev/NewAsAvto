@@ -53,199 +53,171 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
             <ul class="category__list">
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/dkt70kakfok05lp3xa7zr0tptt2ezse1.jpeg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">25.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Спасибо за продажу. Мне всё понравилось!
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/6lx401oz32ne5uk0lolubmak3qykrbka.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Настоящие профессионалы своего дела, отдельное спасибо менеджеру Идрисову Олегу. Автосалону АсАвто желаю дальнейшего развития и побольше клиентов.
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/3zk1iynv17dmw4no2kekdrp441jmz18n.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Огромное спасибо коллективу АсАвто и особенно сотрудникам отдела продаж Екатерине и Александру
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/6bwlv4pulg89tp7ke7ip317y2l3laexf.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Подробное информирование на всех этапах взаимодействия с момента выбора модели автомобиля до оформления ДКП. Квалифицировано, качественно, без доп. услуг
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/av3zaq4yplkcct53qcon1okm7e2wstoi.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Хорошо ответили на звонок. Хорошо встретили. Всё объяснили по авто и по кредиту. Организовали трейд-ин .Всё понравилось!
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/wg55otqukw1s2c1t1qy96d7k9tbd57by.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">21.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Всё хорошо. Спасибо автосалону и отдельно большое спасибо менеджеру по продажам, Улесову Виталию
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ikwkj6b1pcmj52lstsipfwznv3voseyj.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">19.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Заказал автомобиль по предоплате, ждал около двух недель. Приехал, осмотрел автомобиль, всё понравилось. Предоплату включили в стоимость. Всё супер
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/29p8vvmb5uqne6lnt5yv2sy1fp2okacx.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">19.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">АсАвто большие молодцы, всё очень понравилось
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/eairjh8tho40njunl1qpjchvvzp6ubyw.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">18.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Всё понравилось. Всё хорошо
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/wrt0d24zm1djv22x4x7khc2mgxg2k4p5.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Всё понравилось. Покупка автомобиля прошла приятно и без проблем. Большое спасибо автосалону АсАвто
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ef8s10btqk3pc9fx4aex5p8tyd1b20y0.jpeg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Очень приветливый персонал. Отношение к покупателю с душой. При возникших проблемах идут на встречу. Менеджер понимал с полуслова и отвечал на все возникшие вопросы. Спасибо Вам большое!
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/a4wnt33xw4sqxjt3hi28qs86fs5b4q4g.jfif" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Всё хорошо, обслуживание на высшем уровне.
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/uzkxjbt85pxoa0pgssal30cex1rldmnw.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">16.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Купил автомобиль Chery Tiggo 7 PRO. За эти деньги, аналоги других брендов намного хуже по оборудованию и комплектации
+</p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="feedback">
+                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/du61vcksir4ufvoq6v4i0bx9eek6rujq.jpg" alt="feedback">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">16.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
                     <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
-                    <p class="category__desc">24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное
-                        соглашение об углублении стратегического взаимодействия в области разработки решений
-                        систем искусственного интеллекта (ИИ) для серийных автомобилей, совместной работе над беспилотными автомобилями и
-                        доведением их автономности до четвертого уровня.</p>
+                    <p class="category__desc">Всё очень хорошо, спасибо большое!
+</p>
                 </li>
             </ul>
         </div>
@@ -255,9 +227,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                 <li class="pagination_list_item p-second"><a href="../otzyvy-vtoraya/index.php">2</a></li>
                 <li class="pagination_list_item p-three"><a href="../otzyvy-tretya/index.php">3</a></li>
                 <li class="pagination_list_item p-four"><a href="../otzyvy-chetvertaya/index.php">4</a></li>
-                <li class="pagination_list_item p-five"><a href="../otzyvy-pyataya/index.php">5</a></li>
+                <!-- <li class="pagination_list_item p-five"><a href="../otzyvy-pyataya/index.php">5</a></li>
                 <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
-                <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li>
+                <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li> -->
             </ul>
         </div>
     </div>
