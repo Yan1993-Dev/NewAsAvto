@@ -62,197 +62,196 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
     <div class="category">
       <ul class="category__list">
         <li class="category__item">
-          <a href="./chery-tiggo-8-pro-max/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/04tntg745nlx9lnpo3nx3xjqocbjle9r.jpg" alt="" /></a>
+          <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/epdj5tf95a6dy0775s6ldilfuk0wlqzr.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./chery-tiggo-8-pro-max/index.php" class="category__title">Долгожданный полноприводный CHERY TIGGO 8 PRO MAX: скоро в России!</a>
+            <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php" class="category__title">Мощный двигатель для EXEED VX</a>
           </div>
           <p class="category__desc">
-          Дистрибьютор автомобилей марки CHERY объявит официальный старт продаж в России полноприводного семиместного кроссовера TIGGO 8 PRO MAX 22.04.2022 в 14.00 (по московскому времени) в ходе онлайн-презентации.
+          Полноразмерный семиместный внедорожник VX от EXEED будет оснащаться бензиновым двигателем 2.0TGDI и 7-ступенчатой роботизированной коробкой передач DCT. Флагманская модель бренда EXEED будет представлена для продажи у официальных дилеров марки до конца года.</p>
+          <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php" class="category__info">Читать далее</a>
+        </li>
+        <li class="category__item">
+          <a href="../novosti/kosmonavt/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ymukx33smgldeqf482s9g5r3jho2xygf.jpg" alt="" /></a>
+          <div class="date__info">
+            <p class="date__info-item">18.08.2021</p>
+          </div>
+          <div class="category__title__wrap">
+            <a href="../novosti/kosmonavt/index.php" class="category__title">Космонавт Антон Шкаплеров – герой автомобильного бренда EXEED</a>
+          </div>
+          <p class="category__desc">
+          Автомобильный бренд EXEED в преддверии старта продаж флагманской модели — внедорожника VX — снял видеоисторию «Как превратить мечты в реальность?» с участием космонавта-испытателя Антона Шкаплерова.</p>
+          <a href="../novosti/kosmonavt/index.php" class="category__info">Читать далее</a>
+        </li>
+        <li class="category__item">
+          <a href="../novosti/novyy-exeed-vx/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/fbtlu5fcjsxsvt53ey9zykd1g06xuo58.jpg" alt="" /></a>
+          <div class="date__info">
+            <p class="date__info-item">18.08.2021</p>
+          </div>
+          <div class="category__title__wrap">
+            <a href="../novosti/novyy-exeed-vx/index.php" class="category__title">Новый EXEED VX. Старт продаж 2 декабря 2021</a>
+          </div>
+          <p class="category__desc">
+          Новая флагманская модель от EXEED - внедорожник VX официально выходит на Российский рынок.
           </p>
-          <a href="./chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/novyy-exeed-vx/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./zavershena-rekonstruktsiya/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/192xb2g7npg5ph97y77yjk8bsaxav0y0.jpg" alt="" /></a>
+          <a href="../novosti/novoe-pokolenie-exeed-txl/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/rwm1k311p1mxyvxm28j5ztm2rwxqbtx7.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./zavershena-rekonstruktsiya/index.php" class="category__title">Завершена реконструкция ДЦ EXEED в Саратове</a>
+            <a href="../novosti/novoe-pokolenie-exeed-txl/index.php" class="category__title">Новое поколение EXEED TXL уже скоро</a>
           </div>
           <p class="category__desc">
-          01.11.2020 компания открыла сразу 3 дилерских центра в г. Саратов, выкупив объекты у фирмы "OVK-Авто". Автосалоны не подвергались капитальному обновлению около 10 лет и к 2021 году потеряли актуальный внешний вид и функциональность, перестав отвечать современным запросам Клиентов. Необходимость реконструкции и обновления всех дилерских центров была очевидна изначально при их покупке. Первым прошедшим реконструкцию и обновление дилерским центром стал автосалон Geely. Пришло время второго автосалона -  EXEED.
+          EXEED в России представит в октябре этого года полностью обновленную версию внедорожника TXL. После онлайн-презентации, в ходе которой будут продемонстрированы основные изменения и озвучена ценовая политика, автомобиль будет доступен для приобретения у официальных дилеров марки.</p>
+          <a href="../novosti/novoe-pokolenie-exeed-txl/index.php" class="category__info">Читать далее</a>
+        </li>
+        <li class="category__item">
+          <a href="../novosti/novyy-dilerskiy-tsentr/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ss3g72avklluu2hx0674odfmn6el5rod.jpg" alt="" /></a>
+          <div class="date__info">
+            <p class="date__info-item">18.08.2021</p>
+          </div>
+          <div class="category__title__wrap">
+            <a href="../novosti/novyy-dilerskiy-tsentr/index.php" class="category__title">Новый дилерский центр Группы компаний "АсАвто" в г. Самаре</a>
+          </div>
+          <p class="category__desc">
+          В рамках программы развития дилерской сети, наша компания открывает свой третий автосалон в г. Самара по адресу Южное шоссе 12А, строение 4.
           </p>
-          <a href="./zavershena-rekonstruktsiya/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/novyy-dilerskiy-tsentr/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./otkrytie-vtorogo-sklada/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/waaac7enw7xuuowhwldsnv43h19lq8v9.jpg" alt="" /></a>
+          <a href="../novosti/tiggo-8-pro-priznan/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/thn458r3z2pmnbqtdzygbgnmw9548vid.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./otkrytie-vtorogo-sklada/index.php" class="category__title">Открытие второго склада запчастей для автомобилей EXEED и CHERY</a>
+            <a href="../novosti/tiggo-8-pro-priznan/index.php" class="category__title">TIGGO 8 PRO признан технологическим прорывом на российском рынке</a>
           </div>
           <p class="category__desc">
-          АО «ЧЕРИ АВТОМОБИЛИ РУС», дистрибьютор автомобилей марок CHERY и EXEED, согласно планам развития компании, объявляет об официальном открытии второго регионального склада автомобильных запасных частей, компонентов, аксессуаров и расходных материалов. Новый склад в Красноярске по доступному ассортименту идентичен складу в Московском регионе.
+          Автомобиль заслуженно получил высокие оценки жюри, так как в кроссовере изобилие современных технологий и оборудования, начиная от турбированного двигателя 1.6TGDI и заканчивая беспроводной зарядкой.
           </p>
-          <a href="./otkrytie-vtorogo-sklada/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/tiggo-8-pro-priznan/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./rassrochka-0/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/a883v5gb0sgwmed2ss1h68xgm4skj4yp.jpg" alt="" /></a>
+          <a href="../novosti/-asavto-novyy-chlen-road/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/e653b47821d3c8d602a6a1883011ba4c.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./rassrochka-0/index.php" class="category__title">РАССРОЧКА 0% НА ПОКУПКУ АВТОМОБИЛЕЙ CHERY и EXEED</a>
+            <a href="../novosti/-asavto-novyy-chlen-road/index.php" class="category__title">«АсАвто» - новый член РОАД</a>
           </div>
           <p class="category__desc">
-          АО «ЧЕРИ АВТОМОБИЛИ РУС», дистрибьютор автомобилей марок CHERY и EXEED, возобновляют сотрудничество с ПАО «Совкомбанк» по программе «Авторассрочка по карте Халва» на прежних условиях. Кроссоверы и внедорожники марок EXEED и CHERY можно приобрести в беспроцентную рассрочку на 18 месяцев и без первоначального взноса.
+          Группа компаний "АсАвто" вступила в "Ассоциацию Российские Автомоибльные Дилеры" Данное решение позволит эффективнее взаимодействовать с крупнейшими автодилерами страны, органами власти и дистрибьюторами.
           </p>
-          <a href="./rassrochka-0/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/-asavto-novyy-chlen-road/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./fan-klub-omada-5/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/xcz6tucvzwypgqq1t81sfrpb1g0nvpm0.jpg" alt="" /></a>
+          <a href="../novosti/innovatsionnye-partnyery-chery/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/002c6dec70ce3da3c243d00d8bdcc4c3.jfif" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./fan-klub-omada-5/index.php" class="category__title">Вступайте в официальную группу и фан-клуб OMODA5</a>
+            <a href="../novosti/innovatsionnye-partnyery-chery/index.php" class="category__title">Инновационные партнёры CHERY</a>
           </div>
           <p class="category__desc">
-          Уникальный контент и самая последняя информация о модели из первых рук
+          Chery Holding Group заключил соглашения о стратегическом партнерстве с компаниями Haier, Horizon и дочерней компанией Alibaba Zebra Zhixing.
           </p>
-          <a href="./fan-klub-omada-5/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/innovatsionnye-partnyery-chery/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/l9nfmgbvj5v3u33ndj8ikf1af6l64xzs.jpg" alt="" /></a>
+          <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/33595cghowwr6fjutto3k1lb0jr2ptfl.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__title">Российская премьера стильного кроссовера EXEED LX</a>
+            <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php" class="category__title">Дилерская сеть EXEED в РФ</a>
           </div>
           <p class="category__desc">
-          Марка EXEED объявляет о начале продаж в России компактного кроссовера EXEED LX. Автомобиль уже доступен для приобретения у официальных дилеров марки в двух комплектациях: Luxury и Prestige. Производитель предоставляет гарантию 7 лет или 200 000 км пробега, в зависимости от того, что наступит ранее.
+          АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о расширении дилерской сети премиального бренда EXEED на территории РФ. Согласно планам развития марки количество дилерских центров бренда EXEED до конца 2021 года достигнет 60-ти.
           </p>
-          <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./chery-i-belkacar/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/fc1u7e4ys3rxamlq69qgc9v39hxakfaz.jpg" alt="" /></a>
+          <a href="../novosti/desyat-nagrad/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ssrl2cdg2mc38ti3weak9hp9y9p5hypp.jpeg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./chery-i-belkacar/index.php" class="category__title">CHERY и BelkaCar объявили о начале сотрудничества</a>
+            <a href="../novosti/desyat-nagrad/index.php" class="category__title">Десять наград электрокаров CHERY</a>
           </div>
           <p class="category__desc">
-          В марте столичный автопарк BelkaCar пополнят технологичные кроссоверы CHERY TIGGO 4. Первые автомобили в комплектации Cosmo можно уже арендовать в сервисе, в течение месяца будет выведено 100 новых авто. Первые пользователи CHERY TIGGO 4 каршеринга BelkaCar смогут найти в автомобиле сюрприз – мягкую игрушку сувенир от компании CHERY.
+          В Китае состоялось ежегодное ралли электромобилей CEVR, в котором приняли участие всемирно известные автомобильные компании с целью демонстрации возможностей их продуктов. Концерн CHERY заявил на соревнование два своих электроблокбастера – компакт-кар EQ1 и кроссовер EQ5. После тщательной экспертной оценки автомобили CHERY завоевали десять наград, среди которых «Лучшая выносливость» и «Лучшая быстрая зарядка».
           </p>
-          <a href="./chery-i-belkacar/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/desyat-nagrad/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./exeed-lx-dostoin-prevoskhodstva/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/bkw7mszyjiq6i5akiqhdgdnmezcv3hl5.jpg" alt="" /></a>
+          <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/mzudwl4mme26coyegi9la4z56yt164bw.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./exeed-lx-dostoin-prevoskhodstva/index.php" class="category__title">EXEED LX достоин превосходства</a>
+            <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__title">EXEED расширяет модельную линейку</a>
           </div>
           <p class="category__desc">
-          Компактный кроссовер LX от бренда EXEED будет доступен для приобретения у официальных российских дилеров марки согласно планам дистрибьютора — в марте этого года.
+          Компания EXEED объявляет о расширении модельного ряда марки в России до конца 2021 года. Линейка марки будет состоять из трёх автомобилей SUV-сегмента: VX, TXL и LX.
           </p>
-          <a href="./exeed-lx-dostoin-prevoskhodstva/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/k2ix2tmt0ka8fxbh58wqe6xtrtru90gv.jpg" alt="" /></a>
+          <a href="../novosti/start-prodazh-tiggo-4/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/32133e07f233841f5e8f83cdd714d3d9.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__title">Российская премьера кроссовера EXEED LX состоится в марте</a>
+            <a href="../novosti/start-prodazh-tiggo-4/index.php" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ КОМПЛЕКТАЦИЯХ</a>
           </div>
           <p class="category__desc">
-          Марка EXEED объявляет о начале продаж на российском рынке кроссовера LX в марте этого года. Автомобиль будет самым младшим в модельном ряду бренда.
+          Дистрибьютор автомобилей марки CHERY в России объявляет о старте продаж кроссовера TIGGO 4 в новых комплектациях Trek и Travel, которые в ассортименте комплектаций займут промежуточное положение. Таким образом, CHERY TIGGO 4 доступен для приобретения у официальных дилеров марки в семи комплектациях: Base, Comfort, Luxury, Travel, Techno, Trek и Cosmo.
           </p>
-          <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/start-prodazh-tiggo-4/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ajf6kgojggwgiiy8nkyculrc12tn6w51.jpg" alt="" /></a>
+          <a href="../novosti/itogi-2021-goda/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/be3385a2335b2b29d7d71983922566cf.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php" class="category__title">Старт продаж обновленного кроссовера TIGGO 8</a>
+            <a href="../novosti/itogi-2021-goda/index.php" class="category__title">CHERY ОБЪЯВЛЯЕТ ИТОГИ МИРОВЫХ ПРОДАЖ ЗА ПЕРВОЕ ПОЛУГОДИЕ 2021 ГОДА</a>
           </div>
           <p class="category__desc">
-          Дистрибьютор автомобилей CHERY в России информирует о начале продаж обновленной версии кроссовера TIGGO 8. Модель уже представлена в салонах официальных дилеров в топовой комплектации PRESTIGE.</p>
-          <a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./vladet-chery-tiggo/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/jbqq4ap1278n7iwzxynq2jw43zixb4y7.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./vladet-chery-tiggo/index.php" class="category__title">Владеть CHERY TIGGO 8 PRO – выгодно. Доказано «Автостат»</a>
-          </div>
-          <p class="category__desc">
-          По результатам исследования «Стоимость владения автомобилем», проведенного аналитическим агентством «Автостат», семиместный кроссовер CHERY TIGGO 8 PRO в своём сегменте вошёл в ТОП-3, продемонстрировав один из лучших показателей.
+          Мировые продажи CHERY HOLDING GROUP демонстрируют в первом полугодии 2021 года значительный рост продаж. С января по июнь компания реализовала 424 457 автомобилей, что на 80,4% больше, чем за аналогичный период прошлого года и на 31%, чем в 2019 году.
           </p>
-          <a href="./vladet-chery-tiggo/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/itogi-2021-goda/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./android-auto/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/przvdksgv4qkuqmz3qzkaxqo1lumg1wg.jpg" alt="" /></a>
+          <a href="../novosti/servisnaya-kampaniya-na-chery/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/01fce8bd931df367168f36898ffa2925.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./android-auto/index.php" class="category__title">Android Auto доступен в системах мультимедиа 7PRO и 8PRO</a>
+            <a href="../novosti/servisnaya-kampaniya-na-chery/index.php" class="category__title">Сервисная кампания на CHERY TIGGO 7 PRO</a>
           </div>
           <p class="category__desc">
-          Дистрибьютор автомобильной марки CHERY в России предоставляет возможность владельцам кроссоверов TIGGO 7 PRO и TIGGO 8 PRO обновить систему мультимедиа для использования Android Auto.
+          Дистрибьютор автомобилей CHERY в России, следуя стратегии непрерывного совершенствования продукции и процессов, объявляет о специальной сервисной кампании на кроссоверы CHERY TIGGO 7 PRO.
           </p>
-          <a href="./android-auto/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/servisnaya-kampaniya-na-chery/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./vnedorozhnik-exeed-vx/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/5r3x03iq8ftifr1tfaqugovl8hak39x6.jpg" alt="" /></a>
+          <a href="../novosti/chery-puteshestvie/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/37a63a943023916873eadb21f50e4656.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./vnedorozhnik-exeed-vx/index.php" class="category__title">Внедорожник EXEED VX получил наивысшую оценку безопасности по итогам краш-теста</a>
+            <a href="../novosti/chery-puteshestvie/index.php" class="category__title">Уверенное путешествие на TIGGO 8 PRO с картой «Chery — помощь в пути»</a>
           </div>
           <p class="category__desc">
-          Китайский центр автомобильных технологий и исследований (CATARC) опубликовал результаты независимых испытаний безопасности автомобилей по методике C-NCAP, проведенных в этом году. EXEED VX занял первое место среди всех семиместных среднеразмерных и полноразмерных внедорожников с общим рейтингом 92,4%, что приравнивается к оценке 5 звёзд.
+          Дистрибьютор автомобилей марки CHERY в России объявляет о расширении программы «Chery — помощь в пути» для владельцев кроссоверов TIGGO 8 PRO.
           </p>
-          <a href="./vnedorozhnik-exeed-vx/index.php" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./chery-pobila-rekord/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/kdilztpcc8mzpwi3skwxa7f43l35t9vf.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./chery-pobila-rekord/index.php" class="category__title">CHERY побила рекорд мировых продаж среди китайских автомобильных брендов</a>
-          </div>
-          <p class="category__desc">
-          Мировые продажи CHERY превысили 200 000 автомобилей, побив рекорд среди китайских автомобильных брендов.</p>
-          <a href="./chery-pobila-rekord/index.php" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./wcwl/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/a17738ac172fedb34727fc55c127b9d4.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./wcwl/index.php" class="category__title">WCWL - WITH CHERY WITH LOVE!</a>
-          </div>
-          <p class="category__desc">
-          Летний творческий конкурс #CheryOnTour #WithCheryWithLove для всех владельцев Chery!
-          </p>
-          <a href="./wcwl/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/chery-puteshestvie/index.php" class="category__info">Читать далее</a>
         </li>
       </ul>
     </div>

@@ -290,7 +290,7 @@ nav ul ul ul {
     align-items: center;
 }
 
-.content {
+.content__stoks {
     height: 100%;
     width: 45%;
     text-align: center;
@@ -479,7 +479,7 @@ nav ul ul ul {
     background-image: linear-gradient(black,
             transparent 80%,
             transparent 20%,
-            black), url(../local/templates/NewAsAvto/static/images/3_stocks__fos.jpg);
+            black), url(../static/images/3_stocks__fos.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -1596,7 +1596,7 @@ nav ul ul ul {
         font-size: 14px;
     }
 
-    .content {
+    .content__stoks {
         width: 100%;
     }
 
@@ -2026,7 +2026,7 @@ nav ul ul ul {
         padding-bottom: 10px;
     }
 
-    .content {
+    .content__stoks {
         width: 100%;
     }
 

@@ -982,6 +982,20 @@ footer {
     font-size: 16px;
 }
 
+
+.pagination_list {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination_list_item {
+    color: #000;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 /* стили для открытия попапа */
 
 .thanks_open {
