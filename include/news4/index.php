@@ -62,284 +62,108 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
     <div class="category">
       <ul class="category__list">
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/wingle-7-v-rossii/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/95p0tacwjvq5ej4bzgq0yx7e7r4wuw5r.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/wingle-7-v-rossii/index.php" class="category__title">Great Wall Motors Wingle 7 в России</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          Глобальный автомобильный концерн Great Wall Motor (GWM), которому принадлежит представленный в России бренд Haval, представляет GWM Pickup на российском рынке. Дебютной моделью станет GWM Wingle 7. Автомобили будут представлены в дилерских центрах Haval, где также будет осуществляться сервисное обслуживание.
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/wingle-7-v-rossii/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/8b8f5a62cde9844f33fb13cdf1e0d535.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php" class="category__title">Старт продаж долгожданного кроссовера Tiggo 7 Pro</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет старт продаж в России новой модели CHERY TIGGO 7 PRO. Кроссовер у официальных дилеров марки представлен в трёх комплектациях: Luxury, Elite и Prestige. Минимальная стоимость с учётом маркетинговых акций и программ составляет 1 369 900 рублей.
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/proryv-goda/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/0lczd9c9we6ipt9fda1zgorg5h3ymeux.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/proryv-goda/index.php" class="category__title">Победитель в номинации "Прорыв-Года" 2020</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          По результатам исследования качества автомобилей в Китае за 2019 год (2019 Initial Quality Study (IQS), обнародованной всемирно известным консалтинговым и исследовательским агентством J.D. Power, марка CHERY поднялась сразу на 26 строчек по сравнению с прошлым годом. Исследование IQS-2019 охватывает 266 моделей из 67 европейских, американских, японских и китайских брендов. 
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/proryv-goda/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/exeedcrashtest/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/6e8e254b60dc430d5784ee2360694ee2.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/exeedcrashtest/index.php" class="category__title">Exeed TXL получил наивысшую оценку безопасности по итогам краш-теста</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          29 августа 2020 года Китайский центр автомобильных технологий и исследований (CATARC) опубликовал результаты независимых испытаний безопасности автомобилей по методике C-NCAP, проведенных в этом году. EXEED TXL занял первое место среди всех среднеразмерных внедорожников с общим рейтингом 93,6%, тем самым получив наивысшую оценку безопасности «Пять звёзд плюс». Автомобили марки EXEED будут представлены в России под брендом EXEED.
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/exeedcrashtest/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/itwm5i2a7onxodqeyklq00ccoienbszd.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php" class="category__title">Обновления в комплектации CS35Plus</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          Популярный городской кроссовер Changan CS35PLUS получил ряд обновлений
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/top3changan/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/50a078d283ed1f9295116b2a381a8977.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/top3changan/index.php" class="category__title">Changan вошел в ТОП-3 автопроизводителей</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          Changan вошёл в топ-3 китайских марок автомобилей по качеству сборки
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/top3changan/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/78175e6a739db4281adb9c2937dbc11e.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php" class="category__title">Новый автомобильный бренд в России - EXEED</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          КОМПАНИЯ CHERY AUTOMOBILE CO., LTD. ЗАВЕРШИЛА ПРОЦЕСС РЕГИСТРАЦИИ ТОВАРНОГО ЗНАКА И ЗНАКА ОБСЛУЖИВАНИЯ НОВОГО АВТОМОБИЛЬНОГО БРЕНДА — EXEED.
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
+          <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php" class="category__info">Читать далее</a>
         </li>
         <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
+          <a href="../novosti/silovoy-agregat/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/7d0ec0b61868c9a443d09dc74a4133d1.jpg" alt="" /></a>
           <div class="date__info">
             <p class="date__info-item">18.08.2021</p>
           </div>
           <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
+            <a href="../novosti/silovoy-agregat/index.php" class="category__title">Силовой агрегат для нового поколения Tiggo 7 Pro</a>
           </div>
           <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
+          Этим летом в нашем автосалоне будет представлен кроссовер TIGGO 7 PRO в трёх комплектациях с одним силовым агрегатом.
           </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./news__card.html"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/big.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./news__card.html" class="category__title">СТАРТ ПРОДАЖ КРОССОВЕРА CHERY TIGGO 4 В НОВЫХ
-              КОМПЛЕКТАЦИЯХ</a>
-          </div>
-          <p class="category__desc">
-            24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek
-            CO., LTD. подписали рамочное соглашение об углублении
-            стратегического взаимодействия в области разработки решений
-            систем искусственного интеллекта (ИИ) для серийных автомобилей,
-            совместной работе над беспилотными автомобилями и доведением их
-            автономности до четвертого уровня.
-          </p>
-          <a href="./news__card.html" class="category__info">Читать далее</a>
-        </li>
-        <li class="category__item">
-          <a href="./wcwl/index.php"><img class="category__image" src="<?= SITE_TEMPLATE_PATH ?>/static/images/a17738ac172fedb34727fc55c127b9d4.jpg" alt="" /></a>
-          <div class="date__info">
-            <p class="date__info-item">18.08.2021</p>
-          </div>
-          <div class="category__title__wrap">
-            <a href="./wcwl/index.php" class="category__title">WCWL - WITH CHERY WITH LOVE!</a>
-          </div>
-          <p class="category__desc">
-          Летний творческий конкурс #CheryOnTour #WithCheryWithLove для всех владельцев Chery!
-          </p>
-          <a href="./wcwl/index.php" class="category__info">Читать далее</a>
+          <a href="../novosti/silovoy-agregat/index.php" class="category__info">Читать далее</a>
         </li>
       </ul>
     </div>

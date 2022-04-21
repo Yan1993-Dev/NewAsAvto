@@ -59,7 +59,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">25.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Спасибо за продажу. Мне всё понравилось!
 </p>
                 </li>
@@ -71,7 +71,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Настоящие профессионалы своего дела, отдельное спасибо менеджеру Идрисову Олегу. Автосалону АсАвто желаю дальнейшего развития и побольше клиентов.
 </p>
                 </li>
@@ -83,7 +83,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Огромное спасибо коллективу АсАвто и особенно сотрудникам отдела продаж Екатерине и Александру
 </p>
                 </li>
@@ -95,7 +95,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Подробное информирование на всех этапах взаимодействия с момента выбора модели автомобиля до оформления ДКП. Квалифицировано, качественно, без доп. услуг
 </p>
                 </li>
@@ -107,7 +107,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">23.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Хорошо ответили на звонок. Хорошо встретили. Всё объяснили по авто и по кредиту. Организовали трейд-ин .Всё понравилось!
 </p>
                 </li>
@@ -119,7 +119,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">21.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Всё хорошо. Спасибо автосалону и отдельно большое спасибо менеджеру по продажам, Улесову Виталию
 </p>
                 </li>
@@ -131,7 +131,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">19.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Заказал автомобиль по предоплате, ждал около двух недель. Приехал, осмотрел автомобиль, всё понравилось. Предоплату включили в стоимость. Всё супер
 </p>
                 </li>
@@ -143,7 +143,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">19.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">АсАвто большие молодцы, всё очень понравилось
 </p>
                 </li>
@@ -155,7 +155,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">18.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Всё понравилось. Всё хорошо
 </p>
                 </li>
@@ -167,7 +167,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Всё понравилось. Покупка автомобиля прошла приятно и без проблем. Большое спасибо автосалону АсАвто
 </p>
                 </li>
@@ -179,7 +179,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Очень приветливый персонал. Отношение к покупателю с душой. При возникших проблемах идут на встречу. Менеджер понимал с полуслова и отвечал на все возникшие вопросы. Спасибо Вам большое!
 </p>
                 </li>
@@ -191,7 +191,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">17.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Всё хорошо, обслуживание на высшем уровне.
 </p>
                 </li>
@@ -203,7 +203,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">16.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Купил автомобиль Chery Tiggo 7 PRO. За эти деньги, аналоги других брендов намного хуже по оборудованию и комплектации
 </p>
                 </li>
@@ -215,7 +215,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <p class="date__info-item">16.02.2022</p>
                     </div>
                     <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль Chery Tiggo 4</p>
+                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
                     <p class="category__desc">Всё очень хорошо, спасибо большое!
 </p>
                 </li>
@@ -223,7 +223,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
         </div>
         <div class="pagination">
             <ul class="pagination_list">
-                <li class="pagination_list_item p-fist"><a href="../otzyvy/index.php">1</a></li>
+                <li class="pagination_list_item p-fist"><a href="../index.php">1</a></li>
                 <li class="pagination_list_item p-second"><a href="../otzyvy-vtoraya/index.php">2</a></li>
                 <li class="pagination_list_item p-three"><a href="../otzyvy-tretya/index.php">3</a></li>
                 <li class="pagination_list_item p-four"><a href="../otzyvy-chetvertaya/index.php">4</a></li>

@@ -60,14 +60,16 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__stock.css");
         <p class="sub__title__show">Воспользуйтесь услугами наших сервисных станций, получите качественные услуги по доступной цене! Акции для клиентов сервиса позволят Вам сэкономить деньги или получить подарки и преимущества. </p>
         <ul class="service__stock">
             <li class="service__stock__item">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/fourteen_servise.jpg" alt="" class="stock__image">
-                <p class="title__stock">Набор преимуществ на покупку нового автомобиля</p>
-                <p class="title__text">дополнительные выгоды от сдачи старого авто в trade-in</p>
+                <a class="" href="../aktsii-servisa/skidka-34-dlya-a-m-starshe-5-ti-let/index.php">
+                <p class="title__stock">Скидка 34% для а/м старше 5-ти лет</p>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/zgpdgdg57eyyacxyjswoqzegglwax7nl.jpg" alt="" class="stock__image">
+                </a>
             </li>
             <li class="service__stock__item">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/servise_sale.jpg" alt="" class="stock__image">
-                <p class="title__stock">Набор преимуществ на покупку нового автомобиля</p>
-                <p class="title__text">дополнительные выгоды от сдачи старого авто в trade-in</p>
+                <a class="" href="../aktsii-servisa/skidka-14-dlya-a-m-ot-3-kh-do-5-ti-let/index.php">
+                <p class="title__stock">Скидка 14% для а/м от 3-х до 5-ти лет</p>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/hx5k0c8zn7fng1xu2mrcbtmu0tmy2vo4.jpg" alt="" class="stock__image">
+                </a>
             </li>
         </ul>
     </div>
