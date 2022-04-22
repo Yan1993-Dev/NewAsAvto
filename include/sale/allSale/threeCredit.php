@@ -31,40 +31,105 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news__card.css");
 <main>
     <div class="container_site">
         <h1 class="title__news">ТРИ новые кредитные программы для CHERY и EXEED</h1>
-        <div>
+        <div class="title__flex">
             <div class="title__image">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/zik1vkx0kw7rmp5hc3721z9uda1olo0j.jpg" alt="title" class="title__img">
             </div>
-            <div class="news__desc">
-                <p class="news__desc-text">Мы даём возможность оформить автокредит по минимальным ставкам, что существенно снизит ваши ежемесячные платежи и сделает покупку автомобиля еще более приятной.</p>
-                <p class="news__desc-text">Представляем кредитную программу с НАИМЕНЬШЕЙ КРЕДИТНОЙ СТАВКОЙ!</p>
-                <p class="news__desc-text">DIRECT PROMO BALLOON</p>
-                <p class="news__desc-text">Срок кредита от 24 мес до 60 мес.</p>
-                <p class="news__desc-text">Первый взнос от 40%  - процентная ставка от 14,65%</p>
-                <p class="news__desc-text">Первый взнос от 20% до 39,99%  - процентная ставка от 16,65%</p>
-                <p class="news__desc-text">Нет возможности или желания вносить первоначальный взнос по автокредиту?</p>
-                <p class="news__desc-text">Воспользуйтесь программой автокредитования БЕЗ ПЕРВОГО ВЗНОСА на срок до 7 лет!</p>
-                <p class="news__desc-text">Не вносите в кассу ни копейки и забирайте Ваш новый автомобиль!</p>
-                <p class="news__desc-text">CHERY/EXEED FINANCE</p>
-                <p class="news__desc-text">Срок кредита от 24 мес до 84 мес.</p>
-                <p class="news__desc-text">Первый взнос от 20%  - процентная ставка от 24,99%</p>
-                <p class="news__desc-text">Первый взнос от 0% до 19,99%  - процентная ставка от 25,59%</p>
-                <p class="news__desc-text">Есть возможность внести первоначальный взнос и при этом не потерять максимальный срок кредита?</p>
-                <p class="news__desc-text">Тогда эта программа для Вас!</p>
-                <p class="news__desc-text">Кредитная программа ИДЕАЛЬНО СОВМЕЩАЕТ ВЫГОДНЫЕ УСЛОВИЯ всех предложений и практически не увеличивает процентную ставку</p>
-                <p class="news__desc-text">DIRECT PROMO</p>
-                <p class="news__desc-text">Срок кредита от 24 мес до 84 мес.</p>
-                <p class="news__desc-text">Первый взнос от 40%  - процентная ставка от 15%</p>
-                <p class="news__desc-text">Первый взнос от 20% до 39,99%  - процентная ставка от 17%</p>
-
-
-                <p class="news__desc-text">Программы подразумевает определённые требования к заёмщику:</p>
-                <p class="news__desc-text">Обязательно оформление страховки КАСКО </p>
-                <p class="news__desc-text">Ставки действительны при оформлении финансовой защиты</p>
-                <p class="news__desc-text">Не совмещается с программой trade-in</p>
-                <p class="news__desc-text">Возраст от 20 до 85 лет, стаж на последнем месте работы 4 мес.</p>
-                <p class="news__desc-text">Минимальный пакет документов для оформления – паспорт гражданина РФ</p>
-                <p class="news__desc-text">Максимальная сумма кредита — 6 900 000 рублей</p>
+            <div class="news__desc sale__desc">
+                <p class="sale__text">Мы даём возможность оформить автокредит по минимальным ставкам, что существенно снизит ваши ежемесячные платежи и сделает покупку автомобиля еще более приятной.</p>
+                <p class="sale__text">Представляем кредитную программу с НАИМЕНЬШЕЙ КРЕДИТНОЙ СТАВКОЙ!</p>
+                <p class="sale__text sale__desc_title contur__title">DIRECT PROMO BALLOON</p>
+                <p class="sale__text sale__arr">Срок кредита от 24 мес до 60 мес.</p>
+                <p class="sale__text sale__arr">Первый взнос от 40%  - процентная ставка от 14,65%</p>
+                <p class="sale__text sale__arr">Первый взнос от 20% до 39,99%  - процентная ставка от 16,65%</p>
+                <p class="sale__text sale__arr">Нет возможности или желания вносить первоначальный взнос по автокредиту?</p>
+                <p class="sale__text sale__arr">Воспользуйтесь программой автокредитования БЕЗ ПЕРВОГО ВЗНОСА на срок до 7 лет!</p>
+                <p class="sale__text sale__arr">Не вносите в кассу ни копейки и забирайте Ваш новый автомобиль!</p>
+                <p class="sale__text sale__desc_title contur__title">CHERY/EXEED FINANCE</p>
+                <p class="sale__text sale__arr">Срок кредита от 24 мес до 84 мес.</p>
+                <p class="sale__text sale__arr">Первый взнос от 20%  - процентная ставка от 24,99%</p>
+                <p class="sale__text sale__arr">Первый взнос от 0% до 19,99%  - процентная ставка от 25,59%</p>
+                <p class="sale__text sale__arr">Есть возможность внести первоначальный взнос и при этом не потерять максимальный срок кредита?</p>
+                <p class="sale__text sale__arr">Тогда эта программа для Вас!</p>
+                <p class="sale__text sale__arr">Кредитная программа ИДЕАЛЬНО СОВМЕЩАЕТ ВЫГОДНЫЕ УСЛОВИЯ всех предложений и практически не увеличивает процентную ставку</p>
+                <p class="sale__text sale__desc_title contur__title">DIRECT PROMO</p>
+                <p class="sale__text sale__arr">Срок кредита от 24 мес до 84 мес.</p>
+                <p class="sale__text sale__arr">Первый взнос от 40%  - процентная ставка от 15%</p>
+                <p class="sale__text sale__arr">Первый взнос от 20% до 39,99%  - процентная ставка от 17%</p>
+                <p class="sale__text sale__arr">Программы подразумевает определённые требования к заёмщику:</p>
+                <p class="sale__text sale__arr">Обязательно оформление страховки КАСКО </p>
+                <p class="sale__text sale__arr">Ставки действительны при оформлении финансовой защиты</p>
+                <p class="sale__text sale__arr">Не совмещается с программой trade-in</p>
+                <p class="sale__text sale__arr">Возраст от 20 до 85 лет, стаж на последнем месте работы 4 мес.</p>
+                <p class="sale__text sale__arr">Минимальный пакет документов для оформления – паспорт гражданина РФ</p>
+                <p class="sale__text sale__arr">Максимальная сумма кредита — 6 900 000 рублей</p>
+                <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title">Наименование программы</td>
+                                <td class="price">ПВ, в %	</td>
+                                <td class="top__title">24 мес.	</td>
+                                <td class="top__title">36 мес.	</td>
+                                <td class="top__title">48 мес.	</td>
+                                <td class="top__title">60 мес.	</td>
+                                <td class="top__title"></td>
+                                <td class="top__title"></td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">"DIRECT PROMO BALLOON"</td>
+                                <td class="price__item">от 40</td>
+                                <td class="price__item">14,65%	</td>
+                                <td class="price__item">14,65%	</td>
+                                <td class="price__item">15,15%	</td>
+                                <td class="price__item">15,65%	</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title"></td>
+                                <td class="price__item">20 - 39,99	</td>
+                                <td class="price__item">16,65%	</td>
+                                <td class="price__item">16,65%	</td>
+                                <td class="price__item">17,15%	</td>
+                                <td class="price__item">17,65%	</td>
+                                <td class="price__item"></td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">Наименование программы</td>
+                                <td class="price__item">ПВ, в %	</td>
+                                <td class="price__item">24 мес.	</td>
+                                <td class="price__item">36 мес.	</td>
+                                <td class="price__item">48 мес.	</td>
+                                <td class="price__item">60 мес.	</td>
+                                <td class="price__item">72 мес.	</td>
+                                <td class="price__item">84 мес. </td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">"CHERY/EXEED DIRECT PROMO"</td>
+                                <td class="price__item">от 40	</td>
+                                <td class="price__item">18,00%	</td>
+                                <td class="price__item">15,00%	</td>
+                                <td class="price__item">15,50%	</td>
+                                <td class="price__item">16,00%	</td>
+                                <td class="price__item">19,50%	</td>
+                                <td class="price__item">19,50% </td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title"></td>
+                                <td class="price__item">20 - 39,99	</td>
+                                <td class="price__item">20,00%	</td>
+                                <td class="price__item">17,00%	</td>
+                                <td class="price__item">17,50%	</td>
+                                <td class="price__item">18,00%	</td>
+                                <td class="price__item">21,50%	</td>
+                                <td class="price__item">21,50%	</td>
+                            </tr>
+                        </table>
+                <div class="wrap__seo">
+                <p class="seo__text__afterTable">* Обязательно оформление страховки КАСКО </p>
+                <p class="seo__text__afterTable">* Ставки действительны при оформлении финансовой защиты</p>
+                <p class="seo__text__afterTable">* Не совмещается с программой trade-in</p>
+                <p class="seo__text__afterTable">* Возраст от 20 до 85 лет, стаж на последнем месте работы 4 мес.</p>
+                <p class="seo__text__afterTable">* Минимальный пакет документов для оформления – паспорт гражданина РФ</p>
+                <p class="seo__text__afterTable">* Максимальная сумма кредита — 6 900 000 рублей</p>
+                </div>
             </div>
         </div>
     </div>

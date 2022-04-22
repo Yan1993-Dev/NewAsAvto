@@ -35,13 +35,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news__card.css");
             <div class="title__image">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/rld6d4w4l3f3tyugbi0th1a6m3jpely4.jpg" alt="title" class="title__img">
             </div>
-            <div class="news__desc">
-                <p class="news__desc-text">Нет возможности или желания вносить первоначальный взнос по автокредиту?</p>
-                <p class="news__desc-text">Воспользуйтесь программой автокредитования без первого взноса на срок до 7 лет!</p>
-                <p class="news__desc-text">Не вносите в кассу ни копейки и забирайте Ваш новый автомобиль!</p>
-                <p class="news__desc-text">Программа суммируются с акциями и скидками по другим действующим программам.</p>
-                <p class="news__desc-text">Программа действует на все новые автомобили</p>
-                <p class="news__desc-text">Для получения подробной информации оставьте заяку. Мы сделаем расчёт и ответим на вопросы.</p>
+            <div class="news__desc sale__desc">
+                <p class="sale__text">Нет возможности или желания вносить первоначальный взнос по автокредиту?</p>
+                <p class="sale__text">Воспользуйтесь программой автокредитования без первого взноса на срок до 7 лет!</p>
+                <p class="sale__text">Не вносите в кассу ни копейки и забирайте Ваш новый автомобиль!</p>
+                <p class="sale__text">Программа суммируются с акциями и скидками по другим действующим программам.</p>
+                <p class="sale__text">Программа действует на все новые автомобили</p>
             </div>
         </div>
     </div>

@@ -1101,7 +1101,8 @@ footer {
     }
 
     .nav__item__link {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: calc(26/14);
     }
 
     .mobile__header {

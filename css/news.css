@@ -319,7 +319,7 @@ nav ul ul ul {
 .category__item {
   min-height: 270px;
   max-width: 280px;
-  margin: 0 10px 100px 20px;
+  margin: 0 10px 50px 10px;
 }
 
 .category__image {
@@ -944,9 +944,9 @@ nav ul ul ul {
   }
 
   .nav__item__link {
-    margin-right: 25px;
-    font-size: 16px;
-  }
+    font-size: 14px;
+    line-height: calc(26/14);
+}
 }
 
 @media (min-width: 1020px) and (max-width: 1261px) {

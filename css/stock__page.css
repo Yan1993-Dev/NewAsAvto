@@ -830,8 +830,6 @@ nav ul li {
     }
 
     .nav__item__link {
-        padding-right: 18px;
-        margin-right: 5px;
         font-size: 14px;
         line-height: calc(26/14);
     }

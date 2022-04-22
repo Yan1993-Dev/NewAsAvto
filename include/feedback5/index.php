@@ -2,10 +2,9 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
-?>
-<nav class="nav">
+?> <nav class="nav">
     <ul class="navigation">
-    <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
+        <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
             <ul class="nav__nav">
                 <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
                 <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
@@ -34,8 +33,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
             <div class="title__poster">
                 <div class="colors__poster">
                     <div class="color__poster">
-                        <p class="title__poster__text">Вы сделали правильный выбор, если обратились в «АсАвто». </p>
-                        <p class="title__desc__poster">Убедитесь в этом сами - посмотрите отзывы наших клиентов. </p>
+                        <p class="title__poster__text">
+                            Вы сделали правильный выбор, если обратились в «АсАвто».
+                        </p>
+                        <p class="title__desc__poster">
+                            Убедитесь в этом сами - посмотрите отзывы наших клиентов.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -53,145 +56,231 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
             <ul class="category__list">
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/u2cv635d8zv8zg3kds7zcv3knf50nsv4.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/ti0q7f93wux692ysisiy85vncj6jfyod.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">01.03.2022</p>
+                        <p class="date__info-item">
+                            23.08.2021
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Внимание к каждому клиенту. Объемная консультация. Помощь в выборе авто. Покупкой доволен</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Тольятти
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Changan CS55
+                    </p>
+                    <p class="category__desc">
+                        Всему персоналу АсАвто большая благодарность. Всё на высшем уровне
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/2hc80n993xke2unyyzhkf41sd3fakz1i.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/scf30i7tn3v6ga3egwlj1w4c6rhnm2f4.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">01.03.2022</p>
+                        <p class="date__info-item">
+                            28.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Большое спасибо менеджеру отдела продаж Ларину Ивану, очень хорошо знает своё дело. Во время ожидания выдачи автомобиля предложили кофе. На все вопросы об автомобиле дали подробную консультацию. Менеджер хорошо разбирается в автомобилях EXEED</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: EXEED TXL
+                    </p>
+                    <p class="category__desc">
+                        Спасибо автосалону АсАвто за подбор прекрасного коллектива. Особая благодарность Ивану Ларину, Соковец Ольге, Якушкиной Екатерине, Шестаковой Юлии за прекрасное, отзывчивое обслуживание. Желаю вам дальнейшего процветания и успехов
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ti0q7f93wux692ysisiy85vncj6jfyod.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/50g31808j4nqkbdwqow1ka4kp40z3qif.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">23.08.2021</p>
+                        <p class="date__info-item">
+                            28.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Тольятти</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Всему персоналу АсАвто большая благодарность. Всё на высшем уровне
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Geely Tugella
+                    </p>
+                    <p class="category__desc">
+                        Внимание к каждому клиенту. Объемная консультация. Помощь в выборе авто. Покупкой доволен
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/scf30i7tn3v6ga3egwlj1w4c6rhnm2f4.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/gf5yzohbdwjwjiijgelhb88jfioodwb0.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">28.02.2022</p>
+                        <p class="date__info-item">
+                            27.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Спасибо автосалону АсАвто за подбор прекрасного коллектива. Особая благодарность Ивану Ларину, Соковец Ольге, Якушкиной Екатерине, Шестаковой Юлии за прекрасное, отзывчивое обслуживание. Желаю вам дальнейшего процветания и успехов
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 7 Pro
+                    </p>
+                    <p class="category__desc">
+                        Всей команде АсАвто большой респект и побольше клиентов!
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/50g31808j4nqkbdwqow1ka4kp40z3qif.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/17onbnhrwopabpt5tk8c30go4erhlkw5.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">28.02.2022</p>
+                        <p class="date__info-item">
+                            27.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Внимание к каждому клиенту. Объемная консультация. Помощь в выборе авто. Покупкой доволен
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Geely Tugella
+                    </p>
+                    <p class="category__desc">
+                        Всё понравилось. Спасибо Тарасовой Алине!
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/gf5yzohbdwjwjiijgelhb88jfioodwb0.jpeg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/teowk0etw8vmntsf7p3fz6ilprn4uocm.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">27.02.2022</p>
+                        <p class="date__info-item">
+                            26.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Всей команде АсАвто большой респект и побольше клиентов!
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Тольятти
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 8 Pro
+                    </p>
+                    <p class="category__desc">
+                        Покупаем уже второй автомобиль в АсАвто. Всё удобно, быстро и прозрачно
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/17onbnhrwopabpt5tk8c30go4erhlkw5.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/3jpzok0rdkb260yaw38mthm60tidx5ls.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">27.02.2022</p>
+                        <p class="date__info-item">
+                            26.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Всё понравилось. Спасибо Тарасовой Алине!
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Тольятти
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 8 Pro
+                    </p>
+                    <p class="category__desc">
+                        Работа автосалона на ОТЛИЧНО! Больше всего понравилась профессиональная работа со стороны менеджера Аваняна Александра. Очень быстро и качественно сработали. Спасибо!
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/teowk0etw8vmntsf7p3fz6ilprn4uocm.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/3garzjtnqgf0arqif3powwzhqb0qthay.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">26.02.2022</p>
+                        <p class="date__info-item">
+                            26.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Тольятти</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Покупаем уже второй автомобиль в АсАвто. Всё удобно, быстро и прозрачно
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 7 Pro
+                    </p>
+                    <p class="category__desc">
+                        Вежливое, приятное общение. Персональный менеджер полностью вёл мою сделку. Премию ему. Вообще супер, не сравнишь с другими салонами
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/3jpzok0rdkb260yaw38mthm60tidx5ls.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/dwiyf3b09400idlia3yvqglxhfjlq6m0.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">26.02.2022</p>
+                        <p class="date__info-item">
+                            26.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Тольятти</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Работа автосалона на ОТЛИЧНО! Больше всего понравилась профессиональная работа со стороны менеджера Аваняна Александра. Очень быстро и качественно сработали. Спасибо!
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 4
+                    </p>
+                    <p class="category__desc">
+                        Приятный коллектив. Спасибо менеджеру отдела продаж Виталию. Спасибо руководителю отдела продаж Екатерине. Подробно рассказали об автомобиле, хороший тест-драйв
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/3garzjtnqgf0arqif3powwzhqb0qthay.jpeg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/ien2wdg7mtpgspm0vab947jxeu3mdwaj.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">26.02.2022</p>
+                        <p class="date__info-item">
+                            25.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Вежливое, приятное общение. Персональный менеджер полностью вёл мою сделку. Премию ему. Вообще супер, не сравнишь с другими салонами
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 8 Pro
+                    </p>
+                    <p class="category__desc">
+                        Всё хорошо. Гибкость по стоимости доп. оборудования. Оперативность в процессе сделки. Объявляю благодарность Ларину Ивану
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/dwiyf3b09400idlia3yvqglxhfjlq6m0.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/dkt70kakfok05lp3xa7zr0tptt2ezse1.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">26.02.2022</p>
+                        <p class="date__info-item">
+                            25.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Приятный коллектив. Спасибо менеджеру отдела продаж Виталию. Спасибо руководителю отдела продаж Екатерине. Подробно рассказали об автомобиле, хороший тест-драйв
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Geely Atlas Pro
+                    </p>
+                    <p class="category__desc">
+                        Спасибо за продажу. Мне всё понравилось!
+                    </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/ien2wdg7mtpgspm0vab947jxeu3mdwaj.jpg" alt="feedback">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/6lx401oz32ne5uk0lolubmak3qykrbka.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
-                        <p class="date__info-item">25.02.2022</p>
+                        <p class="date__info-item">
+                            23.02.2022
+                        </p>
                     </div>
-                    <div class="category__title__wrap category__title">Дилерский центр: Самара</div>
-                    <p class="auto__desc">Автомобиль: Chery Tiggo 4</p>
-                    <p class="category__desc">Всё хорошо. Гибкость по стоимости доп. оборудования. Оперативность в процессе сделки. Объявляю благодарность Ларину Ивану
-</p>
+                    <div class="category__title__wrap category__title">
+                    <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        Автомобиль: Chery Tiggo 7 Pro
+                    </p>
+                    <p class="category__desc">
+                        Настоящие профессионалы своего дела, отдельное спасибо менеджеру Идрисову Олегу. Автосалону АсАвто желаю дальнейшего развития и побольше клиентов.
+                    </p>
                 </li>
             </ul>
         </div>
@@ -218,28 +307,23 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                 </div>
                 <section class="form_traid-in">
                     <h2 class="sub_title" id="calculator">
-                        Заявка на обратный звонок
-                    </h2>
+                        Заявка на обратный звонок </h2>
                     <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
                         <div class="field">
-                            <label for="calc__name" class="label__traid-in">Имя*</label>
-                            <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                            <label for="calc__name" class="label__traid-in">Имя*</label> <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
                         </div>
                         <div class="field__wrapper">
                             <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                <label for="calc__phone" class="label__traid-in">Телефон*</label> <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
                             </div>
                             <div class="field">
-                                <label for="drive__calendar" class="label__traid">Выберите день*</label>
-                                <input type="date" id="drive__datapicker" name="datepicker" class="input__traid-in _req" placeholder="Нажмите">
+                                <label for="drive__calendar" class="label__traid">Выберите день*</label> <input type="date" id="drive__datapicker" name="datepicker" class="input__traid-in _req" placeholder="Нажмите">
                             </div>
                         </div>
                         <div class="checkbox_popup">
                             Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                         </div>
-                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                        <input type="hidden" name="SUBJECT" value=" Заявка на Обратный звонок из Отзывов*">
+                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>"> <input type="hidden" name="SUBJECT" value=" Заявка на Обратный звонок из Отзывов*">
                         <div class="popup__btn__flex">
                             <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                         </div>
@@ -252,62 +336,124 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 <section class="map">
     <div class="container">
         <div class="contacts_block">
-            <div class="title">Дилерские центры «АсАвто»</div>
+            <div class="title">
+                Дилерские центры «АсАвто»
+            </div>
             <ul class="list_unstyled">
-                <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}' data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">
-                    <div class="name">АсАвто на Алма-Атинской</div>
+                <li class="visible" data-coordinates="{&quot;lat&quot;: 53.263619542243866, &quot;lng&quot;: 50.26215135698404}" data-center="{&quot;lat&quot;: 53.263619542243866, &quot;lng&quot;: 50.25}" data-zoom="14">
+                    <div class="name">
+                        АсАвто на Алма-Атинской
+                    </div>
                     <div class="items">
-                        <div class="item addr">г. Самара, Алма-Атинская, 87</div>
-                        <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
-                        <div class="item clock">Автосалон: 9:00 - 21:00</div>
-                        <div class="item clock">СТО: 8:00 - 20:00</div>
-                        <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        <div class="item addr">
+                            г. Самара, Алма-Атинская, 87
+                        </div>
+                        <div class="item tel">
+                            <a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a>
+                        </div>
+                        <div class="item clock">
+                            Автосалон: 9:00 - 21:00
+                        </div>
+                        <div class="item clock">
+                            СТО: 8:00 - 20:00
+                        </div>
+                        <div class="item site">
+                            <a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a>
+                        </div>
                     </div>
                 </li>
-                <li data-coordinates='{"lat": 53.25195107740439, "lng": 50.36005176768642}' data-center='{"lat": 53.25195107740439, "lng": 50.346}' data-zoom="14">
-                    <div class="name">АсАвто на Аэропортовском шоссе</div>
+                <li data-coordinates="{&quot;lat&quot;: 53.25195107740439, &quot;lng&quot;: 50.36005176768642}" data-center="{&quot;lat&quot;: 53.25195107740439, &quot;lng&quot;: 50.346}" data-zoom="14">
+                    <div class="name">
+                        АсАвто на Аэропортовском шоссе
+                    </div>
                     <div class="items">
-                        <div class="item addr">г. Самара, Аэропортовское шоссе, 1Ж</div>
-                        <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
-                        <div class="item clock">Автосалон: 9:00 - 21:00</div>
-                        <div class="item clock">СТО: 8:00 - 20:00</div>
-                        <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        <div class="item addr">
+                            г. Самара, Аэропортовское шоссе, 1Ж
+                        </div>
+                        <div class="item tel">
+                            <a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a>
+                        </div>
+                        <div class="item clock">
+                            Автосалон: 9:00 - 21:00
+                        </div>
+                        <div class="item clock">
+                            СТО: 8:00 - 20:00
+                        </div>
+                        <div class="item site">
+                            <a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a>
+                        </div>
                     </div>
                 </li>
-                <li data-coordinates='{"lat": 53.137290, "lng": 50.179647}' data-center='{"lat": 53.139475, "lng": 50.167675}' data-zoom="14">
-                    <div class="name">АсАвто на Южном шоссе</div>
+                <li data-coordinates="{&quot;lat&quot;: 53.137290, &quot;lng&quot;: 50.179647}" data-center="{&quot;lat&quot;: 53.139475, &quot;lng&quot;: 50.167675}" data-zoom="14">
+                    <div class="name">
+                        АсАвто на Южном шоссе
+                    </div>
                     <div class="items">
-                        <div class="item addr">г. Самара, Южное шоссе 12А, строение 4</div>
-                        <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
-                        <div class="item clock">Автосалон: 9:00 - 20:00</div>
-                        <div class="item clock">СТО: 8:00 - 20:00</div>
-                        <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        <div class="item addr">
+                            г. Самара, Южное шоссе 12А, строение 4
+                        </div>
+                        <div class="item tel">
+                            <a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a>
+                        </div>
+                        <div class="item clock">
+                            Автосалон: 9:00 - 20:00
+                        </div>
+                        <div class="item clock">
+                            СТО: 8:00 - 20:00
+                        </div>
+                        <div class="item site">
+                            <a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a>
+                        </div>
                     </div>
                 </li>
-                <li data-coordinates='{"lat": 53.578003950614864, "lng": 49.41344120138184}' data-center='{"lat": 53.578003950614864, "lng": 49.40}' data-zoom="14">
-                    <div class="name">АсАвто в пос.Тимофеевка (г. Тольятти)</div>
+                <li data-coordinates="{&quot;lat&quot;: 53.578003950614864, &quot;lng&quot;: 49.41344120138184}" data-center="{&quot;lat&quot;: 53.578003950614864, &quot;lng&quot;: 49.40}" data-zoom="14">
+                    <div class="name">
+                        АсАвто в пос.Тимофеевка (г. Тольятти)
+                    </div>
                     <div class="items">
-                        <div class="item addr">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</div>
-                        <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
-                        <div class="item clock">Автосалон: 9:00 - 21:00</div>
-                        <div class="item clock">СТО: 8:00 - 20:00</div>
-                        <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        <div class="item addr">
+                            пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А
+                        </div>
+                        <div class="item tel">
+                            <a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a>
+                        </div>
+                        <div class="item clock">
+                            Автосалон: 9:00 - 21:00
+                        </div>
+                        <div class="item clock">
+                            СТО: 8:00 - 20:00
+                        </div>
+                        <div class="item site">
+                            <a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a>
+                        </div>
                     </div>
                 </li>
-                <li data-coordinates='{"lat": 51.557420, "lng": 46.066993}' data-center='{"lat": 51.557420, "lng": 46.052}' data-zoom="14">
-                    <div class="name">ГК АсАвто, г. Саратов</div>
+                <li data-coordinates="{&quot;lat&quot;: 51.557420, &quot;lng&quot;: 46.066993}" data-center="{&quot;lat&quot;: 51.557420, &quot;lng&quot;: 46.052}" data-zoom="14">
+                    <div class="name">
+                        ГК АсАвто, г. Саратов
+                    </div>
                     <div class="items">
-                        <div class="item addr">г. Саратов, Соколовая гора, 4</div>
-                        <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
-                        <div class="item clock">Автосалон: 9:00 - 20:00</div>
-                        <div class="item clock">СТО: 8:00 - 20:00</div>
-                        <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        <div class="item addr">
+                            г. Саратов, Соколовая гора, 4
+                        </div>
+                        <div class="item tel">
+                            <a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a>
+                        </div>
+                        <div class="item clock">
+                            Автосалон: 9:00 - 20:00
+                        </div>
+                        <div class="item clock">
+                            СТО: 8:00 - 20:00
+                        </div>
+                        <div class="item site">
+                            <a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a>
+                        </div>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
-    <div id="yamap"></div>
+    <div id="yamap">
+    </div>
 </section>
-
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

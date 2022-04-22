@@ -57,7 +57,7 @@
 }
 
 .addr__item::before {
-    content: url(../local/templates/NewAsAvto/static/icons/Vector.svg);
+    content: url(../static/icons/Vector.svg);
     margin-right: 5px;
 }
 
@@ -1074,6 +1074,7 @@ nav ul ul ul {
 
     .nav__item__link {
         font-size: 14px;
+        line-height: calc(26/14);
     }
 }
 
