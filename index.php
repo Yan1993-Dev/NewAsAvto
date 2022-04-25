@@ -41,21 +41,19 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                             <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/1tpdq781f9y5q0es84ej3k4xmf86zzed.jpg" class="category__image" alt="poster"></a>
                         </div>
                         <div class="swiper-slide card">
-                            <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/d947f551af6e9f725b5e8a9e7f3130c5.jpg" class="category__image" alt="poster"></a>
+                            <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/rld6d4w4l3f3tyugbi0th1a6m3jpely4.jpg" class="category__image" alt="poster"></a>
                         </div>
                         <div class="swiper-slide card">
                             <a href="../aktsii/trade-in-vygodno-i-udobno/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/4cf6a20f5f6d76ccb2bb8e03890e2b3e.jpg" class="category__image" alt="poster"></a>
                         </div>
-                        <!-- <div class="swiper-slide card">
-                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LXnew.jpg" class="category__image" alt="poster"></a>
+                        <div class="swiper-slide card">
+                            <a href="../aktsii/chery-pomoshch-na-dorogakh/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/1f691651762f7744188bb07ba950bdec.jpg" class="category__image" alt="poster"></a>
                         </div>
                         <div class="swiper-slide card">
-                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXLnew.jpg" class="category__image" alt="poster"></a>
+                            <a href="../aktsii/exeed-pomoshch-na-dorogakh/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/e661510015e43df4ea0de68736778633.jpg" class="category__image" alt="poster"></a>
                         </div>
-                        <div class="swiper-slide card">
-                            <a href="../pages/news__card.html" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/testactii.jpg" class="category__image" alt="poster"></a>
-                        </div> -->
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="tabs">
@@ -423,7 +421,8 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                 "EDIT_TEMPLATE" => "",
                 "PATH" => "/include/text__sale.php"
             )
-        ); ?> <ul class="flex">
+        ); ?> 
+        <ul class="flex">
             <li class="content__stock">
                 <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
                     <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>

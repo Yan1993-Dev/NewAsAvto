@@ -14,6 +14,7 @@ slidersMap.forEach((el) => {
 		pagination: {
 			el: '.swiper-pagination_one',
 			clickable: true,
+			type: 'bullets',
 		},
 		navigation: {
 			nextEl: '.swiper-button-next',

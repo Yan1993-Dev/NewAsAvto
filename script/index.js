@@ -1,4 +1,4 @@
-const sliders = document.querySelectorAll('.swiper-container');
+const sliders = document.querySelectorAll('.swiper-container_title');
 
 
 sliders.forEach((el) => {
@@ -12,6 +12,11 @@ sliders.forEach((el) => {
         autoplay: {
             delay: 3000,
         },
+        pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+            type: 'bullets',
+		},
 		
 		breakpoints: {
             319: {

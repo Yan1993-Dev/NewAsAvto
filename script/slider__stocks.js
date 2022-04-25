@@ -9,6 +9,11 @@ sliders.forEach((el) => {
 		centerMode: true,
 		observer: true,
 		observeParents: true,
+        pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+			type: 'bullets',
+		},
         autoplay: {
             delay: 3000,
         },
