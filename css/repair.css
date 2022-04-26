@@ -154,7 +154,6 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -204,6 +203,7 @@ nav ul li {
     padding: 10px;
     background-color: #47A0ED;
     margin-top: 5px;
+    font-size: 14px;
     margin-right: -20px;
     border-radius: 10px;
   }
@@ -471,7 +471,6 @@ table {
 .wrapper__phone__footer {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
     align-items: center;
 }
 

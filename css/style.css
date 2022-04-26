@@ -155,7 +155,6 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 26px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -205,6 +204,7 @@ nav ul li {
     padding: 10px;
     background-color: #47A0ED;
     margin-top: 5px;
+    font-size: 14px;
     margin-right: -20px;
     border-radius: 10px;
   }
@@ -958,7 +958,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 20px;
     align-items: center;
 }
 
@@ -1263,7 +1262,7 @@ footer {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
     }
     .header__mobile_btn {
         display: none;
@@ -1288,7 +1287,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1366px) {
     .container_site {
-        max-width: 1090px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
     }
@@ -1296,7 +1295,6 @@ footer {
     .adress {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
-        margin-left: 15px;
     }
 
     .header__mobile_btn {
@@ -1312,13 +1310,12 @@ footer {
     }
 
     .nav__item__link {
-        margin-right: 5px;
         font-size: 14px;
         line-height: calc(26/14);
     }
 
     .input__traid-in {
-        width: 370px;
+        width: 395px;
     }
 
     .checkbox__personal {
@@ -1326,7 +1323,7 @@ footer {
     }
 
     .input__credit {
-        width: 355px;
+        width: 395px;
     }
 
     .tabs__link__fl {
@@ -1377,8 +1374,7 @@ footer {
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
-        margin-right: 10px;
-        padding-right: 10px;
+        padding-right: 20px;
         padding-left: 20px;
     }
 

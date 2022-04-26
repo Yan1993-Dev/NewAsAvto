@@ -230,7 +230,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
 
 
     .background__poster {
-        background-image: url(../local/templates/NewAsAvto/static/images/service__new.jpg);
+        background-image: url(../static/images/service__new.jpg);
         padding: 40px 40px 100px 40px;
         margin-top: -2px;
         background-size: cover;
@@ -605,13 +605,13 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     }
 
     .content__item::before {
-        content: url(../local/templates/NewAsAvto/static/icons/blue__arr.svg);
+        content: url(../static/icons/blue__arr.svg);
         margin-right: 5px;
     }
 
     .background__fos {
         padding: 40px 0;
-        background-image: url(../local/templates/NewAsAvto/static/images/service__fos.jpg);
+        background-image: url(../static/images/service__fos.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -829,7 +829,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     }
 
     .seo__list-item::before {
-        content: url(../local/templates/NewAsAvto/static/images/blue__arr.svg);
+        content: url(../static/images/blue__arr.svg);
         margin-right: 5px;
     }
 
@@ -1024,7 +1024,6 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
     .wrapper__phone__footer {
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
         align-items: center;
     }
 

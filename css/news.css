@@ -123,7 +123,6 @@
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-right: 25px;
   align-items: center;
   color: #fff;
   font-size: 18px;
@@ -173,6 +172,7 @@ nav ul ul li a {
   padding: 10px;
   background-color: #47a0ed;
   margin-top: 5px;
+  font-size: 14px;
   margin-right: -20px;
   border-radius: 10px;
 }
@@ -312,18 +312,17 @@ nav ul ul ul {
   display: -o-flex;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
 }
 
 .category__item {
   min-height: 270px;
   max-width: 280px;
-  margin: 0 10px 50px 10px;
+  margin: 0 50px 100px 20px;
+  position: relative;
 }
 
 .category__image {
-  width: 100%;
   margin-bottom: 30px;
   opacity: 1;
   transition: all 500ms ease;
@@ -349,8 +348,11 @@ nav ul ul ul {
 }
 
 .category__title {
+  font-family: 'NotoSans-Medium';
+  src: local('NotoSans-Medium'),
+    url(../static/fonts/NotoSans-Medium.ttf);
+  font-weight: 500;
   color: #000;
-  font-weight: 600;
   opacity: 1;
   transition: all 500ms ease;
 }
@@ -610,7 +612,6 @@ nav ul ul ul {
 .wrapper__phone__footer {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
   align-items: center;
 }
 
@@ -933,15 +934,21 @@ nav ul ul ul {
   .container_site {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
-  }
+    padding: 0 20px;
+}
+.nav__item__link {
+  font-size: 14px;
+  line-height: calc(26/14);
+}
+
 }
 
 @media (min-width: 1261px) and (max-width: 1366px) {
   .container_site {
-    max-width: 1035px;
-    padding: 0 50px;
-  }
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
   .nav__item__link {
     font-size: 14px;
@@ -951,7 +958,8 @@ nav ul ul ul {
 
 @media (min-width: 1020px) and (max-width: 1261px) {
   .container_site {
-    max-width: 975px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0 20px;
   }
 
@@ -961,7 +969,6 @@ nav ul ul ul {
 
   .adress {
     flex-wrap: nowrap;
-    margin-left: 15px;
   }
 
   .header__mobile_btn {
@@ -977,7 +984,6 @@ nav ul ul ul {
   }
 
   .nav__item__link {
-    margin-right: 5px;
     font-size: 14px;
     line-height: calc(26 / 14);
   }
@@ -1034,8 +1040,8 @@ nav ul ul ul {
   .nav__item__link {
     font-size: 12px;
     line-height: calc(20 / 12);
-    margin-right: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .model_catalog__title {

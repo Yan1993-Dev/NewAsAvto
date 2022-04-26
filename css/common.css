@@ -11,6 +11,12 @@
         url(../static/fonts/TacticSans-Reg.otf);
     }
 
+@font-face {
+        font-family: 'NotoSans-Medium';
+        src: local('NotoSans-Medium'),
+            url(../static/fonts/NotoSans-Medium.ttf);
+        }
+
 *{
     margin: 0;
     max-width: 100%;

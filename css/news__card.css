@@ -123,7 +123,6 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 10px;
     align-items: center;
     color: #fff;
     font-size: 18px;
@@ -169,6 +168,7 @@ nav ul li {
     padding: 10px;
     background-color: #47A0ED;
     margin-top: 5px;
+    font-size: 14px;
     margin-right: -20px;
     border-radius: 10px;
   }
@@ -493,7 +493,6 @@ nav ul li {
 .wrapper__phone__footer {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
     align-items: center;
 }
 
@@ -848,6 +847,80 @@ nav ul li {
     margin-top: 65px;
 }
 
+/* стили для сетки внизу страницы с другими новостями */
+
+.categoty {
+    margin-top: 50px;
+  }
+  
+  .category__list {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .category__item {
+    min-height: 270px;
+    max-width: 280px;
+    margin: 0 10px 0px 10px;
+  }
+  
+  .category__image {
+    width: 100%;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: all 500ms ease;
+  }
+  
+  .category__image:hover {
+    opacity: 0.5;
+  }
+  
+  .category__item:last-child {
+    margin-right: 25px;
+  }
+
+  
+.category__title {
+    color: #000;
+    font-weight: 600;
+    opacity: 1;
+    transition: all 500ms ease;
+  }
+  
+  .category__title:hover {
+    opacity: 0.5;
+  }
+  
+  .category__title__wrap {
+    margin-bottom: 25px;
+  }
+  
+  .category__desc {
+    margin-bottom: 25px;
+  }
+  
+  .category__info {
+    font-weight: 600;
+    color: #3482c6;
+    border-bottom: 1px solid #3482c6;
+    opacity: 1;
+    transition: all 500ms ease;
+  }
+  
+  .category__info:hover {
+    opacity: 0.5;
+  }
+
+
 /* стили для открытия попапа */
 
 .thanks_open {
@@ -894,7 +967,7 @@ nav ul li {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
     }
 }
 
@@ -903,15 +976,23 @@ nav ul li {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
+    }
+    .nav__item__link {
+        font-size: 14px;
+        line-height: calc(26/14);
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1261px) {
     .container_site {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
+    }
+    .nav__item__link {
+        font-size: 14px;
+        line-height: calc(26/14);
     }
 
     .wrapper__menu {
@@ -924,7 +1005,6 @@ nav ul li {
 
     .adress {
         flex-wrap: nowrap;
-        margin-left: 15px;
     }
 
     .header__mobile_btn {
@@ -999,7 +1079,6 @@ nav ul li {
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
-        margin-right: 10px;
         padding-right: 20px;
         padding-left: 20px;
     }

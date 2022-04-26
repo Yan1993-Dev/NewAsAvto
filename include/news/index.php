@@ -57,7 +57,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
-				<li class="category__item"> <a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/04tntg745nlx9lnpo3nx3xjqocbjle9r.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -71,7 +71,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/192xb2g7npg5ph97y77yjk8bsaxav0y0.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.04.2022
@@ -85,7 +85,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./zavershena-rekonstruktsiya/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./otkrytie-vtorogo-sklada/index.php"><img src="/local/templates/NewAsAvto/static/images/waaac7enw7xuuowhwldsnv43h19lq8v9.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./otkrytie-vtorogo-sklada/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.04.2022
@@ -99,7 +99,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./otkrytie-vtorogo-sklada/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./rassrochka-0/index.php"><img src="/local/templates/NewAsAvto/static/images/a883v5gb0sgwmed2ss1h68xgm4skj4yp.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./rassrochka-0/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							24.03.2022

@@ -118,6 +118,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
     color: #fff;
     font-size: 18px;
@@ -163,6 +164,7 @@ nav ul li {
     padding: 10px;
     background-color: #47A0ED;
     margin-top: 5px;
+    font-size: 14px;
     margin-right: -20px;
     border-radius: 10px;
   }
@@ -340,7 +342,6 @@ nav ul li {
 .wrapper__phone__footer {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
     align-items: center;
 }
 
@@ -654,7 +655,7 @@ nav ul li {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
     .header__mobile_btn {
@@ -668,7 +669,8 @@ nav ul li {
 
 @media (min-width: 1024px) and (max-width: 1366px) {
     .container_site {
-        max-width: 1030px;
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 0 20px;
     }
 
@@ -784,8 +786,8 @@ nav ul li {
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
-        margin-right: 10px;
-        padding-right: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .model_catalog__title {

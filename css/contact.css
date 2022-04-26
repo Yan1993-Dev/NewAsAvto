@@ -155,7 +155,6 @@
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 30px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -209,6 +208,7 @@ nav ul li {
     padding: 10px;
     background-color: #47A0ED;
     margin-top: 5px;
+    font-size: 14px;
     margin-right: -20px;
     border-radius: 10px;
   }
@@ -438,7 +438,6 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 20px;
     align-items: center;
 }
 
@@ -588,7 +587,7 @@ footer {
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../local/templates/NewAsAvto/static/icons/X.svg);
+    background-image: url(../static/icons/X.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -669,7 +668,7 @@ footer {
     width: 19px;
     height: 19px;
     background-color: transparent;
-    background-image: url(../local/templates/NewAsAvto/static/icons/X__white.svg);
+    background-image: url(../static/icons/X__white.svg);
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -742,7 +741,7 @@ footer {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
     }
     .header__mobile_btn {
         display: none;
@@ -772,14 +771,13 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1366px) {
     .container_site {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
     }
 
     .adress {
         flex-wrap: nowrap;
-        margin-left: 15px;
     }
 
     .header__mobile_btn {
@@ -795,7 +793,6 @@ footer {
     }
 
     .nav__item__link {
-        margin-right: 5px;
         font-size: 14px;
         line-height: calc(26/14);
     }
@@ -859,7 +856,6 @@ footer {
     .nav__item__link {
         font-size: 10px;
         line-height: calc(20/12);    
-        margin-right: 10px;
         padding-right: 20px;
         padding-left: 20px;
     }
