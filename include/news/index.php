@@ -183,7 +183,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/ajf6kgojggwgiiy8nkyculrc12tn6w51.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/tiwtorywoerytwop.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.03.2022
@@ -197,7 +197,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./vladet-chery-tiggo/index.php"><img src="/local/templates/NewAsAvto/static/images/jbqq4ap1278n7iwzxynq2jw43zixb4y7.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./vladet-chery-tiggo/index.php"><img src="/local/templates/NewAsAvto/static/images/rjokhfjghsihfjug.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							29.12.2021
@@ -211,7 +211,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./vladet-chery-tiggo/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./android-auto/index.php"><img src="/local/templates/NewAsAvto/static/images/przvdksgv4qkuqmz3qzkaxqo1lumg1wg.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./android-auto/index.php"><img src="/local/templates/NewAsAvto/static/images/z4dov6hk2vr2is8x4zfc8hm7ymy90gppdhfgdhd.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.12.2021
@@ -225,7 +225,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./android-auto/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./vnedorozhnik-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/5r3x03iq8ftifr1tfaqugovl8hak39x6.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./vnedorozhnik-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/pi7adkkz0b5dhcrh2ptvd5c78cx0ktyagdfgsdfdgf.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.12.2021
@@ -239,7 +239,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./vnedorozhnik-exeed-vx/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./chery-pobila-rekord/index.php"><img src="/local/templates/NewAsAvto/static/images/kdilztpcc8mzpwi3skwxa7f43l35t9vf.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./chery-pobila-rekord/index.php"><img src="/local/templates/NewAsAvto/static/images/srtfcghftdfrxhcgfghdfgh.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.12.2021
