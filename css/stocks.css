@@ -287,7 +287,6 @@ nav ul ul ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .content__stoks {
@@ -384,6 +383,8 @@ nav ul ul ul {
 }
 
 .content__title {
+    font-family: 'TacticSans-Reg';
+    src: url(../static/fonts/TacticSans-Reg.otf);
     display: inline-block;
     vertical-align: middle;
     color: #000;
@@ -392,6 +393,8 @@ nav ul ul ul {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
+    font-size: 16px;
+    line-height: calc(20/16);
 }
 
 .content__img {
@@ -761,8 +764,11 @@ nav ul ul ul {
 
   
 .category__title {
+    font-family: 'NotoSans-Medium';
+    src: local('NotoSans-Medium'),
+      url(../static/fonts/NotoSans-Medium.ttf);
+    font-weight: 500;
     color: #000;
-    font-weight: 600;
     opacity: 1;
     transition: all 500ms ease;
   }

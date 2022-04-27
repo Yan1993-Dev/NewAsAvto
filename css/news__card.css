@@ -456,8 +456,11 @@ nav ul li {
 }
 
 .category__title {
+    font-family: 'NotoSans-Medium';
+    src: local('NotoSans-Medium'),
+      url(../static/fonts/NotoSans-Medium.ttf);
+    font-weight: 500;
     color: #000;
-    font-weight: 600;
     opacity: 1;
     transition: all 500ms ease;
 }

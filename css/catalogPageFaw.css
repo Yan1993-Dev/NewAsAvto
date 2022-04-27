@@ -497,7 +497,6 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
   
 .content__stock {
@@ -594,8 +593,8 @@ nav ul li {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    font-size: 20px;
-    line-height: calc(24/20);
+    font-size: 16px;
+    line-height: calc(20/16);
 }
 
 .content__img {

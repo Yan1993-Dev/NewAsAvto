@@ -63,11 +63,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             23.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 8 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 8 Pro
                     </p>
                     <p class="category__desc">
                         Огромное спасибо коллективу АсАвто и особенно сотрудникам отдела продаж Екатерине и Александру
@@ -82,11 +82,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             23.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Geely Tugella
+                    <span class="auto_desc_under">Автомобиль:</span> Geely Tugella
                     </p>
                     <p class="category__desc">
                         Подробное информирование на всех этапах взаимодействия с момента выбора модели автомобиля до оформления ДКП. Квалифицировано, качественно, без доп. услуг
@@ -101,11 +101,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             23.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: EXEED VX
+                    <span class="auto_desc_under">Автомобиль:</span> EXEED VX
                     </p>
                     <p class="category__desc">
                         Хорошо ответили на звонок. Хорошо встретили. Всё объяснили по авто и по кредиту. Организовали трейд-ин .Всё понравилось!
@@ -120,11 +120,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             21.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         Всё хорошо. Спасибо автосалону и отдельно большое спасибо менеджеру по продажам, Улесову Виталию
@@ -139,11 +139,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             19.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 4
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
                     </p>
                     <p class="category__desc">
                         Заказал автомобиль по предоплате, ждал около двух недель. Приехал, осмотрел автомобиль, всё понравилось. Предоплату включили в стоимость. Всё супер
@@ -158,11 +158,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             19.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         АсАвто большие молодцы, всё очень понравилось
@@ -177,11 +177,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             18.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Geely Atlas Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Geely Atlas Pro
                     </p>
                     <p class="category__desc">
                         Всё понравилось. Всё хорошо
@@ -196,11 +196,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             17.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: EXEED VX
+                    <span class="auto_desc_under">Автомобиль:</span> EXEED VX
                     </p>
                     <p class="category__desc">
                         Всё понравилось. Покупка автомобиля прошла приятно и без проблем. Большое спасибо автосалону АсАвто
@@ -215,11 +215,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             17.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         Очень приветливый персонал. Отношение к покупателю с душой. При возникших проблемах идут на встречу. Менеджер понимал с полуслова и отвечал на все возникшие вопросы. Спасибо Вам большое!
@@ -234,11 +234,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             17.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         Всё хорошо, обслуживание на высшем уровне.
@@ -253,11 +253,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             16.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         Купил автомобиль Chery Tiggo 7 PRO. За эти деньги, аналоги других брендов намного хуже по оборудованию и комплектации
@@ -272,11 +272,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             16.02.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        Автомобиль: Chery Tiggo 7 Pro
+                    <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
                     </p>
                     <p class="category__desc">
                         Всё очень хорошо, спасибо большое!
@@ -291,11 +291,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 					 14.02.2022
 				</p>
 			</div>
-			<div class="category__title__wrap category__title">
+			<div class="auto__desc">
             <span class="auto_desc_under">Дилерский центр:</span> Самара
 			</div>
 			<p class="auto__desc">
-				 Автомобиль: Haval F7X
+            <span class="auto_desc_under">Автомобиль:</span> Haval F7X
 			</p>
 			<p class="category__desc">
 				 Спасибо огромное менеджеру Роману за отличное обслуживание и быструю выдачу
@@ -310,11 +310,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 					 12.02.2022
 				</p>
 			</div>
-			<div class="category__title__wrap category__title">
+			<div class="auto__desc">
             <span class="auto_desc_under">Дилерский центр:</span> Самара
 			</div>
 			<p class="auto__desc">
-				 Автомобиль: Chery Tiggo 7 Pro
+            <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 7 Pro
 			</p>
 			<p class="category__desc">
 				 Хорошее обслуживание, отзывчивый персонал. Менеджер Иван молодец
@@ -329,11 +329,11 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
 					 10.02.2022
 				</p>
 			</div>
-			<div class="category__title__wrap category__title">
+			<div class="auto__desc">
             <span class="auto_desc_under">Дилерский центр:</span> Самара
 			</div>
 			<p class="auto__desc">
-				 Автомобиль: EXEED TXL
+            <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
 			</p>
 			<p class="category__desc">
 				 Менеджеры настоящие профессионалы своего дела. Буду советовать автосалон АсАвто всем знакомым

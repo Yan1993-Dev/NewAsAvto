@@ -63,7 +63,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             31.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -82,7 +82,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             29.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -101,7 +101,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             28.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -120,7 +120,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             26.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -139,7 +139,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             21.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -158,7 +158,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             21.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -177,7 +177,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             21.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -196,7 +196,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             18.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -215,7 +215,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             17.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -234,7 +234,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             03.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -253,7 +253,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             01.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
@@ -272,7 +272,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                             01.03.2022
                         </p>
                     </div>
-                    <div class="category__title__wrap category__title">
+                    <div class="auto__desc">
                     <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">

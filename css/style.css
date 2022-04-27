@@ -625,9 +625,6 @@ nav ul li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
 }
   
 .content__stock {
@@ -739,12 +736,11 @@ nav ul li {
     color: #000;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    font-size: 14px;
-    line-height: calc(18/14);
+    font-size: 16px;
+    line-height: calc(20/16);
 }
 
 .content__img {

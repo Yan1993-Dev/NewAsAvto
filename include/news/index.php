@@ -57,7 +57,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
-				<li class="category__item"> <a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/ghfgjhsjflgs3rtertertw12321321j.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -71,7 +71,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3907.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.04.2022
@@ -85,7 +85,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./zavershena-rekonstruktsiya/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./otkrytie-vtorogo-sklada/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./otkrytie-vtorogo-sklada/index.php"><img src="/local/templates/NewAsAvto/static/images/33ddcd23-670-0fgdfgdf.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.04.2022
@@ -99,7 +99,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./otkrytie-vtorogo-sklada/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./rassrochka-0/index.php"><img src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./rassrochka-0/index.php"><img src="/local/templates/NewAsAvto/static/images/3fohuidz2tx3hm2raj94frhzi2ktp8r0fdfghsdfgsdf.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							24.03.2022
@@ -113,7 +113,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./rassrochka-0/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./fan-klub-omada-5/index.php"><img src="/local/templates/NewAsAvto/static/images/xcz6tucvzwypgqq1t81sfrpb1g0nvpm0.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./fan-klub-omada-5/index.php"><img src="/local/templates/NewAsAvto/static/images/Chery-Omoda-5-malaysian-marketgdfgdfgd.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							18.03.2022
@@ -127,7 +127,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./fan-klub-omada-5/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img src="/local/templates/NewAsAvto/static/images/l9nfmgbvj5v3u33ndj8ikf1af6l64xzs.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img src="/local/templates/NewAsAvto/static/images/EXEED_Portraits7662_33jnhihyhuv.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							18.03.2022
@@ -141,7 +141,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./chery-i-belkacar/index.php"><img src="/local/templates/NewAsAvto/static/images/fc1u7e4ys3rxamlq69qgc9v39hxakfaz.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./chery-i-belkacar/index.php"><img src="/local/templates/NewAsAvto/static/images/BelkaCar-Chery2-1tertrwetreter.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							10.03.2022
@@ -155,7 +155,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./chery-i-belkacar/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./exeed-lx-dostoin-prevoskhodstva/index.php"><img src="/local/templates/NewAsAvto/static/images/bkw7mszyjiq6i5akiqhdgdnmezcv3hl5.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./exeed-lx-dostoin-prevoskhodstva/index.php"><img src="/local/templates/NewAsAvto/static/images/fgmjdfksgjsdjfgsjd.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							10.03.2022
@@ -169,7 +169,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./exeed-lx-dostoin-prevoskhodstva/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img src="/local/templates/NewAsAvto/static/images/k2ix2tmt0ka8fxbh58wqe6xtrtru90gv.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./rossiyskaya-premera-krossovera-exeed-lx/index.php"><img src="/local/templates/NewAsAvto/static/images/ftdfytdfytdfytf.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							18.02.2022
