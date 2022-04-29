@@ -250,28 +250,9 @@ nav ul li {
             margin-top: 40px;
 }
 
-.swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
-    border: 1px solid white;
-    background: white;
-}
 
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin-top: 40px;
-    width: 15.85px;
-    height: 15.85px;
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
-    background: #202020;
-    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
-        -ms-transform: matrix(1, 0, 0, -1, 0, 0);
-            transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.swiper_pagination-in {
-    text-align: center;
+.swiper-pagination {
+    margin-top: 250px;
 }
 
 .category__image {

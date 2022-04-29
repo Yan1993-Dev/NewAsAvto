@@ -225,10 +225,7 @@ nav ul li {
 }
 
 .auto_desc_under {
-    font-family: 'NotoSans-Medium';
-    src: local('NotoSans-Medium'),
-        url(../static/fonts/NotoSans-Medium.ttf);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .title__desc__poster {
@@ -412,10 +409,7 @@ nav ul li {
 }
 
 .category__title {
-    font-family: 'NotoSans-Medium';
-    src: local('NotoSans-Medium'),
-        url(../static/fonts/NotoSans-Medium.ttf);
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
     opacity: 1;
     transition: all 500ms ease;
@@ -974,6 +968,10 @@ footer {
     margin-top: -20px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.pagination__number {
+    color: #000;
 }
 
 /* стили для открытия попапа */

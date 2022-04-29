@@ -13,9 +13,8 @@ sliders.forEach((el) => {
             delay: 3000,
         },
         pagination: {
-			el: '.swiper-pagination',
+			el: 'swiper-pagination_title',
 			clickable: true,
-            type: 'bullets',
 		},
 		
 		breakpoints: {

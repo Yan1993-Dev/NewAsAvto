@@ -1291,6 +1291,7 @@ nav ul li {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1545,21 +1546,36 @@ nav ul li {
 
   
 .category__title {
-    font-family: 'NotoSans-Medium';
-    src: local('NotoSans-Medium'),
-      url(../static/fonts/NotoSans-Medium.ttf);
-    font-weight: 500;
     color: #000;
     opacity: 1;
     transition: all 500ms ease;
   }
+
+  .date__info {
+    display: flex;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.auto__desc {
+    margin-bottom: 10px;
+}
+
+.auto_desc_under {
+    font-weight: 600;
+}
+
+  .date__info-item {
+    background: #3482C6;
+    padding: 2px;
+}
   
   .category__title:hover {
     opacity: 0.5;
   }
   
   .category__title__wrap {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
   
   .category__desc {
@@ -2295,6 +2311,10 @@ nav ul li {
 
     .popup_request {
         margin-bottom: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
     }
 
     .thanks {

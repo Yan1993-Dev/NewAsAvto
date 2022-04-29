@@ -73,7 +73,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/stocks.css");
             <li class="content__stoks">
                 <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php">
                     <p class="content__title">Кредит без первого взноса</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/1tpdq781f9y5q0es84ej3k4xmf86zzed.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/rld6d4w4l3f3tyugbi0th1a6m3jpely4.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="btn__info">Узнать больше</a>
                     </div>

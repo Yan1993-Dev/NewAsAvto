@@ -56,7 +56,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 	</div>
 	<div class="category">
 		<ul class="category__list">
-			<li class="category__item"> <a href="../novosti/chery-elektro/index.php"><img src="/local/templates/NewAsAvto/static/images/1f817ed9bd71ead82dc5eb94bdc1bc62.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/chery-elektro/index.php"><img src="/local/templates/NewAsAvto/static/images/cheri-ikyufrgdfsgsd.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					15.07.2021
@@ -69,7 +69,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Компания CHERY рассматривает возможность в ближайшие два года расширить модельный ряд в России автомобилями с электродвигателями.
 			</p>
  <a href="../novosti/chery-elektro/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/40-sekund/index.php"><img src="/local/templates/NewAsAvto/static/images/9fdf6fdead0ba47bb062157f705b3d4a.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/40-sekund/index.php"><img src="/local/templates/NewAsAvto/static/images/fgdgsdfgs.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					15.07.2021
@@ -82,7 +82,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
       В России марка CHERY входит в ТОП-5 по динамике продаж с показателем 451%.
 			</p>
  <a href="../novosti/40-sekund/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/brend-lider/index.php"><img src="/local/templates/NewAsAvto/static/images/07ddf100ff38f24a9dd7094d284c26c6.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/brend-lider/index.php"><img src="/local/templates/NewAsAvto/static/images/dfgsgsggseee.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					15.07.2021
@@ -95,7 +95,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
       10 июня 2021 года состоялось оглашение результатов всероссийского голосования премии «Автомобиль года-2021».
 			</p>
  <a href="../novosti/brend-lider/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/chery-i-iflytek-sotrudnichestvo/index.php"><img src="/local/templates/NewAsAvto/static/images/3bb550c680f05baf4cd9adf8c5d5fe32.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/chery-i-iflytek-sotrudnichestvo/index.php"><img src="/local/templates/NewAsAvto/static/images/ertwert.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					08.06.2021
@@ -108,7 +108,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
       24 мая 2021 года компании Chery Automobile Co., Ltd. и iFlytek CO., LTD. подписали рамочное соглашение об углублении стратегического взаимодействия в области разработки решений систем искусственного интеллекта (ИИ) для серийных автомобилей.
 			</p>
  <a href="../novosti/chery-i-iflytek-sotrudnichestvo/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/nepreryvnyy-protsess-sovershenstvovaniya/index.php"><img src="/local/templates/NewAsAvto/static/images/8037ead9696dd0f8126f5ce649d62033.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/nepreryvnyy-protsess-sovershenstvovaniya/index.php"><img src="/local/templates/NewAsAvto/static/images/ywetrwerew.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					31.05.2021
@@ -121,7 +121,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Согласно исследованию аналитического агентства «АВТОСТАТ» у компании CHERY значительно выросли показатель лояльности, индексы повторной покупки и NPS в период с 2016 года по 2020 год.
 			</p>
  <a href="../novosti/nepreryvnyy-protsess-sovershenstvovaniya/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/start-dzholion/index.php"><img src="/local/templates/NewAsAvto/static/images/0k7m9nmib7wn2mpa6hxsee8um3k3xjfh.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/start-dzholion/index.php"><img src="/local/templates/NewAsAvto/static/images/cedcdbe.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					20.05.2021
@@ -134,7 +134,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 18.05.2021 Haval официально представил новый кроссовер - Jolion, известный на в Китае под именем Chulian («Первая любовь»). На премьере модели, которая займет место самой компактной и самой доступной в российской линейке Haval.
 			</p>
  <a href="../novosti/start-dzholion/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/populyarnost-cheri/index.php"><img src="/local/templates/NewAsAvto/static/images/77819b1d804127194879037e6426f191.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/populyarnost-cheri/index.php"><img src="/local/templates/NewAsAvto/static/images/baeeea.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					04.05.2021
@@ -147,7 +147,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 По итогам первого квартала 2021 года рост продаж новых автомобилей марки CHERY в России составил 374% по отношению к аналогичному периоду прошлого года.
 			</p>
  <a href="../novosti/populyarnost-cheri/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/transmissiya-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/e0ce609a05f1006fd1f20671a3a44896.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/transmissiya-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/idfhgohdsoho.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					04.05.2021
@@ -160,7 +160,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 27 марта 2021 года опубликован рейтинг «10 лучших в мире. Коробки передач», составленный экспертным сообществом Академии автомобильной оценки Lopal Cup.
 			</p>
  <a href="../novosti/transmissiya-tiggo-8/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/chery-tiggo-8-pro-v-serdtse/index.php"><img src="/local/templates/NewAsAvto/static/images/bea65587094b1a969ec66723d0aa69ce.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/chery-tiggo-8-pro-v-serdtse/index.php"><img src="/local/templates/NewAsAvto/static/images/OTR02960.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					04.05.2021
@@ -173,7 +173,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 В этом году компания CHERY представила кроссовер TIGGO 8 PRO, который сочетает в себе стильный, брутальный вид автомобиля бизнес-класса и функциональность семейного автомобиля.
 			</p>
  <a href="../novosti/chery-tiggo-8-pro-v-serdtse/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/200-km-probega/index.php"><img src="/local/templates/NewAsAvto/static/images/c9deaef7f24f59453d0e85ccd54851fc.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/200-km-probega/index.php"><img src="/local/templates/NewAsAvto/static/images/127A1053.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					10.03.2021
@@ -186,7 +186,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 В Москве в Lotte Plaza состоялась презентация нового представителя городской элиты — кроссовера CHERY TIGGO 8 PRO и торжественное открытие арт-инсталляции ICE CUBE в саду «Эрмитаж».
 			</p>
  <a href="../novosti/200-km-probega/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/razgon-tiggo-8-pro/index.php"><img src="/local/templates/NewAsAvto/static/images/07kxhb3rq2buxuz2sljwq5q31d5thvw8.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/razgon-tiggo-8-pro/index.php"><img src="/local/templates/NewAsAvto/static/images/fjuytrr.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					05.03.2021
@@ -199,7 +199,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Семиместный кроссовер CHERY TIGGO 8 PRO на российском рынке будет доступен с двумя вариантами бензиновых силовых агрегатов.
 			</p>
  <a href="../novosti/razgon-tiggo-8-pro/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/cheri-interer/index.php"><img src="/local/templates/NewAsAvto/static/images/009836ac8b5f4b8fd64916cc3a70f0bd.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/cheri-interer/index.php"><img src="/local/templates/NewAsAvto/static/images/5N0A8222.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					05.03.2021
@@ -217,10 +217,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 	</div>
 	<div class="pagination">
 		<ul class="pagination_list">
-			<li class="pagination_list_item p-fist"><a href="../novosti/index.php">1</a></li>
-			<li class="pagination_list_item p-second"><a href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
-			<li class="pagination_list_item p-three"><a href="../tretya-stranitsa-novostey/index.php">3</a></li>
-			<li class="pagination_list_item p-four"><a href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
+			<li class="pagination_list_item p-fist"><a class="pagination__number" href="../novosti/index.php">1</a></li>
+			<li class="pagination_list_item p-second"><a class="pagination__number" href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
+			<li class="pagination_list_item p-three"><a class="pagination__number" href="../tretya-stranitsa-novostey/index.php">3</a></li>
+			<li class="pagination_list_item p-four"><a class="pagination__number" href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
 			 <!-- <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
                 <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
                 <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li> -->

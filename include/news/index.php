@@ -253,7 +253,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./chery-pobila-rekord/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./wcwl/index.php"><img src="/local/templates/NewAsAvto/static/images/a17738ac172fedb34727fc55c127b9d4.jpg" class="category__image" alt=""></a>
+				<li class="category__item"> <a href="./wcwl/index.php"><img src="/local/templates/NewAsAvto/static/images/dfggswrgtswgtdegrte.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							14.09.2021
@@ -271,10 +271,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="pagination">
 			<ul class="pagination_list">
-				<li class="pagination_list_item p-fist"><a href="../novosti/index.php">1</a></li>
-				<li class="pagination_list_item p-second"><a href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
-				<li class="pagination_list_item p-three"><a href="../tretya-stranitsa-novostey/index.php">3</a></li>
-				<li class="pagination_list_item p-four"><a href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
+				<li class="pagination_list_item p-fist"><a class="pagination__number" href="../novosti/index.php">1</a></li>
+				<li class="pagination_list_item p-second"><a class="pagination__number" href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
+				<li class="pagination_list_item p-three"><a class="pagination__number" href="../tretya-stranitsa-novostey/index.php">3</a></li>
+				<li class="pagination_list_item p-four"><a class="pagination__number" href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
 				<!-- <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
                 <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
                 <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li> -->

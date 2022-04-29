@@ -56,7 +56,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 	</div>
 	<div class="category">
 		<ul class="category__list">
-			<li class="category__item"> <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/epdj5tf95a6dy0775s6ldilfuk0wlqzr.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/2.0TGDIufryufkfytu.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					01.12.2021
@@ -69,7 +69,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Полноразмерный семиместный внедорожник VX от EXEED будет оснащаться бензиновым двигателем 2.0TGDI и 7-ступенчатой роботизированной коробкой передач DCT. Флагманская модель бренда EXEED будет представлена для продажи у официальных дилеров марки до конца года.
 			</p>
  <a href="../novosti/moshchnyy-dvigatel-dlya-exeed-vx/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/kosmonavt/index.php"><img src="/local/templates/NewAsAvto/static/images/ymukx33smgldeqf482s9g5r3jho2xygf.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/kosmonavt/index.php"><img src="/local/templates/NewAsAvto/static/images/_CUR7000_Rfgsdgs.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					01.12.2021
@@ -82,7 +82,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Автомобильный бренд EXEED в преддверии старта продаж флагманской модели — внедорожника VX — снял видеоисторию «Как превратить мечты в реальность?» с участием космонавта-испытателя Антона Шкаплерова.
 			</p>
  <a href="../novosti/kosmonavt/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/novyy-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/fbtlu5fcjsxsvt53ey9zykd1g06xuo58.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/novyy-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC00658-HDR-1hfhdgfdh.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					25.11.2021
@@ -95,7 +95,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Новая флагманская модель от EXEED - внедорожник VX официально выходит на Российский рынок.
 			</p>
  <a href="../novosti/novyy-exeed-vx/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/novoe-pokolenie-exeed-txl/index.php"><img src="/local/templates/NewAsAvto/static/images/rwm1k311p1mxyvxm28j5ztm2rwxqbtx7.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/novoe-pokolenie-exeed-txl/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC00658-HDR-1hfhdgfdh.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					27.10.2021
@@ -108,7 +108,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 EXEED в России представит в октябре этого года полностью обновленную версию внедорожника TXL. После онлайн-презентации, в ходе которой будут продемонстрированы основные изменения и озвучена ценовая политика, автомобиль будет доступен для приобретения у официальных дилеров марки.
 			</p>
  <a href="../novosti/novoe-pokolenie-exeed-txl/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/novyy-dilerskiy-tsentr/index.php"><img src="/local/templates/NewAsAvto/static/images/ss3g72avklluu2hx0674odfmn6el5rod.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/novyy-dilerskiy-tsentr/index.php"><img src="/local/templates/NewAsAvto/static/images/ththysfhtsgt.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					16.10.2021
@@ -121,7 +121,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 В рамках программы развития дилерской сети, наша компания открывает свой третий автосалон в г. Самара по адресу Южное шоссе 12А, строение 4.
 			</p>
  <a href="../novosti/novyy-dilerskiy-tsentr/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/tiggo-8-pro-priznan/index.php"><img src="/local/templates/NewAsAvto/static/images/thn458r3z2pmnbqtdzygbgnmw9548vid.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/tiggo-8-pro-priznan/index.php"><img src="/local/templates/NewAsAvto/static/images/Team_CHERYjhhihi.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					22.09.2021
@@ -134,7 +134,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Автомобиль заслуженно получил высокие оценки жюри, так как в кроссовере изобилие современных технологий и оборудования, начиная от турбированного двигателя 1.6TGDI и заканчивая беспроводной зарядкой.
 			</p>
  <a href="../novosti/tiggo-8-pro-priznan/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/-asavto-novyy-chlen-road/index.php"><img src="/local/templates/NewAsAvto/static/images/e653b47821d3c8d602a6a1883011ba4c.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/-asavto-novyy-chlen-road/index.php"><img src="/local/templates/NewAsAvto/static/images/ghuoiguigygfyuogftu.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					14.09.2021
@@ -144,10 +144,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
  <a href="../novosti/-asavto-novyy-chlen-road/index.php" class="category__title">«АсАвто» - новый член РОАД</a>
 			</div>
 			<p class="category__desc">
-				 Группа компаний "АсАвто" вступила в "Ассоциацию Российские Автомоибльные Дилеры" Данное решение позволит эффективнее взаимодействовать с крупнейшими автодилерами страны, органами власти и дистрибьюторами.
+				 Группа компаний "АсАвто" вступила в "Ассоциацию Российские Автомобильные Дилеры" Данное решение позволит эффективнее взаимодействовать с крупнейшими автодилерами страны, органами власти и дистрибьюторами.
 			</p>
  <a href="../novosti/-asavto-novyy-chlen-road/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/innovatsionnye-partnyery-chery/index.php"><img src="/local/templates/NewAsAvto/static/images/002c6dec70ce3da3c243d00d8bdcc4c3.jfif" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/innovatsionnye-partnyery-chery/index.php"><img src="/local/templates/NewAsAvto/static/images/gsdgsdgs452.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					03.09.2021
@@ -160,7 +160,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Chery Holding Group заключил соглашения о стратегическом партнерстве с компаниями Haier, Horizon и дочерней компанией Alibaba Zebra Zhixing.
 			</p>
  <a href="../novosti/innovatsionnye-partnyery-chery/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php"><img src="/local/templates/NewAsAvto/static/images/33595cghowwr6fjutto3k1lb0jr2ptfl.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php"><img src="/local/templates/NewAsAvto/static/images/ghdfghdgheeeeerw.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					30.08.2021
@@ -173,7 +173,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о расширении дилерской сети премиального бренда EXEED на территории РФ. Согласно планам развития марки количество дилерских центров бренда EXEED до конца 2021 года достигнет 60-ти.
 			</p>
  <a href="../novosti/dilerskaya-set-exeed-v-rf/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/desyat-nagrad/index.php"><img src="/local/templates/NewAsAvto/static/images/ssrl2cdg2mc38ti3weak9hp9y9p5hypp.jpeg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/desyat-nagrad/index.php"><img src="/local/templates/NewAsAvto/static/images/erthoihoiasd.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					25.08.2021
@@ -186,7 +186,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 В Китае состоялось ежегодное ралли электромобилей CEVR, в котором приняли участие всемирно известные автомобильные компании с целью демонстрации возможностей их продуктов. Концерн CHERY заявил на соревнование два своих электроблокбастера – компакт-кар EQ1 и кроссовер EQ5. После тщательной экспертной оценки автомобили CHERY завоевали десять наград, среди которых «Лучшая выносливость» и «Лучшая быстрая зарядка».
 			</p>
  <a href="../novosti/desyat-nagrad/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php"><img src="/local/templates/NewAsAvto/static/images/mzudwl4mme26coyegi9la4z56yt164bw.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC00732-HDRdfgdfg.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					11.08.2021
@@ -199,7 +199,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Компания EXEED объявляет о расширении модельного ряда марки в России до конца 2021 года. Линейка марки будет состоять из трёх автомобилей SUV-сегмента: VX, TXL и LX.
 			</p>
  <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/start-prodazh-tiggo-4/index.php"><img src="/local/templates/NewAsAvto/static/images/32133e07f233841f5e8f83cdd714d3d9.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/start-prodazh-tiggo-4/index.php"><img src="/local/templates/NewAsAvto/static/images/hjfdoirjewh.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					26.07.2021
@@ -212,7 +212,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Дистрибьютор автомобилей марки CHERY в России объявляет о старте продаж кроссовера TIGGO 4 в новых комплектациях Trek и Travel, которые в ассортименте комплектаций займут промежуточное положение. Таким образом, CHERY TIGGO 4 доступен для приобретения у официальных дилеров марки в семи комплектациях: Base, Comfort, Luxury, Travel, Techno, Trek и Cosmo.
 			</p>
  <a href="../novosti/start-prodazh-tiggo-4/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/itogi-2021-goda/index.php"><img src="/local/templates/NewAsAvto/static/images/be3385a2335b2b29d7d71983922566cf.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/itogi-2021-goda/index.php"><img src="/local/templates/NewAsAvto/static/images/rtyuertjxc.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					26.07.2021
@@ -225,7 +225,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Мировые продажи CHERY HOLDING GROUP демонстрируют в первом полугодии 2021 года значительный рост продаж. С января по июнь компания реализовала 424 457 автомобилей, что на 80,4% больше, чем за аналогичный период прошлого года и на 31%, чем в 2019 году.
 			</p>
  <a href="../novosti/itogi-2021-goda/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/servisnaya-kampaniya-na-chery/index.php"><img src="/local/templates/NewAsAvto/static/images/01fce8bd931df367168f36898ffa2925.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/servisnaya-kampaniya-na-chery/index.php"><img src="/local/templates/NewAsAvto/static/images/lcjkvhd.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					15.07.2021
@@ -238,7 +238,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				 Дистрибьютор автомобилей CHERY в России, следуя стратегии непрерывного совершенствования продукции и процессов, объявляет о специальной сервисной кампании на кроссоверы CHERY TIGGO 7 PRO.
 			</p>
  <a href="../novosti/servisnaya-kampaniya-na-chery/index.php" class="category__info">Читать далее</a> </li>
-			<li class="category__item"> <a href="../novosti/chery-puteshestvie/index.php"><img src="/local/templates/NewAsAvto/static/images/37a63a943023916873eadb21f50e4656.jpg" class="category__image" alt=""></a>
+			<li class="category__item"> <a href="../novosti/chery-puteshestvie/index.php"><img src="/local/templates/NewAsAvto/static/images/OTR02810.jpg" class="category__image" alt=""></a>
 			<div class="date__info">
 				<p class="date__info-item">
 					15.07.2021
@@ -255,10 +255,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 	</div>
 	<div class="pagination">
 		<ul class="pagination_list">
-			<li class="pagination_list_item p-fist"><a href="../novosti/index.php">1</a></li>
-			<li class="pagination_list_item p-second"><a href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
-			<li class="pagination_list_item p-three"><a href="../tretya-stranitsa-novostey/index.php">3</a></li>
-			<li class="pagination_list_item p-four"><a href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
+			<li class="pagination_list_item p-fist"><a class="pagination__number" href="../novosti/index.php">1</a></li>
+			<li class="pagination_list_item p-second"><a class="pagination__number" href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
+			<li class="pagination_list_item p-three"><a class="pagination__number" href="../tretya-stranitsa-novostey/index.php">3</a></li>
+			<li class="pagination_list_item p-four"><a class="pagination__number" href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
 			 <!-- <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
                 <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
                 <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li> -->

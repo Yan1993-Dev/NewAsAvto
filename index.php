@@ -32,7 +32,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
     <div class="container_site">
         <div class="slider_wrapper">
             <div class="slider-container">
-                <div class="swiper-container">
+                <div class="swiper-container_title">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide card">
                             <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/zik1vkx0kw7rmp5hc3721z9uda1olo0j.jpg" class="category__image" alt="poster"></a>
@@ -53,7 +53,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                             <a href="../aktsii/exeed-pomoshch-na-dorogakh/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/e661510015e43df4ea0de68736778633.jpg" class="category__image" alt="poster"></a>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination_title"></div>
                 </div>
             </div>
             <div class="tabs">

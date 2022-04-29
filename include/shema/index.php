@@ -67,7 +67,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                 <div class="wrapper__map">
                     <div class="wrapper__inner">
                         <div class="slider-container">
-                            <div class="swiper-container__map">
+                            <div class="swiper-container_map">
                                 <div class="swiper-wrapper__map">
                                     <div class="swiper-slide card">
                                         <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/aeroport.png" class="category__image" alt="">
@@ -82,7 +82,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                                         <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/serv__resep.png" class="category__image" alt="">
                                     </div>
                                 </div>
-                                <div class="swiper-pagination_one"></div>
+                                <div class="swiper-pagination_map"></div>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
             <div class="wrapper__map">
                 <div class="slider_wrapper">
                     <div class="slider-container">
-                        <div class="swiper-container__map">
+                        <div class="swiper-container_map">
                             <div class="swiper-wrapper__map">
                                 <div class="swiper-slide card">
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/south__street.jpg" class="category__image" alt="">
@@ -122,7 +122,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/south__recept.jpg" class="category__image" alt="">
                                 </div>
                             </div>
-                            <div class="swiper-pagination_one"></div>
+                            <div class="swiper-pagination_map"></div>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
             <div class="wrapper__map">
                 <div class="slider_wrapper">
                     <div class="slider-container">
-                        <div class="swiper-container__map">
+                        <div class="swiper-container_map">
                             <div class="swiper-wrapper__map">
                                 <div class="swiper-slide card">
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/alma.png" class="category__image" alt="">
@@ -161,7 +161,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/alma__saloon.png" class="category__image" alt="">
                                 </div>
                             </div>
-                            <div class="swiper-pagination_one"></div>
+                            <div class="swiper-pagination_map"></div>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
             <div class="wrapper__map">
                 <div class="slider_wrapper">
                     <div class="slider-container">
-                        <div class="swiper-container__map">
+                        <div class="swiper-container_map">
                             <div class="swiper-wrapper__map">
                                 <div class="swiper-slide card">
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tlt.png" class="category__image" alt="">
@@ -199,7 +199,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tlt__recept.png" class="category__image" alt="">
                                 </div>
                             </div>
-                            <div class="swiper-pagination_one"></div>
+                            <div class="swiper-pagination_map"></div>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
             <div class="wrapper__map">
                 <div class="slider_wrapper">
                     <div class="slider-container">
-                        <div class="swiper-container__map">
+                        <div class="swiper-container_map">
                             <div class="swiper-wrapper__map">
                                 <div class="swiper-slide card">
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/saratov.png" class="category__image" alt="">
@@ -237,7 +237,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service__map.css");
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/saratov__recept.png" class="category__image" alt="">
                                 </div>
                             </div>
-                            <div class="swiper-pagination_one"></div>
+                            <div class="swiper-pagination_map"></div>
                         </div>
                     </div>
                 </div>

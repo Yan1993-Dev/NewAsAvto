@@ -1,4 +1,4 @@
-const slidersMap = document.querySelectorAll('.swiper-container__map');
+const slidersMap = document.querySelectorAll('.swiper-container_map');
 
 
 slidersMap.forEach((el) => {
@@ -12,7 +12,7 @@ slidersMap.forEach((el) => {
 		observer: true,
 		observeParents: true,
 		pagination: {
-			el: '.swiper-pagination_one',
+			el: '.swiper-pagination_map',
 			clickable: true,
 			type: 'bullets',
 		},

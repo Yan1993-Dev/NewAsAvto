@@ -57,7 +57,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
     </div>
     <div class="category">
       <ul class="category__list">
-        <li class="category__item"> <a href="../novosti/novyy7pro/index.php"><img src="/local/templates/NewAsAvto/static/images/ajejlsrhmqyc2zo5gi2pbatz4z9vda1z.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/novyy7pro/index.php"><img src="/local/templates/NewAsAvto/static/images/T1D-Productgtyertye.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               25.02.2021
@@ -71,7 +71,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/novyy7pro/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/chery-tiggo-7-pro-s-uchetom-rossiyskikh-predpochteniy/index.php"><img src="/local/templates/NewAsAvto/static/images/ge408de9vaysuk6raa91beqj0i4m6k85.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/chery-tiggo-7-pro-s-uchetom-rossiyskikh-predpochteniy/index.php"><img src="/local/templates/NewAsAvto/static/images/fghregweq.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               25.02.2021
@@ -85,7 +85,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/chery-tiggo-7-pro-s-uchetom-rossiyskikh-predpochteniy/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/chery-poluchila-platinovuyu-nagradu-po-kontrolyu-kachestva/index.php"><img src="/local/templates/NewAsAvto/static/images/9726e99cd15cf1764e0dc5bb8d089f51.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/chery-poluchila-platinovuyu-nagradu-po-kontrolyu-kachestva/index.php"><img src="/local/templates/NewAsAvto/static/images/gdfasagrqqw.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               14.12.2020
@@ -99,7 +99,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/chery-poluchila-platinovuyu-nagradu-po-kontrolyu-kachestva/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/wingle-7-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/95p0tacwjvq5ej4bzgq0yx7e7r4wuw5r.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/wingle-7-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/cattouchret.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               16.10.2020
@@ -113,7 +113,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/wingle-7-v-rossii/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php"><img src="/local/templates/NewAsAvto/static/images/8b8f5a62cde9844f33fb13cdf1e0d535.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php"><img src="/local/templates/NewAsAvto/static/images/dfghwerrqw.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               14.09.2020
@@ -127,7 +127,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/start-prodazh-dolgozhdannogo-krossovera-tiggo-7-pro/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/proryv-goda/index.php"><img src="/local/templates/NewAsAvto/static/images/0lczd9c9we6ipt9fda1zgorg5h3ymeux.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/proryv-goda/index.php"><img src="/local/templates/NewAsAvto/static/images/1473145233_avto-godja.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               11.09.2020
@@ -141,7 +141,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/proryv-goda/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/exeedcrashtest/index.php"><img src="/local/templates/NewAsAvto/static/images/6e8e254b60dc430d5784ee2360694ee2.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/exeedcrashtest/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC01792-HDR.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               11.09.2020
@@ -155,7 +155,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/exeedcrashtest/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php"><img src="/local/templates/NewAsAvto/static/images/itwm5i2a7onxodqeyklq00ccoienbszd.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php"><img src="/local/templates/NewAsAvto/static/images/dghdftwr.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               30.07.2020
@@ -169,7 +169,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/obnovleniya-v-komplektatsii-cs35plus/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/top3changan/index.php"><img src="/local/templates/NewAsAvto/static/images/50a078d283ed1f9295116b2a381a8977.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/top3changan/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_9618.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               30.07.2020
@@ -183,7 +183,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/top3changan/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php"><img src="/local/templates/NewAsAvto/static/images/78175e6a739db4281adb9c2937dbc11e.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php"><img src="/local/templates/NewAsAvto/static/images/fwerywr.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               17.07.2020
@@ -197,7 +197,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
           </p>
           <a href="../novosti/novyy-avtomobilnyy-brend-v-rossii-exeed/index.php" class="category__info">Читать далее</a>
         </li>
-        <li class="category__item"> <a href="../novosti/silovoy-agregat/index.php"><img src="/local/templates/NewAsAvto/static/images/7d0ec0b61868c9a443d09dc74a4133d1.jpg" class="category__image" alt=""></a>
+        <li class="category__item"> <a href="../novosti/silovoy-agregat/index.php"><img src="/local/templates/NewAsAvto/static/images/rgqwertqw.jpg" class="category__image" alt=""></a>
           <div class="date__info">
             <p class="date__info-item">
               14.07.2020
@@ -215,10 +215,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
     </div>
     <div class="pagination">
       <ul class="pagination_list">
-        <li class="pagination_list_item p-fist"><a href="../novosti/index.php">1</a></li>
-        <li class="pagination_list_item p-second"><a href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
-        <li class="pagination_list_item p-three"><a href="../tretya-stranitsa-novostey/index.php">3</a></li>
-        <li class="pagination_list_item p-four"><a href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
+        <li class="pagination_list_item p-fist"><a class="pagination__number" href="../novosti/index.php">1</a></li>
+        <li class="pagination_list_item p-second"><a class="pagination__number" href="../vtoraya-stranitsa-novostey/index.php">2</a></li>
+        <li class="pagination_list_item p-three"><a class="pagination__number" href="../tretya-stranitsa-novostey/index.php">3</a></li>
+        <li class="pagination_list_item p-four"><a class="pagination__number" href="../chetvertaya-stranitsa-novostey/index.php">4</a></li>
         <!-- <li class="pagination_list_item p-five"><a href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
                 <li class="pagination_list_item p-six"><a href="../otzyvy/otzyvy-shestaya/index.php">6</a></li>
                 <li class="pagination_list_item p-seven"><a href="../otzyvy/otzyvy-sedmaya/index.php">7</a></li> -->
