@@ -4,24 +4,31 @@
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_1.jpg" src="#" alt="" class="img_slider_one">
-                <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ.
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4ExtOne.jpg" src="#" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Стиль</p>
+                </div>
+            </div>
+                <p class="text_slide">Хромированная решетка радиатора в стиле матрицы, агрессивный и дерзкий стиль передних фар в сочетании с LED-дневными ходовыми огнями придают кроссоверу напористый характер. Нижняя накладка переднего бампера защищает его от царапин и усиливает внедорожный характер автомобиля.
                 </p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_2.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Tiggo 4 с позиционируется как городской кроссовер и со своей задачей справляется на все 100%. Хорошая обзорность с места водителя, небольшие габариты (длина – 4 318 мм) и бодрая разгонная динамика позволяют уверенно маневрировать в плотном транспортном потоке. Рейлинги на крыше существенно расширяют возможности вашего автомобиля и позволяют перевозить различное оборудование без потери места в салоне.
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4ExtTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__inner__wrp">
+            <div class=" swiper__wrapper__text">
+                    <p class="swiper__inner__text">Элегантность</p>
+                </div>
+            </div>
+                <p class="text_slide"> Атлетичный, подтянутый, даже спортивный силуэт Tiggo 4 удачно подчеркивается хромированными молдингами дверей и некрашеным внедорожным обвесом. Рейлинги на крыше способны взять на себя до 50 кг. дополнительного груза, а двери полностью закрывают собой пороги, оставляя их чистыми.
                 </p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_3.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Современный экстерьер кроссовера не даст ни единого шанса затеряться в толпе. Увеличенный дорожный просвет 190 мм не остановит вас на пути к цели.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4ExtThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Атлетичность</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_4.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным, в сравнении с другими представителями данного сегмента кроссоверов. </p>
-            </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_5.jpg" alt="" class="img_slider_one">
-
-                <p class="text_slide">Задняя часть Tiggo 4 может похвастать крупными светодиодными фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый, и, даже спортивный вид.
+                <p class="text_slide"> Рельеф заднего бампера сложен и многогранен, что придаёт облика автомобиля больше силы и мощи. Ступенчатые, полностью светодиодные задние фонари оригинального дизайна позволят выделиться в потоке автомобилей, а короткий и высокий задний свес позволит без опаски парковаться даже к самому высокому бордюру.
                 </p>
             </div>
         </div>
