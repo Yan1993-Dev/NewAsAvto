@@ -186,7 +186,19 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo8pro__sl3.php"
+                "PATH" => "/include/tiggo8pro__sl4.php"
+            )
+        ); ?>
+            <div class="container_site">
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_RECURSIVE" => "Y",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/tiggo8pro__sl5.php"
             )
         ); ?>
     </div>

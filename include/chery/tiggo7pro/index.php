@@ -191,6 +191,32 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
         ); ?>
     </div>
     <div class="container_site">
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_RECURSIVE" => "Y",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/tiggo7pro__techComf.php"
+            )
+        ); ?>
+    </div>
+    <div class="container_site">
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_RECURSIVE" => "Y",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/tiggo7pro__safeSec.php"
+            )
+        ); ?>
+    </div>
+    <div class="container_site">
         <div id="complictation"></div>
         <div class="equip">
             <div class="equipment_wrapper">

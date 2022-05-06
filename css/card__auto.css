@@ -298,29 +298,27 @@ nav ul li {
 
 .text_slide {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 100px;
 }
 
 .img_slider_one {
     margin-bottom: -100px;
 }
 
-.swiper__wrapper__text {
-    background-color: rgba(49, 49, 49, 0.8);
-    padding: 48px;
-    max-width: 340px;
-    border-radius: 0 10px 0 0;
-}
-
 .swiper__inner__text {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     font-size: 32px;
-    margin-top: -20px;
     line-height: calc(46/32);
     position: absolute;
+        display: flex;
+    align-items: flex-end;
     color: #FFFFFF;
     text-align: center;
+    background-color: rgba(49, 49, 49, 0.8);
+    padding: 25px;
+    max-width: max-content;
+    border-radius: 0 10px 0 0;
 }
 
 /* второй слайдер */
@@ -1942,6 +1940,12 @@ nav ul li {
         padding: 0px 10px;
     }
 
+    .swiper__inner__text {
+        font-size: 22px;
+        line-height: calc(46/22);
+        padding: 19pt;
+    }
+
     .adress {
         display: flex;
         flex-direction: column;
@@ -2395,6 +2399,12 @@ nav ul li {
         max-width: 648px;
         margin: 0 auto;
         padding: 0 15px;
+    }
+
+    .swiper__inner__text {
+        margin-top: 29px;
+        font-size: 14px;
+        line-height: calc(18/14);
     }
 
     .container__sub {
@@ -3234,6 +3244,13 @@ nav ul li {
         margin: 0 auto;
         padding: 0px 5px;
     }
+    
+    .swiper__inner__text {
+        font-size: 10px;
+        line-height: calc(12/10);
+        padding: 12px;
+        margin-top: 61px;
+    }
 
     .container__sub {
         max-width: 360px;
@@ -4053,6 +4070,13 @@ nav ul li {
         max-width: 319px;
         margin: 0 auto;
         padding: 0 10px;
+    }
+
+    .swiper__inner__text {
+        font-size: 10px;
+        line-height: calc(14/10);
+        padding: 12px;
+        margin-top: 59px;
     }
 
     .container__sub {
