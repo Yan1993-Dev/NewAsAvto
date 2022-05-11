@@ -12,7 +12,7 @@
             </div>
                 <p class="text_slide">Кузов выполнен из высокопрочной стали. Пол кузова усилен двойными продольными лонжеронами - уникальное решение в автоиндустрии, позволяющее добиться потрясающей прочности кузова. Коррозионная стойкость обеспечивается оцинковой и трехслойным грунтом.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8safeDisk.jpg" src="#" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8__cycle.jpg" src="#" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">TPMS</p>

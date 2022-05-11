@@ -1348,6 +1348,15 @@ footer {
         font-size: 10px;
     }
 
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__stock {
+        width: 100%;
+    }
+
     .nav__item__link {
         font-size: 12px;
         line-height: calc(20/12);    
@@ -1755,10 +1764,20 @@ footer {
     .model_catalog__price {
         font-size: 14px;
     }
+    .flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
+    }    
 
     .form_traid-in {
         max-width: 370px;
-        height: 495px;
+        height: 515px;
     }
 
     .sub_title {
@@ -2639,7 +2658,7 @@ footer {
     }
     
     .input__traid-in {
-        width: 300px;
+        width: 270px;
         font-size: 12px;
         height: 40px;
     }
@@ -2655,8 +2674,8 @@ footer {
     }
 
     .credit_calc {
-        width: 360px;
-        height: 495px;
+        width: 315px;
+        height: 515px;
         margin-bottom: 20px;
     }
 
@@ -2669,7 +2688,7 @@ footer {
     }
 
     .input__credit {
-        width: 300px;
+        width: 270px;
     }
 
     .checkbox__credit {
@@ -2781,6 +2800,10 @@ footer {
                 align-items: center;
                 font-size: 12px;
                 margin-top: 470px;
+    }
+    
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .footer__section {

@@ -2,7 +2,7 @@
                     <h1 class="main_title">
                         Chery Tiggo 4
                     </h1>
-                    <p class="sub_text">От 1 124 900 руб.</p>
+                    <p class="sub_text">От 1 699 900 руб.</p>
                     <div class="sub_text_wrapper">
                         <p class="sub_text">В кредит за <span class="text_color"> 11 990 р/месяц</span> или меньше!</p>
                         <p class="sub_text second">Подарок: <span class="text_color">5000</span> бонусных рублей!</p>

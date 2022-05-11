@@ -1675,7 +1675,16 @@ footer {
 
     .form_traid-in {
         width: 370px;
-        height: 640px;
+        height: 660px;
+    }
+
+    .flex {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .sub_title {
@@ -2321,6 +2330,14 @@ footer {
 
     .nav {
         display: none;
+    }
+
+    .title__cont {
+        justify-content: center;
+    }
+
+    .catalog__list {
+        justify-content: center;
     }
 
     .mobile_phone_btn {

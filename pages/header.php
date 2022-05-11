@@ -41,6 +41,9 @@
                 <div class="mobile__header__container">
                     <nav class="nav__mobile">
                         <ul class="navigation__mobile">
+                            <li class="nav__item__mobile"><a href="../novye-avto/index.php" class="nav__item__link__mobile">НОВЫЕ АВТО</a></li>
+                            <li class="nav__item__mobile"><a href="../servis/index.php" class="nav__item__link__mobile">СЕРВИС</a></li>
+                            <li class="nav__item__mobile"><a href="../aktsii/index.php" class="nav__item__link__mobile">Акции</a></li>
                             <li class="nav__item__mobile"><a href="../kredit/index.php" class="nav__item__link__mobile">Кредит</a></li>
                             <li class="nav__item__mobile"><a href="../treyd-in/index.php" class="nav__item__link__mobile">Traid-in</a></li>
                             <li class="nav__item__mobile"><a href="../aktsii/index.php" class="nav__item__link__mobile">Акции</a></li>

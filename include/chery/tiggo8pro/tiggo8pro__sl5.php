@@ -12,7 +12,7 @@
                 </div>
                 <p class="text_slide">Рекордная гарантия 7 лет или 200 000 км пробега не оставляет сомнений в надежности Tiggo 8 PRO.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8PROsafeTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8proSleep.jpg" alt="" class="img_slider_one">
                 <div class="swiper__wrapper__text">
                     <div class="swiper__inner__wrp">
                         <p class="swiper__inner__text">Автономное торможение</p>
@@ -28,7 +28,7 @@
                 </div>
                 <p class="text_slide">Система распознавания дорожных знаков показывает их на дисплее цифровой комбинации приборов. Это повышает безопасность движения и предупреждает нарушение водителем ПДД.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8PROsafeFour.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8PROsafeTwo.jpg" alt="" class="img_slider_one">
                 <div class="swiper__wrapper__text">
                     <div class="swiper__inner__wrp">
                         <p class="swiper__inner__text">Мониторинг «слепых зон»</p>

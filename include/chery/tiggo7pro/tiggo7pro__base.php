@@ -7,7 +7,7 @@
                                     </svg></li>
                                 <div class="compl">
                                     <li class="equipment_item_adapt">Комплектация</li>
-                                    <li class="equipment_item_model">1.5 CVT (147 л.с)</li>
+                                    <li class="equipment_item_model">1.5 CVT Elite</li>
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_price_adapt">Цена</li>
@@ -17,7 +17,7 @@
                                     <li class="equipment_item_new_adapt">Финальная цена</li>
                                     <li class="equipment_item_new_price">2 259 900 руб</li>
                                 </div>
-                                <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                                <li class="equipment_item_credit_price">в кредит за 14 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                             </ul>
                         </span>
@@ -82,13 +82,43 @@
                             </ul>
                             <h3 class="comfort_title">Комфорт</h3>
                             <ul class="comfort">
+                                <li class="comfort_item">Система дистанционного запуска двигателя и прогрева салона</li>
                                 <li class="comfort_item">Обогрев передних сидений</li>
-                                <li class="comfort_item">Тканевая отделка сидений</li>
-                                <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)</li>
-                                <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
-                                <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3</li>
-                                <li class="comfort_item">3 задних подголовника, регулируемые по высоте</li>
+                                <li class="comfort_item">Обогрев сидений 2го ряда</li>
+                                <li class="comfort_item">Обогрев рулевого колеса</li>
+                                <li class="comfort_item">Обогрев лобового стекла</li>
+                                <li class="comfort_item">Обогрев форсунок стеклоомывателя</li>
+                                <li class="comfort_item">Климат-контроль, 2 зоны</li>
+                                <li class="comfort_item">Дефлекторы для 2го ряда</li>
+                                <li class="comfort_item">Кожаная отделка сидений</li>
+                                <li class="comfort_item">Водительское сиденье с механической регулировкой в 6 направлениях</li>
+                                <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4 направлениях</li>
+                                <li class="comfort_item">Складная спинка сидения 2го ряда в соотношении 1/3-2/3</li>
+                                <li class="comfort_item">Подголовники всех сидений с регулировкой по высоте</li>
                                 <li class="comfort_item">Электрический кондиционер</li>
+                                <li class="comfort_item">Кожаное рулевое колесо</li>
+                                <li class="comfort_item">Многофункциональное рулевое колесо</li>
+                                <li class="comfort_item">Рулевая колонка с регулировкой в 4х направлениях (по вылету и углу наклона)</li>
+                                <li class="comfort_item">Зеркало в солнцезащитном козырьке водителя и пассажира</li>
+                                <li class="comfort_item">Передние и задние стеклоподъемники с защитой от защемления, авто</li>
+                                <li class="comfort_item">Передний центральный подлокотник с ёмкостью для хранения</li>
+                                <li class="comfort_item">Задний центральный подлокотник</li>
+                                <li class="comfort_item">Ручки для пассажиров с микролифтом</li>
+                                <li class="comfort_item">Очечник</li>
+                            </ul>
+                            <h3 class="comfort_title">Технологии и мультимедиа</h3>
+                            <ul class="comfort">
+                                <li class="comfort_item">Радио</li>
+                                <li class="comfort_item">6 динамиков</li>
+                                <li class="comfort_item">Светодифонари</li>
+                                <li class="comfort_item">Розетка на 12V в багажнике</li>
+                                <li class="comfort_item">Большой сенсорный емкостный дисплей 10"</li>
+                                <li class="comfort_item">Цветной экран с бортовым компьютером в панели приборов 7" с выбором цвета</li>
+                                <li class="comfort_item">Сенсорный экран панели управления 8"</li>
+                                <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля*</li>
+                                <li class="comfort_item">Система "Свободные руки"(Hands free) с Bluetooth-связью с мобильным телефоном</li>
+                                <li class="comfort_item">2 USB-разъема спереди</li>
+                                <li class="comfort_item">1 USB-разъем сзади</li>
                             </ul>
                         </div>
                     </li>
