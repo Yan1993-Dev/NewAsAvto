@@ -20,7 +20,7 @@
             </div>
                 <p class="text_slide">Парящая крыша - главная особенность Tiggo 7 PRO. Силуэт одновременно монументальный и легкий. Двери автомобиля удачно подчеркнуты хромированными молдингами, а также практичны - в закрытом состоянии они прикрывают собой порог, защищая его от грязи.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo7PROexThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo7PROBack.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Утонченный</p>

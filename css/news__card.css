@@ -724,9 +724,11 @@ nav ul li {
     justify-content: center;
 }
 
+.wrap__table {
+    overflow-x: scroll;
+}
 
 .table__scroll {
-    overflow-x: scroll;
     margin-top: 20px;
 }
 

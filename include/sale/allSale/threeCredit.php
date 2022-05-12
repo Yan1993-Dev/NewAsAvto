@@ -63,6 +63,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news__card.css");
                 <p class="sale__text sale__arr">Возраст от 20 до 85 лет, стаж на последнем месте работы 4 мес.</p>
                 <p class="sale__text sale__arr">Минимальный пакет документов для оформления – паспорт гражданина РФ</p>
                 <p class="sale__text sale__arr">Максимальная сумма кредита — 6 900 000 рублей</p>
+                <div class="wrap__table">
                 <table class="table__scroll">
                             <tr class="bb">
                                 <td class="top__title">Наименование программы</td>
@@ -122,6 +123,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news__card.css");
                                 <td class="price__item">21,50%	</td>
                             </tr>
                         </table>
+                </div>
                 <div class="wrap__seo">
                 <p class="seo__text__afterTable">* Обязательно оформление страховки КАСКО </p>
                 <p class="seo__text__afterTable">* Ставки действительны при оформлении финансовой защиты</p>

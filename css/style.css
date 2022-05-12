@@ -1406,13 +1406,29 @@ footer {
         font-size: 14px;
     }
 
+    .form_traid-in {
+        height: 520px;
+    }
+
     .input__traid-in {
         font-size: 12px;
-        width: 265px;
+        width: 250px;
     }
 
     .checkbox__label {
         font-size: 14px;
+    }
+
+    .credit__btn {
+        width: 270px;
+        height: 35px;
+        margin-top: 20px;
+    }
+
+    .traid__btn {
+        width: 270px;
+        height: 35px;
+        margin-top: 20px; 
     }
 
     .sub__title {
