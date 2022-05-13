@@ -1,34 +1,34 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
 ?>
 <main>
-<nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
-                        <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
-            </ul>
-        </nav>
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
+                <ul class="nav__nav">
+                    <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
+                    <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                    <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
+                    <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                    <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                    <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
+                    <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                    <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                    <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
+                </ul>
+            </li>
+            <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
+            <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
+            <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
+            <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+            <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
+            <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+            <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
+            <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
+        </ul>
+    </nav>
     <? $APPLICATION->IncludeComponent(
         "bitrix:main.include",
         "",
@@ -830,110 +830,82 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="price__item">12 887</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">29 246</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 431</td>
+                                <td class="price__item">5 363</td>
+                                <td class="price__item">7 794</td>
+                                <td class="price__item">21 452</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">19 683</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 724</td>
+                                <td class="price__item">3 592</td>
+                                <td class="price__item">5 316</td>
+                                <td class="price__item">14 367</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">22 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 812</td>
+                                <td class="price__item">4 095</td>
+                                <td class="price__item">5 907</td>
+                                <td class="price__item">16 380</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">17 700</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 591</td>
+                                <td class="price__item">3 222</td>
+                                <td class="price__item">4 813</td>
+                                <td class="price__item">12 887</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">39 162</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 873</td>
+                                <td class="price__item">7 258</td>
+                                <td class="price__item">10 131</td>
+                                <td class="price__item">29 031</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">17 700</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 591</td>
+                                <td class="price__item">3 222</td>
+                                <td class="price__item">4 813</td>
+                                <td class="price__item">12 887</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">22 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 812</td>
+                                <td class="price__item">4 095</td>
+                                <td class="price__item">5 907</td>
+                                <td class="price__item">16 380</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
-                            </tr>
-                            <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
-                            </tr>
-                            <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
-                            </tr>
-                            <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">19 683</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 724</td>
+                                <td class="price__item">3 592</td>
+                                <td class="price__item">5 316</td>
+                                <td class="price__item">14 367</td>
                             </tr>
                         </table>
                     </div>
                     <input class="tab-radio" id="sub-tab-6" name="sub-group" type="radio">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                            <caption class="table__title"> для Вас</caption>
                             <tr class="bb">
                                 <td class="top__title"></td>
                                 <td class="price">Стоимость*</td>
@@ -944,65 +916,145 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="top__title">Минимальная цена*</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">12 417</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 483</td>
+                                <td class="price__item">2 483</td>
+                                <td class="price__item">9 934</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">18 299</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 660</td>
+                                <td class="price__item">3 660</td>
+                                <td class="price__item">14 640</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">15 325</td>
+                                <td class="price__item">601</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 945</td>
+                                <td class="price__item">3 546</td>
+                                <td class="price__item">11 780</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">29 948</td>
+                                <td class="price__item">983</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 793</td>
+                                <td class="price__item">6 776</td>
+                                <td class="price__item">23 172</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">12 417</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 227</td>
+                                <td class="price__item">3 509</td>
+                                <td class="price__item">8 908</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">21 207</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 724</td>
+                                <td class="price__item">3 897</td>
+                                <td class="price__item">5 621</td>
+                                <td class="price__item">15 587</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">12 417</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 227</td>
+                                <td class="price__item">3 509</td>
+                                <td class="price__item">8 908</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">29 948</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 387</td>
+                                <td class="price__item">5 512</td>
+                                <td class="price__item">7 899</td>
+                                <td class="price__item">22 049</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">26 433</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 856</td>
+                                <td class="price__item">4 915</td>
+                                <td class="price__item">6 772</td>
+                                <td class="price__item">19 662</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">44 422</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 359</td>
+                                <td class="price__item">8 213</td>
+                                <td class="price__item">11 572</td>
+                                <td class="price__item">32 850</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">12 417</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 227</td>
+                                <td class="price__item">3 509</td>
+                                <td class="price__item">8 908</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">36 704</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 652</td>
+                                <td class="price__item">6 810</td>
+                                <td class="price__item">9 462</td>
+                                <td class="price__item">27 241</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">12 417</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 227</td>
+                                <td class="price__item">3 509</td>
+                                <td class="price__item">8 908</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">18 299</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 547</td>
+                                <td class="price__item">3 350</td>
+                                <td class="price__item">4 897</td>
+                                <td class="price__item">13 402</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">15 325</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 459</td>
+                                <td class="price__item">2 773</td>
+                                <td class="price__item">4 232</td>
+                                <td class="price__item">11 093</td>
                             </tr>
                         </table>
                     </div>
                     <input class="tab-radio" id="sub-tab-7" name="sub-group" type="radio">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                            <caption class="table__title"> для Вас</caption>
                             <tr class="bb">
                                 <td class="top__title"></td>
                                 <td class="price">Стоимость*</td>
@@ -1013,65 +1065,145 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="top__title">Минимальная цена*</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">12 723</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 545</td>
+                                <td class="price__item">2 545</td>
+                                <td class="price__item">10 178</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">20 333</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 067</td>
+                                <td class="price__item">4 067</td>
+                                <td class="price__item">16 266</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">17 362</td>
+                                <td class="price__item">673</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 338</td>
+                                <td class="price__item">4 011</td>
+                                <td class="price__item">13 351</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">44 945</td>
+                                <td class="price__item">1 001</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">8 789</td>
+                                <td class="price__item">9 790</td>
+                                <td class="price__item">35 155</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">12 723</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 288</td>
+                                <td class="price__item">3 570</td>
+                                <td class="price__item">9 153</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">24 972</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 901</td>
+                                <td class="price__item">4 614</td>
+                                <td class="price__item">6 515</td>
+                                <td class="price__item">18 457</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">12 723</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 288</td>
+                                <td class="price__item">3 570</td>
+                                <td class="price__item">9 153</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">44 945</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 431</td>
+                                <td class="price__item">8 503</td>
+                                <td class="price__item">10 934</td>
+                                <td class="price__item">34 011</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">17 362</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 635</td>
+                                <td class="price__item">3 145</td>
+                                <td class="price__item">4 781</td>
+                                <td class="price__item">12 581</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">45 811</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 652</td>
+                                <td class="price__item">8 632</td>
+                                <td class="price__item">11 284</td>
+                                <td class="price__item">34 527</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">53 740</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 006</td>
+                                <td class="price__item">10 147</td>
+                                <td class="price__item">13 152</td>
+                                <td class="price__item">40 587</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">53 740</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 006</td>
+                                <td class="price__item">10 147</td>
+                                <td class="price__item">13 152</td>
+                                <td class="price__item">40 587</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">12 723</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 282</td>
+                                <td class="price__item">2 288</td>
+                                <td class="price__item">3 570</td>
+                                <td class="price__item">9 153</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">20 333</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 547</td>
+                                <td class="price__item">3 757</td>
+                                <td class="price__item">5 304</td>
+                                <td class="price__item">15 029</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">17 362</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 635</td>
+                                <td class="price__item">3 145</td>
+                                <td class="price__item">4 781</td>
+                                <td class="price__item">12 581</td>
                             </tr>
                         </table>
                     </div>
                     <input class="tab-radio" id="sub-tab-8" name="sub-group" type="radio">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                            <caption class="table__title"> для Вас</caption>
                             <tr class="bb">
                                 <td class="top__title"></td>
                                 <td class="price">Стоимость*</td>
@@ -1082,65 +1214,154 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="top__title">Минимальная цена*</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-0 (2000 км/3 мес)</td>
+                                <td class="price__item">9 427</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 885</td>
+                                <td class="price__item">1 885</td>
+                                <td class="price__item">7 542</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 457</td>
+                                <td class="price__item">2 457</td>
+                                <td class="price__item">9 830</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">20 146</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 029</td>
+                                <td class="price__item">4 029</td>
+                                <td class="price__item">16 116</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">582</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 060</td>
+                                <td class="price__item">3 643</td>
+                                <td class="price__item">12 241</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">30 413</td>
+                                <td class="price__item">1 056</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 871</td>
+                                <td class="price__item">6 927</td>
+                                <td class="price__item">23 486</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">23 742</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 812</td>
+                                <td class="price__item">4 386</td>
+                                <td class="price__item">6 198</td>
+                                <td class="price__item">17 543</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">31 434</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 475</td>
+                                <td class="price__item">5 792</td>
+                                <td class="price__item">8 267</td>
+                                <td class="price__item">23 167</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 414</td>
+                                <td class="price__item">2 894</td>
+                                <td class="price__item">4 308</td>
+                                <td class="price__item">11 575</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">43 408</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 475</td>
+                                <td class="price__item">8 187</td>
+                                <td class="price__item">10 662</td>
+                                <td class="price__item">32 746</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">45 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 050</td>
+                                <td class="price__item">8 410</td>
+                                <td class="price__item">11 460</td>
+                                <td class="price__item">33 640</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">20 146</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 635</td>
+                                <td class="price__item">3 702</td>
+                                <td class="price__item">5 337</td>
+                                <td class="price__item">14 808</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 414</td>
+                                <td class="price__item">2 894</td>
+                                <td class="price__item">4 308</td>
+                                <td class="price__item">11 575</td>
                             </tr>
                         </table>
                     </div>
                     <input class="tab-radio" id="sub-tab-9" name="sub-group" type="radio">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                            <caption class="table__title"> для Вас</caption>
                             <tr class="bb">
                                 <td class="top__title"></td>
                                 <td class="price">Стоимость*</td>
@@ -1151,58 +1372,148 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="top__title">Минимальная цена*</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-0 (2000 км/3 мес)</td>
+                                <td class="price__item">9 427</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 885</td>
+                                <td class="price__item">1 885</td>
+                                <td class="price__item">7 542</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 457</td>
+                                <td class="price__item">2 457</td>
+                                <td class="price__item">9 830</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">20 146</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 029</td>
+                                <td class="price__item">4 029</td>
+                                <td class="price__item">16 116</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">582</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 060</td>
+                                <td class="price__item">3 643</td>
+                                <td class="price__item">12 241</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">31 434</td>
+                                <td class="price__item">1 019</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">6 083</td>
+                                <td class="price__item">7 102</td>
+                                <td class="price__item">24 332</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">23 742</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 812</td>
+                                <td class="price__item">4 386</td>
+                                <td class="price__item">6 198</td>
+                                <td class="price__item">17 543</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">31 434</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 475</td>
+                                <td class="price__item">5 792</td>
+                                <td class="price__item">8 267</td>
+                                <td class="price__item">23 167</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 414</td>
+                                <td class="price__item">2 894</td>
+                                <td class="price__item">4 308</td>
+                                <td class="price__item">11 575</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">45 228</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 094</td>
+                                <td class="price__item">8 427</td>
+                                <td class="price__item">11 521</td>
+                                <td class="price__item">33 707</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">45 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 050</td>
+                                <td class="price__item">8 410</td>
+                                <td class="price__item">11 460</td>
+                                <td class="price__item">33 640</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">12 287</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 238</td>
+                                <td class="price__item">2 210</td>
+                                <td class="price__item">3 448</td>
+                                <td class="price__item">8 840</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">20 146</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 635</td>
+                                <td class="price__item">3 702</td>
+                                <td class="price__item">5 337</td>
+                                <td class="price__item">14 808</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">15 883</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 414</td>
+                                <td class="price__item">2 894</td>
+                                <td class="price__item">4 308</td>
+                                <td class="price__item">11 575</td>
                             </tr>
                         </table>
                     </div>
@@ -1211,14 +1522,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <input class="tab-radio" id="main-tab-2" name="main-group" type="radio" />
                 <div class="tab-content">
                     <div class="sub-tabs-container">
-                        <label class="sub__tabs__item" for="sub-tab2-1">F7</label>
-                        <label class="sub__tabs__item" for="sub-tab2-2">F7X</label>
-                        <label class="sub__tabs__item" for="sub-tab2-3">JOLION</label>
+                        <label class="sub__tabs__item" for="sub-tab2-1">F7/F7X 1.5 2WD</label>
+                        <label class="sub__tabs__item" for="sub-tab2-2">F7/F7X 1.5 4WD</label>
+                        <label class="sub__tabs__item" for="sub-tab2-3">F7/F7X 2.0 2WD</label>
+                        <label class="sub__tabs__item" for="sub-tab2-4">F7/F7X 2.0 4WD</label>
+                        <label class="sub__tabs__item" for="sub-tab2-5">JOLION 2WD MT</label>
+                        <label class="sub__tabs__item" for="sub-tab2-6">JOLION 2WD AT</label>
+                        <label class="sub__tabs__item" for="sub-tab2-7">JOLION 4WD AT</label>
                     </div>
                     <input class="tab-radio" id="sub-tab2-1" name="sub-group2" type="radio" checked="checked">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                            <caption class="table__title">Диагностика для Вас</caption>
                             <tr class="bb">
                                 <td class="top__title"></td>
                                 <td class="price">Стоимость*</td>
@@ -1229,63 +1543,804 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                                 <td class="top__title">Минимальная цена*</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена масла и фильтра</td>
-                                <td class="price__item">2000</td>
-                                <td class="price__item">280</td>
-                                <td class="price__item">680</td>
-                                <td class="price__item">400</td>
-                                <td class="price__item">944</td>
-                                <td class="price__item">1056</td>
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 599</td>
+                                <td class="price__item">3 599</td>
+                                <td class="price__item">14 394</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Снятие/установка защиты картера</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">42</td>
-                                <td class="price__item">102</td>
-                                <td class="price__item">60</td>
-                                <td class="price__item">141,6</td>
-                                <td class="price__item">158,4</td>
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">21 748</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 350</td>
+                                <td class="price__item">4 350</td>
+                                <td class="price__item">17 398</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена воздушного фильтра ДВС</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">70</td>
-                                <td class="price__item">170</td>
-                                <td class="price__item">100</td>
-                                <td class="price__item">236</td>
-                                <td class="price__item">264</td>
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">21 067</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 485</td>
+                                <td class="price__item">7 125</td>
+                                <td class="price__item">13 941</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена свечей зажигания</td>
-                                <td class="price__item">1500</td>
-                                <td class="price__item">210</td>
-                                <td class="price__item">510</td>
-                                <td class="price__item">300</td>
-                                <td class="price__item">708</td>
-                                <td class="price__item">792</td>
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">23 712</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 728</td>
+                                <td class="price__item">8 798</td>
+                                <td class="price__item">14 913</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена охлаждающей жидкости</td>
-                                <td class="price__item">3000</td>
-                                <td class="price__item">420</td>
-                                <td class="price__item">1020</td>
-                                <td class="price__item">600</td>
-                                <td class="price__item">1416</td>
-                                <td class="price__item">1584</td>
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">43 203</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">6 431</td>
+                                <td class="price__item">17 481</td>
+                                <td class="price__item">25 722</td>
                             </tr>
                             <tr class="bb">
-                                <td class="left__title">Замена жидгости ГУР</td>
-                                <td class="price__item">2500</td>
-                                <td class="price__item">350</td>
-                                <td class="price__item">850</td>
-                                <td class="price__item">500</td>
-                                <td class="price__item">1180</td>
-                                <td class="price__item">1320</td>
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">29 763</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">4 939</td>
+                                <td class="price__item">10 009</td>
+                                <td class="price__item">19 754</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">23 712</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">3 728</td>
+                                <td class="price__item">8 798</td>
+                                <td class="price__item">14 913</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">25 391</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 160</td>
+                                <td class="price__item">4 246</td>
+                                <td class="price__item">8 406</td>
+                                <td class="price__item">16 985</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">46 958</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 830</td>
+                                <td class="price__item">7 026</td>
+                                <td class="price__item">18 856</td>
+                                <td class="price__item">28 102</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">31 727</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 720</td>
+                                <td class="price__item">5 201</td>
+                                <td class="price__item">10 921</td>
+                                <td class="price__item">20 805</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">21 748</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">3 466</td>
+                                <td class="price__item">7 886</td>
+                                <td class="price__item">13 862</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">46 277</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">7 045</td>
+                                <td class="price__item">18 095</td>
+                                <td class="price__item">28 182</td>
                             </tr>
                         </table>
                     </div>
                     <!-- Sub Tab -->
                     <input class="tab-radio" id="sub-tab2-2" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                        <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто*</td>
+                                <td class="top__title">Максимальный размер скидок*</td>
+                                <td class="top__title">Минимальная цена*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 599</td>
+                                <td class="price__item">3 599</td>
+                                <td class="price__item">14 394</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">21 748</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 350</td>
+                                <td class="price__item">4 350</td>
+                                <td class="price__item">17 398</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">21 067</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 485</td>
+                                <td class="price__item">7 125</td>
+                                <td class="price__item">13 941</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">23 712</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 728</td>
+                                <td class="price__item">8 798</td>
+                                <td class="price__item">14 913</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">43 203</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">6 431</td>
+                                <td class="price__item">17 481</td>
+                                <td class="price__item">25 722</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">29 763</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">4 939</td>
+                                <td class="price__item">10 009</td>
+                                <td class="price__item">19 754</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">- </td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">23 712</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">3 728</td>
+                                <td class="price__item">8 798</td>
+                                <td class="price__item">14 913</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">25 391</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 160</td>
+                                <td class="price__item">4 246</td>
+                                <td class="price__item">8 406</td>
+                                <td class="price__item">16 985</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">46 958</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 830</td>
+                                <td class="price__item">7 026</td>
+                                <td class="price__item">18 856</td>
+                                <td class="price__item">28 102</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">31 727</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 720</td>
+                                <td class="price__item">5 201</td>
+                                <td class="price__item">10 921</td>
+                                <td class="price__item">20 805</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">17 993</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">2 871</td>
+                                <td class="price__item">6 511</td>
+                                <td class="price__item">11 482</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">21 748</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">3 466</td>
+                                <td class="price__item">7 886</td>
+                                <td class="price__item">13 862</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">46 277</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">7 045</td>
+                                <td class="price__item">18 095</td>
+                                <td class="price__item">28 182</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-3" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                        <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто*</td>
+                                <td class="top__title">Максимальный размер скидок*</td>
+                                <td class="top__title">Минимальная цена*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 220</td>
+                                <td class="price__item">2 220</td>
+                                <td class="price__item">8 880</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">14 855</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 971</td>
+                                <td class="price__item">2 971</td>
+                                <td class="price__item">11 884</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">14 174</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 107</td>
+                                <td class="price__item">5 747</td>
+                                <td class="price__item">8 427</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">16 819</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 350</td>
+                                <td class="price__item">7 420</td>
+                                <td class="price__item">9 399</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">36 311</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">5 052</td>
+                                <td class="price__item">16 102</td>
+                                <td class="price__item">20 208</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">51 021</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">9 190</td>
+                                <td class="price__item">14 260</td>
+                                <td class="price__item">36 760</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">16 819</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">2 350</td>
+                                <td class="price__item">7 420</td>
+                                <td class="price__item">9 399</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">21 204</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 680</td>
+                                <td class="price__item">3 305</td>
+                                <td class="price__item">7 985</td>
+                                <td class="price__item">13 219</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">40 066</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 830</td>
+                                <td class="price__item">5 647</td>
+                                <td class="price__item">17 477</td>
+                                <td class="price__item">22 588</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">27 724</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 720</td>
+                                <td class="price__item">4 401</td>
+                                <td class="price__item">10 121</td>
+                                <td class="price__item">17 603</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">14 855</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">2 087</td>
+                                <td class="price__item">6 507</td>
+                                <td class="price__item">8 348</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">39 385</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">5 667</td>
+                                <td class="price__item">16 717</td>
+                                <td class="price__item">22 668</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-4" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                        <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто*</td>
+                                <td class="top__title">Максимальный размер скидок*</td>
+                                <td class="top__title">Минимальная цена*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 220</td>
+                                <td class="price__item">2 220</td>
+                                <td class="price__item">8 880</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">14 855</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 971</td>
+                                <td class="price__item">2 971</td>
+                                <td class="price__item">11 884</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">14 174</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 107</td>
+                                <td class="price__item">5 747</td>
+                                <td class="price__item">8 427</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">16 819</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 350</td>
+                                <td class="price__item">7 420</td>
+                                <td class="price__item">9 399</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">36 311</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">5 052</td>
+                                <td class="price__item">16 102</td>
+                                <td class="price__item">20 208</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">51 021</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">9 190</td>
+                                <td class="price__item">14 260</td>
+                                <td class="price__item">36 760</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">16 819</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 070</td>
+                                <td class="price__item">2 350</td>
+                                <td class="price__item">7 420</td>
+                                <td class="price__item">9 399</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">21 204</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 680</td>
+                                <td class="price__item">3 305</td>
+                                <td class="price__item">7 985</td>
+                                <td class="price__item">13 219</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">40 066</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 830</td>
+                                <td class="price__item">5 647</td>
+                                <td class="price__item">17 477</td>
+                                <td class="price__item">22 588</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-11 (110000 км/132 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-12 (120000 км/144 мес)</td>
+                                <td class="price__item">27 724</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 720</td>
+                                <td class="price__item">4 401</td>
+                                <td class="price__item">10 121</td>
+                                <td class="price__item">17 603</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-13 (130000 км/156 мес)</td>
+                                <td class="price__item">11 100</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 640</td>
+                                <td class="price__item">1 492</td>
+                                <td class="price__item">5 132</td>
+                                <td class="price__item">5 968</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-14 (140000 км/168 мес)</td>
+                                <td class="price__item">14 855</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">2 087</td>
+                                <td class="price__item">6 507</td>
+                                <td class="price__item">8 348</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-15 (150000 км/180 мес)</td>
+                                <td class="price__item">39 385</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 050</td>
+                                <td class="price__item">5 667</td>
+                                <td class="price__item">16 717</td>
+                                <td class="price__item">22 668</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-5" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                        <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто*</td>
+                                <td class="top__title">Максимальный размер скидок*</td>
+                                <td class="top__title">Минимальная цена*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">22 661</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 532</td>
+                                <td class="price__item">4 532</td>
+                                <td class="price__item">18 129</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">23 213</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 643</td>
+                                <td class="price__item">4 643</td>
+                                <td class="price__item">18 571</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">21 064</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 329</td>
+                                <td class="price__item">7 749</td>
+                                <td class="price__item">13 315</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">26 774</td>
+                                <td class="price__item">5 200</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 315</td>
+                                <td class="price__item">9 515</td>
+                                <td class="price__item">17 259</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">28 884</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">9 750</td>
+                                <td class="price__item">3 827</td>
+                                <td class="price__item">13 577</td>
+                                <td class="price__item">15 307</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">25 177</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 460</td>
+                                <td class="price__item">3 943</td>
+                                <td class="price__item">9 403</td>
+                                <td class="price__item">15 774</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">23 777</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 160</td>
+                                <td class="price__item">3 923</td>
+                                <td class="price__item">8 083</td>
+                                <td class="price__item">15 693</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">23 213</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 810</td>
+                                <td class="price__item">3 681</td>
+                                <td class="price__item">8 491</td>
+                                <td class="price__item">14 723</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">21 064</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">3 329</td>
+                                <td class="price__item">7 749</td>
+                                <td class="price__item">13 315</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">36 558</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 180</td>
+                                <td class="price__item">5 076</td>
+                                <td class="price__item">16 256</td>
+                                <td class="price__item">20 303</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-6" name="sub-group2" type="radio">
+                    <div class="sub-tab-content">
+                        <table class="table__scroll">
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто*</td>
+                                <td class="top__title">Максимальный размер скидок*</td>
+                                <td class="top__title">Минимальная цена*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">19 400</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 880</td>
+                                <td class="price__item">3 880</td>
+                                <td class="price__item">15 520</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">23 213</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 643</td>
+                                <td class="price__item">4 643</td>
+                                <td class="price__item">18 571</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">21 064</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 329</td>
+                                <td class="price__item">7 749</td>
+                                <td class="price__item">13 315</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">23 213</td>
+                                <td class="price__item">4 810</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">3 681</td>
+                                <td class="price__item">8 491</td>
+                                <td class="price__item">14 723</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">47 464</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">10 530</td>
+                                <td class="price__item">7 387</td>
+                                <td class="price__item">17 917</td>
+                                <td class="price__item">29 547</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">25 177</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 460</td>
+                                <td class="price__item">3 943</td>
+                                <td class="price__item">9 403</td>
+                                <td class="price__item">15 774</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">20 736</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 290</td>
+                                <td class="price__item">3 289</td>
+                                <td class="price__item">7 579</td>
+                                <td class="price__item">13 157</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">23 213</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 810</td>
+                                <td class="price__item">3 681</td>
+                                <td class="price__item">8 491</td>
+                                <td class="price__item">14 723</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">21 064</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 420</td>
+                                <td class="price__item">3 329</td>
+                                <td class="price__item">7 749</td>
+                                <td class="price__item">13 315</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">51 578</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">11 570</td>
+                                <td class="price__item">8 002</td>
+                                <td class="price__item">19 572</td>
+                                <td class="price__item">32 006</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Sub Tab -->
+                    <input class="tab-radio" id="sub-tab2-7" name="sub-group2" type="radio">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
                             <caption class="table__title">Диагностика для Вас</caption>
