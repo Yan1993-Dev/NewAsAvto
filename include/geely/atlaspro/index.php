@@ -14,7 +14,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
                 <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a>
             </ul>
@@ -51,25 +50,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             <div class="slider-container">
                 <div class="swiper-container__title">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProBlue.png" src="#" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProRed.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProBlack.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProGreyBlack.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProGrey.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/geelyAtlasProWhite.png" alt=""></div>
                     </div>
                     <div class="swiper_pagination">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProBlue.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProRed.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProBlack.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProGreyBlack.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProGrey.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/atlasProWhite.svg" alt="" class="slider_img_title">
                     </div>
                 </div>
             </div>
@@ -225,6 +219,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             </div>
             <div class="ex ex-3">
                 <ul class="accordion__list">
+                <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/atlasPro__comfort.php"
+                        )
+                    ); ?>
                     <? $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
                         "",
@@ -234,6 +239,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             "AREA_FILE_SUFFIX" => "inc",
                             "EDIT_TEMPLATE" => "",
                             "PATH" => "/include/atlasPro__luxury.php"
+                        )
+                    ); ?>
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/atlasPro_luxury4WD.php"
                         )
                     ); ?>
                     <? $APPLICATION->IncludeComponent(

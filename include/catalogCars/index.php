@@ -14,7 +14,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                         <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                         <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                        <!-- <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li> -->
                         <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                         <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
                     </ul>
@@ -59,7 +59,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">atlas Pro</h3>
-                            <p class="model_catalog__price">от 2 119 990 руб.</p>
+                            <p class="model_catalog__price">от 2 358 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -68,7 +68,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">coolray</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 1 929 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -77,7 +77,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tugella</h3>
-                            <p class="model_catalog__price">от 2 699 990 руб.</p>
+                            <p class="model_catalog__price">от 3 699 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -101,7 +101,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">f7</h3>
-                            <p class="model_catalog__price">от 1 604 000 руб.</p>
+                            <p class="model_catalog__price">от 2 489 000 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -110,7 +110,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">f7x</h3>
-                            <p class="model_catalog__price">от 1 654 000 руб.</p>
+                            <p class="model_catalog__price">от 2 539 000 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -119,7 +119,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">jolion</h3>
-                            <p class="model_catalog__price">от 1 259 000 руб.</p>
+                            <p class="model_catalog__price">от 1 969 000 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -143,7 +143,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4__tabs.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 4</h3>
-                            <p class="model_catalog__price">от 1 124 900 руб.</p>
+                            <p class="model_catalog__price">от 1 699 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -152,7 +152,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 7pro</h3>
-                            <p class="model_catalog__price">от 1 719 900 руб.</p>
+                            <p class="model_catalog__price">от 2 259 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -161,7 +161,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8NEW.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 8new</h3>
-                            <p class="model_catalog__price">от 1 401 990 руб.</p>
+                            <p class="model_catalog__price">от 2 479 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -170,7 +170,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 8pro</h3>
-                            <p class="model_catalog__price">от 1 609 900 руб.</p>
+                            <p class="model_catalog__price">от 2 869 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -194,7 +194,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LX.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">LX</h3>
-                            <p class="model_catalog__price">от 2 149 900 руб.</p>
+                            <p class="model_catalog__price">от 2 439 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -203,7 +203,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL__perview.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">TXL FL</h3>
-                            <p class="model_catalog__price">от 2 149 900 руб.</p>
+                            <p class="model_catalog__price">от 3 289 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -212,7 +212,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VX.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">VX</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 4 139 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -236,7 +236,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35+.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS35PLUS</h3>
-                            <p class="model_catalog__price">от 2 119 990 руб.</p>
+                            <p class="model_catalog__price">от 1 959 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -245,7 +245,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS55</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 2 159 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -254,7 +254,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
-                            <p class="model_catalog__price">от 1 219 990 руб.</p>
+                            <p class="model_catalog__price">от 2 369 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -278,7 +278,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/40.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">BESTURN X40</h3>
-                            <p class="model_catalog__price">от 2 119 990 руб.</p>
+                            <p class="model_catalog__price">от 1 602 000 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -287,13 +287,13 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77preview.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">BESTUNE T77</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 1 669 000 руб.</p>
                         </div>
                     </a>
                 </li>
             </ul>
         </div>
-        <div class="catalog__cont">
+        <!-- <div class="catalog__cont">
             <? $APPLICATION->IncludeComponent(
                 "bitrix:main.include",
                 "",
@@ -352,7 +352,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <div class="catalog__cont">
             <? $APPLICATION->IncludeComponent(
                 "bitrix:main.include",
@@ -371,7 +371,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/wingle.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">GWM Wingle 7</h3>
-                            <p class="model_catalog__price">от 1 749 000 руб.</p>
+                            <p class="model_catalog__price">от 2 999 000 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -418,7 +418,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                                     <option value="Exeed" class="input__traid-in" data-hurl="Exeed">EXEED</option>
                                     <option value="Changan" class="input__traid-in" data-hurl="Changan">CHANGAN</option>
                                     <option value="Faw" class="input__traid-in" data-hurl="Faw">FAW</option>
-                                    <option value="Jac" class="input__traid-in" data-hurl="Jac">JAC</option>
+                                    <!-- <option value="Jac" class="input__traid-in" data-hurl="Jac">JAC</option> -->
                                     <option value="GWMPickup" class="input__traid-in" data-hurl="GWMPickup">GWM Pickup</option>
                                 </select>
                             </div>

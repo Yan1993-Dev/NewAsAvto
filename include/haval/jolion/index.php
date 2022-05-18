@@ -51,35 +51,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             <div class="slider-container">
                 <div class="swiper-container__title">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt="">
-                        </div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionWhite.png" src="#" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionBlue.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionRed.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionGrey.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionGreyBlack.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolionBlack.png" alt=""></div>
                     </div>
                     <div class="swiper_pagination">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionWhite.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionBlue.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionRed.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionGrey.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionGreyBlack.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/jolionBlack.svg" alt="" class="slider_img_title">
                     </div>
                 </div>
             </div>

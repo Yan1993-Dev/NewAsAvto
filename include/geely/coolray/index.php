@@ -51,35 +51,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             <div class="slider-container">
                 <div class="swiper-container__title">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt="">
-                        </div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayRed.png" src="#" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayBlue.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayOrange.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayGrey.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayWhite.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayBlack.png" alt=""></div>
                     </div>
                     <div class="swiper_pagination">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayRed.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayBlue.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayOrange.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayGrey.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayWhite.svg" alt="" class="slider_img_title">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/coolrayBlack.svg" alt="" class="slider_img_title">
                     </div>
                 </div>
             </div>

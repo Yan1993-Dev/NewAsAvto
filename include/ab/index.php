@@ -13,7 +13,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/about.css");
                         <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                         <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                         <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
+                        <!-- <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li> -->
                         <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                         <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
                     </ul>
@@ -337,12 +337,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/about.css");
                             </div>
                             <div class="category__title__wrap lead__title__block">Дилерский центр: Самара</div>
                         </li>
-                        <li class="category__item content__lead__block">
+                        <!-- <li class="category__item content__lead__block">
                             <div class="image__wrapper">
                                 <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/sertif__jac.jpg" alt="feedback">
                             </div>
                             <div class="category__title__wrap lead__title__block">Дилерский центр: Самара</div>
-                        </li>
+                        </li> -->
                         <li class="category__item content__lead__block">
                             <div class="image__wrapper">
                                 <img class="category__image minimized" src="<?= SITE_TEMPLATE_PATH ?>/static/images/sertif__geely.jpg" alt="feedback">

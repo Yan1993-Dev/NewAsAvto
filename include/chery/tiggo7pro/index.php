@@ -59,7 +59,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_grey.png" alt=""></div>
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_black.png" alt=""></div>
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_blue.png" alt=""></div>
-                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_red.png" alt=""></div>
+                        <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_red.jpg" alt=""></div>
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_lasure.png" alt=""></div>
                         <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7_white.png" alt=""></div>
                     </div>

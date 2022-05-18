@@ -8,7 +8,7 @@
                             <li><a href="./pages/catalogPageExeed.html" class="info__item">Exeed</a></li>
                             <li><a href="./pages/catalogPageChangan.html" class="info__item">Changan</a></li>
                             <li><a href="./pages/catalogPageFaw.html" class="info__item">Faw</a></li>
-                            <li><a href="./pages/catalogPageJac.html" class="info__item">Jac</a></li>
+                            <!-- <li><a href="./pages/catalogPageJac.html" class="info__item">Jac</a></li> -->
                         </ul> 
                         <ul class="info">
                             <li class="info__item__title">Покупателям</li>

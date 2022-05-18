@@ -4,7 +4,7 @@
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7proTechOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo7proup.jpg" alt="" class="img_slider_one">
                 <div class="swiper__wrapper__text">
                     <div class="swiper__inner__wrp">
                         <p class="swiper__inner__text">Зимние опции</p>
