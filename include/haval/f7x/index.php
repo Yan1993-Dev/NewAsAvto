@@ -225,7 +225,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             "PATH" => "/include/f7x__elite.php"
                         )
                     ); ?>
-                         <? $APPLICATION->IncludeComponent(
+                        <? $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
                         "",
                         array(
@@ -233,7 +233,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             "AREA_FILE_SHOW" => "file",
                             "AREA_FILE_SUFFIX" => "inc",
                             "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__tech.php"
+                            "PATH" => "/include/f7x__premium.php"
                         )
                     ); ?>
                          <? $APPLICATION->IncludeComponent(
@@ -244,7 +244,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             "AREA_FILE_SHOW" => "file",
                             "AREA_FILE_SUFFIX" => "inc",
                             "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__premium.php"
+                            "PATH" => "/include/f7x__tech.php"
                         )
                     ); ?>
                 </ul>
