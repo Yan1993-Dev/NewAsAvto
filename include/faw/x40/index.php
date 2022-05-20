@@ -50,25 +50,12 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         <div class="slider-container">
             <div class="swiper-container__title">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/platinum_tiggo4.jpg" src="#" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/red_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/w_tiggo4.jpg" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/white_tiggo4.jpg" alt=""></div>
+                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/x40White.png" src="#" alt=""></div>
+                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/x40Brown.png" alt=""></div>
                 </div>
                 <div class="swiper_pagination">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_black.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_grey.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/slider_control_red.svg" alt="" class="slider_img_title">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/x40White.svg" alt="" class="slider_img_title">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/x40Brown.svg" alt="" class="slider_img_title">
                 </div>
             </div>
         </div>

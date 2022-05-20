@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1,5 МТ Base</li>
+                <li class="equipment_item_model">LUXE 2WD</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -22,124 +22,50 @@
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-        <h3 class="save_title">Дизайн</h3>
+        <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСНАЩЕНИЕ</h3>
         <ul class="save">
-            <li class="save_item">16-дюймовые алюминиевые литые диски
+            <li class="save_item">Механическая регулировка положения рулевого колеса по высоте и по вылету
             </li>
-            <li class="save_item">Рейлинги на крыше
+            <li class="save_item">Интеллектуальный (SMART) ключ с функциями дистанционного управления и комфортного доступа
             </li>
-            <li class="save_item">Окраска металлик (на выбор)
+            <li class="save_item">Система бесключевого доступа со стороны водителя и переднего пассажира
             </li>
-            <li class="save_item">Окраска зеркал и ручек в цвет кузова
+            <li class="save_item">Система бесключевого запуска двигателя с кнопки (START STOP)
             </li>
-            <li class="save_item">Расширители колесных арок
+            <li class="save_item">Система помощи при парковке с отображением расстояния до объекта
+и звуковым информированием (4-ре датчика в заднем бампере)
             </li>
-            <li class="save_item">Скрытая выхлопная труба
+            <li class="save_item">Камера заднего вида с динамической разметкой
             </li>
-            <li class="save_item">Задний спойлер
+            <li class="save_item">Круиз-контроль с управлением на рулевом колесе
             </li>
-            <li class="save_item">Фары ближнего света прожекторного типа (линзы) c регулировкой светового потока по высоте
+            <li class="save_item">Климат-контроль
             </li>
-            <li class="save_item">Передние дневные светодиодные ходовые огни
-            </li>
-            <li class="save_item">Наружные зеркала заднего вида с электрической регулировкой, обогревом, повторителями поворотов
-            </li>
-            <li class="save_item">Декоративные элементы отделки решетки радиатора, дверей
+            <li class="save_item">Электростеклоподъёмники передних и задних дверей с функцией
+автоматического открывания и закрывания окна двери водителя
             </li>
         </ul>
         <h3 class="design_title">Безопасность</h3>
         <ul class="design">
-            <li class="design_item">Эра Глонасс</li>
-            <li class="design_item">Иммобилайзер - электронное противоугонное устройство
+            <li class="design_item">Электромеханическая блокировка рулевого колеса</li>
+            <li class="design_item">Передние боковые подушки безопасности</li>
+        </ul>
+        <h3 class="comfort_title">ЭКСТЕРЬЕР</h3>
+        <ul class="comfort">
+            <li class="comfort_item">Светодиодные передние противотуманные фары
             </li>
-            <li class="design_item">Задние датчики парковки
-            </li>
-            <li class="design_item">Система мониторинга давления и температуры в шинах (TMPS)
-            </li>
-            <li class="design_item">Антиблокировочная система (ABS)
-            </li>
-            <li class="design_item">Система курсовой устойчивости (ESP)
-            </li>
-            <li class="design_item">Система помощи при экстренном торможении (HBA)
-            </li>
-            <li class="design_item">Система помощи при старте в гору (HSA)
-            </li>
-            <li class="design_item">Система помощи при спуске с горы (HDC)
-            </li>
-            <li class="design_item">Антипробуксовочная система (TCS)
-            </li>
-            <li class="design_item">Система снижения вероятности опрокидывания (RMF)
-            </li>
-            <li class="design_item">Датчик превышения заданной скорости
-            </li>
-            <li class="design_item">Подушки безопасности водителя и переднего пассажира
-            </li>
-            <li class="design_item">Передние ремни безопасности с регулировкой по высоте
-            </li>
-            <li class="design_item">Передние ремни безопасности с преднатяжителями
-            </li>
-            <li class="design_item">Система удержания детских кресел Isofix для задних сидений
-            </li>
-            <li class="design_item">Блокировка замков задних дверей от открывания детьми
-            </li>
-            <li class="design_item">Функция автоматического включения фар при вождении в темное время (датчик света)
-            </li>
-            <li class="design_item">Функция отсрочки выключения фар (Follow me home)
-            </li>
-            <li class="design_item">Задний стеклоочиститель
-            </li>
-            <li class="design_item">Уменьшенное запасное колесо
+            <li class="comfort_item">Электроскладываемые наружные зеркала заднего вида окрашенные в цвет кузова
+с интегрированными светодиодными указателями поворота, с электрорегулировкой и подогревом
             </li>
         </ul>
-        <h3 class="comfort_title">Управление</h3>
+        <h3 class="comfort_title">ИНТЕРЬЕР</h3>
         <ul class="comfort">
-            <li class="comfort_item">Центральный замок с дистанционным управлением
+            <li class="comfort_item">Эргономичное сиденье водителя с боковой поддержкой и электрической
+регулировкой в 6-ти направлениях
             </li>
-            <li class="comfort_item">Дистанционное управление открытием двери багажника
+            <li class="comfort_item">Подогрев сиденья водителя и переднего пассажира
             </li>
-            <li class="comfort_item">Электрический усилитель рулевого управления
-            </li>
-            <li class="comfort_item">Индикатор расхода топлива и напоминания о ТО
-            </li>
-        </ul>
-        <h3 class="comfort_title">Комфорт</h3>
-        <ul class="comfort">
-            <li class="comfort_item">Обогрев передних сидений
-            </li>
-            <li class="comfort_item">Тканевая отделка сидений
-            </li>
-            <li class="comfort_item">Водительское сиденье с мех. регулировкой в 6 напр. (продольная, по высоте, наклону спинки)
-            </li>
-            <li class="comfort_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях
-            </li>
-            <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3
-            </li>
-            <li class="comfort_item">3 задних подголовника, регулируемые по высоте
-            </li>
-            <li class="comfort_item">Электрический кондиционер
-            </li>
-            <li class="comfort_item">Рулевая колонка с регулировкой по высоте (2 положения)
-            </li>
-            <li class="comfort_item">Зеркало в солнцезащитном козырьке водителя и пассажира
-            </li>
-            <li class="comfort_item">Передние и задние электрические стеклоподъемники
-            </li>
-            <li class="comfort_item">Передний центральный подлокотник с ёмкостью для хранения
-            </li>
-            <li class="comfort_item">Ручки для пассажиров
-            </li>
-            <li class="comfort_item">Полка багажника
-            </li>
-        </ul>
-        <h3 class="comfort_title">Технологии и мультимедиа</h3>
-        <ul class="comfort">
-            <li class="comfort_item">Радио
-            </li>
-            <li class="comfort_item">4 динамика
-            </li>
-            <li class="comfort_item">Монохромный экран 3.5" в панели приборов / бортовой компьютер
-            </li>
-            <li class="comfort_item">USB-разъем
+            <li class="comfort_item">Атмосферная подсветка салона (одноцветная)
             </li>
         </ul>
     </div>

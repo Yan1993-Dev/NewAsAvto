@@ -174,7 +174,8 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 "PATH" => "/include/tiggo8pro__sl4.php"
             )
         ); ?>
-            <div class="container_site">
+    </div>
+        <div class="container_site">
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",

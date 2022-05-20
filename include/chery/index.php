@@ -92,6 +92,15 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css")
                         </div>
                     </a>
                 </li>
+                <li class="catalog__item__li">
+                    <a href="./chery-tiggo-8-pro-max/index.php" class="tabs__link__fl">
+                        <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8promax.png" alt=""></div>
+                        <div class="tabs__item__desc">
+                            <h3 class="model_catalog__title">Tiggo 8 PRO MAX</h3>
+                            <p class="model_catalog__price">от 1 609 900 руб.</p>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
