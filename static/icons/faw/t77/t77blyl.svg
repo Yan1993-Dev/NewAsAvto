@@ -1,9 +1,4 @@
-<svg><g transform="matrix(1 0 0 1 330.21 206.2)" id="nmBPb4IMpT3e-A64ndMb2"  >
-<linearGradient id="SVGID_495" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -14 -14)"  x1="13.819946634536507" y1="13.371931353292894" x2="13.968071834462876" y2="13.605714344231558">
-<stop offset="0%" style="stop-color:#FFFFFF;stop-opacity: 1"/>
-<stop offset="50%" style="stop-color:#FFFFFF;stop-opacity: 1"/>
-<stop offset="100%" style="stop-color:#000000;stop-opacity: 1"/>
-</linearGradient>
-<path style="stroke: rgb(183,41,100); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_495); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -14 C 7.728 -14 14 -7.728 14 0 C 14 7.728 7.728 14 0 14 C -7.728 14 -14 7.728 -14 0 C -14 -7.728 -7.728 -14 0 -14 z" stroke-linecap="round" />
-</g>
+<svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="14.5" cy="14" rx="13.5" ry="14" transform="rotate(147 14.5 14)" fill="#EBC43A"/>
+<path d="M3.17794 21.3526C2.17662 19.8107 1.47796 18.0938 1.12184 16.2997C0.765726 14.5057 0.759135 12.6697 1.10244 10.8967C1.44575 9.12365 2.13224 7.44824 3.1227 5.96612C4.11317 4.484 5.38822 3.22419 6.87505 2.25863C8.36188 1.29307 10.0314 0.640665 11.7882 0.338663C13.5451 0.036661 15.3549 0.0909781 17.1142 0.498512C18.8736 0.906046 20.5482 1.65882 22.0423 2.71384C23.5364 3.76887 24.8207 5.10549 25.822 6.64739L14.5 14L3.17794 21.3526Z" fill="black"/>
 </svg>

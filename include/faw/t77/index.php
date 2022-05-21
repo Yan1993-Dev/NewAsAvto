@@ -51,7 +51,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             <div class="swiper-container__title">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77white.png" src="#" alt=""></div>
-                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77yllo.png" alt=""></div>
+                    <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77yello.png" alt=""></div>
                     <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77brown.png" alt=""></div>
                     <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77red.png" alt=""></div>
                     <div class="swiper-slide card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77blue.png" alt=""></div>
@@ -62,7 +62,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 </div>
                 <div class="swiper_pagination">
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77white.svg" alt="" class="slider_img_title">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77yllo.svg" alt="" class="slider_img_title">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77yello.svg" alt="" class="slider_img_title">
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77brown.svg" alt="" class="slider_img_title">
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77red.svg" alt="" class="slider_img_title">
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/t77blue.svg" alt="" class="slider_img_title">
