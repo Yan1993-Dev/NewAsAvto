@@ -1898,16 +1898,16 @@ nav ul li {
 
     .form_traid-in {
         width: 460px;
-        height: 560px;
+        height: 585px;
     }
 
     .input__traid-in {
-        max-width: 350px;
+        max-width: 375px;
     }
     
     .credit_calc {
         width: 455px;
-        height: 560px;
+        height: 585px;
     }
 
     .traid__btn {
@@ -2343,6 +2343,10 @@ nav ul li {
 
     .flex {
         flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .thanks {
@@ -2832,7 +2836,7 @@ nav ul li {
     .form_traid-in {
         margin-top: 0px;
         max-width: 395px;
-        height: 520px;
+        height: 550px;
     }
 
     .popup {
@@ -2877,7 +2881,7 @@ nav ul li {
         margin-left: 0px;
         margin-top: 60px;
         max-width: 395px;
-        height: 525px;
+        height: 550px;
     }
 
     .traid__btn {
@@ -3142,7 +3146,6 @@ nav ul li {
 
     .checkbox_popup {
         margin-top: 25px;
-        margin-left: 45px;
     }
 
     .news__slider {
@@ -3168,6 +3171,14 @@ nav ul li {
         src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
         margin-bottom: 15px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .feedback {
@@ -3681,7 +3692,7 @@ nav ul li {
     .form_traid-in {
         margin-top: 130px;
         width: 335px;
-        height: 520px;
+        height: 550px;
     }
 
     .popup {
@@ -3720,13 +3731,12 @@ nav ul li {
     .credit_calc {
         margin-top: 50px;
         width: 330px;
-        height: 525px;
+        height: 540px;
     }
 
     .traid__btn {
         width: 300px;
         height: 45px;
-        margin-left: 15px;
         margin-top: 20px;
         border-radius: 10px;
     }
@@ -3934,6 +3944,14 @@ nav ul li {
         height: 520px;
     }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
+    }
+
     .news {
         overflow: hidden;
         margin-top: -10px;
@@ -3965,7 +3983,6 @@ nav ul li {
 
     .checkbox_popup {
         margin-top: 25px;
-        margin-left: 45px;
     }
 
     .news__slider {
@@ -4522,7 +4539,7 @@ nav ul li {
     }
 
     .checkbox_popup {
-        margin-left: 35px;
+        margin-right: 0px;
         margin-top: 10px;
     }
 
@@ -4553,7 +4570,7 @@ nav ul li {
 
     .form_traid-in {
         margin-top: -50px;
-        height: 525px;
+        height: 550px;
     }
 
     .credit_calc {
@@ -4752,6 +4769,14 @@ nav ul li {
     .estimate {
         width: 288px;
         height: 475px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .line_title_sale {
