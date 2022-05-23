@@ -1,12 +1,11 @@
 const selModel = document.querySelector('.rate-form__model'),
     models = {
-        'Geely': ['Atlas Pro', 'Coolray', 'GS', 'Tugella'],
+        'Geely': ['Atlas Pro', 'Coolray', 'Tugella'],
         'Haval': ['F7', 'F7X', 'Jolion'],
-        'Chery': ['Tiggo 4', 'Tiggo 7 Pro', 'Tiggo 8', 'Tiggo 8 Pro'],
-        'Exeed': ['Exeed VX', 'Exeed FL'],
+        'Chery': ['Tiggo 4', 'Tiggo 7 Pro', 'Tiggo 8', 'Tiggo 8 Pro', 'Tiggo 8 Pro Max'],
+        'Exeed': ['Exeed VX', 'Exeed TXL', 'Exeed FL'],
         'Changan': ['CS 35 Plus', 'CS 55', 'CS 75FL'],
-        'Faw': ['X40','X80','T77'],
-        'Jac': ['Jac S3', 'Jac J3', 'Jac S7', 'Jac T6', 'Jac S5'],
+        'Faw': ['X40','T77'],
         'GWMPickup': ['Wingle 7']
     };
     console.log(selModel)
