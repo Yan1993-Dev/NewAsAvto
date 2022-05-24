@@ -1820,6 +1820,10 @@ nav ul li {
         margin-bottom: 20px;
     }
 
+    .input__traid-in {
+        width: 395px;
+    }
+
     .credit__name {
         font-size: 18px;
     }
@@ -2099,6 +2103,15 @@ nav ul li {
         line-height: 40px;
         margin-top: 25px;
         padding-bottom: 10px;
+    }
+
+    .input__traid-in {
+        width: 250px;
+    }
+
+    .credit__btn {
+        width: 260px;
+        height: 40px;
     }
 
     .title__image {

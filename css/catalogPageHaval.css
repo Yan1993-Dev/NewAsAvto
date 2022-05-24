@@ -1191,6 +1191,14 @@ footer {
         font-size: 20px;
     }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
+    }
+
     .content_li {
         margin-right: 30px;
         max-width: 460px;
@@ -1394,6 +1402,14 @@ footer {
     .model_catalog__image {
         width: 150px;
         height: 100px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .tabs__link__fl {

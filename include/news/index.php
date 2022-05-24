@@ -57,7 +57,73 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
-				<li class="category__item"> <a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/ghfgjhsjflgs3rtertertw12321321j.jpg" class="category__image" alt=""></a>
+			<li class="category__item">
+					<a href="./krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/8qhps4bjugtapyitjblvqfqvc9rewixe.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./krossover-omoda-5-v-rossii/index.php" class="category__title">Кроссовер OMODA 5 в России представит олимпийская чемпионка</a>
+					</div>
+					<p class="category__desc">
+					АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
+					</p>
+					<a href="./krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/wa4ta15xiaa1dwcwbdanwce0xsjp2jeu.png" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./geely-coolray-nero/index.php" class="category__title">Geely Coolray новая комплектация NERO</a>
+					</div>
+					<p class="category__desc">
+					Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
+					</p>
+					<a href="./geely-coolray-nero/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/e9tvb2ej7xbyxii01rjjy6jukx665sbx.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
+					</div>
+					<p class="category__desc">
+					28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
+					</p>
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./priz-za-test-drayv-exeed/index.php"><img src="/local/templates/NewAsAvto/static/images/bm5fx9j7r4fndpq1p9u62cubchghyt4v.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./priz-za-test-drayv-exeed/index.php" class="category__title">Приз за тест-драйв EXEED</a>
+					</div>
+					<p class="category__desc">
+					Друзья, рады объявить о старте новой акции совместно с порталом Автомобиль Года
+					</p>
+					<a href="./priz-za-test-drayv-exeed/index.php" class="category__info">Читать далее</a>
+				</li>
+
+
+
+
+
+				<li class="category__item">
+					<a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/ghfgjhsjflgs3rtertertw12321321j.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -71,7 +137,8 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3907.jpg" class="category__image" alt=""></a>
+				<li class="category__item">
+					<a href="./zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3907.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							01.04.2022

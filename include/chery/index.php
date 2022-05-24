@@ -189,7 +189,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css")
             <li class="content__stock">
                 <a href="../aktsii/avtorassrochka-0-0-18/index.php">
                     <p class="content__title">Авторассрочка 0/0/18</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/3u207yu1h6sh9p2mbba2bc4j4mblftpm.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/autorassr.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
                     </div>

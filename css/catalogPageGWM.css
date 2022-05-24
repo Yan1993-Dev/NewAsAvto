@@ -1126,6 +1126,14 @@ footer {
         padding: 0 20px;
     }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
+    }
+
     .adress {
         flex-wrap: nowrap;
     }
@@ -1318,6 +1326,14 @@ footer {
         max-width: 700px;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .adress {
@@ -1762,6 +1778,14 @@ footer {
         padding: 0 20px;
     }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
+    }
+
     .adress {
         display: flex;
         flex-direction: column;
@@ -2159,6 +2183,14 @@ footer {
         max-width: 350px;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .content__stock {
+        width: 100%;
     }
 
     .adress {

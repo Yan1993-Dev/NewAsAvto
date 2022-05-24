@@ -2368,9 +2368,14 @@ footer {
         flex-direction: column;
     }
 
+    .title__est__top {
+        text-align: center;
+    }
+
     .instructor__container {
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
     }
 
     .steps {
@@ -2477,6 +2482,7 @@ footer {
     .special__est {
         justify-content: center;
         align-items: center;
+        text-align: center;
         margin-bottom: 40px;
     }
 
@@ -2791,6 +2797,7 @@ footer {
     
     .special__est {
         justify-content: center;
+        text-align: center;
         align-items: center;
         margin-bottom: 40px;
     }
@@ -2901,11 +2908,6 @@ footer {
     .text__title {
         font-size: 14px;
     }
-    
-    .title__est {
-        font-size: 16px;
-        text-align: center;
-    }
 
     .apply__list {
         flex-direction: column;
@@ -2919,15 +2921,24 @@ footer {
     
     .special__est {
         justify-content: center;
+        text-align: center;
         align-items: center;
         margin-bottom: 40px;
+    }
+
+    .title__est__top {
+        text-align: center;
+    }
+
+    .instructor__container {
+        margin-left: 0px;
     }
 
     .wrapper__footer {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
-        margin-top: 480px;
+        margin-top: 510px;
     }
     
     .offer__item {

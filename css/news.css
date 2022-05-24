@@ -1654,7 +1654,7 @@ nav ul ul ul {
     font-size: 12px;
     flex-direction: column;
     align-items: center;
-    margin-top: 480px;
+    margin-top: 545px;
   }
 
   .info {
@@ -1932,7 +1932,7 @@ nav ul ul ul {
     font-size: 12px;
     flex-direction: column;
     align-items: center;
-    margin-top: 480px;
+    margin-top: 545px;
   }
 
   .sub-tabs-container {
@@ -2110,6 +2110,10 @@ nav ul ul ul {
   .container_site {
     max-width: 315px;
     padding: 0 5px;
+  }
+
+  .background__poster {
+    margin-top: 50px;
   }
 
   .adress {
@@ -2533,7 +2537,7 @@ nav ul ul ul {
     font-size: 12px;
     flex-direction: column;
     align-items: center;
-    margin-top: 480px;
+    margin-top: 515px;
   }
 
   .footer__section {
