@@ -14,7 +14,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
                 <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a>
             </ul>
@@ -311,8 +310,8 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             </li>
             <li class="content__stock">
                 <a href="/aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/18</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/3u207yu1h6sh9p2mbba2bc4j4mblftpm.jpg" alt="stock" class="content__img">
+                    <p class="content__title">Авторассрочка 0/0/30</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="/aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
                     </div>
@@ -324,51 +323,50 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         <section class="news">
             <div class="line">
                 <h2 class="slider_title_news"><a href="/novosti/index.php" class="title__desc__inner">Новости</a></h2>
-
             </div>
             <div class="category">
                 <ul class="category__list">
-                    <li class="category__item"> <a href="/novosti/chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/ghfgjhsjflgs3rtertertw12321321j.jpg" class="category__image" alt=""></a>
+                <li class="category__item"> <a href="/novosti/krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
                                 15.04.2022
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Долгожданный полноприводный CHERY TIGGO 8 PRO MAX: скоро в России!</a>
+                            <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__title auto_desc_under">Кроссовер OMODA 5 в России представит олимпийская чемпионка</a>
                         </div>
                         <p class="category__desc">
-                            Дистрибьютор автомобилей марки CHERY объявит официальный старт продаж в России полноприводного семиместного кроссовера TIGGO 8 PRO MAX 22.04.2022 в 14.00 (по московскому времени) в ходе онлайн-презентации.
+                        АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
                         </p>
-                        <a href="/novosti/chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
+                        <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
                     </li>
-                    <li class="category__item"> <a href="/novosti/zavershena-rekonstruktsiya/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3907.jpg" class="category__image" alt=""></a>
+                    <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
                                 01.04.2022
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/zavershena-rekonstruktsiya/index.php" class="category__title auto_desc_under">Завершена реконструкция ДЦ EXEED в Саратове</a>
+                            <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
                         </div>
                         <p class="category__desc">
-                            С радостью сообщаем, что реконструкция автосалона EXEED по адресу г. Саратов, Соколовая гора, 4 завершена.
+                        Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
                         </p>
-                        <a href="/novosti/zavershena-rekonstruktsiya/index.php" class="category__info">Читать далее</a>
+                        <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
                     </li>
-                    <li class="category__item"> <a href="/novosti/otkrytie-vtorogo-sklada/index.php"><img src="/local/templates/NewAsAvto/static/images/33ddcd23-670-0fgdfgdf.jpg" class="category__image" alt=""></a>
+                    <li class="category__item"> <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
                                 01.04.2022
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/otkrytie-vtorogo-sklada/index.php" class="category__title auto_desc_under">Открытие второго склада запчастей для автомобилей EXEED и CHERY</a>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
                         </div>
                         <p class="category__desc">
-                            Согласно планам развития компании, объявляет об официальном открытии второго регионального склада автомобильных запасных частей.
+                        28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
                         </p>
-                        <a href="/novosti/otkrytie-vtorogo-sklada/index.php" class="category__info">Читать далее</a>
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
                     </li>
                 </ul>
             </div>

@@ -130,7 +130,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGWM.css");
 <div class="container_site">
     <p class="sub__title">Получите набор преимуществ при покупке нового автомобиля! Привлекательные условия кредитования с возможностью выбрать индивидуальные условия, дополнительные выгоды при использовании программы Trade-in, дополнительные скидки, бонусы и подарки. Мы делаем всё, чтобы покупка автомобиля в наших автосалонах была максимально выгодной и приятной для Вас!</p>
     <ul class="flex">
-            <li class="content__stock">
+    <li class="content__stock">
                 <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
                     <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
                     <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/testactii.jpg" alt="stock" class="content__img">
@@ -141,17 +141,26 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGWM.css");
             </li>
             <li class="content__stock">
                 <a href="../aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/18</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/autorassr.jpg" alt="stock" class="content__img">
+                    <p class="content__title">Авторассрочка 0/0/30</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
                     </div>
                 </a>
             </li>
             <li class="content__stock">
+                <a href="../aktsii/haval-direct/index.php">
+                    <p class="content__title">HAVAL DIRECT ставка от 0,99%</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/havalDIrect.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="../aktsii/haval-direct/index.php" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
                 <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php">
                     <p class="content__title">Кредит без первого взноса</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/p3g2vmyndsnje2kyrygycayt9lgbffuv.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/CreditZeroLX.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="btn__info">Узнать больше</a>
                     </div>

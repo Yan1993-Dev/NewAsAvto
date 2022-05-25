@@ -15,7 +15,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                     <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
                     <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                     <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                    <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
                     <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                     <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
                 </ul>
@@ -471,6 +470,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                 <label class="sub__tabs__item" for="sub-tab3-2">TIGGO 7PRO</label>
                                 <label class="sub__tabs__item" for="sub-tab3-3">TIGGO 8</label>
                                 <label class="sub__tabs__item" for="sub-tab3-4">TIGGO 8PRO</label>
+                                <label class="sub__tabs__item" for="sub-tab3-5">TIGGO 8PRO MAX</label>
                             </div>
                             <input class="tab-radio" id="sub-tab3-1" name="sub-group2" type="radio">
                             <div class="sub-tab-content">
@@ -684,13 +684,120 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                     ); ?>
                                 </div>
                             </div>
+                            <input class="tab-radio" id="sub-tab3-5" name="sub-group2" type="radio">
+                            <div class="sub-tab-content">
+                                <div class="container__model__view">
+                                    <section class="form_traid-in">
+                                        <h2 class="sub_title">
+                                            Заполните форму
+                                        </h2>
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                                            <div class="field">
+                                                <label for="calc__name" class="label__traid-in">Ваше имя*</label>
+                                                <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                                            </div>
+                                            <div class="field__wrapper">
+                                                <div class="field">
+                                                    <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                            </div>
+                                            <div class="field">
+                                                <label for="input_traid" class="label__traid-in">Срок кредита</label>
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                            </div>
+                                            <div class="field">
+                                                <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                            </div>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                                            </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит Tiggo 4*">
+                                            <div class="popup__btn__flex">
+                                                <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                                            </div>
+                                        </form>
+                                    </section>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__8promax.php"
+                                        )
+                                    ); ?>
+                                </div>
+                            </div>
                         </div>
                         <input class="tab-radio" id="main-tab-4" name="main-group" type="radio" />
                         <div class="tab-content">
                             <div class="sub-tabs-container">
                                 <!-- NOTE: due to id note below, remember to match the for-->
+                                <label class="sub__tabs__item" for="sub-tab4-1">LX</label>
                                 <label class="sub__tabs__item" for="sub-tab4-2">TXL FL</label>
-                                <label class="sub__tabs__item" for="sub-tab4-3">TXL VX</label>
+                                <label class="sub__tabs__item" for="sub-tab4-3">VX</label>
+                            </div>
+                            <input class="tab-radio" id="sub-tab4-1" name="sub-group2" type="radio">
+                            <div class="sub-tab-content"> 
+                                <div class="container__model__view">
+                                    <section class="form_traid-in">
+                                        <h2 class="sub_title">
+                                            Заполните форму
+                                        </h2>
+                                        <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                                            <div class="field">
+                                                <label for="calc__name" class="label__traid-in">Ваше имя*</label>
+                                                <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                                            </div>
+                                            <div class="field__wrapper">
+                                                <div class="field">
+                                                    <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                                    <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
+                                                <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                            </div>
+                                            <div class="field">
+                                                <label for="input_traid" class="label__traid-in">Срок кредита</label>
+                                                <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                            </div>
+                                            <div class="field">
+                                                <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
+                                                <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                            </div>
+                                            <div class="checkbox_popup">
+                                                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                                            </div>
+                                            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит LX*">
+                                            <div class="popup__btn__flex">
+                                                <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                                            </div>
+                                        </form>
+                                    </section>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:main.include",
+                                        "",
+                                        array(
+                                            "AREA_FILE_RECURSIVE" => "Y",
+                                            "AREA_FILE_SHOW" => "file",
+                                            "AREA_FILE_SUFFIX" => "inc",
+                                            "EDIT_TEMPLATE" => "",
+                                            "PATH" => "/include/credit__lx.php"
+                                        )
+                                    ); ?>
+                                </div>
                             </div>
                             <input class="tab-radio" id="sub-tab4-2" name="sub-group2" type="radio">
                             <div class="sub-tab-content">
@@ -726,7 +833,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                                 Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                                             </div>
                                             <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит LX*">
+                                            <input type="hidden" name="SUBJECT" value=" Заявка на Кредит TXL*">
                                             <div class="popup__btn__flex">
                                                 <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
                                             </div>
@@ -803,7 +910,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                         <div class="tab-content">
                             <div class="sub-tabs-container">
                                 <!-- NOTE: due to id note below, remember to match the for-->
-                                <label class="sub__tabs__item" for="sub-tab5-1">BESTURN X80</label>
                                 <label class="sub__tabs__item" for="sub-tab5-2">BESTURN X40</label>
                                 <label class="sub__tabs__item" for="sub-tab5-3">BESTUNE T77</label>
                             </div>

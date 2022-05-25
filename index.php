@@ -13,7 +13,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                 <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                <!-- <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li> -->
                 <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
@@ -38,7 +37,10 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                             <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/zik1vkx0kw7rmp5hc3721z9uda1olo0j.jpg" class="category__image" alt="poster"></a>
                         </div>
                         <div class="swiper-slide card">
-                            <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/1tpdq781f9y5q0es84ej3k4xmf86zzed.jpg" class="category__image" alt="poster"></a>
+                            <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" class="category__image" alt="poster"></a>
+                        </div>
+                        <div class="swiper-slide card">
+                            <a href="../aktsii/haval-direct/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/havalDIrect.jpg" class="category__image" alt="poster"></a>
                         </div>
                         <div class="swiper-slide card">
                             <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="news__card"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/rld6d4w4l3f3tyugbi0th1a6m3jpely4.jpg" class="category__image" alt="poster"></a>
@@ -430,10 +432,19 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
             </li>
             <li class="content__stock">
                 <a href="../aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/18</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero.jpg" alt="stock" class="content__img">
+                    <p class="content__title">Авторассрочка 0/0/30</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
+                <a href="../aktsii/haval-direct/index.php">
+                    <p class="content__title">HAVAL DIRECT ставка от 0,99%</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/havalDIrect.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="../aktsii/haval-direct/index.php" class="btn__info">Узнать больше</a>
                     </div>
                 </a>
             </li>

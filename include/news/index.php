@@ -58,7 +58,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		<div class="category">
 			<ul class="category__list">
 			<li class="category__item">
-					<a href="./krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/8qhps4bjugtapyitjblvqfqvc9rewixe.jpg" class="category__image" alt=""></a>
+					<a href="./krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -73,7 +73,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					<a href="./krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
 				</li>
 				<li class="category__item">
-					<a href="./geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/wa4ta15xiaa1dwcwbdanwce0xsjp2jeu.png" class="category__image" alt=""></a>
+					<a href="./geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -88,7 +88,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					<a href="./geely-coolray-nero/index.php" class="category__info">Читать далее</a>
 				</li>
 				<li class="category__item">
-					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/e9tvb2ej7xbyxii01rjjy6jukx665sbx.jpg" class="category__image" alt=""></a>
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -103,7 +103,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
 				</li>
 				<li class="category__item">
-					<a href="./priz-za-test-drayv-exeed/index.php"><img src="/local/templates/NewAsAvto/static/images/bm5fx9j7r4fndpq1p9u62cubchghyt4v.jpg" class="category__image" alt=""></a>
+					<a href="./priz-za-test-drayv-exeed/index.php"><img src="/local/templates/NewAsAvto/static/images/promaxAs.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
 							15.04.2022
@@ -117,11 +117,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./priz-za-test-drayv-exeed/index.php" class="category__info">Читать далее</a>
 				</li>
-
-
-
-
-
 				<li class="category__item">
 					<a href="./chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/ghfgjhsjflgs3rtertertw12321321j.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
@@ -277,62 +272,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						По результатам исследования «Стоимость владения автомобилем», проведенного аналитическим агентством «Автостат», семиместный кроссовер CHERY TIGGO 8 PRO в своём сегменте вошёл в ТОП-3, продемонстрировав один из лучших показателей.
 					</p>
 					<a href="./vladet-chery-tiggo/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="./android-auto/index.php"><img src="/local/templates/NewAsAvto/static/images/z4dov6hk2vr2is8x4zfc8hm7ymy90gppdhfgdhd.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							15.12.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="./android-auto/index.php" class="category__title">Android Auto доступен в системах мультимедиа 7PRO и 8PRO</a>
-					</div>
-					<p class="category__desc">
-						Дистрибьютор автомобильной марки CHERY в России предоставляет возможность владельцам кроссоверов TIGGO 7 PRO и TIGGO 8 PRO обновить систему мультимедиа для использования Android Auto.
-					</p>
-					<a href="./android-auto/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="./vnedorozhnik-exeed-vx/index.php"><img src="/local/templates/NewAsAvto/static/images/pi7adkkz0b5dhcrh2ptvd5c78cx0ktyagdfgsdfdgf.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							15.12.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="./vnedorozhnik-exeed-vx/index.php" class="category__title">Внедорожник EXEED VX получил наивысшую оценку безопасности по итогам краш-теста</a>
-					</div>
-					<p class="category__desc">
-						Китайский центр автомобильных технологий и исследований (CATARC) опубликовал результаты независимых испытаний безопасности автомобилей по методике C-NCAP.
-					</p>
-					<a href="./vnedorozhnik-exeed-vx/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="./chery-pobila-rekord/index.php"><img src="/local/templates/NewAsAvto/static/images/srtfcghftdfrxhcgfghdfgh.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							01.12.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="./chery-pobila-rekord/index.php" class="category__title">CHERY побила рекорд мировых продаж среди китайских автомобильных брендов</a>
-					</div>
-					<p class="category__desc">
-						Мировые продажи CHERY превысили 200 000 автомобилей, побив рекорд среди китайских автомобильных брендов.
-					</p>
-					<a href="./chery-pobila-rekord/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="./wcwl/index.php"><img src="/local/templates/NewAsAvto/static/images/dfggswrgtswgtdegrte.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							14.09.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="./wcwl/index.php" class="category__title">WCWL - WITH CHERY WITH LOVE!</a>
-					</div>
-					<p class="category__desc">
-						Летний творческий конкурс #CheryOnTour #WithCheryWithLove для всех владельцев Chery!
-					</p>
-					<a href="./wcwl/index.php" class="category__info">Читать далее</a>
 				</li>
 			</ul>
 		</div>

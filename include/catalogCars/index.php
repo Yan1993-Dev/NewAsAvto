@@ -1,34 +1,34 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogCars.css");
 ?>
 <main>
-<nav class="nav">
-            <ul class="navigation">
-                <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
-                    <ul class="nav__nav">
-                        <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
-                        <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
-                        <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
-                        <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
-                        <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
-                        <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                        <!-- <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li> -->
-                        <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
-                        <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
-                    </ul>
-                    </li>
-                <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
-                <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
-                <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
-                <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
-                <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
-                <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
-                <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
-                <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
-            </ul>
-        </nav>
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="nav__item"><a href="/novye-avto/index.php" class="nav__item__link">Новые авто</a>
+                <ul class="nav__nav">
+                    <li class="nav__nav__item"><a href="/geely/index.php" class="nav__nav__link">GEELY</a></li>
+                    <li class="nav__nav__item"><a href="/haval/index.php" class="nav__nav__link">HAVAL</a></li>
+                    <li class="nav__nav__item"><a href="/chery/index.php" class="nav__nav__link">CHERY</a></li>
+                    <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
+                    <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
+                    <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
+                    <!-- <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li> -->
+                    <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
+                    <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
+                </ul>
+            </li>
+            <li class="nav__item"><a href="/servis/index.php" class="nav__item__link">Сервис</a></li>
+            <li class="nav__item"><a href="/aktsii/index.php" class="nav__item__link">Акции</a></li>
+            <li class="nav__item"><a href="/kredit/index.php" class="nav__item__link">Кредит</a></li>
+            <li class="nav__item"><a href="/treyd-in/index.php" class="nav__item__link">Трейд-ин</a></li>
+            <li class="nav__item"><a href="/novosti/index.php" class="nav__item__link">Новости</a></li>
+            <li class="nav__item"><a href="/otzyvy/index.php" class="nav__item__link">Отзывы</a></li>
+            <li class="nav__item"><a href="/o-nas/index.php" class="nav__item__link">О нас</a></li>
+            <li class="nav__item"><a href="/kontakty/index.php" class="nav__item__link">Контакты</a></li>
+        </ul>
+    </nav>
     <? $APPLICATION->IncludeComponent(
         "bitrix:main.include",
         "",
@@ -493,7 +493,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
                 "PATH" => "/include/text__sale.php"
             )
         ); ?>
-               <ul class="flex">
+        <ul class="flex">
             <li class="content__stock">
                 <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
                     <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
@@ -505,17 +505,26 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/catalogCars.css");
             </li>
             <li class="content__stock">
                 <a href="../aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/18</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/autorassr.jpg" alt="stock" class="content__img">
+                    <p class="content__title">Авторассрочка 0/0/30</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
                     </div>
                 </a>
             </li>
             <li class="content__stock">
+                <a href="../aktsii/haval-direct/index.php">
+                    <p class="content__title">HAVAL DIRECT ставка от 0,99%</p>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/havalDIrect.jpg" alt="stock" class="content__img">
+                    <div class="content__btn">
+                        <a href="../aktsii/haval-direct/index.php" class="btn__info">Узнать больше</a>
+                    </div>
+                </a>
+            </li>
+            <li class="content__stock">
                 <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php">
                     <p class="content__title">Кредит без первого взноса</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/p3g2vmyndsnje2kyrygycayt9lgbffuv.jpg" alt="stock" class="content__img">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/CreditZeroLX.jpg" alt="stock" class="content__img">
                     <div class="content__btn">
                         <a href="../aktsii/kredit-bez-pervogo-vznosa/index.php" class="btn__info">Узнать больше</a>
                     </div>

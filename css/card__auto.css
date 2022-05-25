@@ -4296,7 +4296,7 @@ nav ul li {
 
     .btn {
         font-size: 12px;
-        width: 185px;
+        width: 230px;
         height: 30px;
     }
     
@@ -4493,7 +4493,8 @@ nav ul li {
     }
 
     .title__popup {
-        height: 465px;
+        max-width: 280px;
+        height: 435px;
     }
 
     .popup {
@@ -4505,7 +4506,7 @@ nav ul li {
     .popup_drive {
         margin-left: 0px;
         padding-top: 10px;
-        margin-bottom: 45px;
+        margin-bottom: 15px;
         font-size: 16px;
     }
 
@@ -4523,7 +4524,7 @@ nav ul li {
     }
 
     .popup_drive__btn {
-        margin-left: 250px;
+        margin-left: 235px;
     }
 
     .field_name {
@@ -4569,13 +4570,14 @@ nav ul li {
     }
 
     .form_traid-in {
-        margin-top: -50px;
-        height: 550px;
+        margin-top: -30px;
+        height: 500px;
     }
 
     .credit_calc {
         margin-left: 0px;
         margin-top: 40px;
+        height: 530px;
     }
 
     .slider-container_one {
@@ -4585,11 +4587,12 @@ nav ul li {
     .traid__btn {
         width: 240px;
         height: 32px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .sub_title {
         font-size: 20px;
+        padding-top: 15px;
     }
 
     .field {
@@ -4597,7 +4600,8 @@ nav ul li {
     }
 
     .label__traid-in {
-        font-size: 10px;
+        font-size: 14px;
+        height: 35px;
     }
     
     .input__traid-in {
@@ -4768,7 +4772,7 @@ nav ul li {
 
     .estimate {
         width: 288px;
-        height: 475px;
+        height: 460px;
     }
 
     .flex {
@@ -4785,7 +4789,6 @@ nav ul li {
     }
 
     .popup_request {
-        margin-left: 30px;
         margin-bottom: 40px;
     }
 
@@ -4838,7 +4841,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
-        margin-top: 480px;
+        margin-top: 510px;
     }
 
     .footer__section {

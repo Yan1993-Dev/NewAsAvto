@@ -1,6 +1,6 @@
 <div class="model__visual__container">
-                                        <p class="model__title">VX</p>
-                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VXTWO.jpg" alt="" class="model__img">
+                                        <p class="model__title">LX</p>
+                                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXblue.png" alt="" class="model__img">
                                         <ul class="model__list">
                                             <li class="model__list__item"><img src="<?= SITE_TEMPLATE_PATH ?>/static/icons/credit-card-one.png" alt="" class="icon__model">
                                                 <p class="model__est">Кредит без первого взноса</p>
