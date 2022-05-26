@@ -11,11 +11,11 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
-                <li class="equipment_item_old_price">1 139 900 руб.</li>
+                <li class="equipment_item_old_price">2 649 900 руб.</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">1 139 900 руб</li>
+                <li class="equipment_item_new_price">2 589 900 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>

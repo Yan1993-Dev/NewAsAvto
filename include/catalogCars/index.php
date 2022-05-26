@@ -296,7 +296,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogCars.css");
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77preview.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">BESTUNE T77</h3>
-                            <p class="model_catalog__price">от 1 669 000 руб.</p>
+                            <p class="model_catalog__price">от 1 919 000 руб.</p>
                         </div>
                     </a>
                 </li>

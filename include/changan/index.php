@@ -13,7 +13,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                 <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
                 <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
@@ -66,7 +65,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS55</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 2 059 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -75,7 +74,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChangan.css
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
-                            <p class="model_catalog__price">от 1 219 990 руб.</p>
+                            <p class="model_catalog__price">от 2 309 900 руб.</p>
                         </div>
                     </a>
                 </li>

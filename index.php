@@ -149,21 +149,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">atlas Pro</h3>
-                                    <p class="model_catalog__price">от 2 358 990 руб.</p>
+                                    <p class="model_catalog__price">от 2 208 990 руб.</p>
                                 </div>
                             </a>
                             <a href="/geely/coolray/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">coolray</h3>
-                                    <p class="model_catalog__price">от 1 929 990 руб.</p>
+                                    <p class="model_catalog__price">от 1 779 990 руб.</p>
                                 </div>
                             </a>
                             <a href="/geely/tugella/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tugella</h3>
-                                    <p class="model_catalog__price">от 3 699 990 руб.</p>
+                                    <p class="model_catalog__price">от 3 549 990 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -174,21 +174,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">f7</h3>
-                                    <p class="model_catalog__price">от 2 489 000 руб.</p>
+                                    <p class="model_catalog__price">от 2 599 000 руб.</p>
                                 </div>
                             </a>
                             <a href="/haval/f7x/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/f7x.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">f7x</h3>
-                                    <p class="model_catalog__price">от 2 539 000 руб.</p>
+                                    <p class="model_catalog__price">от 2 669 000 руб.</p>
                                 </div>
                             </a>
                             <a href="/haval/jolion/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/jolion__car.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">jolion</h3>
-                                    <p class="model_catalog__price">от 1 969 000 руб.</p>
+                                    <p class="model_catalog__price">от 1 969 000 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -199,35 +199,35 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo4__tabs.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 4</h3>
-                                    <p class="model_catalog__price">от 1 699 900 руб.</p>
+                                    <p class="model_catalog__price">от 1 699 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/tiggo7/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 7pro</h3>
-                                    <p class="model_catalog__price">от 2 259 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 259 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/tiggo8/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/8NEW.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8new</h3>
-                                    <p class="model_catalog__price">от 2 479 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 479 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/tiggo8pro/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8pro</h3>
-                                    <p class="model_catalog__price">от 2 869 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 869 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/chery-tiggo-8-pro-max/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8promax.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">Tiggo 8 PRO MAX</h3>
-                                    <p class="model_catalog__price">от 2 869 900 руб.</p>
+                                    <p class="model_catalog__price">от 3 151 629 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -238,21 +238,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/LX.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">LX</h3>
-                                    <p class="model_catalog__price">от 2 439 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 539 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/exeed/txl/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL__perview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">TXL FL</h3>
-                                    <p class="model_catalog__price">от 3 289 900 руб.</p>
+                                    <p class="model_catalog__price">от 3 399 915 руб.</p>
                                 </div>
                             </a>
                             <a href="/exeed/vx/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VX.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">VX</h3>
-                                    <p class="model_catalog__price">от 4 139 900 руб.</p>
+                                    <p class="model_catalog__price">от 4 147 915 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -263,21 +263,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/35+.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS35PLUS</h3>
-                                    <p class="model_catalog__price">от 1 959 900 руб.</p>
+                                    <p class="model_catalog__price">от 1 899 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/changan/55/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/changanCs55.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS55</h3>
-                                    <p class="model_catalog__price">от 2 159 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 059 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/changan/75/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/75FL.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">CHANGAN CS75FL</h3>
-                                    <p class="model_catalog__price">от 2 369 990 руб.</p>
+                                    <p class="model_catalog__price">от 2 309 900 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -295,7 +295,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/t77preview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">BESTUNE T77</h3>
-                                    <p class="model_catalog__price">от 1 669 000 руб.</p>
+                                    <p class="model_catalog__price">от 1 919 000 руб.</p>
                                 </div>
                             </a>
                         </div>

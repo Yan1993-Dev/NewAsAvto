@@ -13,7 +13,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGWM.css");
                 <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
                 <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
@@ -58,7 +57,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGWM.css");
                     <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/wingle.png" alt=""></div>
                     <div class="tabs__item__desc">
                         <h3 class="model_catalog__title">GWM Wingle 7</h3>
-                        <p class="model_catalog__price">от 1 749 000 руб.</p>
+                        <p class="model_catalog__price">от 2 999 000 руб.</p>
                     </div>
                 </a>
             </li>

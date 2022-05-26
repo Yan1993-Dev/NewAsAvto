@@ -13,7 +13,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                     <li class="nav__nav__item"><a href="/exeed/index.php" class="nav__nav__link">EXEED</a></li>
                     <li class="nav__nav__item"><a href="/changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                     <li class="nav__nav__item"><a href="/faw/index.php" class="nav__nav__link">FAW</a></li>
-                    <li class="nav__nav__item"><a href="/jac/index.php" class="nav__nav__link">JAC</a></li>
                     <li class="nav__nav__item"><a href="/gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                     <li class="nav__nav__item"><a href="/novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
                 </ul>
@@ -56,7 +55,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/atlasPro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">atlas Pro</h3>
-                            <p class="model_catalog__price">от 2 119 990 руб.</p>
+                            <p class="model_catalog__price">от 2 208 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -65,7 +64,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolray.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">coolray</h3>
-                            <p class="model_catalog__price">от 1 361 990 руб.</p>
+                            <p class="model_catalog__price">от 1 779 990 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -74,7 +73,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageGeely.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tugella.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tugella</h3>
-                            <p class="model_catalog__price">от 2 699 990 руб.</p>
+                            <p class="model_catalog__price">от 3 549 990 руб.</p>
                         </div>
                     </a>
                 </li>
