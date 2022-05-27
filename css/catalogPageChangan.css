@@ -2351,6 +2351,15 @@ footer {
         display: block;
     }
 
+    .title__cont {
+        justify-content: center;
+    }
+
+    .catalog__list {
+        justify-content: center;
+    }
+
+
     .mob__text {
         text-align: center;
         color: #47A0ED;

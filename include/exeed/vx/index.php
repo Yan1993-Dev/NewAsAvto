@@ -146,7 +146,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__exterier.php"
+                "PATH" => "/include/vx__exterier.php"
             )
         ); ?>
     </div>
@@ -159,10 +159,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__interier.php"
+                "PATH" => "/include/vx__interier.php"
             )
         ); ?>
-    </div>
     </div>
 
     <div class="container_site">
@@ -174,7 +173,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__option.php"
+                "PATH" => "/include/vx__option.php"
             )
         ); ?>
     </div>
@@ -187,7 +186,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__technologies.php"
+                "PATH" => "/include/vx__technologies.php"
             )
         ); ?>
     </div>
@@ -200,7 +199,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__safe.php"
+                "PATH" => "/include/vx__safe.php"
             )
         ); ?>
 

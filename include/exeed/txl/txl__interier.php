@@ -1,30 +1,42 @@
-<div class="interier" id="interier"></div>
-        <div class="line__inter">
-            <h2 class="slider_title_two">Интерьер</h2>
-        </div>
-        <div class="slider-container_one">
-            <div class="swiper-container_one">
-                <div class="swiper-wrapper_one">
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interior_1.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Современный и лаконичный интерьер Chery Tiggo 4 не оставит равнодушным никого. Ассиметричная форма панели приборов продолжает тему технологичности и современности, заданной экстерьером Tiggo 4. Большой центральный дисплей мультимедиа является доминантой интерьера, сразу под ним - блок управления климат-контролем, выполненный в классическом стиле.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interior_2.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Анатомические сиденья разработаны ведущими в области специалистами, водительское сиденье снабжено электрорегулировками в 6 направлениях в том числе с регулировкой поясничного упора. Водителю любого роста и комплекции будет удобно и комфортно даже в длительных поездках. Органы управления расположены в максимально удобных и привычных местах. 
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interior_3.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Кожаная обивка салона с декоративной прострочкой - изысканность в деталях без ущерба комфорту.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interior_4.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Вождение еще не было таким комфортным благодаря продуманной эргономике, дополнительным отсекам для хранения мелочей и интуитивным настройкам салона.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/interior_5.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Качество сборки на высоком уровне, все элементы точно подогнаны друг к другу, не издают посторонних звуков при прикосновении к ним и во время движения
-</p>
-                    </div>
+<div class="line_exter">
+    <h2 class="slider_title_one">Интерьер. Удобство и практичность</h2>
+</div>
+<div class="slider-container_one">
+    <div class="swiper-container_one">
+        <div class="swiper-wrapper_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlInOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Интерьер EXEED TXL</p>
                 </div>
-                <div class="swiper-pagination_one"></div>
             </div>
+                <p class="text_slide">В отделке интерьера использованы исключительно материалы высокого качества: кожа, мягкий пластик, металл и замша. Качество подгонки деталей на высочайшем уровне, а эргономика продумана до мелочей.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlInTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Передние сиденья</p>
+                </div>
+            </div>
+                <p class="text_slide">Комбинированная отделка сидений перфорированной кожей и замшей идеально сочетается с материалами отделки панели приборов и центрального тоннеля. Сиденья оборудованы электрорегулировками по 8 направлениям с памятью положений, обогревом и вентиляцией.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlInThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Задние сиденья</p>
+                </div>
+            </div>
+                <p class="text_slide">Второй оряд EXEED TXL один из самых просторных и комфортабельных в классе. Увеличенная колесная база позволяет иметь рекордное количество места для ног задних пассажиров. Широкий диван и ровный пол обеспечивают комфортное размещение даже трех пассажиров.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlInFour.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Багажный отсек</p>
+                </div>
+            </div>
+                <p class="text_slide">Объем отсека равен 461 литру, а при сложенных спинках заднего дивана достигает 1 000 литров. Дополнительно 100 литров объема скрыто под двойным полом. Электропривод двери багажника упрощает доступ и избавляет от лишних движений.</p>
+            </div>
+        </div>
+        <div class="swiper-pagination_one swiper-pagination-custom"></div>
+    </div>
+</div>

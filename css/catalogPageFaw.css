@@ -2227,6 +2227,13 @@ footer {
         padding-left: 0px;
     }
 
+    .title__cont {
+        justify-content: center;
+    }
+
+    .catalog__list {
+        justify-content: center;
+    }
     
     
     .poster__container {

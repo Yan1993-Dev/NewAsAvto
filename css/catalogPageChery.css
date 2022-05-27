@@ -2347,6 +2347,14 @@ footer {
         margin-bottom: 10px;
     }
 
+    .title__cont {
+        justify-content: center;
+    }
+
+    .catalog__list {
+        justify-content: center;
+    }
+
 
     .poster__container {
         flex-direction: column;

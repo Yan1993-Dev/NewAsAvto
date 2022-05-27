@@ -4,25 +4,37 @@
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/
-exterior_1.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlExOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Выразительность</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_2.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Tiggo 4 с позиционируется как городской кроссовер и со своей задачей справляется на все 100%. Хорошая обзорность с места водителя, небольшие габариты (длина – 4 318 мм) и бодрая разгонная динамика позволяют уверенно маневрировать в плотном транспортном потоке. Рейлинги на крыше существенно расширяют возможности вашего автомобиля и позволяют перевозить различное оборудование без потери места в салоне.
-                </p>
+                <p class="text_slide">Невероятно лаконичные формы и объемы кузова перетекают одна в другую, создавая эффект струящихся линий. Простые формы решетки радиатора противопоставляются вертикальными блоками ходовых огней и узким прищуром светодиодных фар.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_3.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Современный экстерьер кроссовера не даст ни единого шанса затеряться в толпе. Увеличенный дорожный просвет 190 мм не остановит вас на пути к цели.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlExTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Аэродинамика</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_4.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным, в сравнении с другими представителями данного сегмента кроссоверов. </p>
+                <p class="text_slide">EXEED TXL – это не только выверенные пропорции и безупречный стиль в каждой детали, но и тщательно проработанная аэродинамика. Коэффициент воздушного сопротивления Cx=0,33 – один из лучших в классе. Это положительно влияет на топливную экономичность, акустический комфорт и управляемость.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_5.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Задняя часть Tiggo 4 может похвастать крупными светодиодными фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый, и, даже спортивный вид.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlExThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">LED-логотип</p>
+                </div>
+            </div>
+                <p class="text_slide">Стильный логотип EXEED на радиаторной решетке стал частью схемы приветственного освещения. Подойдите к автомобилю на расстояние трех метров – и буквы заиграют пульсирующим бело-лунным оттенком. То же самое произойдет, если разблокировать двери с ключа.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlExFour.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Колесные диски</p>
+                </div>
+            </div>
+                <p class="text_slide">Легкосплавные диски диаметром 19 дюймов идеально сочетаются с образом TXL, дополняя и облагораживая его.</p>
             </div>
         </div>
         <div class="swiper-pagination_one swiper-pagination-custom"></div>
