@@ -1210,7 +1210,7 @@ footer {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -2208,7 +2208,7 @@ footer {
     .form_traid-in {
         margin-top: 20px;
         width: 360px;
-        height: 490px;
+        height: 500px;
     }
 
     .sub_title {
@@ -2654,7 +2654,7 @@ footer {
     .form_traid-in {
         margin-top: 20px;
         width: 360px;
-        height: 490px;
+        height: 500px;
     }
 
     .sub__content {

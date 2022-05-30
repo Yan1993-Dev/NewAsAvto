@@ -1385,7 +1385,7 @@ footer {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -2142,6 +2142,10 @@ footer {
         transform: translateX(-1000px);
     }
 
+    #magnify img {
+        width: 100%;
+    }
+
     .open {
         transform: translateX(0px);
     }
@@ -2338,9 +2342,7 @@ footer {
 
 @media (min-width: 320px) and (max-width: 420px) {
     .container_site {
-        max-width: 350px;
-        margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 5px;
     }
 
     .adress {
@@ -2398,7 +2400,7 @@ footer {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -2412,9 +2414,12 @@ footer {
     }
 
     .header {
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            align-items: stretch;
+            margin-bottom: 20px;
+      }
 
     .nav {
         display: none;
@@ -2422,7 +2427,7 @@ footer {
 
     .mobile_phone_btn {
         display: block;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .header__mobile_btn {
@@ -2431,6 +2436,7 @@ footer {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__mobile_btn:hover {
@@ -2443,10 +2449,15 @@ footer {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__close__btn:hover {
         opacity: 0.5;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .mobile__header {
@@ -2538,6 +2549,10 @@ footer {
 
     .lead__list {
         margin-bottom: 0px;
+    }
+
+    #magnify img {
+        width: 100%;
     }
 
     .photo__lead {

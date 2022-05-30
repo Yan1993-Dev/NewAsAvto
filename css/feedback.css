@@ -450,7 +450,7 @@ nav ul li {
 
 .background {
     background-image: url(../static/images/3_stocks__fos.jpg);
-    padding: 40px 40px 40px 40px;
+    padding: 40px 15px 40px 15px;
     background-size: cover;
     background-position: 50% 60%;
 }
@@ -991,7 +991,7 @@ footer {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -2097,9 +2097,8 @@ footer {
 
 @media (min-width: 320px) and (max-width: 420px) {
     .container_site {
-        max-width: 375px;
         margin: 0 auto;
-        padding: 0 2px;
+        padding: 0 5px;
     }
 
     .adress {
@@ -2164,7 +2163,11 @@ footer {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 0px;
+        margin-right: 10px;
+    }
+
+    .header__mobile_btn {
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -2195,10 +2198,15 @@ footer {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__mobile_btn:hover {
         opacity: 0.5;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .header__close__btn {
@@ -2334,7 +2342,7 @@ footer {
     }
 
     .category__item {
-        margin: 0 50px 25px 20px;
+        margin: 0 20px 25px 20px;
     }
     
     .offer__item {

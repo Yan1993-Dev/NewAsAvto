@@ -928,7 +928,7 @@ footer {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -2054,8 +2054,6 @@ footer {
 
 @media (min-width: 320px) and (max-width: 420px) {
     .container_site {
-        max-width: 375px;
-        margin: 0 auto;
         padding: 0 2px;
     }
 
@@ -2085,6 +2083,10 @@ footer {
     .addr__list {
         text-align: center;
         margin-top: 10px;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .info {
@@ -2121,7 +2123,7 @@ footer {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -2152,6 +2154,7 @@ footer {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__mobile_btn:hover {
@@ -2344,6 +2347,8 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .steps {
@@ -2371,7 +2376,7 @@ footer {
     .form_traid-in {
         margin-top: 20px;
         width: 310px;
-        height: 545px;
+        height: 500px;
     }
 
     .sub__content {

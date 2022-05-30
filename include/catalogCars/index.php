@@ -388,96 +388,94 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogCars.css");
         </div>
     </div>
     <div class="background__fos">
-        <div class="container_site">
-            <div class="flex__cont">
-                <div class="middle">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/text__form.php"
-                        )
-                    ); ?>
-                </div>
-                <section class="form_traid-in">
-                    <h2 class="sub_title" id="calculator">
-                        Запись на Тест-драйв
-                    </h2>
-                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
-                        <div class="field">
-                            <label for="calc__name" class="label__traid-in">Имя*</label>
-                            <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
-                        </div>
-                        <div class="field__wrapper">
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
-                            </div>
-                            <div class="field rate-form__mark select">
-                                <label for="input_traid" class="label__traid-in">Выберите марку</label>
-                                <select name="marka choose_test" class="input__traid-in">
-                                    <option value="" class="input__traid-in" data-hurl="">Нажмите</option>
-                                    <option value="Geely" class="input__traid-in" data-hurl="Geely">GEELY</option>
-                                    <option value="Haval" class="input__traid-in" data-hurl="Haval">HAVAL</option>
-                                    <option value="Chery" class="input__traid-in" data-hurl="Chery">CHERY</option>
-                                    <option value="Exeed" class="input__traid-in" data-hurl="Exeed">EXEED</option>
-                                    <option value="Changan" class="input__traid-in" data-hurl="Changan">CHANGAN</option>
-                                    <option value="Faw" class="input__traid-in" data-hurl="Faw">FAW</option>
-                                    <!-- <option value="Jac" class="input__traid-in" data-hurl="Jac">JAC</option> -->
-                                    <option value="GWMPickup" class="input__traid-in" data-hurl="GWMPickup">GWM Pickup</option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <div class="rate-form__model select">
-                                    <label for="input_traid" class="label__traid-in">Выберите модель</label>
-                                    <select name="choose_test" class="input__traid-in">
-                                        <option value="1 choose_test" selected="selected"></option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Время записи</label>
-                                <select name="choose_time" class="input__traid-in">
-                                    <option value="08:00" class="input__traid-in">08:00</option>
-                                    <option value="09:00" class="input__traid-in">09:00</option>
-                                    <option value="10:00" class="input__traid-in">10:00</option>
-                                    <option value="11:00" class="input__traid-in">11:00</option>
-                                    <option value="12:00" class="input__traid-in">12:00</option>
-                                    <option value="13:00" class="input__traid-in">13:00</option>
-                                    <option value="14:00" class="input__traid-in">14:00</option>
-                                    <option value="15:00" class="input__traid-in">15:00</option>
-                                    <option value="16:00" class="input__traid-in">16:00</option>
-                                    <option value="17:00" class="input__traid-in">17:00</option>
-                                    <option value="18:00" class="input__traid-in">18:00</option>
-                                    <option value="19:00" class="input__traid-in">19:00</option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <select name="choose_dc" class="input__traid-in">
-                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="checkbox_popup">
-                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
-                        </div>
-                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                        <input type="hidden" name="SUBJECT" value=" Заявка на Тест драйв*">
-                        <div class="popup__btn__flex">
-                            <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
-                        </div>
-                    </form>
-                </section>
+        <div class="flex__cont">
+            <div class="middle">
+                <? $APPLICATION->IncludeComponent(
+                    "bitrix:main.include",
+                    "",
+                    array(
+                        "AREA_FILE_RECURSIVE" => "Y",
+                        "AREA_FILE_SHOW" => "file",
+                        "AREA_FILE_SUFFIX" => "inc",
+                        "EDIT_TEMPLATE" => "",
+                        "PATH" => "/include/text__form.php"
+                    )
+                ); ?>
             </div>
+            <section class="form_traid-in">
+                <h2 class="sub_title" id="calculator">
+                    Запись на Тест-драйв
+                </h2>
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                    <div class="field">
+                        <label for="calc__name" class="label__traid-in">Имя*</label>
+                        <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                            <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                        </div>
+                        <div class="field rate-form__mark select">
+                            <label for="input_traid" class="label__traid-in">Выберите марку</label>
+                            <select name="marka choose_test" class="input__traid-in">
+                                <option value="" class="input__traid-in" data-hurl="">Нажмите</option>
+                                <option value="Geely" class="input__traid-in" data-hurl="Geely">GEELY</option>
+                                <option value="Haval" class="input__traid-in" data-hurl="Haval">HAVAL</option>
+                                <option value="Chery" class="input__traid-in" data-hurl="Chery">CHERY</option>
+                                <option value="Exeed" class="input__traid-in" data-hurl="Exeed">EXEED</option>
+                                <option value="Changan" class="input__traid-in" data-hurl="Changan">CHANGAN</option>
+                                <option value="Faw" class="input__traid-in" data-hurl="Faw">FAW</option>
+                                <!-- <option value="Jac" class="input__traid-in" data-hurl="Jac">JAC</option> -->
+                                <option value="GWMPickup" class="input__traid-in" data-hurl="GWMPickup">GWM Pickup</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <div class="rate-form__model select">
+                                <label for="input_traid" class="label__traid-in">Выберите модель</label>
+                                <select name="choose_test" class="input__traid-in">
+                                    <option value="1 choose_test" selected="selected"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="input_traid" class="label__traid-in">Время записи</label>
+                            <select name="choose_time" class="input__traid-in">
+                                <option value="08:00" class="input__traid-in">08:00</option>
+                                <option value="09:00" class="input__traid-in">09:00</option>
+                                <option value="10:00" class="input__traid-in">10:00</option>
+                                <option value="11:00" class="input__traid-in">11:00</option>
+                                <option value="12:00" class="input__traid-in">12:00</option>
+                                <option value="13:00" class="input__traid-in">13:00</option>
+                                <option value="14:00" class="input__traid-in">14:00</option>
+                                <option value="15:00" class="input__traid-in">15:00</option>
+                                <option value="16:00" class="input__traid-in">16:00</option>
+                                <option value="17:00" class="input__traid-in">17:00</option>
+                                <option value="18:00" class="input__traid-in">18:00</option>
+                                <option value="19:00" class="input__traid-in">19:00</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
+                            <select name="choose_dc" class="input__traid-in">
+                                <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                    </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на Тест драйв*">
+                    <div class="popup__btn__flex">
+                        <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </div>
     <h2 class="title" id="exterier">Акции</h2>

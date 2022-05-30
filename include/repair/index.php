@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/repair.css");
-$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
 ?>
 
 <nav class="nav">
@@ -89,7 +89,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                             <td class="price__item">262</td>
                         </tr>
                         <tr class="bb">
-                            <td class="left__title">Проверка свечей зажигания на стэнде  за 4шт. со с/у (iridium/platinum)</td>
+                            <td class="left__title">Проверка свечей зажигания на стэнде за 4шт. со с/у (iridium/platinum)</td>
                             <td class="price__item">1 520</td>
                             <td class="price__item">1 307</td>
                             <td class="price__item">1 003</td>
@@ -183,7 +183,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <div class="tabs__item" id="tab_2">
                     <table>
                         <tr class="bb">
-                        <td class="top__title">Наименование работ</td>
+                            <td class="top__title">Наименование работ</td>
                             <td class="price">Стоимость ₽*</td>
                             <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
                             <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
@@ -313,7 +313,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <div class="tabs__item" id="tab_3">
                     <table class="table__title">
                         <tr class="bb">
-                        <td class="top__title">Наименование работ</td>
+                            <td class="top__title">Наименование работ</td>
                             <td class="price">Стоимость ₽*</td>
                             <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
                             <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
@@ -434,7 +434,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <div class="tabs__item" id="tab_4">
                     <table class="table__title">
                         <tr class="bb">
-                        <td class="top__title">Наименование работ</td>
+                            <td class="top__title">Наименование работ</td>
                             <td class="price">Стоимость ₽*</td>
                             <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
                             <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
@@ -560,7 +560,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                             <td class="price__item">1 035</td>
                         </tr>
                         <tr class="bb">
-                            <td class="left__title">Рейка рулевая в сборе с регулировкой схождения  - замена</td>
+                            <td class="left__title">Рейка рулевая в сборе с регулировкой схождения - замена</td>
                             <td class="price__item">5 700</td>
                             <td class="price__item">4 902</td>
                             <td class="price__item">3 762</td>
@@ -582,7 +582,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <div class="tabs__item" id="tab_5">
                     <table class="table__title">
                         <tr class="bb">
-                        <td class="top__title">Наименование работ</td>
+                            <td class="top__title">Наименование работ</td>
                             <td class="price">Стоимость ₽*</td>
                             <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
                             <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
@@ -649,7 +649,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
                 <div class="tabs__item" id="tab_6">
                     <table class="table__title">
                         <tr class="bb">
-                        <td class="top__title">Наименование работ</td>
+                            <td class="top__title">Наименование работ</td>
                             <td class="price">Стоимость ₽*</td>
                             <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
                             <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
@@ -715,83 +715,81 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/service.css");
     </section>
     </div>
     <div class="background__fos">
-        <div class="container_site">
-            <div class="flex__cont">
-                <div class="middle">
-                    <div class="repair__li">
-                        <ul class="content_li">
-                            <li class="title__content__item">Пришло время ремонтировать автомобиль? Мы быстро и качественно выполним все работы и предложим Вам выгодную цену!</li>
-                            <li class="content__item">Наши СТО оснащены специализированным оборудованием</li>
-                            <li class="content__item">Мы получаем запчасти напрямую от изготовителей</li>
-                            <li class="content__item">Наши сотрудники специализируются на автомобилях китайского производства.</li>
-                        </ul>
-                    </div>
+        <div class="flex__cont">
+            <div class="middle">
+                <div class="repair__li">
+                    <ul class="content_li">
+                        <li class="title__content__item">Пришло время ремонтировать автомобиль? Мы быстро и качественно выполним все работы и предложим Вам выгодную цену!</li>
+                        <li class="content__item">Наши СТО оснащены специализированным оборудованием</li>
+                        <li class="content__item">Мы получаем запчасти напрямую от изготовителей</li>
+                        <li class="content__item">Наши сотрудники специализируются на автомобилях китайского производства.</li>
+                    </ul>
                 </div>
-                <section class="form_traid-in">
-                    <h2 class="sub_title" id="calculator">
-                        Заявка на ремонт
-                    </h2>
-                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
-                        <div class="field">
-                            <label for="calc__name" class="label__traid-in">Имя*</label>
-                            <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
-                        </div>
-                        <div class="field__wrapper">
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
-                            </div>
-                            <div class="field">
-                                <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                                <input type="text" id="input__manufacturer" name="marka-re" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
-                            </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Модель</label>
-                                <input type="text" id="input_traid" name="model-re" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
-                            </div>
-                            <div class="field">
-                                <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
-                                <input type="date" id="input__manufacturer" name="datepicker" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
-                            </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Время записи</label>
-                                <select name="time-picker" class="input__traid-in">
-                                    <option value="08:00" class="input__traid-in">08:00</option>
-                                    <option value="09:00" class="input__traid-in">09:00</option>
-                                    <option value="10:00" class="input__traid-in">10:00</option>
-                                    <option value="11:00" class="input__traid-in">11:00</option>
-                                    <option value="12:00" class="input__traid-in">12:00</option>
-                                    <option value="13:00" class="input__traid-in">13:00</option>
-                                    <option value="14:00" class="input__traid-in">14:00</option>
-                                    <option value="15:00" class="input__traid-in">15:00</option>
-                                    <option value="16:00" class="input__traid-in">16:00</option>
-                                    <option value="17:00" class="input__traid-in">17:00</option>
-                                    <option value="18:00" class="input__traid-in">18:00</option>
-                                    <option value="19:00" class="input__traid-in">19:00</option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <select name="choose_dc" class="input__traid-in">
-                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="checkbox_popup">
-                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
-                        </div>
-                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                        <input type="hidden" name="SUBJECT" value=" Заявка на ремонт*">
-                        <div class="popup__btn__flex">
-                            <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
-                        </div>
-                    </form>
-                </section>
             </div>
+            <section class="form_traid-in">
+                <h2 class="sub_title" id="calculator">
+                    Заявка на ремонт
+                </h2>
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                    <div class="field">
+                        <label for="calc__name" class="label__traid-in">Имя*</label>
+                        <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                            <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                        </div>
+                        <div class="field">
+                            <label for="input__manufacturer" class="label__traid-in">Марка</label>
+                            <input type="text" id="input__manufacturer" name="marka-re" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                        </div>
+                        <div class="field">
+                            <label for="input_traid" class="label__traid-in">Модель</label>
+                            <input type="text" id="input_traid" name="model-re" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                        </div>
+                        <div class="field">
+                            <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
+                            <input type="date" id="input__manufacturer" name="datepicker" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
+                        </div>
+                        <div class="field">
+                            <label for="input_traid" class="label__traid-in">Время записи</label>
+                            <select name="time-picker" class="input__traid-in">
+                                <option value="08:00" class="input__traid-in">08:00</option>
+                                <option value="09:00" class="input__traid-in">09:00</option>
+                                <option value="10:00" class="input__traid-in">10:00</option>
+                                <option value="11:00" class="input__traid-in">11:00</option>
+                                <option value="12:00" class="input__traid-in">12:00</option>
+                                <option value="13:00" class="input__traid-in">13:00</option>
+                                <option value="14:00" class="input__traid-in">14:00</option>
+                                <option value="15:00" class="input__traid-in">15:00</option>
+                                <option value="16:00" class="input__traid-in">16:00</option>
+                                <option value="17:00" class="input__traid-in">17:00</option>
+                                <option value="18:00" class="input__traid-in">18:00</option>
+                                <option value="19:00" class="input__traid-in">19:00</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
+                            <select name="choose_dc" class="input__traid-in">
+                                <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                    </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на ремонт*">
+                    <div class="popup__btn__flex">
+                        <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </div>
     <div class="container_site">

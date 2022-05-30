@@ -773,7 +773,7 @@ nav ul li {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -1361,9 +1361,8 @@ nav ul li {
 
 @media (min-width: 414px) and (max-width: 760px) {
     .container_site {
-        max-width: 600px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 5px;
     }
 
     .adress {
@@ -1419,7 +1418,7 @@ nav ul li {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -1433,8 +1432,10 @@ nav ul li {
     }
 
     .header {
-        margin-bottom: 10px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: stretch;
     }
 
     .nav {
@@ -1683,9 +1684,12 @@ nav ul li {
 
 @media (min-width: 320px) and (max-width: 414px) {
     .container_site {
-        max-width: 350px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 5px;
+    }
+    
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .adress {
@@ -1754,8 +1758,10 @@ nav ul li {
     }
 
     .header {
-        margin-bottom: 10px;
-        margin-left: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: stretch;
     }
 
     .nav {
@@ -1934,6 +1940,7 @@ nav ul li {
 
     .content_li {
         padding: 25px;
+        margin-bottom: 20px;
     }
 
     .content__item {

@@ -911,7 +911,7 @@ nav ul ul ul {
   position: fixed;
   bottom: 80px;
   right: 100px;
-  z-index: 5;
+  z-index: 10;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -2108,12 +2108,7 @@ nav ul ul ul {
 
 @media (min-width: 320px) and (max-width: 420px) {
   .container_site {
-    max-width: 315px;
     padding: 0 5px;
-  }
-
-  .background__poster {
-    margin-top: 50px;
   }
 
   .adress {
@@ -2155,7 +2150,7 @@ nav ul ul ul {
   .company__logo {
     max-width: 185px;
     height: 75px;
-    margin-right: 0px;
+    margin-right: 10px;
   }
 
   .nav {
@@ -2164,11 +2159,15 @@ nav ul ul ul {
 
   .mobile_phone_btn {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .header {
-    margin-left: 30px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+        align-items: stretch;
+        margin-bottom: 20px;
   }
 
   .header__mobile_btn {
@@ -2177,6 +2176,7 @@ nav ul ul ul {
     border: none;
     width: 50px;
     height: 50px;
+    margin-right: 10px;
   }
 
   .header__mobile_btn:hover {
@@ -2218,6 +2218,10 @@ nav ul ul ul {
     padding: 30px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .wrapper__phone {
+    padding-left: 0px;
   }
 
   .nav__item__link__mobile {
@@ -2316,7 +2320,7 @@ nav ul ul ul {
   .company__logo {
     max-width: 185px;
     height: 75px;
-    margin-right: 0px;
+    margin-right: 10px;
   }
 
   .poster__container {
@@ -2490,11 +2494,11 @@ nav ul ul ul {
   .form_traid-in {
     margin-top: 20px;
     width: 360px;
-    height: 490px;
+    height: 445px;
   }
 
   .input__traid-in {
-    width: 245px;
+    width: 295px;
     font-size: 12px;
     height: 40px;
   }

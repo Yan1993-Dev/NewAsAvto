@@ -1632,7 +1632,7 @@ nav ul li {
     position: fixed;
     bottom: 80px;
     right: 100px;
-    z-index: 5;
+    z-index: 10;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -2631,9 +2631,9 @@ nav ul li {
     }
     
     .company_logo {
-        width: 100%;
-        width: 88px;
-        height: 51px;
+        max-width: 185px;
+        height: 75px;
+        margin-right: 10px;
     }
 
     .menu__item {
@@ -3100,7 +3100,7 @@ nav ul li {
 
     .estimate {
         width: 314px;
-        height: 520px;
+        height: 535px;
         top: 15%;
     }
 
@@ -3132,7 +3132,7 @@ nav ul li {
 
     .input__est, 
     .input__popup {
-        max-width: 285px;
+        max-width: 265px;
         font-size: 12px;
     }
 
@@ -3323,7 +3323,7 @@ nav ul li {
     .company__logo {
         max-width: 185px;
         height: 75px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .model_catalog__image {
@@ -3332,7 +3332,11 @@ nav ul li {
     }
 
     .header {
-        margin-left: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: stretch;
+                margin-bottom: 10px;
     }
 
     .nav {
@@ -3350,6 +3354,7 @@ nav ul li {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
     }
 
     .header__mobile_btn:hover {
@@ -3362,6 +3367,10 @@ nav ul li {
         border: none;
         width: 50px;
         height: 50px;
+    }
+
+    .wrapper__phone {
+        padding-left: 10px;
     }
     
     .header__close__btn:hover {
@@ -3481,12 +3490,6 @@ nav ul li {
 
     .slider-container_feedback {
         margin-top: 5px;
-    }
-    
-    .company_logo {
-        width: 100%;
-        width: 88px;
-        height: 51px;
     }
 
     .menu__item {
@@ -3683,6 +3686,7 @@ nav ul li {
         display: -ms-flex;
         display: -o-flex;
         display: flex;
+        align-items: center;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -3713,9 +3717,14 @@ nav ul li {
     }
 
     .input__popup, .input__est {
-        width: 300px;
+        width: 260px;
         padding-left: 11px;
         
+    }
+
+    .title__popup {
+        height: 490px;
+        max-width: 315px;
     }
 
     .field_name,
@@ -3730,8 +3739,9 @@ nav ul li {
 
     .credit_calc {
         margin-top: 50px;
-        width: 330px;
+        width: 335px;
         height: 540px;
+        margin-left: 0px;
     }
 
     .traid__btn {
@@ -3826,6 +3836,7 @@ nav ul li {
     }
 
     .equipment_item_price_adapt {
+        font-size: 16px;
         display: inline-block;
         margin-top: 5px;
     }
@@ -3841,9 +3852,7 @@ nav ul li {
         display: -ms-flex;
         display: -o-flex;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        justify-content: inherit;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 
@@ -3855,8 +3864,8 @@ nav ul li {
     .equipment_item, .accordion__icon_adapt{
         position: absolute;
         -webkit-margin-top: 275px;
-        margin-top: 270px; 
-        left: 45%;
+        margin-top: 225px;
+        left: 46%;
     }
 
     .save, .design, .comfort {
@@ -3891,7 +3900,6 @@ nav ul li {
 
     .equipment_title_two {
         display: block;
-        margin-left: 15px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -3900,20 +3908,20 @@ nav ul li {
             -ms-flex-align: center;
                 align-items: center;
         padding-bottom: 40px;
-        padding: 11px 30px 50px 19px;
+        padding: 10px 15px 50px 19px;
     }
 
     .equipment_item_model {
-        font-size: 18px;
+        font-size: 12px;
     }
     
     .equipment_item_old_price{
-        font-size: 16px;
+        font-size: 14px;
         text-align: right;
     }
 
     .equipment_item_new_price {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .equipment_item_new_adapt {
@@ -3935,8 +3943,13 @@ nav ul li {
     }
 
     .slider_title_sale {
-        margin-top: 90px;
+        font-size: 20px;
+        margin-top: 115px;
         text-align: center;
+    }
+
+    .category__item {
+        margin: 0 10px 20px 10px;
     }
 
     .estimate {
@@ -3992,12 +4005,14 @@ nav ul li {
     }
     
     .slider_title_news {
+        font-size: 20px;
         font-family: 'TacticSans-Reg';
         src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
     }
 
     .slider_title_feedback {
+        font-size: 20px;
         font-family: 'TacticSans-Reg';
         src: url(../static/fonts/TacticSans-Reg.otf);
         text-transform: uppercase;
@@ -4065,7 +4080,7 @@ nav ul li {
         font-size: 12px;
         flex-direction: column;
         align-items: center;
-        margin-top: 480px;
+        margin-top: 510px;
     }
 
     .footer__section {
@@ -4084,9 +4099,7 @@ nav ul li {
 
 @media (min-width: 320px) and (max-width: 373px) {
     .container_site {
-        max-width: 319px;
-        margin: 0 auto;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .swiper__inner__text {
@@ -4097,9 +4110,7 @@ nav ul li {
     }
 
     .container__sub {
-        max-width: 319px;
-        margin: 0 auto;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .adress {
@@ -4164,7 +4175,11 @@ nav ul li {
     }
 
     .header {
-        margin-left: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: stretch;
+                margin-bottom: 10px;
     }
 
     .nav {
@@ -4182,6 +4197,11 @@ nav ul li {
         border: none;
         width: 50px;
         height: 50px;
+        margin-right: 10px;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .header__mobile_btn:hover {
@@ -4263,8 +4283,7 @@ nav ul li {
     }
 
     .cat__list {
-        margin-top: 10px;
-        margin-bottom: -70px;
+        margin-bottom: -50px;
     }
 
     .work__title__mobile {
@@ -4307,10 +4326,6 @@ nav ul li {
 
     .deck {
         display: block;
-    }
-
-    .header {
-        margin-bottom: -10px;
     }
 
     .main_title {
@@ -4461,8 +4476,9 @@ nav ul li {
     }
 
     .company__logo {
-        width: 80px;
-        height: 50px;
+        max-width: 185px;
+        height: 75px;
+        margin-right: 10px;
     }
 
     .nav_item-link {

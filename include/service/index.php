@@ -3534,114 +3534,114 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
                     <input class="tab-radio" id="sub-tab6-1" name="sub-group6" type="radio" checked="checked">
                     <div class="sub-tab-content">
                         <table class="table__scroll">
-                        <tr class="bb">
-                            <td class="top__title"></td>
-                            <td class="price">Стоимость ₽*</td>
-                            <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
-                            <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
-                            <td class="top__title">Скидка участникам Бонусной программы АсАвто ₽*</td>
-                            <td class="top__title">Максимальный размер скидок ₽*</td>
-                            <td class="top__title">Минимальная цена ₽*</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-0 (2000 км/3 мес)</td>
-                            <td class="price__item">8 731</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">1 746</td>
-                            <td class="price__item">1 746</td>
-                            <td class="price__item">6 985</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-1 (10000 км/12 мес)</td>
-                            <td class="price__item">8 341</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">1 668</td>
-                            <td class="price__item">1 668</td>
-                            <td class="price__item">6 673</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-2 (20000 км/24 мес)</td>
-                            <td class="price__item">20 903</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">4 181</td>
-                            <td class="price__item">4 181</td>
-                            <td class="price__item">16 722</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-3 (30000 км/36 мес)</td>
-                            <td class="price__item">44 701</td>
-                            <td class="price__item">3 900</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">8 160</td>
-                            <td class="price__item">12 060</td>
-                            <td class="price__item">32 641</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-4 (40000 км/48 мес)</td>
-                            <td class="price__item">20 903</td>
-                            <td class="price__item">500</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">4 081</td>
-                            <td class="price__item">4 581</td>
-                            <td class="price__item">16 322</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-5 (50000 км/60 мес)</td>
-                            <td class="price__item">8 341</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">2 600</td>
-                            <td class="price__item">1 148</td>
-                            <td class="price__item">3 748</td>
-                            <td class="price__item">4 593</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-6 (60000 км/72 мес)</td>
-                            <td class="price__item">55 025</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">7 280</td>
-                            <td class="price__item">9 549</td>
-                            <td class="price__item">16 829</td>
-                            <td class="price__item">38 196</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-7 (70000 км/84 мес)</td>
-                            <td class="price__item">8 341</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">2 600</td>
-                            <td class="price__item">1 148</td>
-                            <td class="price__item">3 748</td>
-                            <td class="price__item">4 593</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-8 (80000 км/96 мес)</td>
-                            <td class="price__item">20 903</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">5 200</td>
-                            <td class="price__item">3 141</td>
-                            <td class="price__item">8 341</td>
-                            <td class="price__item">12 562</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-9 (90000 км/108 мес)</td>
-                            <td class="price__item">21 311</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">6 500</td>
-                            <td class="price__item">2 962</td>
-                            <td class="price__item">9 462</td>
-                            <td class="price__item">11 849</td>
-                        </tr>
-                        <tr class="bb">
-                            <td class="left__title">ТО-10 (100000 км/120 мес)</td>
-                            <td class="price__item">20 903</td>
-                            <td class="price__item">-</td>
-                            <td class="price__item">5 200</td>
-                            <td class="price__item">3 141</td>
-                            <td class="price__item">8 341</td>
-                            <td class="price__item">12 562</td>
-                        </tr>
+                            <tr class="bb">
+                                <td class="top__title"></td>
+                                <td class="price">Стоимость ₽*</td>
+                                <td class="top__title">Скидка для а/м от 3 до 5 лет ₽*</td>
+                                <td class="top__title">Скидка для а/м старше 5 лет ₽*</td>
+                                <td class="top__title">Скидка участникам Бонусной программы АсАвто ₽*</td>
+                                <td class="top__title">Максимальный размер скидок ₽*</td>
+                                <td class="top__title">Минимальная цена ₽*</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-0 (2000 км/3 мес)</td>
+                                <td class="price__item">8 731</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 746</td>
+                                <td class="price__item">1 746</td>
+                                <td class="price__item">6 985</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-1 (10000 км/12 мес)</td>
+                                <td class="price__item">8 341</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">1 668</td>
+                                <td class="price__item">1 668</td>
+                                <td class="price__item">6 673</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-2 (20000 км/24 мес)</td>
+                                <td class="price__item">20 903</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 181</td>
+                                <td class="price__item">4 181</td>
+                                <td class="price__item">16 722</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-3 (30000 км/36 мес)</td>
+                                <td class="price__item">44 701</td>
+                                <td class="price__item">3 900</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">8 160</td>
+                                <td class="price__item">12 060</td>
+                                <td class="price__item">32 641</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-4 (40000 км/48 мес)</td>
+                                <td class="price__item">20 903</td>
+                                <td class="price__item">500</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">4 081</td>
+                                <td class="price__item">4 581</td>
+                                <td class="price__item">16 322</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-5 (50000 км/60 мес)</td>
+                                <td class="price__item">8 341</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 600</td>
+                                <td class="price__item">1 148</td>
+                                <td class="price__item">3 748</td>
+                                <td class="price__item">4 593</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-6 (60000 км/72 мес)</td>
+                                <td class="price__item">55 025</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">7 280</td>
+                                <td class="price__item">9 549</td>
+                                <td class="price__item">16 829</td>
+                                <td class="price__item">38 196</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-7 (70000 км/84 мес)</td>
+                                <td class="price__item">8 341</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">2 600</td>
+                                <td class="price__item">1 148</td>
+                                <td class="price__item">3 748</td>
+                                <td class="price__item">4 593</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-8 (80000 км/96 мес)</td>
+                                <td class="price__item">20 903</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 200</td>
+                                <td class="price__item">3 141</td>
+                                <td class="price__item">8 341</td>
+                                <td class="price__item">12 562</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-9 (90000 км/108 мес)</td>
+                                <td class="price__item">21 311</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">6 500</td>
+                                <td class="price__item">2 962</td>
+                                <td class="price__item">9 462</td>
+                                <td class="price__item">11 849</td>
+                            </tr>
+                            <tr class="bb">
+                                <td class="left__title">ТО-10 (100000 км/120 мес)</td>
+                                <td class="price__item">20 903</td>
+                                <td class="price__item">-</td>
+                                <td class="price__item">5 200</td>
+                                <td class="price__item">3 141</td>
+                                <td class="price__item">8 341</td>
+                                <td class="price__item">12 562</td>
+                            </tr>
                         </table>
                     </div>
                     <!-- Sub Tab -->
@@ -3988,88 +3988,86 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
     </div>
 
     <div class="background__fos">
-        <div class="container_site">
-            <div class="flex__cont">
-                <div class="middle">
-                    <div class="repair__li">
-                        <? $APPLICATION->IncludeComponent(
-                            "bitrix:main.include",
-                            "",
-                            array(
-                                "AREA_FILE_RECURSIVE" => "Y",
-                                "AREA_FILE_SHOW" => "file",
-                                "AREA_FILE_SUFFIX" => "inc",
-                                "EDIT_TEMPLATE" => "",
-                                "PATH" => "/include/service__text.php"
-                            )
-                        ); ?>
-                    </div>
+        <div class="flex__cont">
+            <div class="middle">
+                <div class="repair__li">
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/service__text.php"
+                        )
+                    ); ?>
                 </div>
-                <section class="form_traid-in">
-                    <h2 class="sub_title" id="calculator">
-                        Заявка на ТО
-                    </h2>
-                    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
-                        <div class="field">
-                            <label for="calc__name" class="label__traid-in">Имя*</label>
-                            <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
-                        </div>
-                        <div class="field__wrapper">
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Телефон*</label>
-                                <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
-                            </div>
-                            <div class="field">
-                                <label for="input__manufacturer" class="label__traid-in">Марка</label>
-                                <input type="text" id="input__manufacturer" name="marka-to" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
-                            </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Модель</label>
-                                <input type="text" id="input_traid" name="model-to" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
-                            </div>
-                            <div class="field">
-                                <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
-                                <input type="date" id="input__manufacturer" name="datepicker" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
-                            </div>
-                            <div class="field">
-                                <label for="input_traid" class="label__traid-in">Время записи</label>
-                                <select name="time-picker" class="input__traid-in">
-                                    <option value="08:00" class="input__traid-in">08:00</option>
-                                    <option value="09:00" class="input__traid-in">09:00</option>
-                                    <option value="10:00" class="input__traid-in">10:00</option>
-                                    <option value="11:00" class="input__traid-in">11:00</option>
-                                    <option value="12:00" class="input__traid-in">12:00</option>
-                                    <option value="13:00" class="input__traid-in">13:00</option>
-                                    <option value="14:00" class="input__traid-in">14:00</option>
-                                    <option value="15:00" class="input__traid-in">15:00</option>
-                                    <option value="16:00" class="input__traid-in">16:00</option>
-                                    <option value="17:00" class="input__traid-in">17:00</option>
-                                    <option value="18:00" class="input__traid-in">18:00</option>
-                                    <option value="19:00" class="input__traid-in">19:00</option>
-                                </select>
-                            </div>
-                            <div class="field">
-                                <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
-                                <select name="choose_dc" class="input__traid-in">
-                                    <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
-                                    <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
-                                    <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
-                                    <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
-                                    <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="checkbox_popup">
-                            Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
-                        </div>
-                        <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-                        <input type="hidden" name="SUBJECT" value=" Заявка на ТО*">
-                        <div class="popup__btn__flex">
-                            <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
-                        </div>
-                    </form>
-                </section>
             </div>
+            <section class="form_traid-in">
+                <h2 class="sub_title" id="calculator">
+                    Заявка на ТО
+                </h2>
+                <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                    <div class="field">
+                        <label for="calc__name" class="label__traid-in">Имя*</label>
+                        <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                            <input type="phone" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                        </div>
+                        <div class="field">
+                            <label for="input__manufacturer" class="label__traid-in">Марка</label>
+                            <input type="text" id="input__manufacturer" name="marka-to" class="input__traid-in" data-validate-field="man__traid" placeholder="Марка автомобиля">
+                        </div>
+                        <div class="field">
+                            <label for="input_traid" class="label__traid-in">Модель</label>
+                            <input type="text" id="input_traid" name="model-to" class="input__traid-in" data-validate-field="model__traid" placeholder="Модель автомобиля">
+                        </div>
+                        <div class="field">
+                            <label for="input__manufacturer" class="label__traid-in">Дата записи</label>
+                            <input type="date" id="input__manufacturer" name="datepicker" class="input__traid-in" data-validate-field="man__traid" placeholder="Нажмите">
+                        </div>
+                        <div class="field">
+                            <label for="input_traid" class="label__traid-in">Время записи</label>
+                            <select name="time-picker" class="input__traid-in">
+                                <option value="08:00" class="input__traid-in">08:00</option>
+                                <option value="09:00" class="input__traid-in">09:00</option>
+                                <option value="10:00" class="input__traid-in">10:00</option>
+                                <option value="11:00" class="input__traid-in">11:00</option>
+                                <option value="12:00" class="input__traid-in">12:00</option>
+                                <option value="13:00" class="input__traid-in">13:00</option>
+                                <option value="14:00" class="input__traid-in">14:00</option>
+                                <option value="15:00" class="input__traid-in">15:00</option>
+                                <option value="16:00" class="input__traid-in">16:00</option>
+                                <option value="17:00" class="input__traid-in">17:00</option>
+                                <option value="18:00" class="input__traid-in">18:00</option>
+                                <option value="19:00" class="input__traid-in">19:00</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="calc__phone" class="label__traid-in">Дилерский центр</label>
+                            <select name="choose_dc" class="input__traid-in">
+                                <option value="г. Самара, Аэропортовское шоссе, 1Ж" class="input__traid-in">г. Самара, Аэропортовское шоссе, 1Ж</option>
+                                <option value="г. Самара, Южное шоссе 12А, строение 4" class="input__traid-in">г. Самара, Южное шоссе 12А, строение 4</option>
+                                <option value="г. Самара, Алма-Атинская, 87" class="input__traid-in">г. Самара, Алма-Атинская, 87</option>
+                                <option value="пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А" class="input__traid-in">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</option>
+                                <option value="г. Саратов, Соколовая гора, 4" class="input__traid-in">г. Саратов, Соколовая гора, 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox_popup">
+                        Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                    </div>
+                    <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                    <input type="hidden" name="SUBJECT" value=" Заявка на ТО*">
+                    <div class="popup__btn__flex">
+                        <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </div>
     <? $APPLICATION->IncludeComponent(
