@@ -54,7 +54,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
         </div>
         <div class="category">
             <ul class="category__list">
-            <li class="category__item">
+                <li class="category__item">
                     <div class="image__wrapper">
                         <img alt="feedback" src="/local/templates/NewAsAvto/static/images/hojfzfm4q3xx2m62w40lq8rodxqe2yxu.jpeg" class="category__image minimized">
                     </div>
@@ -70,7 +70,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> Tiggo 8PRO MAX
                     </p>
                     <p class="category__desc">
-                    Спасибо менеджеру Рузилю Тухватуллину!!! Хотели купить в другом салоне машину, но менеджер привёл достойные аргументы в сторону покупки Chery. Решили приобрести Tiggo 8PRO MAX
+                        Спасибо менеджеру Рузилю Тухватуллину!!! Хотели купить в другом салоне машину, но менеджер привёл достойные аргументы в сторону покупки Chery. Решили приобрести Tiggo 8PRO MAX
                     </p>
                 </li>
                 <li class="category__item">
@@ -89,7 +89,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> EXEED LX
                     </p>
                     <p class="category__desc">
-                    Благодарю за помощь в выборе и оформлении автомобиля в кредит сотрудников Автосалона АсАвто.  Буду ваш автосалон рекомендовать знакомым.
+                        Благодарю за помощь в выборе и оформлении автомобиля в кредит сотрудников Автосалона АсАвто. Буду ваш автосалон рекомендовать знакомым.
                     </p>
                 </li>
                 <li class="category__item">
@@ -108,7 +108,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> CHERY Tiggo 4
                     </p>
                     <p class="category__desc">
-                    Всё устроило. Расположение удачное. Сотрудники доброжелательные. Сервис хороший
+                        Всё устроило. Расположение удачное. Сотрудники доброжелательные. Сервис хороший
                     </p>
                 </li>
                 <li class="category__item">
@@ -127,7 +127,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> FAW BESTURN X40
                     </p>
                     <p class="category__desc">
-                    С нами работал менеджер Тухватуллин Р.Г. Очень внимательный, культурный молодой человек. Хорошо разбирается в автомобилях, профессиональный, грамотный молодой человек
+                        С нами работал менеджер Тухватуллин Р.Г. Очень внимательный, культурный молодой человек. Хорошо разбирается в автомобилях, профессиональный, грамотный молодой человек
                     </p>
                 </li>
                 <li class="category__item">
@@ -146,7 +146,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> CHERY Tiggo 4
                     </p>
                     <p class="category__desc">
-                    Ездили на Chery Tiggo 3 несколько лет, всем довольны. Прекрасный автомобиль, но наступило время обновлять авто. Маркой Chery были довольны и решили не думая приезжать к вам. Очень понравился Tiggo 4 и мы благодарны Сергею который нас консультировал. Решили приобрести этот автомобиль. На выдаче автомобиль нам выдавал Артур. Очень хороший специалист который нам всё рассказал и показал. Всем остались довольны. Спасибо Вам!
+                        Ездили на Chery Tiggo 3 несколько лет, всем довольны. Прекрасный автомобиль, но наступило время обновлять авто. Маркой Chery были довольны и решили не думая приезжать к вам. Очень понравился Tiggo 4 и мы благодарны Сергею который нас консультировал. Решили приобрести этот автомобиль. На выдаче автомобиль нам выдавал Артур. Очень хороший специалист который нам всё рассказал и показал. Всем остались довольны. Спасибо Вам!
                     </p>
                 </li>
                 <li class="category__item">
@@ -341,14 +341,14 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                 </li>
             </ul>
         </div>
-        <div class="pagination"> 
+        <div class="pagination">
             <ul class="pagination_list">
-            <li class="pagination_list_item p-fist"><a class="pagination__number" href="../index.php">1</a></li>
-				<li class="pagination_list_item p-second"><a class="pagination__number" href="../otzyvy/otzyvy-vtoraya/index.php">2</a></li>
-				<li class="pagination_list_item p-three"><a class="pagination__number" href="../otzyvy/otzyvy-tretya/index.php">3</a></li>
-				<li class="pagination_list_item p-four"><a class="pagination__number" href="../otzyvy/otzyvy-chetvertaya/index.php">4</a></li>
-				<li class="pagination_list_item p-five"><a class="pagination__number" href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
-				<!-- <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
+                <li class="pagination_list_item p-fist"><a class="pagination__number" href="../index.php">1</a></li>
+                <li class="pagination_list_item p-second"><a class="pagination__number" href="../otzyvy/otzyvy-vtoraya/index.php">2</a></li>
+                <li class="pagination_list_item p-three"><a class="pagination__number" href="../otzyvy/otzyvy-tretya/index.php">3</a></li>
+                <li class="pagination_list_item p-four"><a class="pagination__number" href="../otzyvy/otzyvy-chetvertaya/index.php">4</a></li>
+                <li class="pagination_list_item p-five"><a class="pagination__number" href="../otzyvy/otzyvy-pyataya/index.php">5</a></li>
+                <!-- <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
                 <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li> -->
             </ul>
         </div>

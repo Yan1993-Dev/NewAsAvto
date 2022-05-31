@@ -206,7 +206,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 7pro</h3>
-                                    <p class="model_catalog__price">от 2 259 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 309 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/tiggo8/index.php" class="tabs__link__fl">
@@ -220,14 +220,14 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">tiggo 8pro</h3>
-                                    <p class="model_catalog__price">от 2 869 900 руб.</p>
+                                    <p class="model_catalog__price">от 2 919 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/chery/chery-tiggo-8-pro-max/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8promax.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">Tiggo 8 PRO MAX</h3>
-                                    <p class="model_catalog__price">от 3 151 629 руб.</p>
+                                    <p class="model_catalog__price">от 3 440 900 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -245,14 +245,14 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/TXL__perview.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">TXL FL</h3>
-                                    <p class="model_catalog__price">от 3 399 915 руб.</p>
+                                    <p class="model_catalog__price">от 3 439 900 руб.</p>
                                 </div>
                             </a>
                             <a href="/exeed/vx/index.php" class="tabs__link__fl">
                                 <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/VX.png" alt="model"></div>
                                 <div class="tabs__item__desc">
                                     <h3 class="model_catalog__title">VX</h3>
-                                    <p class="model_catalog__price">от 4 147 915 руб.</p>
+                                    <p class="model_catalog__price">от 4 289 900 руб.</p>
                                 </div>
                             </a>
                         </div>
@@ -419,7 +419,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                 "EDIT_TEMPLATE" => "",
                 "PATH" => "/include/text__sale.php"
             )
-        ); ?> 
+        ); ?>
         <ul class="flex">
             <li class="content__stock">
                 <a href="../aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
@@ -657,7 +657,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
         </section>
     </div>
 </main>
-
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");
 $APPLICATION->SetAdditionalJs(SITE_TEMPLATE_PATH . "/script/index.js");
 ?>

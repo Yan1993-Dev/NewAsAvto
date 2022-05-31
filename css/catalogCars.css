@@ -354,7 +354,7 @@ nav ul ul ul {
 
 .flex__cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form_traid-in {
@@ -1696,7 +1696,7 @@ footer {
     }
 
     .input__traid-in {
-        width: 245px;
+        width: 300px;
         font-size: 12px;
         height: 40px;
     }

@@ -3,8 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
 ?>
-
-<main>
+<main> 
     <nav class="nav">
         <ul class="navigation">
             <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
@@ -747,7 +746,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                 <label class="sub__tabs__item" for="sub-tab4-3">VX</label>
                             </div>
                             <input class="tab-radio" id="sub-tab4-1" name="sub-group2" type="radio">
-                            <div class="sub-tab-content"> 
+                            <div class="sub-tab-content">
                                 <div class="container__model__view">
                                     <section class="form_traid-in">
                                         <h2 class="sub_title">

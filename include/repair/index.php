@@ -4,7 +4,6 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/repair.css");
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
 ?>
-
 <nav class="nav">
     <ul class="navigation">
         <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
@@ -15,7 +14,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
                 <li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
                 <li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
                 <li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-                <li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
                 <li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
                 <li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
             </ul>
@@ -800,7 +798,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
 
     </div>
 </main>
-
 <div class="popup_overlay"></div>
 <div class="popup__container">
     <form id="popup__form" class="popup  form__js" name="popupIn" enctype="multipart/form-data" method="POST">
@@ -904,5 +901,4 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
     </div>
     <div id="yamap"></div>
 </section>
-
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

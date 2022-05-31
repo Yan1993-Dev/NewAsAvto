@@ -1096,12 +1096,6 @@ footer {
         display: none;
     }
 
-
-    .nav__item__link {
-        font-size: 14px;
-        line-height: calc(26/14);
-    }
-
     .content_li {
         margin-right: 30px;
     }

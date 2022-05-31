@@ -147,7 +147,7 @@
         -ms-flex-align: center;
             align-items: center;
     background-color: #47A0ED;
-    margin-bottom: -40px;
+    margin-bottom: -33px;
 }
 
 .nav__item__link {
@@ -749,11 +749,6 @@ footer {
 
     .header__close__btn {
         display: none;
-    }
-
-    .nav__item__link {
-        font-size: 14px;
-        line-height: calc(26/14);
     }
 
     .mobile__header {

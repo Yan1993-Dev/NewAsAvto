@@ -199,6 +199,7 @@ nav ul li {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -244,6 +245,8 @@ nav ul li {
 }
 
 .news__desc-text {
+    font-size: 16px;
+    line-height: calc(28/16);
     margin-bottom: 30px;
 }
 

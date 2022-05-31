@@ -1422,11 +1422,11 @@ footer {
     z-index: 15;
 }
 
-@media (min-width: 1395px) and (max-width: 1510px) {
+@media (min-width: 1366px) and (max-width: 1510px) {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 50px;
+        padding: 0 20px;
     }
 
     .header__mobile_btn {

@@ -12,7 +12,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 				<li class="nav__nav__item"><a href="../exeed/index.php" class="nav__nav__link">EXEED</a></li>
 				<li class="nav__nav__item"><a href="../changan/index.php" class="nav__nav__link">CHANGAN</a></li>
 				<li class="nav__nav__item"><a href="../faw/index.php" class="nav__nav__link">FAW</a></li>
-				<li class="nav__nav__item"><a href="../jac/index.php" class="nav__nav__link">JAC</a></li>
 				<li class="nav__nav__item"><a href="../gwm/index.php" class="nav__nav__link">GWM Pickup</a></li>
 				<li class="nav__nav__item"><a href="../novye-avto/index.php" class="nav__nav__link">Все автомобили</a></li>
 			</ul>

@@ -69,7 +69,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/7pro.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 7pro</h3>
-                            <p class="model_catalog__price">от 2 259 900 руб.</p>
+                            <p class="model_catalog__price">от 2 309 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -87,7 +87,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/ultimate.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">tiggo 8pro</h3>
-                            <p class="model_catalog__price">от 2 869 900 руб.</p>
+                            <p class="model_catalog__price">от 2 919 900 руб.</p>
                         </div>
                     </a>
                 </li>
@@ -96,7 +96,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/catalogPageChery.css")
                         <div class="model_catalog__image"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/tiggo8promax.png" alt=""></div>
                         <div class="tabs__item__desc">
                             <h3 class="model_catalog__title">Tiggo 8 PRO MAX</h3>
-                            <p class="model_catalog__price">от 3 340 900 руб.</p>
+                            <p class="model_catalog__price">от 3 440 900 руб.</p>
                         </div>
                     </a>
                 </li>
