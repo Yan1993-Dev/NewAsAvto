@@ -1679,11 +1679,15 @@ nav ul li {
 
     .title__news {
         font-size: 14px;
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     .header {
-        justify-content: center
+        justify-content: center;
+    }
+
+    .wrapper__phone {
+        padding-left: 20px;
     }
 
     .nav {
@@ -2025,7 +2029,7 @@ nav ul li {
     }
 
     .title__news {
-        margin-top: 70px;
+        margin-top: 50px;
         font-size: 14px;
     }
 
@@ -2122,8 +2126,12 @@ nav ul li {
         padding-bottom: 10px;
     }
 
+    .form_traid-in {
+        width: 360px;
+    }
+
     .input__traid-in {
-        width: 325px;
+        width: 300px;
     }
 
     .credit__btn {

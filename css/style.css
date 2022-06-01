@@ -147,7 +147,7 @@
         -ms-flex-align: center;
             align-items: center;
     background-color: #47A0ED;
-    margin-bottom: -9px;
+    margin-bottom: -8px;
 }
 
 .nav__item__link {
@@ -1634,6 +1634,10 @@ footer {
         margin-bottom: -10px;
     }
 
+    .wrapper__phone {
+        padding-left: 0px;
+    }
+
     .nav {
         display: none;
     }
@@ -2041,6 +2045,10 @@ footer {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .nav {
@@ -2472,6 +2480,10 @@ footer {
                 align-items: stretch;
     }
 
+    .wrapper__phone {
+        padding-left: 0px;
+    }
+
     .nav {
         display: none;
     }
@@ -2686,7 +2698,7 @@ footer {
     }
 
     .credit_calc {
-        width: 315px;
+        width: 360px;
         height: 515px;
         margin-bottom: 20px;
     }
@@ -2700,7 +2712,7 @@ footer {
     }
 
     .input__credit {
-        width: 270px;
+        width: 300px;
     }
 
     .checkbox__credit {

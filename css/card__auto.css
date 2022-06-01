@@ -963,13 +963,13 @@ nav ul li {
 }
 
 .field_name  {
-    margin-left: 85px;
+    margin-left: 55px;
     z-index: 10;
 }
 
 .field_phone {
     margin-top: 15px;
-    margin-left: 85px;
+    margin-left: 50px;
     z-index: 10;
 }
 
@@ -1013,7 +1013,7 @@ nav ul li {
 
 .field_calendar {
     margin-top: 15px;
-    margin-left: 85px;
+    margin-left: 50px;
     z-index: 10;
 }
 
@@ -1045,7 +1045,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 466px;
+    margin-left: 385px;
     margin-right: 15px;
     padding-bottom: 27px;
     z-index: 10;
@@ -1102,7 +1102,7 @@ nav ul li {
 .title__popup {
     display: none;
     height: 547px;
-    max-width: 530px;
+    max-width: 425px;
     top: 100px;
     position: fixed;
     border-radius: 10px;
@@ -1125,7 +1125,7 @@ nav ul li {
 .estimate {
     display: none;
     height: 547px;
-    max-width: 530px;
+    max-width: 425px;
     top: 100px;
     position: fixed;
     background-color: #F8FAFD;
@@ -1152,7 +1152,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    margin-left: 480px;
+    margin-left: 385px;
     margin-right: 15px;
     padding-bottom: 27px;
     z-index: 10;
@@ -1214,7 +1214,7 @@ nav ul li {
 /* стили для заголовка формы с текстом */
 .field_est {
     margin-top: 15px;
-    margin-left: 85px;
+    margin-left: 50px;
 }
 
 /* стили для формы текста в попапе */
@@ -2173,6 +2173,10 @@ nav ul li {
         margin-bottom: -20px;
     }
 
+    .wrapper__phone {
+        padding-left: 0px;
+    }
+
     .wrapper__menu {
         margin-right: 363px;
         margin-top: 26px;
@@ -2484,7 +2488,13 @@ nav ul li {
     }
 
     .header {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
     }
 
     .nav {
@@ -3123,6 +3133,7 @@ nav ul li {
 
     .title__popup {
         height: 465px;
+        max-width: 360px;
     }
 
     .popup__btn {
@@ -3331,12 +3342,16 @@ nav ul li {
         height: 100px;
     }
 
+    .cat__list__item {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .header {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
                 align-items: stretch;
-                margin-bottom: 10px;
     }
 
     .nav {
@@ -3695,7 +3710,7 @@ nav ul li {
 
     .form_traid-in {
         margin-top: 130px;
-        width: 335px;
+        width: 360px;
         height: 550px;
     }
 
@@ -3713,24 +3728,24 @@ nav ul li {
     }
 
     .popup_drive__btn {
-        margin-left: 280px;
+        margin-left: 320px;
     }
 
     .input__popup, .input__est {
-        width: 260px;
+        width: 300px;
         padding-left: 11px;
         
     }
 
     .title__popup {
         height: 490px;
-        max-width: 315px;
+        max-width: 360px;
     }
 
     .field_name,
     .field_phone,
     .field_calendar {
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .checkbox_popup {
@@ -3739,7 +3754,7 @@ nav ul li {
 
     .credit_calc {
         margin-top: 50px;
-        width: 335px;
+        width: 360px;
         height: 540px;
         margin-left: 0px;
     }
@@ -3763,7 +3778,7 @@ nav ul li {
     }
 
     .input__traid-in {
-        width: 270px;
+        width: 300px;
         padding-left: 11px;
     }
 
@@ -3780,7 +3795,6 @@ nav ul li {
         width: 280px;
         height: 50px;
         margin-top: 30px;
-        margin-left: 24px;
         border-radius: 10px;
     }
 
@@ -3790,8 +3804,8 @@ nav ul li {
 
     .slider_title_one {
         text-align: center;
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 16px;
+        line-height: calc(22/16);
     }
 
     .slider_title_two {
@@ -3953,7 +3967,7 @@ nav ul li {
     }
 
     .estimate {
-        width: 314px;
+        width: 360px;
         height: 520px;
     }
 
@@ -3971,7 +3985,7 @@ nav ul li {
     }
 
     .popup_request__btn {
-        margin-left: 279px;
+        margin-left: 320px;
     }
 
     .popup_request {
@@ -4509,7 +4523,7 @@ nav ul li {
     }
 
     .title__popup {
-        max-width: 280px;
+        max-width: 340px;
         height: 435px;
     }
 
@@ -4532,7 +4546,7 @@ nav ul li {
 
     .input__popup {
         font-size: 12px;
-        max-width: 240px;
+        max-width: 290px;
     }
 
     .checkbox__drive {
@@ -4540,7 +4554,7 @@ nav ul li {
     }
 
     .popup_drive__btn {
-        margin-left: 235px;
+        margin-left: 300px;
     }
 
     .field_name {
@@ -4640,8 +4654,28 @@ nav ul li {
     }
 
     .slider_title_one {
-        font-size: 20px;
+        font-size: 14px;
+        line-height: calc(20/14);
         margin-top: 20px;
+    }
+
+    .category__item {
+        margin-bottom: 10px;
+    }
+
+    .slider_title_sale {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .slider_title_news {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .slider_title_feedback {
+        font-size: 16px;
+        padding: 5px;
     }
 
     .text_slide {
@@ -4787,7 +4821,7 @@ nav ul li {
     }
 
     .estimate {
-        width: 288px;
+        width: 340px;
         height: 460px;
     }
 
@@ -4809,7 +4843,7 @@ nav ul li {
     }
 
     .popup_request__btn {
-        margin-left: 250px;
+        margin-left: 290px;
     }
 
     .field_est {

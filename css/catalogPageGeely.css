@@ -2164,9 +2164,8 @@ footer {
 
 @media (min-width: 320px) and (max-width: 420px) {
     .container_site {
-        max-width: 350px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 5px;
     }
 
     .adress {
@@ -2217,12 +2216,6 @@ footer {
 
     .work__detail {
         display: none;
-    }
-
-    .company__logo {
-        max-width: 185px;
-        height: 75px;
-        margin-right: 0px;
     }
 
     .model_catalog__image {
@@ -2306,8 +2299,30 @@ footer {
     }
 
     .header {
-        margin-left: 20px;
-        margin-bottom: 10px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                align-items: stretch;
+                margin-bottom: 10px;
+    }
+
+    .wrapper__phone {
+        padding-left: 0px;
+    }
+
+    .company__logo {
+        max-width: 185px;
+        height: 75px;
+        margin-right: 10px;
+    }
+
+    .header__mobile_btn {
+        display: block;
+        background: transparent;
+        border: none;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
     }
 
     .nav {
@@ -2316,16 +2331,9 @@ footer {
 
     .mobile_phone_btn {
         display: block;
-        margin-top: 15px;
+        margin-top: 10px;
     }
-    
-    .header__mobile_btn {
-        display: block;
-        background: transparent;
-        border: none;
-        width: 50px;
-        height: 50px;
-    }
+
 
     .header__mobile_btn:hover {
         opacity: 0.5;
@@ -2460,7 +2468,7 @@ footer {
     }
     
     .input__traid-in {
-        width: 260px;
+        width: 300px;
         font-size: 12px;
         height: 40px;
     }
@@ -2476,7 +2484,7 @@ footer {
     }
 
     .credit_calc {
-        width: 275px;
+        width: 300px;
         height: 495px;
         margin-bottom: 20px;
     }
