@@ -2029,6 +2029,7 @@ footer {
 
     .container__model__view {
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         margin-top: 20px;
     }
