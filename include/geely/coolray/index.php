@@ -139,7 +139,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         </section>
     </div>
     <div class="container_site">
-        <div class="exterier" id="exterier"></div>
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",
@@ -151,8 +150,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "PATH" => "/include/coolray__exterier.php"
             )
         ); ?>
-    </div>
-    <div class="container_site">
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",
@@ -164,10 +161,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "PATH" => "/include/coolray__interier.php"
             )
         ); ?>
-    </div>
-    </div>
-
-    <div class="container_site">
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",
@@ -179,8 +172,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "PATH" => "/include/coolray__option.php"
             )
         ); ?>
-    </div>
-    <div class="container_site">
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",
@@ -190,6 +181,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
                 "PATH" => "/include/coolray__technologies.php"
+            )
+        ); ?>
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_RECURSIVE" => "Y",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/coolray__safe.php"
             )
         ); ?>
     </div>

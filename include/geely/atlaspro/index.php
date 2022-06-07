@@ -202,7 +202,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/tiggo__safe.php"
+                "PATH" => "/include/atlasPro__safe.php"
             )
         ); ?>
 
