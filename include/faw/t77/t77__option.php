@@ -1,27 +1,24 @@
 <div class="line_exter">
-    <h2 class="slider_title_one">Экстерьер</h2>
+    <h2 class="slider_title_one">Двигатель и трансмиссия</h2>
 </div>
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_1.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77DVS.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">1,5 160 л/с</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_2.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Tiggo 4 с позиционируется как городской кроссовер и со своей задачей справляется на все 100%. Хорошая обзорность с места водителя, небольшие габариты (длина – 4 318 мм) и бодрая разгонная динамика позволяют уверенно маневрировать в плотном транспортном потоке. Рейлинги на крыше существенно расширяют возможности вашего автомобиля и позволяют перевозить различное оборудование без потери места в салоне.
-                </p>
+                <p class="text_slide">FAW Bestune T77 комплектуется бензиновым, четырехцилиндровым, 16-ти клапанным, турбированным двигателем с непосредственным впрыском топлива в цилиндры и изменяемыми фазами газораспределения.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_3.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Современный экстерьер кроссовера не даст ни единого шанса затеряться в толпе. Увеличенный дорожный просвет 190 мм не остановит вас на пути к цели.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77DVT.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">7DCT / 6МТ</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_4.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным, в сравнении с другими представителями данного сегмента кроссоверов. </p>
-            </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_5.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Задняя часть Tiggo 4 может похвастать крупными светодиодными фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый, и, даже спортивный вид.
-                </p>
+                <p class="text_slide">На выбор: 7-ступенчатый робот MF625M01  с двойным сцеплением или 6-ступенчатая механика 6MT220. Мезаническая коробка порадует которкими ходами рычага и легких сцеплением. Автоматическая - меняет передачу за 0,2 секунды, обеспечивая динамичный разгон и экономию топлива.</p>
             </div>
         </div>
         <div class="swiper-pagination_one swiper-pagination-custom"></div>

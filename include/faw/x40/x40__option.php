@@ -1,27 +1,32 @@
 <div class="line_exter">
-    <h2 class="slider_title_one">Экстерьер</h2>
+    <h2 class="slider_title_one">Двигатель и трансмиссия</h2>
 </div>
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_1.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/X40DVS.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">1.6 108 л/с</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_2.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Tiggo 4 с позиционируется как городской кроссовер и со своей задачей справляется на все 100%. Хорошая обзорность с места водителя, небольшие габариты (длина – 4 318 мм) и бодрая разгонная динамика позволяют уверенно маневрировать в плотном транспортном потоке. Рейлинги на крыше существенно расширяют возможности вашего автомобиля и позволяют перевозить различное оборудование без потери места в салоне.
-                </p>
+                <p class="text_slide">Атмосферный двигатель CA4GB16 рабочим объемом 1,6 литра разработан совместно с инженерами компании Volkswagen. В Китае его мощность составляет 114 л/с., для России он дефорсирован до 108 л/с при неизменном максимальном крутящем моменте 155 Н/м</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_3.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Современный экстерьер кроссовера не даст ни единого шанса затеряться в толпе. Увеличенный дорожный просвет 190 мм не остановит вас на пути к цели.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/X40DVT.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Aisin 6F16</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_4.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным, в сравнении с другими представителями данного сегмента кроссоверов. </p>
+                <p class="text_slide">Классическая шестиступенчатая гидромеханическая АКПП Aisin 6F16 обеспечивает эффективную передачу крутящего момента к колесам, плавное и четкое переключение передач. Данный агрегат имеет подтвержденный ресурс 200 000 км пробега. Помимо автоматической трансмиссии доступна пятиступенчатая МКПП</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_5.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Задняя часть Tiggo 4 может похвастать крупными светодиодными фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый, и, даже спортивный вид.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/X40Platform.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Платформа PQ32</p>
+                </div>
+            </div>
+                <p class="text_slide">Платформа кроссовера базируется на фольксвагеновской платформе PQ32. Спереди ― традиционные стойки типа McPherson, сзади ― полузависимая балка. Тормоза «по кругу» дисковые, передние вентилируемые, стояночный тормоз с механическим приводом.</p>
             </div>
         </div>
         <div class="swiper-pagination_one swiper-pagination-custom"></div>

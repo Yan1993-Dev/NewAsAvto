@@ -1,27 +1,65 @@
 <div class="line_exter">
-    <h2 class="slider_title_one">Экстерьер</h2>
+    <h2 class="slider_title_one">Технологии комфорта</h2>
 </div>
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_1.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Chery Tiggo 4 сочетает в себе классические формы кроссовера и современные дизайнерские решения. Правильные пропорции кузова позволяют получить подтянутый и стремительный силуэт автомобиля сбоку, массивные фары с небольшим прищуром в совокупности с крупной решеткой радиатора, обилием хрома и фальш-воздухозаборниками в нижней части бампера завершают основательный и солидный образ.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Easy Connection</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_2.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Tiggo 4 с позиционируется как городской кроссовер и со своей задачей справляется на все 100%. Хорошая обзорность с места водителя, небольшие габариты (длина – 4 318 мм) и бодрая разгонная динамика позволяют уверенно маневрировать в плотном транспортном потоке. Рейлинги на крыше существенно расширяют возможности вашего автомобиля и позволяют перевозить различное оборудование без потери места в салоне.
-                </p>
+                <p class="text_slide">Мультимедиа с разрешением Full HD обеспечивает сочную картинку и может похвастаться отличным быстродействием. Также можно подключить смартфон к системе через интерфейс Easy Connection.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_3.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Современный экстерьер кроссовера не даст ни единого шанса затеряться в толпе. Увеличенный дорожный просвет 190 мм не остановит вас на пути к цели.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Камера заднего вида</p>
+                </div>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_4.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Благодаря колесной базе 2610 мм салон автомобиля получился просторным и вместительным, в сравнении с другими представителями данного сегмента кроссоверов. </p>
+                <p class="text_slide">Незаменимая опция, упрощающая процесс маневрирования задним ходом. Изображение передаётся на дисплей мультимедийной системы, а датчики парков дают звуковые оповещения, дополняя изображение с камеры</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exterior_5.jpg" alt="" class="img_slider_one">
-                <p class="text_slide">Задняя часть Tiggo 4 может похвастать крупными светодиодными фонарями сложной ступенчатой формы, вместе с массивным бампером с раздвоенными решетками фальш-выхлопа, хромированными декоративными элементами и спойлером пятой двери задняя часть кроссовера имеет подтянутый, и, даже спортивный вид.
-                </p>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Цифровые решения</p>
+                </div>
+            </div>
+                <p class="text_slide">Современное решение в оснащении автомобилей. Яркий, четкий и контрастный дисплей комбинации приборов диагональю 12,3 дюйма не только красив и информативен, но и удобен в использовании.</p>
+            </div>
+
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptFour.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Адаптивный круиз-контроль</p>
+                </div>
+            </div>
+                <p class="text_slide">Расслабьтесь за рулём FAW T77 по-максимуму! Функция адаптивного круиз-контроля поддерживает безопасную дистанцию за впереди идущим автомобилей, увеличивает и снижает скорость вплоть до полной остановки.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptFive.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Климат-контроль</p>
+                </div>
+            </div>
+                <p class="text_slide">Просто задайте желаемую температуру! Автоматический режим работы климат-контроля самостоятельно регулирует интенсивность обдува и направление воздушного потока. Наслаждайтесь поездкой!</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptSix.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Мультируль</p>
+                </div>
+            </div>
+                <p class="text_slide">Управление всеми основными функциями вынесено на рулевое колесо, что повышает безопасность движения. Не снимая рук с руля можно управлять музыкой, бортовым компьютером и телефоном.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/T77OptSeven.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Диски R19</p>
+                </div>
+            </div>
+                <p class="text_slide">В топ-версии FAW T77 оснащается потрясающим колесными дисками 19 дюймов, обеспечивающими автомобилю ещё более впечатляющий внешний вид.</p>
             </div>
         </div>
         <div class="swiper-pagination_one swiper-pagination-custom"></div>
