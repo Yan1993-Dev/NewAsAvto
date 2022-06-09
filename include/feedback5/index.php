@@ -54,13 +54,51 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
         </div>
         <div class="category">
             <ul class="category__list">
-            <li class="category__item">
+                <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/v5wbeuyy4kcjeos1cf1yec0u6hpdg1tz.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/02a8tuvobtr5txlghak6rhhrkdq5wqg3.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            01.03.2022
+                            18.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> GEELY ATLAS PRO
+                    </p>
+                    <p class="category__desc">
+                        Отличное отношение к клиенту. Оперативное оформление документов. Прекрасное разъяснение функций авто. Индивидуальный подход к клиенту, много разных скидок
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/d71qkbo19nf3ztuytjlzgv3wpsvd9581.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            18.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> FAW BESTURN X40
+                    </p>
+                    <p class="category__desc">
+                        Крутые ребята, вошли в положение, так как мы были из другого города. Руководитель отдела продаж Евгения очень оперативно помогла по всем вопросам покупки. Менеджер Андрей хорошо подготовил авто к выдачи. Благодарность директору ДЦ Самара ЮГ за содействие в покупке. Все ребята очень крутые и инициативные. Очень понравилась слаженная работа всех сотрудников
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/37eyvi4ndb96xh8el3vhcqsy9wpaavg1.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            17.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
@@ -70,168 +108,54 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 7 PRO
                     </p>
                     <p class="category__desc">
-                        Отличный менеджер. Всё рассказал и показал. Очень вежливый и отзывчивый
+                        Очень понравилась работа персонала ДЦ АсАвто Север. Добрый, отзывчивый, а самое главное профессиональный коллектив. Особенно благодарен за помощь в выборе и оформлении авто, менеджеру отдела продаж Абрамову Никите. А также руководителю отдела продаж Ихсангалиеву Сергею. Ребята просто молодцы, всем рекомендую автосалон АсАвто
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/6tepd1ckf5jwxz86gxie1e71l397hb0k.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/9i960lz0lu7mkkqi7396lkwljuqhc3rn.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            08.04.2022
+                            15.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> EXEED LX
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 7 PRO
                     </p>
                     <p class="category__desc">
-                        Всё понравилось, всё замечательно. Персонал вежливый, отзывчивый.
+                        Всё понравилось. Хороший автосалон. Большой выбор автомобилей, кредитных программ и других условия покупки
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/byk1ufzdpswrvfz81yzu966oe1qsijjx.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/d9a29nspkauv8h5cl4o674fwpg9u9dsn.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            31.03.2022
+                            14.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 7 PRO
                     </p>
                     <p class="category__desc">
-                        Понравилось обращение менеджера. Все грамотно подобрал. Выдача прошла быстро, всё устроило. Буду рекомендовать всем только вам салон.
+                        Были в разных автосалонах города, поэтому могли уже сравнить условия покупки. В ДЦ АсАвто Самара ЮГ нам предложили автомобиль намного лучше оснащенный и с существенными скидками. После тест-драйва вопрос о покупке был в значительной мере в сторону АсАвто. Очень вежливый персонал, всё рассказал, показал. Покупкой очень довольны. Обслуживание на высшем уровне
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/tg5asvbpxfqtg2b09ah4o2nniorasjxm.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/jvza3chxx606tnpfiot490976toy8dcn.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            29.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
-                    </p>
-                    <p class="category__desc">
-                        Не первый раз удивляюсь профессионализму менеджера Лобачева Виталия. Понятно объясняет. Относится к покупателю с душой. Очень приятный автосалон. Хорошего вам всем настроения. Спасибо за новый авто.
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/y2yl9uuwc08kc9gq2iyfp8zz4wgnrpff.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            28.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
-                    </p>
-                    <p class="category__desc">
-                        Персонал приветливый. Максимально понятно ответили на все вопросы. Мне понравилось как красиво преподнесли нам машину.
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/hnsdqxpfgb5jcye0cac4jn7qc0z8grze.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            26.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
-                    </p>
-                    <p class="category__desc">
-                        Выражаю огромную благодарность салону АсАвто и лично менеджеру Улесову Виталию, за его чуткое, грамотное отношение к клиентам. С первой минуты общения полностью доверяешь ему. В самом салоне царит атмосфера дружелюбия, надежности. От себя лично хочется пожелать процветания, надежных клиентов и большого поступления авто. Всё супер!
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/cse2e5ktgvqxlhnr4rt1pw0f78oyupf3.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            21.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 4
-                    </p>
-                    <p class="category__desc">
-                        Хорошее обслуживание. Оперативно решили все возникшие вопросы. Удобный график работы.
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/l17d369jx9vd1ie4wv4ol3ruwbfsqozq.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            21.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Geely Coolray⁠
-                    </p>
-                    <p class="category__desc">
-                        Благодарю за предоставленное удовольствия приобретения нового авто Geely в автосалоне АсАвто. И особая благодарность менеджеру отдела продаж Тарасовой Алине. Дальнейших Вам успехов!
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xeqyczrar6l8cb8pz98o0j647b2qbmpj.jpeg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            21.03.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Geely Coolray
-                    </p>
-                    <p class="category__desc">
-                        Я очень довольна старшим менеджером Светланой, очень приятная, отзывчивая, понимающая. Огромное спасибо вам за такого внимательного сотрудника
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/62ob55kyydx5lt436kqafluej478gnn9.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            18.03.2022
+                            14.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
@@ -241,58 +165,191 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/feedback.css");
                         <span class="auto_desc_under">Автомобиль:</span> EXEED VX
                     </p>
                     <p class="category__desc">
-                        Вежливое обслуживание, спасибо менеджеру Ларину Ивану. Очень внимательный , всё грамотно объяснил. Кредитный специалист Соковец Ольга, всё объяснила и рассказала. Просто молодцы!!!
+                        Всё отлично. Всем рекомендую автосалон АсАвто. Купили автомобиль EXEED VX
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/w77rxlks401rt5wk56lbph4a63gybukr.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/vpj0c3iqdouuk2hnuo49f18jposck5zg.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            17.03.2022
+                            14.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 8 Pro
+                        <span class="auto_desc_under">Автомобиль:</span> GEELY ATLAS PRO
                     </p>
                     <p class="category__desc">
-                        Всё понравилось! Спасибо. Так держать! и побольше вам клиентов.
+                        Всё прошло успешно, очень доволен сервисом и отдельная благодарность менеджеру Ивану. Всё на высшем уровне!
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/qv4kjn08jydxgweeyhdvixg7tqzbtf19.jpeg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/is15z50z6t8kv4vd1se43a3jzdfxy6jl.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            03.03.2022
+                            14.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Chery Tiggo 8 Pro
+                        <span class="auto_desc_under">Автомобиль:</span> HAVAL F7 NEW
                     </p>
                     <p class="category__desc">
-                        Всё отлично, быстро оформили. Кредит без первого взноса. Сделали подарок. Советую этот автосалон
+                        Прекрасное обслуживание. Компетентный менеджер. Ненавязчивый сервис. Адекватные цены по сравнению с другими салонами. В целом понравилось всё
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/t1r8gp8z3gbkdu1cjhb3nb0nkt50et25.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            13.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
+                    </p>
+                    <p class="category__desc">
+                        Всё отлично. Купил Geely Coolray. Отличный автомобиль. Автосалон буду рекомендовать всем знакомым.
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/rqxrl918vc3nd7rmyc1xymd6rkyk8rca.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            13.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY Tiggo 4
+                    </p>
+                    <p class="category__desc">
+                        Выбрали АсАвто по рекомендациям друзей. Сразу поняли что не ошиблись с выбором. Даже не стали смотреть предложения в других салонах. Цена была та что обсуждали по телефону. Всё понравилось. Через пару часов уехали на новом автомобиле
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/aic2ffex4oov16vx3d4255pesp9pwyxa.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            12.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Тольятти
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 8 PRO
+                    </p>
+                    <p class="category__desc">
+                        Всё чётко, быстро. Лично мне придраться не к чему. Всё о чём договорились по телефону соответствовало реальности
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/mwiy3t1o9hiawg5bhi7xqdc48paqdr9j.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            12.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 8 PRO MAX
+                    </p>
+                    <p class="category__desc">
+                        Договорились по телефону о всех условиях по покупке автомобиля. В салоне нас уже ждал персональный менеджер. Автомобиль тоже был подготовлен к нашему визиту. Очень выгодно купили автомобиль в АсАвто Самара ЮГ
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/9rdw55e591inda6y5grjysno60mfj55v.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            07.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 8 PRO
+                    </p>
+                    <p class="category__desc">
+                        Менеджеры по продажам - профессионалы. Всё рассказали и показали про сам автомобиль и условия сделки. Большой выбор спец предложений, можно подобрать лучшие условия
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/s3sgfbtjumzb52tmaezmdkhsyuwja0i9.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            07.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> CHERY TIGGO 7 PRO
+                    </p>
+                    <p class="category__desc">
+                        Всё отлично. Профессиональный подход к делу. Доверие к салону 100%
+                    </p>
+                </li>
+                <li class="category__item">
+                    <div class="image__wrapper">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/7tqfypka3sk1mozvre0xo1z4pptn7313.jpg" class="category__image minimized">
+                    </div>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            07.05.2022
+                        </p>
+                    </div>
+                    <div class="auto__desc">
+                        <span class="auto_desc_under">Дилерский центр:</span> Самара
+                    </div>
+                    <p class="auto__desc">
+                        <span class="auto_desc_under">Автомобиль:</span> HAVAL JOLION
+                    </p>
+                    <p class="category__desc">
+                        Понравилось обращение менеджера. Все грамотно подобрал. Выдача прошла быстро, всё устроило. Буду рекомендовать всем только вам салон.
                     </p>
                 </li>
             </ul>
         </div>
-        <div class="pagination"> 
+        <div class="pagination">
             <ul class="pagination_list">
-            <li class="pagination_list_item p-fist"><a class="pagination__number" href="../index.php">1</a></li>
-				<li class="pagination_list_item p-second"><a class="pagination__number" href="../otzyvy-vtoraya/index.php">2</a></li>
-				<li class="pagination_list_item p-three"><a class="pagination__number" href="../otzyvy-tretya/index.php">3</a></li>
-				<li class="pagination_list_item p-four"><a class="pagination__number" href="../otzyvy-chetvertaya/index.php">4</a></li>
-				<li class="pagination_list_item p-five"><a class="pagination__number" href="../otzyvy-pyataya/index.php">5</a></li>
-				<!-- <li class="pagination_list_item p-six"><a href="../otzyvy-shestaya/index.php">6</a></li>
-                <li class="pagination_list_item p-seven"><a href="../otzyvy-sedmaya/index.php">7</a></li> -->
+                <li class="pagination_list_item p-fist"><a class="pagination__number" href="../index.php">1</a></li>
+                <li class="pagination_list_item p-second"><a class="pagination__number" href="../otzyvy-vtoraya/index.php">2</a></li>
+                <li class="pagination_list_item p-three"><a class="pagination__number" href="../otzyvy-tretya/index.php">3</a></li>
+                <li class="pagination_list_item p-four"><a class="pagination__number" href="../otzyvy-chetvertaya/index.php">4</a></li>
+                <li class="pagination_list_item p-five"><a class="pagination__number" href="../otzyvy-pyataya/index.php">5</a></li>
+                <li class="pagination_list_item p-six"><a class="pagination__number" href="../otzyvy-shestaya/index.php">6</a></li>
+                <li class="pagination_list_item p-seven"><a class="pagination__number" href="../otzyvy-sedmaya/index.php">7</a></li>
             </ul>
         </div>
     </div>

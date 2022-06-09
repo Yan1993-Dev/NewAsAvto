@@ -168,19 +168,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/stocks.css");
             </div>
             <div class="category">
                 <ul class="category__list">
-                    <li class="category__item"> <a href="/novosti/krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
+                <li class="category__item">
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
                                 15.04.2022
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__title auto_desc_under">Кроссовер OMODA 5 в России представит олимпийская чемпионка</a>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
                         </div>
                         <p class="category__desc">
-                            АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
+                            Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
                         </p>
-                        <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
                     </li>
                     <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
                         <div class="date__info">

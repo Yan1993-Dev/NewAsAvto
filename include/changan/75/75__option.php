@@ -1,36 +1,42 @@
-<div class="line__complect">
-            <h2 class="slider_title_three">комфорт и опции</h2>
-        </div>
-        <div class="slider-container_one">
-            <div class="swiper-container_one">
-                <div class="swiper-wrapper_one">
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_1.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Уникальная система управления жестами – изменяй параметры климатической установки, переключай треки мультимедийной системы, регулируй громкость – и все это не прикасаясь к экрану! Настройся на свою волну одним взмахом вместе с CHERY TIGGO 4.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_2.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Smart-браслет. Дублирует функции ключа дистанционного управления, делая процесс управления автомобилем максимально комфортным. Браслет может быть подключен к смартфону, что открывает возможности не только мониторинга состояния автомобиля, но и основных показателей здоровья владельца. Непосредственно со Smart-браслета можно дистанционно запустить двигатель.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_3.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Мультимедийная система с сенсорным дисплеем 9’ и управлением жестами
-Технологическое превосходство на кончиках пальцев! Уникальные ощущения от контроля обеспечивают 9 сенсорный экран с управлением жестами. Имеется возможность подключить смартфон по Bluetooth или по проводу с возможностью использовать навигацию и другие приложения смартфона. Уникальная система управления жестами – изменяйте параметры климатической установки, переключайте треки, регулируйте громкость – и все это не прикасаясь к экрану! 
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_4.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Chery Tiggo 4 оснащён полным комплектов “теплых опций”: обогрев всех сидений, рулевого колеса, ветрового стекла, боковых зеркал и форсунок стеклоомывателя. Какой бы суровой не оказалась зима, пассажирам салона Tiggo 4 не придется мерзнуть, а водителю не нужно беспокоиться об обледенении стёкол. Помимо этого, автомобиль имеет штатный дистанционный запуск двигателя, управлять которым можно с использованием ключа или smart-браслета.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_5.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Камера заднего вида и датчики парковки. Идеальная парковка. Камера заднего вида с направляющими элементами поможет припарковаться в наиболее сложных местах и проконтролирует ваши движения. Ультразвуковые датчики парковки безошибочно обнаружат даже небольшое препятствие на пути.
-</p>
-                    </div>
+<div class="line_exter">
+    <h2 class="slider_title_one">Двигатель и трансмиссия</h2>
+</div>
+<div class="slider-container_one">
+    <div class="swiper-container_one">
+        <div class="swiper-wrapper_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">1,8Т 149,5 л/с</p>
                 </div>
-                <div class="swiper-pagination_one"></div>
+            </div>
+                <p class="text_slide">Полностью алюминиевый турбированный двигатель JL486ZQ2 серии Blue Core объемом 1,8 литра, оснащен непосредственным впрыском, турбиной Borg Warner и двойными фазовращателями на распредвалах с ременным приводом. Мощность мотора в Китае составляет 163 л/с, специально для России он дефорсирован до налого выгодных 149,5 сил, а момент варьируется от типа привода: 220 Н/м для версии с передним приводом и 245 Н/м для полноприводной модификации.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">6АКПП Asin</p>
+                </div>
+            </div>
+                <p class="text_slide">Классическая гидромеханическая АКПП обеспечивает эффективную передачу крутящего момента к колесам, плавное и четкое переключение передач. Для переднеприводной версии предусмотрена модель Aisin TF-70SC, а полноприводная оборудована Aisin TF-81SC.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Полный привод</p>
+                </div>
+            </div>
+                <p class="text_slide">Changan CS75FL создан для комфортного и уверенного передвижения в любых условиях. Полный привод подключаемый, в конструкции используется муфта от компании Borg Warner, которая способна передать до 50% крутящего момента на задние колеса.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Независимая подвеска</p>
+                </div>
+            </div>
+                <p class="text_slide">Передняя подвеска независимая, типа Макферсон, с гидравлическими телескопическими амортизаторами и стабилизатором поперечной устойчивости. Задняя - также независимая, многорычажная.</p>
             </div>
         </div>
+        <div class="swiper-pagination_one swiper-pagination-custom"></div>
+    </div>
+</div>

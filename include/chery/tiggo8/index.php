@@ -276,19 +276,20 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
             </div>
             <div class="category">
                 <ul class="category__list">
-                <li class="category__item"> <a href="/novosti/krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
+                <li class="category__item">
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
                                 15.04.2022
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__title auto_desc_under">Кроссовер OMODA 5 в России представит олимпийская чемпионка</a>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
                         </div>
                         <p class="category__desc">
-                        АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
+                            Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
                         </p>
-                        <a href="/novosti/krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
                     </li>
                     <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
@@ -331,59 +332,59 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                 <ul class="category__list">
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/hojfzfm4q3xx2m62w40lq8rodxqe2yxu.jpeg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            30.04.2022
+                            31.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> Tiggo 8PRO MAX
+                        <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
                     </p>
                     <p class="category__desc">
-                    Спасибо менеджеру Рузилю Тухватуллину!!! Хотели купить в другом салоне машину, но менеджер привёл достойные аргументы в сторону покупки Chery. Решили приобрести Tiggo 8PRO MAX
+                        Понравилась хорошая атмосфера и работа менеджера
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/b65mf9girrd97nfz6ubxcp4srhqqptnc.jpg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/graaj6qf31ybav6a55n89eiakfm0mm2l.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            29.04.2022
+                            30.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> EXEED LX
+                        <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
                     </p>
                     <p class="category__desc">
-                    Благодарю за помощь в выборе и оформлении автомобиля в кредит сотрудников Автосалона АсАвто.  Буду ваш автосалон рекомендовать знакомым.
+                        Вежливый персонал. Хорошо оценили старую машину. Подобрали и заказали нужную комплектацию и цвет. Машина пришла в заданный период. Обязательно порекомендую знакомым и друзьям.
                     </p>
                 </li>
                 <li class="category__item">
                     <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/bnpm4aqvih4uyhwclihmxoc9lgnmsvgi.jpeg" class="category__image minimized">
+                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xqjrqlrsnlw5vqria24iyxj8pt1j1yu2.jpeg" class="category__image minimized">
                     </div>
                     <div class="date__info">
                         <p class="date__info-item">
-                            29.04.2022
+                            28.05.2022
                         </p>
                     </div>
                     <div class="auto__desc">
                         <span class="auto_desc_under">Дилерский центр:</span> Самара
                     </div>
                     <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> CHERY Tiggo 4
+                        <span class="auto_desc_under">Автомобиль:</span> HAVAL H9
                     </p>
                     <p class="category__desc">
-                    Всё устроило. Расположение удачное. Сотрудники доброжелательные. Сервис хороший
+                        Купил автомобиль который и хотел, порадовали скидки и профессионализм сотрудников
                     </p>
                 </li>
                 </ul>

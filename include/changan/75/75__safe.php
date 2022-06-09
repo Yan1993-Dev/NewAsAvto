@@ -1,42 +1,59 @@
-<div class="line__complect">
-            <h2 class="slider_title_three">комфорт и опции</h2>
-        </div>
-        <div class="slider-container_one">
-            <div class="swiper-container_one">
-                <div class="swiper-wrapper_one">
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/bezopasnost_1.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Результаты краш-тестов.
-Результаты четырёх ударов по методике C-NCAP:
-Фронтальный краш-тест с перекрытием 100%: оценка: 82% (14.78 баллов из 18)
-Фронтальный краш-тест с перекрытием 40%: оценка: 78% (14.06 баллов из 18)
-Боковой краш-тест: оценка: 100% (18 баллов из 18)
-Удар сзади: оценка: 89% (3.57 баллов из 4)
-По итогам проведенных краш-тестов, специалисты сделали заключение, что все шесть подушек безопасности раскрылись в штатном режиме. Фронтальные подушки уберегли головы и шеи передних пассажиров от травм и растяжений, боковые подушки в креслах передних сидений свели к минимуму нагрузку на тела пассажиров, а шторки безопасности защитили головы от контакта с элементами интерьера. Все пассажиры Tiggo 4 надежно защищены в случае ДТП.
-
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/bezopasnost_2.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Оцинкованный кузов и высокопрочной стали. Адаптация к российским условиям эксплуатации за счет оцинковки ультрапрочной, термоформованной сталью – оцинкованы все детали (кроме крыши), толщина цинкового покрытия 0,2 мм (двустороннее). Гарантия на кузов 5 лет! Высокопрочные сплавы от компании Benteler использованы при изготовлении более чем 60% деталей кузова. Пол кузова усилен тройными лонжеронами для повышения его прочности.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/bezopasnost_3.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Система Эра-Глонасс. ГЛОНАСС сработает в экстренной ситуации, автоматически вызвав службу спасения, а подушки безопасности водителя и пассажира обеспечат максимальный уровень защиты. Нам важно держать любую ситуацию под контролем.
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/bezopasnost_4.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">ESP 9.3 от Bosch. Chery Tiggo 4 оборудован новейшей системой курсовой устойчивости от Bosch версии 9.3, которая включает в себя антиблокировочную систему тормозов (ABS), динамическую стабилизацию (ESP), помощника при экстренном торможении (HBA), удержание при старте в гору (HSA), контроль тягового усилия (TCS) и систему снижения вероятности опрокидывания (RFM).
-</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img data-src="<?= SITE_TEMPLATE_PATH ?>/static/images/bezopasnost_5.jpg" src="#" alt="" class="img_slider_one swiper-lazy">
-                        <div class="swiper-lazy-preloader swiper-lazy-preloader-black"></div>
-                        <p class="text_slide">Гарантия 5 лет или 150 000 км пробега. Длительный период гарантии позволяет быть уверенным в его надежности и долговечности. При своевременном техническом обслуживании у официального дилера риск неожиданной поломки практически равен нулю.
-</p>
-                    </div>
+<div class="line_exter">
+    <h2 class="slider_title_one">Надежность и безопасность</h2>
+</div>
+<div class="slider-container_one">
+    <div class="swiper-container_one">
+        <div class="swiper-wrapper_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Гарантия 5 лет или 150 000 км пробега</p>
                 </div>
-                <div class="swiper-pagination_one"></div>
+            </div>
+                <p class="text_slide">Не беспокойтесь о поломках и неисправностях! Гарантия на Changan CS75FL 5 лет или 150 000 км пробега.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">LED-оптика</p>
+                </div>
+            </div>
+                <p class="text_slide">Светодиодные фары дальнего и ближнего света обеспечивают отличное освещение дороги в любых погодных условиях. Световая температура оптимальна для глаз человека, а дальность освещения поражает.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">TPMS</p>
+                </div>
+            </div>
+                <p class="text_slide">Любое отклонение температуры и/или давления воздуха в шине любого колеса система распознает и выводит звуковой и визуальный сигнал, привлекая внимание водителя. </p>
+            </div>
+
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Высокопрочный кузов</p>
+                </div>
+            </div>
+                <p class="text_slide">Для изготовления кузова используется высокопрочная сталь. Со всех четырех сторон силовой клетки салона имеются зоны программируемой деформации, задача которых принять на себя энергию удара и распределить ее по всему кузову, сохранив пассажиров целыми.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">ESP</p>
+                </div>
+            </div>
+                <p class="text_slide">Changan CS75FL оборудован системой ESP Bosch версии 9.3. Этот электронный помощник сводит к минимуму риск заноса и снова автомоибля и уберегает водителя от критических ситуаций.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">SRS AirBag</p>
+                </div>
+            </div>
+                <p class="text_slide">Changan CS75FL оборудован фронтальными подушками безопасности, боковыми передними и шторками безопасности во всю длину салона. Передние ремни безопасности с преднатяжителями и ограничителями максимального усилия надежно фиксируют пассажиров и предотвращают травмы.</p>
             </div>
         </div>
+        <div class="swiper-pagination_one swiper-pagination-custom"></div>
+    </div>
+</div>

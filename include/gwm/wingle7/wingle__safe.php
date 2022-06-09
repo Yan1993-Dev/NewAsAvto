@@ -1,25 +1,42 @@
-<div class="line__complect">
-            <h2 class="slider_title_three">комфорт и опции</h2>
-        </div>
-        <div class="slider-container_one">
-            <div class="swiper-container_one">
-                <div class="swiper-wrapper_one">
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_1.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Уникальная система управления жестами – изменяй параметры климатической установки, переключай треки мультимедийной системы, регулируй громкость – и все это не прикасаясь к экрану! Настройся на свою волну одним взмахом вместе с CHERY TIGGO 4.</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_2.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Smart-браслет. Дублирует функции ключа дистанционного управления, делая процесс управления автомобилем максимально комфортным. Браслет может быть подключен к смартфону, что открывает возможности не только мониторинга состояния автомобиля, но и основных показателей здоровья владельца. Непосредственно со Smart-браслета можно дистанционно запустить двигатель.</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_3.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Мультимедийная система с сенсорным дисплеем 9’ и управлением жестами Технологическое превосходство на кончиках пальцев! Уникальные ощущения от контроля обеспечивают 9 сенсорный экран с управлением жестами. Имеется возможность подключить смартфон по Bluetooth или по проводу с возможностью использовать навигацию и другие приложения смартфона. Уникальная система управления жестами – изменяйте параметры климатической установки, переключайте треки, регулируйте громкость – и все это не прикасаясь к экрану! </p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_4.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Chery Tiggo 4 оснащён полным комплектов “теплых опций”: обогрев всех сидений, рулевого колеса, ветрового стекла, боковых зеркал и форсунок стеклоомывателя. Какой бы суровой не оказалась зима, пассажирам салона Tiggo 4 не придется мерзнуть, а водителю не нужно беспокоиться об обледенении стёкол. Помимо этого, автомобиль имеет штатный дистанционный запуск двигателя, управлять которым можно с использованием ключа или smart-браслета.</p>
-                    </div>
-                    <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/comfort_options_5.jpg" alt="" class="img_slider_one">
-                        <p class="text_slide">Камера заднего вида и датчики парковки. Идеальная парковка. Камера заднего вида с направляющими элементами поможет припарковаться в наиболее сложных местах и проконтролирует ваши движения. Ультразвуковые датчики парковки безошибочно обнаружат даже небольшое препятствие на пути.</p>
-                    </div>
+<div class="line_exter">
+    <h2 class="slider_title_one">Надежность и безопасность</h2>
+</div>
+<div class="slider-container_one">
+    <div class="swiper-container_one">
+        <div class="swiper-wrapper_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Гарантия 6 лет или 150 000 км пробега</p>
                 </div>
-                <div class="swiper-pagination_one"></div>
+            </div>
+                <p class="text_slide">Гарантия на автомобиль составляет 36 месяцев или 150 000 км пробега. Гарантия на ЛКП и защиту от коррозии 6 лет.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">ESP и ABS</p>
+                </div>
+            </div>
+                <p class="text_slide">Уверенное поведение GWM Wingle 7 даже в экстремальных условиях обеспечивается современными системами активной безопасности: ABS, ESP и Brake Assist.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">SRS AirBag</p>
+                </div>
+            </div>
+                <p class="text_slide">Автомобиль оснащен фронтальными подушками безопасности и ремнями безопасности с преднатяжителями и ограничителями максимального усилия. Поставщиком компонентов системы является компания Avtoliv.</p>
+            </div>
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXFour.jpg" alt="" class="img_slider_one">
+            <div class="swiper__wrapper__text">
+            <div class="swiper__inner__wrp">
+                    <p class="swiper__inner__text">Надежный кузов</p>
+                </div>
+            </div>
+                <p class="text_slide">Усиленные стойки кузова, травмобезопасные рулевая колонка и педальный узел и целый ряд других мер позволили обеспечить высокий уровень безопасности пассажиров GWM Wingle 7 в случае аварии.</p>
             </div>
         </div>
+        <div class="swiper-pagination_one swiper-pagination-custom"></div>
+    </div>
+</div>

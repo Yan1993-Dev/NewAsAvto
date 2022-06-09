@@ -58,6 +58,21 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		<div class="category">
 			<ul class="category__list">
 			<li class="category__item">
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+					</div>
+					<p class="category__desc">
+					Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
+					</p>
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
+				</li>
+			<li class="category__item">
 					<a href="./krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">

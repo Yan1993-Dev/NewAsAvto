@@ -713,6 +713,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
     </section>
     </div>
     <div class="background__fos">
+    <div class="container_site"> 
         <div class="flex__cont">
             <div class="middle">
                 <div class="repair__li">
@@ -788,6 +789,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/service.css");
                     </div>
                 </form>
             </section>
+        </div>
         </div>
     </div>
     <div class="container_site">
