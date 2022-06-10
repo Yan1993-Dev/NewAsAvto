@@ -4,7 +4,7 @@
 <div class="slider-container_one">
     <div class="swiper-container_one">
         <div class="swiper-wrapper_one">
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXOne.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/cs55ExOne.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Брутальный дизайн</p>
@@ -12,7 +12,7 @@
             </div>
                 <p class="text_slide">Стильные решения от международной команды дизайнеров Changan просматриваются в каждой детали Changan CS55. Строгие и лаконичные линии кузова удачно сочетаются с декоративными элементами и формами оптики.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXTwo.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/cs55ExTwo.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Лаконичные линии</p>
@@ -20,7 +20,7 @@
             </div>
                 <p class="text_slide">Машина в классическом для кроссоверов кузове с плавными линиями и узкой решеткой радиатора выглядит спортивно и стильно.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/exeedLXThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/cs55ExThr.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Эффектная оптика</p>

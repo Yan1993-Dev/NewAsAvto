@@ -163,7 +163,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             )
         ); ?>
     </div>
-    </div>
 
     <div class="container_site">
         <? $APPLICATION->IncludeComponent(

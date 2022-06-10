@@ -161,7 +161,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             )
         ); ?>
     </div>
-    </div>
 
     <div class="container_site">
         <? $APPLICATION->IncludeComponent(
@@ -201,7 +200,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "PATH" => "/include/55__safe.php"
             )
         ); ?>
-
     </div>
     <div class="container_site">
         <div id="complictation"></div>
