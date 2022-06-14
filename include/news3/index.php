@@ -57,6 +57,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
+			<li class="category__item"> <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC00732-HDRdfgdfg.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							11.08.2021
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__title">EXEED расширяет модельную линейку</a>
+					</div>
+					<p class="category__desc">
+						Компания EXEED объявляет о расширении модельного ряда марки в России до конца 2021 года. Линейка марки будет состоять из трёх автомобилей SUV-сегмента: VX, TXL и LX.
+					</p>
+					<a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__info">Читать далее</a>
+				</li>
 			<li class="category__item"> <a href="../novosti/start-prodazh-tiggo-4/index.php"><img src="/local/templates/NewAsAvto/static/images/hjfdoirjewh.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
@@ -210,20 +224,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						По итогам первого квартала 2021 года рост продаж новых автомобилей марки CHERY в России составил 374% по отношению к аналогичному периоду прошлого года.
 					</p>
 					<a href="../novosti/populyarnost-cheri/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="../novosti/transmissiya-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/idfhgohdsoho.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							04.05.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="../novosti/transmissiya-tiggo-8/index.php" class="category__title">Трансмиссия кроссовера Chery Tiggo 8 в экспертном рейтинге лучших</a>
-					</div>
-					<p class="category__desc">
-						27 марта 2021 года опубликован рейтинг «10 лучших в мире. Коробки передач», составленный экспертным сообществом Академии автомобильной оценки Lopal Cup.
-					</p>
-					<a href="../novosti/transmissiya-tiggo-8/index.php" class="category__info">Читать далее</a>
 				</li>
 			</ul>
 		</div>

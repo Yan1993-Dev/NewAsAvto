@@ -297,7 +297,7 @@ $APPLICATION->SetTitle("Крупнейший официальный дилер �
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
                         </div>
                         <p class="category__desc">
                             Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.

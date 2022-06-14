@@ -274,20 +274,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 					</p>
 					<a href="./start-prodazh-obnovlennogo-krossovera-tiggo-8/index.php" class="category__info">Читать далее</a>
 				</li>
-				<li class="category__item"> <a href="./vladet-chery-tiggo/index.php"><img src="/local/templates/NewAsAvto/static/images/rjokhfjghsihfjug.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							29.12.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="./vladet-chery-tiggo/index.php" class="category__title">Владеть CHERY TIGGO 8 PRO – выгодно. Доказано «Автостат»</a>
-					</div>
-					<p class="category__desc">
-						По результатам исследования «Стоимость владения автомобилем», проведенного аналитическим агентством «Автостат», семиместный кроссовер CHERY TIGGO 8 PRO в своём сегменте вошёл в ТОП-3, продемонстрировав один из лучших показателей.
-					</p>
-					<a href="./vladet-chery-tiggo/index.php" class="category__info">Читать далее</a>
-				</li>
 			</ul>
 		</div>
 		<div class="pagination">

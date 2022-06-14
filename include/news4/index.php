@@ -57,6 +57,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
+			<li class="category__item"> <a href="../novosti/transmissiya-tiggo-8/index.php"><img src="/local/templates/NewAsAvto/static/images/idfhgohdsoho.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							04.05.2021
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="../novosti/transmissiya-tiggo-8/index.php" class="category__title">Трансмиссия кроссовера Chery Tiggo 8 в экспертном рейтинге лучших</a>
+					</div>
+					<p class="category__desc">
+						27 марта 2021 года опубликован рейтинг «10 лучших в мире. Коробки передач», составленный экспертным сообществом Академии автомобильной оценки Lopal Cup.
+					</p>
+					<a href="../novosti/transmissiya-tiggo-8/index.php" class="category__info">Читать далее</a>
+				</li>
 				<li class="category__item"> <a href="../novosti/chery-tiggo-8-pro-v-serdtse/index.php"><img src="/local/templates/NewAsAvto/static/images/OTR02960.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">

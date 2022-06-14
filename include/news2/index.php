@@ -56,6 +56,20 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		</div>
 		<div class="category">
 			<ul class="category__list">
+			<li class="category__item"> <a href="./vladet-chery-tiggo/index.php"><img src="/local/templates/NewAsAvto/static/images/rjokhfjghsihfjug.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							29.12.2021
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./vladet-chery-tiggo/index.php" class="category__title">Владеть CHERY TIGGO 8 PRO – выгодно. Доказано «Автостат»</a>
+					</div>
+					<p class="category__desc">
+						По результатам исследования «Стоимость владения автомобилем», проведенного аналитическим агентством «Автостат», семиместный кроссовер CHERY TIGGO 8 PRO в своём сегменте вошёл в ТОП-3, продемонстрировав один из лучших показателей.
+					</p>
+					<a href="./vladet-chery-tiggo/index.php" class="category__info">Читать далее</a>
+				</li>
 				<li class="category__item"> <a href="../novosti/android-auto/index.php"><img src="/local/templates/NewAsAvto/static/images/z4dov6hk2vr2is8x4zfc8hm7ymy90gppdhfgdhd.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
@@ -251,20 +265,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						В Китае состоялось ежегодное ралли электромобилей CEVR, в котором приняли участие всемирно известные автомобильные компании с целью демонстрации возможностей их продуктов. Концерн CHERY заявил на соревнование два своих электроблокбастера – компакт-кар EQ1 и кроссовер EQ5. После тщательной экспертной оценки автомобили CHERY завоевали десять наград, среди которых «Лучшая выносливость» и «Лучшая быстрая зарядка».
 					</p>
 					<a href="../novosti/desyat-nagrad/index.php" class="category__info">Читать далее</a>
-				</li>
-				<li class="category__item"> <a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php"><img src="/local/templates/NewAsAvto/static/images/DSC00732-HDRdfgdfg.jpg" class="category__image" alt=""></a>
-					<div class="date__info">
-						<p class="date__info-item">
-							11.08.2021
-						</p>
-					</div>
-					<div class="category__title__wrap">
-						<a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__title">EXEED расширяет модельную линейку</a>
-					</div>
-					<p class="category__desc">
-						Компания EXEED объявляет о расширении модельного ряда марки в России до конца 2021 года. Линейка марки будет состоять из трёх автомобилей SUV-сегмента: VX, TXL и LX.
-					</p>
-					<a href="../novosti/exeed-rasshiryaet-modelnuyu-lineyku/index.php" class="category__info">Читать далее</a>
 				</li>
 			</ul>
 		</div>

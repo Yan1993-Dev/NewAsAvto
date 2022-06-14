@@ -20,7 +20,7 @@
             </div>
                 <p class="text_slide">Контрастный двухцветный интерьер, сочная мультимедиа с поддержкой Android Auto и CarPlay</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayInThr.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/coolrayInThrNew.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Панорамная крыша</p>

@@ -70,7 +70,7 @@
             </div>
                 <p class="text_slide">Сдвижная панорамная крыша добавляет пространства. Стеклянные элементы изготовлены из толстого закаленного стекла, шторка эффективно защищает от солнца, а управление всеми элементами электрическое.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlTechNine.jpg" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/txlTechNineNew.jpg" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Беспроводная зарядка</p>

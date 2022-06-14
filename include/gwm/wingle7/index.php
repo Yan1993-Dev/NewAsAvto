@@ -184,6 +184,19 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         ); ?>
     </div>
     <div class="container_site">
+        <? $APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            array(
+                "AREA_FILE_RECURSIVE" => "Y",
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/wingle__safe.php"
+            )
+        ); ?>
+    </div>
+    <div class="container_site">
         <div id="complictation"></div>
         <div class="equip">
             <div class="equipment_wrapper">
@@ -257,7 +270,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             </p>
                         </div>
                         <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
                         </div>
                         <p class="category__desc">
                             Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.

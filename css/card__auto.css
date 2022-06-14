@@ -299,6 +299,8 @@ nav ul li {
 .text_slide {
     text-align: center;
     margin-top: 100px;
+    font-size: 18px;
+    line-height: calc(24/18);
 }
 
 .img_slider_one {
@@ -326,7 +328,7 @@ nav ul li {
 .slider-container_one {
     overflow: hidden;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .swiper-wrapper_one {
@@ -568,10 +570,6 @@ nav ul li {
 
 /* общие стили для слайдеров */
 
-.swiper-pagination_one  {
-    margin-top: 40px;
-}
-
 .swiper-pagination-bullet .swiper-pagination-bullet-active {
     background-color: #202020;
     -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
@@ -685,7 +683,7 @@ nav ul li {
 /* аккордион */
 
 .equip {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .equipment_to_title {
@@ -4721,7 +4719,7 @@ nav ul li {
 
     .equipment_item, .accordion__icon_adapt{
         position: absolute;
-        margin-top: 220px;
+        margin-top: 245px;
         left: 47%;
         margin-left: 0px;
     }

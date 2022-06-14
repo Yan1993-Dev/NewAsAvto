@@ -36,7 +36,7 @@
             </div>
                 <p class="text_slide">Шесть надувных подушек безопасности, ремни безопасности с системой снижения вероятности травм, травмобезопасный интерьер и прочный кузов - необходимый набор систем пассивной безопасности.</p>
             </div>
-            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8safeLast.jpg" src="#" alt="" class="img_slider_one">
+            <div class="swiper-slide_one card_one"><img src="<?= SITE_TEMPLATE_PATH ?>/static/images/Tiggo8safeLastNew.jpg" src="#" alt="" class="img_slider_one">
             <div class="swiper__wrapper__text">
             <div class="swiper__inner__wrp">
                     <p class="swiper__inner__text">Гарантия 5 лет или 150 000 км. пробега</p>
