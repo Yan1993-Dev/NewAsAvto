@@ -116,8 +116,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                                 "PATH" => "/include/changan__btn.php"
                             )
                         ); ?>
-                    </div>
-                    <div class="tabs__nav__second tabs__nav">
                         <? $APPLICATION->IncludeComponent(
                             "bitrix:main.include",
                             "",
@@ -591,9 +589,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                 <div class="title">Дилерские центры «АсАвто»</div>
                 <ul class="list_unstyled">
                     <li class="visible" data-coordinates='{"lat": 53.263619542243866, "lng": 50.26215135698404}' data-center='{"lat": 53.263619542243866, "lng": 50.25}' data-zoom="14">
-                        <div class="name">АсАвто на Алма-Атинской</div>
+                        <div class="name">ГК «АсАвто» в Самаре: ДЦ «Самара Север»</div>
                         <div class="items">
-                            <div class="item addr">г. Самара, Алма-Атинская, 87</div>
+                            <div class="item addr">ул. Алма-Атинская 87</div>
                             <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
                             <div class="item clock">Автосалон: 9:00 - 21:00</div>
                             <div class="item clock">СТО: 8:00 - 20:00</div>
@@ -601,9 +599,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                         </div>
                     </li>
                     <li data-coordinates='{"lat": 53.25195107740439, "lng": 50.36005176768642}' data-center='{"lat": 53.25195107740439, "lng": 50.346}' data-zoom="14">
-                        <div class="name">АсАвто на Аэропортовском шоссе</div>
+                        <div class="name">ГК «АсАвто» в Самаре: ДЦ «Самара Восток»</div>
                         <div class="items">
-                            <div class="item addr">г. Самара, Аэропортовское шоссе, 1Ж</div>
+                            <div class="item addr">Аэропортовское шоссе 1Ж</div>
                             <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
                             <div class="item clock">Автосалон: 9:00 - 21:00</div>
                             <div class="item clock">СТО: 8:00 - 20:00</div>
@@ -611,9 +609,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                         </div>
                     </li>
                     <li data-coordinates='{"lat": 53.137290, "lng": 50.179647}' data-center='{"lat": 53.139475, "lng": 50.167675}' data-zoom="14">
-                        <div class="name">АсАвто на Южном шоссе</div>
+                        <div class="name">ГК «АсАвто» в Самаре: ДЦ «Самара Юг»</div>
                         <div class="items">
-                            <div class="item addr">г. Самара, Южное шоссе 12А, строение 4</div>
+                            <div class="item addr">Южное шоссе 12А, строение 4</div>
                             <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
                             <div class="item clock">Автосалон: 9:00 - 20:00</div>
                             <div class="item clock">СТО: 8:00 - 20:00</div>
@@ -621,9 +619,9 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                         </div>
                     </li>
                     <li data-coordinates='{"lat": 53.578003950614864, "lng": 49.41344120138184}' data-center='{"lat": 53.578003950614864, "lng": 49.40}' data-zoom="14">
-                        <div class="name">АсАвто в пос.Тимофеевка (г. Тольятти)</div>
+                        <div class="name">ГК «АсАвто» в Тольятти</div>
                         <div class="items">
-                            <div class="item addr">пос. Тимофеевка (г.Тольятти), ул. Солнечная, 1А</div>
+                            <div class="item addr">Тимофеевка, ул. Солнечная 1А</div>
                             <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
                             <div class="item clock">Автосалон: 9:00 - 21:00</div>
                             <div class="item clock">СТО: 8:00 - 20:00</div>
@@ -631,10 +629,30 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
                         </div>
                     </li>
                     <li data-coordinates='{"lat": 51.557420, "lng": 46.066993}' data-center='{"lat": 51.557420, "lng": 46.052}' data-zoom="14">
-                        <div class="name">ГК АсАвто, г. Саратов</div>
+                        <div class="name">ГК «АсАвто» в Саратове: ДЦ «Саратов EXEED», ДЦ «Саратов Chery», ДЦ «Саратов FAW»</div>
                         <div class="items">
-                            <div class="item addr">г. Саратов, Соколовая гора, 4</div>
+                            <div class="item addr">Соколовая гора, д.4</div>
                             <div class="item tel"><a href="tel:+7(8846)215-00-07">8 (846) 215 00 07</a></div>
+                            <div class="item clock">Автосалон: 9:00 - 20:00</div>
+                            <div class="item clock">СТО: 8:00 - 20:00</div>
+                            <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        </div>
+                    </li>
+                    <li data-coordinates='{"lat": 51.557582, "lng": 46.068764}' data-center='{"lat": 51.557582, "lng": 46.068764}' data-zoom="14">
+                        <div class="name">ГК «АсАвто» в Саратове: ДЦ «Саратов Geely»</div>
+                        <div class="items">
+                            <div class="item addr">ул. Большая Сеченская, д.8</div>
+                            <div class="item tel"><a href="tel:+7(8452) 65-95-00">8 (8452) 65-95-00</a></div>
+                            <div class="item clock">Автосалон: 9:00 - 20:00</div>
+                            <div class="item clock">СТО: 8:00 - 20:00</div>
+                            <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>
+                        </div>
+                    </li>
+                    <li data-coordinates='{"lat": 53.242309, "lng": 50.241486}' data-center='{"lat": 53.242309, "lng": 50.241486}' data-zoom="14">
+                        <div class="name">ГК «АсАвто» в Самаре:  «Станция Кузовного ремонта»</div>
+                        <div class="items">
+                            <div class="item addr">Карла Маркса 412 Б</div>
+                            <div class="item tel"><a href="tel:+7(846) 211-10-41">8 (846) 211-10-41</a></div>
                             <div class="item clock">Автосалон: 9:00 - 20:00</div>
                             <div class="item clock">СТО: 8:00 - 20:00</div>
                             <div class="item site"><a href="email:asavtomotors.ru@yandex.ru">asavtomotors.ru@yandex.ru</a></div>

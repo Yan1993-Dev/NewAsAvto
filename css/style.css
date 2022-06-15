@@ -337,6 +337,7 @@ nav ul li {
 }
 
 .tabs__nav {
+    flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -349,7 +350,7 @@ nav ul li {
 }
 
 .tabs__nav-btn {
-    padding: 15px 30px;
+    padding: 15px 25px;
     font-size: 20px;
     background-color: #fff;
     border: 0;
@@ -576,7 +577,6 @@ nav ul li {
 .title {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
-    margin-top: 50px;
     text-align: center;
     font-size: 24px;
     line-height: calc(28/24);

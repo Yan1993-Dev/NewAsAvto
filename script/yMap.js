@@ -63,6 +63,30 @@ function initYaMap() {
           iconColor: "rgb(237, 69, 67)",
         }
       )
+    )
+    .add(
+      new ymaps.Placemark(
+        [51.557582, 46.068764],
+        {
+          balloonContent: "ул. Большая Сеченская, д.8",
+        },
+        {
+          preset: "islands#icon",
+          iconColor: "rgb(237, 69, 67)",
+        }
+      )
+    )    
+    .add(
+      new ymaps.Placemark(
+        [53.242309, 50.241486],
+        {
+          balloonContent: "Карла Маркса 412 Б",
+        },
+        {
+          preset: "islands#icon",
+          iconColor: "rgb(237, 69, 67)",
+        }
+      )
     );
 
 
