@@ -251,6 +251,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             "PATH" => "/include/coolray__flagshipSport.php"
                         )
                     ); ?>
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        array(
+                            "AREA_FILE_RECURSIVE" => "Y",
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/coolray__Nero.php"
+                        )
+                    ); ?>
                 </ul>
             </div>
         </div>
