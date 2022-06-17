@@ -373,6 +373,11 @@ nav ul li {
     background-color: #ddd;
 }
 
+.sub__tabs__item.active {
+    color: #fff;
+    background-color: #ddd;
+}
+
 .tabs__content {
     padding: 30px;
     background-color: #fff;

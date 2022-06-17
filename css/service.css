@@ -360,7 +360,7 @@ button .tabs__nav-btn:active {
 }
 
 .tabs__nav-btn.active {
-    background-color: #cafdff;
+    background-color: #9feff2;
     border-radius: 10px;
 }
 
@@ -394,6 +394,11 @@ button .tabs__nav-btn:active {
 .sub__nav-btn:hover {
     transition: 0.3s;
     background-color: #ddd;
+}
+
+.sub__tabs__item.active {
+    background-color: #9feff2;
+    border-radius: 10px;
 }
 
 .table__scroll {
