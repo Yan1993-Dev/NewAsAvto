@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">LUXE 4WD</li>
+                <li class="equipment_item_model">1,8T AT 4WD Luxury</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -22,38 +22,15 @@
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации LUXE 4WD:</p>
-        <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСВЕЩЕНИЕ</h3>
-        <ul class="save">
-            <li class="save_item">Система помощи при парковке с отображением расстояния до объекта
-и звуковым информированием (4-ре датчика в заднем бампере + 2-а датчика в переднем бампере)
-            </li>
-            <li class="save_item">Муфта полного привода с принудительной блокировкой
-            </li>
-            <li class="save_item">Система помощи при спуске (HDC)
-            </li>
-            <li class="save_item">Датчик дождя
-            </li>
-            <li class="save_item">Электростеклоподъёмники передних и задних дверей с функцией
-автоматического открывания и закрывания окна двери водителя и переднего пассажира
-            </li>
-        </ul>
+    <p class="save_title_additionally">В дополнение к комплектации 1,8T AT 2WD Luxury:</p>
         <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
         <ul class="design">
-            <li class="design_item">Боковые шторки безопасности</li>
             <li class="design_item">3-х точечный ремень безопасности водителя и переднего пассажира
 с преднатяжителем
             </li>
         </ul>
         <h3 class="comfort_title">ЭКСТЕРЬЕР</h3>
         <ul class="comfort">
-            <li class="comfort_item">Легкосплавные колёсные диски оригинального дизайна 18х7J,
-двухцветные. Шины 225/60 R18
-            </li>
-            <li class="comfort_item">Полноразмерное запасное колесо 225/65R17
-            </li>
-            <li class="comfort_item">Полноразмерное запасное колесо 225/65R17
-            </li>
             <li class="comfort_item">Электроскладываемые наружные зеркала заднего вида окрашенные в цвет кузова
 с интегрированными светодиодными указателями поворота, с электрорегулировкой,
 подогревом, функцией памяти положения и помощи при движении задним ходом

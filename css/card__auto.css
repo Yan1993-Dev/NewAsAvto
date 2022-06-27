@@ -4,6 +4,12 @@
     padding: 0 195px;
 }
 
+.container_complictation {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 95px;
+}
+
 .btn {
     display: inline-block;
     color: #fff;
@@ -165,7 +171,7 @@ nav ul li {
   nav ul ul {
     display: none;
     position: absolute;
-    margin-top: -10px;
+    margin-top: 5px;
   }
   nav ul ul li {
     float: none;
@@ -870,6 +876,8 @@ nav ul li {
     font-family: 'TacticSans-Reg';
     src: url(../static/fonts/TacticSans-Reg.otf);
     margin-left: 35px;
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 25px;
     padding: 17px;
 }
@@ -1822,13 +1830,79 @@ nav ul li {
     cursor: pointer;
 }
 
-
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+ * {
+	 box-sizing: border-box;
+}
+ body {
+	 padding: 0.2em 2em;
+}
+ table {
+	 width: 100%;
+}
+ table th {
+	 text-align: left;
+	 border-bottom: 1px solid #ccc;
+}
+ table th, table td {
+	 padding: 0.4em;
+}
+ table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+	 cursor: pointer;
+}
+ table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
+	 position: relative;
+	 padding-left: 35px;
+}
+ table.fold-table > tbody > tr.view td:first-child:before, table.fold-table > tbody > tr.view th:first-child:before {
+	 position: absolute;
+	 top: 50%;
+	 left: 5px;
+	 width: 9px;
+	 height: 16px;
+	 margin-top: -8px;
+	 font: 16px fontawesome;
+	 color: #999;
+	 content: url(../static/icons/arrow_down.svg);
+	 transition: all 0.3s ease;
+}
+ table.fold-table > tbody > tr.view:nth-child(4n-1) {
+	 background: #eee;
+}
+ table.fold-table > tbody > tr.view.open td:first-child:before, table.fold-table > tbody > tr.view.open th:first-child:before {
+	 transform: rotate(-180deg);
+	 color: #333;
+}
+ table.fold-table > tbody > tr.fold {
+	 display: none;
+}
+ table.fold-table > tbody > tr.fold.open {
+	 display: table-row;
+}
+ .fold-content {
+	 padding: 0.5em;
+}
+ .fold-content h3 {
+	 margin-top: 0;
+}
+ .fold-content > table {
+	 border: 2px solid #ccc;
+}
+ .fold-content > table > tbody tr:nth-child(even) {
+	 background: #eee;
+}
+ 
 
 @media (min-width: 1261px) and (max-width: 1366px) {
     .container_site {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
+    }
+
+    .save_title {
+        font-size: 20px;
+        font-weight: 600;
     }
     
     .adress {
@@ -1886,6 +1960,18 @@ nav ul li {
         margin: 0 auto;
         padding: 0 10px;
     }
+
+    .save_title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .container_complictation {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    
 
     .container__sub {
         max-width: 1024px;
@@ -1976,6 +2062,14 @@ nav ul li {
     .traid__btn {
         margin-top: 30px;
     }
+
+    table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
+        font-size: 14px;
+    }
+
+    table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+        font-size: 14px;
+    }
     
     .checkbox__personal {
         padding-left: 150px;
@@ -2001,6 +2095,12 @@ nav ul li {
         max-width: 710px;
         margin: 0 auto;
         padding: 0px 10px;
+    }
+
+    .container_complictation {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
 
     .swiper__inner__text {
@@ -2382,6 +2482,8 @@ nav ul li {
 
     .save_title, .design_title, .comfort_title {
         margin-left: -10px;
+        font-size: 20px;
+        font-weight: 600;
         margin-top: 15px;
     }
 
@@ -2465,11 +2567,28 @@ nav ul li {
 }
 
 @media (min-width: 423px) and (max-width: 769px) {
-
     .container_site {
         max-width: 648px;
         margin: 0 auto;
         padding: 0 15px;
+    }
+
+    .container_complictation {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .view {
+        font-size: 14px;
+    }
+
+    .final__price {
+        display: none;
+    }
+
+    .equipment_item_credit_btn {
+        width: 165px;
     }
 
     .swiper__inner__text {
@@ -3043,7 +3162,6 @@ nav ul li {
     }
 
     /* стили аккордеона */
-    
     .equipment_item_adapt {
         display: block;
     }
@@ -3089,7 +3207,8 @@ nav ul li {
     }
 
     .save_title {
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 600;
         margin-left: 5px;
         margin-top: 10px;
     }
@@ -3131,11 +3250,19 @@ nav ul li {
     }
     
     .equipment_item_old_price{
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .per {
+        display: none;
+    }
+
+    .equipment_item_old_price {
+        display: none;
     }
 
     .equipment_item_new_price {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .equipment_item_new_adapt {
@@ -3176,6 +3303,8 @@ nav ul li {
         height: 535px;
         top: 15%;
     }
+
+    
 
     .news {
         overflow: hidden;
@@ -3328,6 +3457,24 @@ nav ul li {
         max-width: 360px;
         margin: 0 auto;
         padding: 0px 5px;
+    }
+
+    .container_complictation {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .per {
+        display: none;
+    }
+
+    .equipment_item_old_price {
+        display: none;
+    }
+
+    .final__price {
+        display: none;
     }
     
     .swiper__inner__text {
@@ -3952,6 +4099,8 @@ nav ul li {
     }
 
     .save_title {
+        font-weight: 600;
+        font-size: 20px;
         margin-left: -10px;
         font-size: 14px;
         margin-top: 20px;
@@ -4177,6 +4326,24 @@ nav ul li {
 @media (min-width: 320px) and (max-width: 373px) {
     .container_site {
         padding: 0 5px;
+    }
+    
+    .container_complictation {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .per {
+        display: none;
+    }
+
+    .equipment_item_old_price {
+        display: none;
+    }
+    
+    .final__price {
+        display: none;
     }
 
     .swiper__inner__text {
@@ -4817,7 +4984,8 @@ nav ul li {
     }
 
     .save_title {
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: 600;
         margin-left: -10px;
         margin-top: 30px;
     }

@@ -7,7 +7,7 @@
                                     </svg></li>
                                 <div class="compl">
                                     <li class="equipment_item_adapt">Комплектация</li>
-                                    <li class="equipment_item_model">Dreamline</li>
+                                    <li class="equipment_item_model">1.6T 7DCT FLAGSHIP (DREAMLINE)</li>
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_price_adapt">Цена</li>
@@ -15,14 +15,14 @@
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_new_adapt">Финальная цена</li>
-                                    <li class="equipment_item_new_price">2 810 619 руб</li>
+                                    <li class="equipment_item_new_price">3 049 900 руб</li>
                                 </div>
                                 <li class="equipment_item_credit_price">в кредит за 14 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                             </ul>
                         </span>
                         <div class="accordion__content" aria-hidden="true">
-                        <p class="save_title_additionally">В дополнение к комплектации Speedline</p>
+                        <p class="save_title_additionally">В дополнение к комплектации 1.6T 7DCT PREMIUM (SPEEDLINE)</p>
                             <ul class="save">
                                 <li class="save_item">Темно-коричневый цвет отделки сидений</li>
                                 <li class="save_item">Передние датчики парковки</li>
@@ -38,6 +38,7 @@
                                 <li class="save_item">Панорамная крыша с люком и шторкой</li>
                                 <li class="save_item">Цветная сенсорная боковая панель управления климат-контролем 8"</li>
                                 <li class="save_item">8 динамиков</li>
+                                <li class="save_item">Система Start-Stop</li>
                             </ul>
                         </div>
                     </li>

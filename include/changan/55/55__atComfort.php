@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.5 AT COMFORT</li>
+                <li class="equipment_item_model">1.5T AT COMFORT</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -25,19 +25,9 @@
     <p class="save_title_additionally">В дополнение к комплектации 1.5 MT COMFORT:</p>
         <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСВЕЩЕНИЕ</h3>
         <ul class="save">
-            <li class="save_item">Электроусилитель рулевого управления с возможностью выбора усилия на рулевом колесе
-            </li>
             <li class="save_item">Интеллектуальный (SMART) ключ с функциями дистанционного запуска двигателя, комфортного доступа, поиска автомобиля на парковке
             </li>
             <li class="save_item">Системы бесключевого доступа и запуска двигателя PEPS (Passive Entry Passive Start)
-            </li>
-            <li class="save_item">Электростеклоподъёмники передних и задних дверей с функцией автоматического открывания
-            </li>
-            <li class="save_item">6 динамиков
-            </li>
-            <li class="save_item">Двухрежимный подогрев передних сидений
-            </li>
-            <li class="save_item">Шумо- и теплоизоляция моторного отсека
             </li>
         </ul>
         <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
@@ -46,8 +36,6 @@
         </ul>
         <h3 class="comfort_title">ИНТЕРЬЕР</h3>
         <ul class="comfort">
-            <li class="comfort_item">Комбинированная отделка сидений искусственной кожей
-            </li>
             <li class="comfort_item">Механическая регулировка положения рулевого колеса по высоте и по вылету
             </li>
         </ul>

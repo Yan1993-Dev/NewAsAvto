@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">PREMIUM</li>
+                <li class="equipment_item_model">1.5T DCT 4WD Premium</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,58 +15,60 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">3 079 000 руб</li>
+                <li class="equipment_item_new_price">2 899 000 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации ELITE:</p>
-        <h3 class="save_title">Дизайн</h3>
+        <p class="save_title_additionally">За исключением к комплектации 2.0T DCT 4WD Elite:</p>
+        <h3 class="save_title">Технические характеристики</h3>
         <ul class="save">
-            <li class="save_item">Люк с электроприводом
+            <li class="save_item">Двигатель 2.0, турбированный, 190 л/с
             </li>
         </ul>
-        <h3 class="design_title">ИНТЕРЬЕР</h3>
+        <p class="save_title_additionally">В дополнение к комплектации 2.0T DCT 4WD Elite:</p>
+        <h3 class="save_title">Экстерьер</h3>
+        <ul class="save">
+            <li class="save_item">Люк
+            </li>
+            <li class="save_item">Тонированные задние стекла
+            </li>
+        </ul>
+        <h3 class="design_title">Интерьер</h3>
         <ul class="design">
-            <li class="design_item">Сиденья с отделкой искусственной кожей с вставкой желтого цвета</li>
-        </ul>
-        <h3 class="comfort_title">Управление</h3>
-        <ul class="comfort">
-            <li class="comfort_item">Центральный замок с дистанционным управлением
+            <li class="design_item">Сиденья с отделкой экокожей с перфорацией</li>
+            <li class="save_item">Черный интерьер (опционально)
             </li>
-            <li class="comfort_item">Дистанционное управление открытием двери багажника
+            <li class="save_item">Синий интерьер с бежевыми вставками (опционально)
             </li>
-            <li class="comfort_item">Электрический усилитель рулевого управления
-            </li>
-            <li class="comfort_item">Индикатор расхода топлива и напоминания о ТО
+            <li class="save_item">Черный интерьер с красными вставками (опционально)
             </li>
         </ul>
         <h3 class="comfort_title">Комфорт</h3>
         <ul class="comfort">
-            <li class="comfort_item">Цифровая панель приборов 7"
+            <li class="comfort_item">Сиденье водителя с электрорегулировкой в 8 направлениях
             </li>
-            <li class="comfort_item">Контроллер управления мультимедийной системой
+            <li class="comfort_item">Сиденье водителя с электрорегулировкой поясничной поддержки
+            </li>
+            <li class="comfort_item">Вентиляция сиденья водителя
+            </li>
+            <li class="comfort_item">Беспроводная зарядка для смартфонов
             </li>
         </ul>
-        <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>
+        <h3 class="comfort_title">Безопасность</h3>
         <ul class="comfort">
-            <li class="comfort_item">Шторки безопасности
-            </li>
-            <li class="comfort_item">Передние датчики парковоки
-            </li>
             <li class="comfort_item">Система камер кругового обзора 360⁰
             </li>
-            <li class="comfort_item">Адаптивный круиз-контроль (ACC)
-(только для двигателя 2.0Т в комплектации Premium)
+            <li class="comfort_item">Шторки безопасности
             </li>
-
-            <li class="comfort_item">Система предупреждения о возможном столкновении при движении вперед (FCW)
-(только для двигателя 2.0Т в комплектации Premium)
+            <li class="comfort_item">Передние датчики парковки
             </li>
-            <li class="comfort_item">Автоматическая система торможения (AEB)
-(только для двигателя 2.0Т в комплектации Premium)
+        </ul>
+        <h3 class="comfort_title">Колесные диски</h3>
+        <ul class="comfort">
+            <li class="comfort_item">Легкосплавные колесные диски 19" с шинами размерностью 225/55
             </li>
         </ul>
     </div>

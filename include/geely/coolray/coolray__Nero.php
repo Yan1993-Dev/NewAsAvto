@@ -22,7 +22,7 @@
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации 1.5 DCT FLAGSHIPSPORT (AT):</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5 DCT FLAGSHIP SPORT (AT):</p>
         <h3 class="save_title">Экстерьер</h3>
         <ul class="save">
             <li class="save_item">18-дюймовые черныe легкосплавные диски особого дизайна
@@ -37,6 +37,12 @@
             <li class="save_item">Эксклюзивные коврики салона с вышивкой Coolray NERO
             </li>
             <li class="save_item">Металлическая накладка с логотипом на задний бампер
+            </li>
+        </ul>
+        <p class="save_title_additionally">Исключение из комплектации 1.5 DCT FLAGSHIP SPORT (AT)</p>
+        <h3 class="save_title">Экстерьер</h3>
+        <ul class="save">
+            <li class="save_item">Двухцветная окраска кузова
             </li>
         </ul>
     </div>

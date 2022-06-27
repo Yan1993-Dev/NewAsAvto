@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">ELITE 4WD АКПП</li>
+                <li class="equipment_item_model">1.5T DCT 4WD Elite</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,17 +15,17 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">2 289 000 руб</li>
+                <li class="equipment_item_new_price">2 139 000 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации ELITE 2WD АКПП:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 2WD Premium:</p>
         <h3 class="comfort_title">Технические характеристики</h3>
         <ul class="comfort">
-            <li class="comfort_item">Полный привод
+            <li class="comfort_item">Интеллектуальный полный привод
             </li>
         </ul>
     </div>

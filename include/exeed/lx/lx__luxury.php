@@ -15,7 +15,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">2 804 915 руб</li>
+                <li class="equipment_item_new_price">2 339 900 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -65,6 +65,7 @@
             <li class="design_item">Автоматическая блокировка дверей на скорости</li>
             <li class="design_item">Функция автоматического включения фар при вождении в темное время (датчик света)</li>
             <li class="design_item">Функция автоматического включения работы дворников при дожде (датчик дождя)</li>
+            <li class="design_item">Функция отсрочки выключения фар (follow me home)</li>
             <li class="design_item">Уменьшенное запасное колесо</li>
         </ul>
         <h3 class="comfort_title">УПРАВЛЕНИЕ</h3>

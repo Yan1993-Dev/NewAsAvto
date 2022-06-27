@@ -223,39 +223,203 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         </div>
         <div class="ex ex-3">
             <ul class="accordion__list">
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/t77__luxury.php"
-                    )
-                ); ?>
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/t77__atLuxury.php"
-                    )
-                ); ?>
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/t77__president.php"
-                    )
-                ); ?>
+                <li class="accordion">
+                    <button class="accordion__control" aria-expanded="false"></button>
+                    <span class="accordion__title">
+                        <ul class="equipment_title_two">
+                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
+                                </svg></li>
+                            <div class="compl">
+                                <li class="equipment_item_adapt">Комплектация</li>
+                                <li class="equipment_item_model">LUXURY MT</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_price_adapt">Цена</li>
+                                <li class="equipment_item_old_price">2 069 000 руб.</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_new_adapt">Финальная цена</li>
+                                <li class="equipment_item_new_price">1 919 000 руб</li>
+                            </div>
+                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
+                        </ul>
+                    </span>
+                    <div class="accordion__content" aria-hidden="true">
+                        <h3 class="save_title">ЭКСТЕРЬЕР</h3>
+                        <ul class="save">
+                            <li class="save_item">Светодиодные (LED) фары</li>
+                            <li class="save_item">Светодиодные (LED) задние фонари</li>
+                            <li class="save_item">Светодиодные (LED) дневные ходовые огни</li>
+                            <li class="save_item">Задняя противотуманная фара</li>
+                            <li class="save_item">Дополнительный стоп-сигнал</li>
+                            <li class="save_item">Рейлинги на крыше</li>
+                            <li class="save_item">Легкосплавные колесные диски R18</li>
+                            <li class="save_item">Хромированные ручки открывания дверей (внешние)</li>
+                            <li class="save_item">Боковые зеркала заднего вида с электроприводом и подогревом</li>
+                            <li class="save_item">Боковые зеркала заднего вида с повторителями поворотов</li>
+                            <li class="save_item">Электропривод складывания зеркал при блокировке автомобиля</li>
+                            <li class="save_item">Декоративная крышка двигателя</li>
+                            <li class="save_item">Нижняя защита двигателя</li>
+                        </ul>
+                        <h3 class="design_title">ИНТЕРЬЕР</h3>
+                        <ul class="design">
+                            <li class="design_item">Цифровая приборная панель диагональю 12.3"</li>
+                            <li class="design_item">Панорамная крыша с люком с функцией антизащемления</li>
+                            <li class="design_item">Шторка багажника</li>
+                            <li class="design_item">Передние и задние светодиодные лампы для чтения</li>
+                            <li class="design_item">Подсветка в солнцезащитных козырьках</li>
+                            <li class="design_item">Бокс для хранения очков</li>
+                            <li class="design_item">Центральный подлокотник передних сидений</li>
+                            <li class="design_item">Электростеклоподъемники с функцией «Auto»</li>
+                            <li class="design_item">Откидывание задних сидений в пропорции 40:60</li>
+                            <li class="design_item">Сиденья с кожаной отделкой</li>
+                        </ul>
+                        <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>
+                        <ul class="comfort">
+                            <li class="comfort_item">Иммобилайзер</li>
+                            <li class="comfort_item">Фронтальные подушки безопасности</li>
+                            <li class="comfort_item">Боковые передние подушки безопасности</li>
+                            <li class="comfort_item">Антиблокировочная тормозная система (ABS)</li>
+                            <li class="comfort_item">Система распределения тормозных усилий (EBD)</li>
+                            <li class="comfort_item">Система аварийного торможения (EBA)</li>
+                            <li class="comfort_item">Система контроля тяги (TCS)</li>
+                            <li class="comfort_item">Электронная система контроля устойчивости (ESP)</li>
+                            <li class="comfort_item">Cистема помощи при старте на подъёме (HAC)</li>
+                            <li class="comfort_item">Система помощи при спуске</li>
+                            <li class="comfort_item">Электронный стояночный тормоз (EPB)</li>
+                            <li class="comfort_item">Функция удержания автомобиля на месте Autohold</li>
+                            <li class="comfort_item">Задние датчики парковки</li>
+                            <li class="comfort_item">Камера заднего вида</li>
+                            <li class="comfort_item">Функция блокировки замков при начале движения</li>
+                            <li class="comfort_item">Система мониторинга давления в шинах (TPMS)</li>
+                            <li class="comfort_item">Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС</li>
+                            <li class="comfort_item">Крепления для детских кресел стандарта ISOFIX на втором ряде сидений</li>
+                            <li class="comfort_item">Механизм блокировки открывания дверей второго ряда изнутри («Детский замок»)</li>
+                            <li class="comfort_item">Передние ремни безопасности с регулировкой по высоте</li>
+                            <li class="comfort_item">Сигнализация непристегнутого ремня водителя</li>
+                            <li class="comfort_item">Сигнализация непристегнутого ремня пассажира</li>
+                            <li class="comfort_item">Сигнализация непристегнутого ремня задних пассажиров</li>
+                            <li class="comfort_item">Малоразмерное запасное колесо</li>
+                        </ul>
+                        <h3 class="comfort_title">ИНТЕЛЕКТУАЛЬНЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ</h3>
+                        <ul class="comfort">
+                            <li class="comfort_item">Функция задержки выключения фар (follow me home)</li>
+                            <li class="comfort_item">Круиз-контроль</li>
+                        </ul>
+                        <h3 class="comfort_title">КОМФОРТ</h3>
+                        <ul class="comfort">
+                            <li class="comfort_item">Система бесключевого доступа Smartkey</li>
+                            <li class="comfort_item">Кнопка запуска двигателя</li>
+                            <li class="comfort_item">Центральный замок с дистанционным управлением</li>
+                            <li class="comfort_item">Однозонный климат контроль</li>
+                            <li class="comfort_item">Электрорегулировка сиденья водителя в 6 направлениях</li>
+                            <li class="comfort_item">Ручная регулировка сиденья переднего пассажира в 4 направлениях</li>
+                            <li class="comfort_item">Функция блокировки замков при начале движения</li>
+                            <li class="comfort_item">Передние и задние стеклоподъёмники с функцией Auto</li>
+                            <li class="comfort_item">Подогрев передних сидений</li>
+                            <li class="comfort_item">Мультифункциональное рулевое колесо</li>
+                            <li class="comfort_item">Индикатор температуры внешнего воздуха</li>
+                            <li class="comfort_item">Режим Sport / Eco mode</li>
+                            <li class="comfort_item">Электрический усилитель рулевого управления</li>
+                            <li class="comfort_item">Функция разблокировки двери багажника дистанционно кнопкой на ключе</li>
+                            <li class="comfort_item">Дефлекторы обдува для задних пассажиров</li>
+                        </ul>
+                        <h3 class="comfort_title">МУЛЬТИМЕДИА</h3>
+                        <ul class="comfort">
+                            <li class="comfort_item">Радио</li>
+                            <li class="comfort_item">Аудиосистема с 6 динамиками</li>
+                            <li class="comfort_item">Мультимедийная система с сенсорным экраном 12,3"</li>
+                            <li class="comfort_item">Bluetooth для подключения мобильных устройств</li>
+                            <li class="comfort_item">EasyConnection дублирование экрана смартфона на экране мультимедиa через USB, с поддержкой Android, iOS</li>
+                            <li class="comfort_item">Разъём USB зарядки в передней панели</li>
+                            <li class="comfort_item">Разъём USB зарядки для второго ряда</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion">
+                    <button class="accordion__control" aria-expanded="false"></button>
+                    <span class="accordion__title">
+                        <ul class="equipment_title_two">
+                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
+                                </svg></li>
+                            <div class="compl">
+                                <li class="equipment_item_adapt">Комплектация</li>
+                                <li class="equipment_item_model">LUXURY DCT</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_price_adapt">Цена</li>
+                                <li class="equipment_item_old_price">2 173 000 руб.</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_new_adapt">Финальная цена</li>
+                                <li class="equipment_item_new_price">2 023 000 руб</li>
+                            </div>
+                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
+                        </ul>
+                    </span>
+                    <div class="accordion__content" aria-hidden="true">
+                        <p class="save_title_additionally">В дополнение к комплектации LUXURY MT</p>
+                        <h3 class="design_title">ИНТЕРЬЕР</h3>
+                        <ul class="design">
+                            <li class="design_item">Цифровая приборная панель диагональю 8"</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="accordion">
+                    <button class="accordion__control" aria-expanded="false"></button>
+                    <span class="accordion__title">
+                        <ul class="equipment_title_two">
+                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
+                                </svg></li>
+                            <div class="compl">
+                                <li class="equipment_item_adapt">Комплектация</li>
+                                <li class="equipment_item_model">PRESTIGE DCT</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_price_adapt">Цена</li>
+                                <li class="equipment_item_old_price">2 302 000 руб.</li>
+                            </div>
+                            <div class="compl">
+                                <li class="equipment_item_new_adapt">Финальная цена</li>
+                                <li class="equipment_item_new_price">2 152 000 руб</li>
+                            </div>
+                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
+                        </ul>
+                    </span>
+                    <div class="accordion__content" aria-hidden="true">
+                        <p class="save_title_additionally">В дополнение к комплектации LUXURY DCT</p>
+                        <h3 class="design_title">ЭКСТЕРЬЕР</h3>
+                        <ul class="design">
+                            <li class="design_item">Легкосплавные колесные диски R19</li>
+                        </ul>
+                        <h3 class="design_title">ИНТЕРЬЕР</h3>
+                        <ul class="design">
+                            <li class="design_item">Цифровая приборная панель диагональю 12.3"</li>
+                            <li class="design_item">Атмосферная подсветка салона</li>
+                        </ul>
+                        <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
+                        <ul class="design">
+                            <li class="design_item">Боковые шторки безопасности</li>
+                            <li class="design_item">Система автономного экстренного торможения (AEB)</li>
+                        </ul>
+                        <h3 class="design_title">ИНТЕЛЕКТУАЛЬНЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ</h3>
+                        <ul class="design">
+                            <li class="design_item">Датчик дождя</li>
+                            <li class="design_item">Датчик света</li>
+                            <li class="design_item">Ассистент управления дальним светом</li>
+                            <li class="design_item">Интеллектуальный круиз-контроль</li>
+                            <li class="design_item">Система предупреждения о выезде из полосы движения (LDW)</li>
+                            <li class="design_item">Система информирования об усталости водителя</li>
+                            <li class="design_item">Интеллектуальное оповещение об ограничениях скорости</li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -267,93 +431,93 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
     </section>
 </div>
 <div class="container_site">
-        <div class="line__sale">
-            <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>
-        </div>
-        <ul class="flex">
-            <li class="content__stock">
-                <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
-                    <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/fkpwne6m0lvb9dahewvjvx2eftt52k3s.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="/aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/30</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="/aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-        </ul>
+    <div class="line__sale">
+        <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>
     </div>
+    <ul class="flex">
+        <li class="content__stock">
+            <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
+                <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/fkpwne6m0lvb9dahewvjvx2eftt52k3s.jpg" alt="stock" class="content__img">
+                <div class="content__btn">
+                    <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="btn__info">Узнать больше</a>
+                </div>
+            </a>
+        </li>
+        <li class="content__stock">
+            <a href="/aktsii/avtorassrochka-0-0-18/index.php">
+                <p class="content__title">Авторассрочка 0/0/30</p>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
+                <div class="content__btn">
+                    <a href="/aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
 <div class="container_site">
-        <section class="news">
-            <div class="line">
-                <h2 class="slider_title_news"><a href="/novosti/index.php" class="title__desc__inner">Новости</a></h2>
+    <section class="news">
+        <div class="line">
+            <h2 class="slider_title_news"><a href="/novosti/index.php" class="title__desc__inner">Новости</a></h2>
 
-            </div>
-            <div class="category">
-                <ul class="category__list">
-                <li class="category__item">
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                15.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
-                        </div>
-                        <p class="category__desc">
-                            Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
-                        </p>
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
-                    </li>
-                    <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                01.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
-                        </div>
-                        <p class="category__desc">
-                        Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
-                        </p>
-                        <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
-                    </li>
-                    <li class="category__item"> <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                01.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
-                        </div>
-                        <p class="category__desc">
-                        28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
-                        </p>
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </div>
-<div class="container_site">
-    <section class="feedback">
-        <div class="line__feedback">
-        <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
         </div>
         <div class="category">
             <ul class="category__list">
-            <li class="category__item">
+                <li class="category__item">
+                    <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            15.04.2022
+                        </p>
+                    </div>
+                    <div class="category__title__wrap">
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+                    </div>
+                    <p class="category__desc">
+                        Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
+                    </p>
+                    <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
+                </li>
+                <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            01.04.2022
+                        </p>
+                    </div>
+                    <div class="category__title__wrap">
+                        <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
+                    </div>
+                    <p class="category__desc">
+                        Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
+                    </p>
+                    <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
+                </li>
+                <li class="category__item"> <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
+                    <div class="date__info">
+                        <p class="date__info-item">
+                            01.04.2022
+                        </p>
+                    </div>
+                    <div class="category__title__wrap">
+                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
+                    </div>
+                    <p class="category__desc">
+                        28 апреля в нашем дилерском центре «Самара Восток» прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
+                    </p>
+                    <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+<div class="container_site">
+    <section class="feedback">
+        <div class="line__feedback">
+            <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
+        </div>
+        <div class="category">
+            <ul class="category__list">
+                <li class="category__item">
                     <div class="image__wrapper">
                         <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
                     </div>
@@ -481,7 +645,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
 
 <!-- заявка -->
 <div class="estimate__container">
-    <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+    <form class="form estimate" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
         <button class="popup_request__btn" type="button" aria-label="Close button"></button>
         <h2 class="popup_request">Оставить заявку</h2>
         <div class="popup_cont">

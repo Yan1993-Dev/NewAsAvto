@@ -7,7 +7,7 @@
                                     </svg></li>
                                 <div class="compl">
                                     <li class="equipment_item_adapt">Комплектация</li>
-                                    <li class="equipment_item_model">Speedline</li>
+                                    <li class="equipment_item_model">1.6T 7DCT PREMIUM (SPEEDLINE)</li>
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_price_adapt">Цена</li>
@@ -15,7 +15,7 @@
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_new_adapt">Финальная цена</li>
-                                    <li class="equipment_item_new_price">2 705 319 руб</li>
+                                    <li class="equipment_item_new_price">2 919 900 руб</li>
                                 </div>
                                 <li class="equipment_item_credit_price">в кредит за 14 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -27,21 +27,17 @@
                                 <li class="save_item">18-дюймовые алюминиевые литые диски</li>
                                 <li class="save_item">Окраска металлик (на выбор)</li>
                                 <li class="save_item">Рейлинги на крыше</li>
-                                <li class="save_item">Антенна в виде плавника</li>
                                 <li class="save_item">Расширители колесных арок</li>
                                 <li class="save_item">Выхлопная система с двумя патрубками</li>
                                 <li class="save_item">Задний спортивный спойлер</li>
-
                                 <li class="save_item">Светодиодные фары основного света</li>
-                                <li class="save_item">Передние дневные светодиодные ходовые огни</li>
+                                <li class="save_item">Передние светодиодные ходовые огни</li>
                                 <li class="save_item">Передние противотуманные фары</li>
                                 <li class="save_item">Динамические указатели поворота</li>
                                 <li class="save_item">Светодиодные задние фонари</li>
                                 <li class="save_item">Боковые зеркала с электрической регулировкой, обогревом, повторителями поворотов</li>
                                 <li class="save_item">Электропривод складывания зеркал</li>
                                 <li class="save_item">Пороги с подсветкой спереди</li>
-                                <li class="save_item">Наружная декоративная подсветка</li>
-                                <li class="save_item">Атмосферная подсветка интерьера</li>
                             </ul>
                             <h3 class="design_title">Безопасность 5 ★  C-NCAP</h3>
                             <ul class="design">
@@ -65,7 +61,7 @@
                                 <li class="design_item">Шторки безопасности</li>
                                 <li class="design_item">Передние ремни безопасности с регулировкой по высоте</li>
                                 <li class="design_item">Передние ремни безопасности с преднатяжителями</li>
-                                <li class="design_item">Ремни безопасности 2-го ряда с функцией блокировки, слева с преднатяжителем и огр.усилия</li>
+                                <li class="design_item">Ремни безопасности 2-го ряда с преднатяжителем и огр.усилия</li>
                                 <li class="design_item">Ремни безопасности 3-го ряда с функцией блокировки</li>
                                 <li class="design_item">Система удержания детских кресел Isofix для задних сидений</li>
                                 <li class="design_item">Блокировка замков задних дверей от открывания детьми (детский замок)</li>
@@ -75,6 +71,7 @@
                                 <li class="design_item">Задний стеклоочиститель</li>
                                 <li class="design_item">Уменьшенное запасное колесо</li>
                                 <li class="design_item">Газовые упоры капота</li>
+                                <li class="design_item">Система кругового обзора (HD-камера)</li>
                             </ul>
                             <h3 class="comfort_title">Управление</h3>
                             <ul class="comfort">
@@ -98,7 +95,7 @@
                                 <li class="design_item">Обогрев лобового стекла</li>
                                 <li class="design_item">Обогрев форсунок стеклоомывателя</li>
                                 <li class="design_item">Кожаная отделка сидений</li>
-                                <li class="design_item">Черный цвет отделки сидений</li>
+                                <li class="design_item">Премиальный дизайн интерьера Tiggo 8 PRO Premium</li>
                                 <li class="design_item">Водительское сиденье с электрической регулировкой в 6-ти направлениях</li>
                                 <li class="design_item">Водительское сиденье с электрической регулировкой поясничного упора</li>
                                 <li class="design_item">Пассажирское сиденье с механической регулировкой в 4-х направлениях</li>
@@ -106,7 +103,6 @@
                                 <li class="design_item">Сиденья 2-го ряда с механической продольной регулировкой</li>
                                 <li class="design_item">Сиденья 2-го ряда с механической регулировкой угла наклона спинки</li>
                                 <li class="design_item">Складная спинка сидений 2-го ряда в соотношении 1/3-2/3 (в ровный пол)</li>
-                                <li class="design_item">Сиденья 3-го ряда с механической регулировкой угла наклона спинки</li>
                                 <li class="design_item">Складная спинка сидений 3-го ряда в соотношении 1/2-1/2 (в ровный пол)</li>
                                 <li class="design_item">Подголовники всех сидений с регулировкой по высоте</li>
                                 <li class="design_item">Климат-контроль, 2 зоны</li>
@@ -114,7 +110,6 @@
                                 <li class="design_item">Дефлекторы для 2-го ряда</li>
                                 <li class="design_item">Многофункциональное кожаное рулевое колесо</li>
                                 <li class="design_item">Рулевая колонка с регулировкой в 4-х направлениях (по вылету и углу наклона)</li>
-                                <li class="design_item">Зеркало в солнцезащитном козырьке водителя и пассажира</li>
                                 <li class="design_item">Передние и задние электростеклоподъемники с защитой от защемления, авто</li>
                                 <li class="design_item">Передний центральный подлокотник с охлаждаемой ёмкостью для хранения</li>
                                 <li class="design_item">Подлокотник 2-го и 3-го рядов сидений</li>
@@ -126,9 +121,9 @@
                                 <li class="comfort_item">Большой сенсорный емкостный дисплей 12.3"</li>
                                 <li class="comfort_item">Цветной экран с бортовым компьютером в панели приборов 12.3"</li>
                                 <li class="comfort_item">Боковая панель управления климат-контролем 8"</li>
-                                <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля*(Android/Apple)</li>
+                                <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля(Android/Apple)</li>
                                 <li class="comfort_item">Радио</li>
-                                <li class="comfort_item">6 динамиков</li>
+                                <li class="comfort_item">8 динамиков</li>
                                 <li class="comfort_item">3 USB-разъема (2 спереди + 1 сзади)</li>
                             </ul>
                         </div>

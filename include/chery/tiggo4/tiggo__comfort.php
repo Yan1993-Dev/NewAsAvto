@@ -16,7 +16,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">1 649 900 руб</li>
+                <li class="equipment_item_new_price">1 629 900 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -33,6 +33,8 @@
         <ul class="comfort">
             <li class="comfort_item">Круиз-контроль
             </li>
+            <li class="comfort_item">Бесключевой запуск двигателя и доступ в автомобиль
+            </li>
         </ul>
         <h3 class="comfort_title">Комфорт</h3>
         <ul class="comfort">
@@ -48,15 +50,13 @@
             </li>
             <li class="comfort_item">Задний центральный подлокотник
             </li>
-            <li class="comfort_item">Крючок для одежды
-            </li>
         </ul>
         <h3 class="comfort_title">Технологии и мультимедиа
         </h3>
         <ul class="comfort">
             <li class="comfort_item">Большой сенсорный 9" емкостный дисплей с возможностью персонализации
             </li>
-            <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля*
+            <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля
             </li>
             <li class="comfort_item">Система "Свободные руки"(Hands free) с Bluetooth-связью с мобильным телефоном
             </li>

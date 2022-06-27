@@ -7,7 +7,7 @@
                                     </svg></li>
                                 <div class="compl">
                                     <li class="equipment_item_adapt">Комплектация</li>
-                                    <li class="equipment_item_model">Ultimate</li>
+                                    <li class="equipment_item_model">1.6T 7DCT ULTIMATE (HIGHLINE)</li>
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_price_adapt">Цена</li>
@@ -15,19 +15,18 @@
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_new_adapt">Финальная цена</li>
-                                    <li class="equipment_item_new_price">2 907 819 руб</li>
+                                    <li class="equipment_item_new_price">3 169 900 руб</li>
                                 </div>
                                 <li class="equipment_item_credit_price">в кредит за 14 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
                             </ul>
                         </span>
                         <div class="accordion__content" aria-hidden="true">
-                        <p class="save_title_additionally">В дополнение к комплектации Dreamline</p>
+                        <p class="save_title_additionally">В дополнение к комплектации 1.6T 7DCT FLAGSHIP (DREAMLINE)</p>
                             <ul class="save">
                                 <li class="save_item">Предупреждение о покидании полосы LDW</li>
                                 <li class="save_item">Ассистент удержания в полосе LKA</li>
                                 <li class="save_item">Ассистент движения в пробках TJA</li>
-                                <li class="save_item">Ассистент круиз-контроля ICA</li>
                                 <li class="save_item">Адаптивный круиз-контроль ACC</li>
                                 <li class="save_item">Система предупреждения о фронтальном столкновении FCW</li>
                                 <li class="save_item">Система автономного экстренного торможения AEB</li>

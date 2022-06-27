@@ -15,7 +15,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">3 649 990 руб</li>
+                <li class="equipment_item_new_price">3 549 990 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -54,7 +54,7 @@
         <ul class="comfort">
             <li class="comfort_item">Интеллектуальный круиз-контроль (ICC)
             </li>
-            <li class="comfort_item">Система автоматического экстренного торможения с распознаванием пешеходов (AEB)6
+            <li class="comfort_item">Система автоматического экстренного торможения с распознаванием пешеходов (AEB)
             </li>
             <li class="comfort_item">Система удержания автомобиля в полосе движения (LKS)
             </li>

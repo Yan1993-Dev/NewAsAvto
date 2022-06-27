@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">LUXE 2WD</li>
+                <li class="equipment_item_model">1,8T AT 2WD Luxury</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>

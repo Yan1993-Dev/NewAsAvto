@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">ELITE 2WD МКПП</li>
+                <li class="equipment_item_model">1.5T 6MT 2WD Elite</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,14 +15,14 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">2 069 000 руб</li>
+                <li class="equipment_item_new_price">1 919 000 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации COMFORT 2WD АКПП:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 2WD Comfort:</p>
         <h3 class="save_title">ЭКСТЕРЬЕР</h3>
         <ul class="save">
             <li class="save_item">Хромированные молдинги дверей
@@ -37,6 +37,8 @@
             <li class="design_item">Макияжное зеркало с подсветкой в солнцезащитных козырьках водителя и пассажира</li>
             <li class="design_item">Кожаный руль с подогревом
             </li>
+            <li class="design_item">Подогрев задних сидений
+            </li>
         </ul>
         <h3 class="comfort_title">ОБОРУДОВАНИЕ</h3>
         <ul class="comfort">
@@ -50,10 +52,14 @@
             </li>
             <li class="comfort_item">Электрохромное центральное зеркало заднего вида салона (с автозатемнением)
             </li>
+            <li class="comfort_item">Система помощи при спуске
+            </li>
         </ul>
         <h3 class="comfort_title">Технологии и мультимедиа</h3>
         <ul class="comfort">
             <li class="comfort_item">Интерактивная мультимедийная система T-Box с доступом в internet для обеспечения работы приложения MyHaval, с поддержкой Android Auto/Apple Carplay, Bluetooth
+            </li>
+            <li class="comfort_item">6 динамиков
             </li>
         </ul>
         <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>

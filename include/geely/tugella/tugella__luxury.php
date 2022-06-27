@@ -15,7 +15,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">3 549 990 руб</li>
+                <li class="equipment_item_new_price">3 449 990 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -112,7 +112,7 @@
             </li>
             <li class="comfort_item">Подогрев передних и задних сидений
             </li>
-            <li class="comfort_item">Электрообогрев лобового стекла* и подогрев форсунок омывателя
+            <li class="comfort_item">Электрообогрев лобового стекла и подогрев форсунок омывателя
             </li>
             <li class="comfort_item">Подогрев рулевого колеса
             </li>
@@ -145,6 +145,8 @@
             <li class="comfort_item">Датчик дождя
             </li>
             <li class="comfort_item">Датчик света
+            </li>
+            <li class="comfort_item">5 режимов вождения с шайбой селектора на центральной консоли (Комфорт, Спорт, Эко, Снег, Внедорожный)
             </li>
         </ul>
     </div>

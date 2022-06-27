@@ -11,11 +11,7 @@
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_price_adapt">Цена</li>
-                                    <li class="equipment_item_old_price">1 439 900 руб.</li>
-                                </div>
-                                <div class="compl">
-                                    <li class="equipment_item_new_adapt">Финальная цена</li>
-                                    <li class="equipment_item_new_price">1 399 900 руб</li>
+                                    <li class="equipment_item_new_price">1 687 000 руб.</li>
                                 </div>
                                 <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -23,11 +19,6 @@
                         </span>
                         <div class="accordion__content" aria-hidden="true">
                         <p class="save_title_additionally">В дополнение к комплектации COMFORT MT:</p>
-                            <h3 class="save_title">Безопасность</h3>
-                            <ul class="save">
-                                <li class="save_item">Система курсовой устойчивости (ESP)</li>
-                                <li class="save_item">Система помощи при трогании на уклоне (HAS)</li>
-                            </ul>
                             <h3 class="design_title">ЭКСТЕРЬЕР</h3>
                             <ul class="design">
                                 <li class="design_item">Люк с электроприводом</li>

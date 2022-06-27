@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">COMFORT 2WD</li>
+                <li class="equipment_item_model">1,8T AT 2WD Comfort</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -22,7 +22,7 @@
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-        <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСВЕЩЕНИЕ</h3>
+        <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСНАЩЕНИЕ</h3>
         <ul class="save">
             <li class="save_item">Эргономичное многофункциональное рулевое колесо с отделкой искусственной кожей, возможностью управления развлекательным центром и устройствами, подключенными по Bluetooth
             </li>
@@ -70,8 +70,6 @@
             </li>
             <li class="save_item">Стеклоочиститель задней двери
             </li>
-            <li class="save_item">Датчик дождя
-            </li>
             <li class="save_item">Электростеклоподъёмники передних и задних дверей с функцией автоматического открывания окна двери водителя
             </li>
             <li class="save_item">Газовые упоры капота
@@ -97,6 +95,8 @@
             <li class="save_item">Антигрязевая защита порогов спереди и сзади
             </li>
             <li class="save_item">Защита колесных арок
+            </li>
+            <li class="save_item">Съёмная выдвижная шторка багажного отделения
             </li>
         </ul>
         <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
@@ -144,7 +144,7 @@
             <li class="comfort_item">Легкосплавные колёсные диски оригинального дизайна 17х7J,
 двухцветные. Шины 225/65 R17
             </li>
-            <li class="comfort_item">Аварийное запасное колесо T165/80R17
+            <li class="comfort_item">Аварийное запасное колесо
             </li>
             <li class="comfort_item">Продольные рейлинги на крыше
             </li>

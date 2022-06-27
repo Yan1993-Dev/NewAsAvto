@@ -18,27 +18,17 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">1 825 917 руб</li>
+                <li class="equipment_item_new_price">1 859 900 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации 1,5 CVT Travel:</p>
+        <p class="save_title_additionally">В дополнение к комплектации 1,5 CVT Travel:</p>
         <h3 class="save_title">Дизайн</h3>
         <ul class="save">
             <li class="save_item">18-дюймовые алюминиевые литые диски (двухцветные с алмазной обработкой)
-            </li>
-            <li class="save_item">Комплектация исключает: Электропривод складывания зеркал, Декоративные элементы отделки решетки радиатора, дверей, Панорамный люк
-            </li>
-        </ul>
-        <h3 class="design_title">Безопасность</h3>
-        <ul class="design">
-            <li class="design_item">Регулятор тормозных сил в повороте (CBC)</li>
-            <li class="design_item">Передние ремни безопасности с ограничением усилия
-            </li>
-            <li class="design_item">Комплектация исключает: Боковые передние подушки безопасности
             </li>
         </ul>
         <h3 class="comfort_title">Управление</h3>
@@ -47,7 +37,7 @@
             </li>
             <li class="comfort_item">Гидравлический усилитель рулевого управления
             </li>
-            <li class="comfort_item">Электрический стояночный тормоз с функцией AutoHoldя
+            <li class="comfort_item">Электрический стояночный тормоз с функцией AutoHold
             </li>
         </ul>
         <h3 class="comfort_title">Комфорт</h3>
@@ -60,13 +50,24 @@
         <h3 class="comfort_title">Технологии и мультимедиа
         </h3>
         <ul class="comfort">
-            <li class="comfort_item">"Умный" ключ-браслет - дополнительное оборудование (доплата от 9 900 руб)
+            <li class="comfort_item">"Умный" ключ-браслет - дополнительное оборудование (оплачивается отдельно)
             </li>
             <li class="comfort_item">6 динамиков
             </li>
             <li class="comfort_item">Цветной экран 7" с бортовым компьютером в панели приборов с выбором цвета
             </li>
             <li class="comfort_item">Система распознавания жестов
+            </li>
+        </ul>
+        <p class="save_title_additionally">За исключением из комплектации 1,5 CVT Travel:</p>
+        <ul class="comfort">
+            <li class="save_item">Электропривод складывания зеркал
+            </li>
+            <li class="comfort_item">Декоративные элементы отделки решетки радиатора и дверей
+            </li>
+            <li class="comfort_item">Люк в крыше
+            </li>
+            <li class="comfort_item">Передние боковые подушки безопасности
             </li>
         </ul>
     </div>

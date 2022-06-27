@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">COMFORT 2WD АКПП</li>
+                <li class="equipment_item_model">1.5T DCT 2WD Comfort</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,21 +15,21 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">2 069 000 руб</li>
+                <li class="equipment_item_new_price">1 919 000 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации COMFORT 2WD МКПП:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5T 6MT 2WD Comfort:</p>
         <h3 class="save_title">ОБОРУДОВАНИЕ</h3>
         <ul class="save">
-            <li class="save_item">Электронный селектор передач (шайба)
+            <li class="save_item">Электронный селектор передач-шайба (Только для DCT)
             </li>
-            <li class="save_item">Воздуховоды заднего ряда
+            <li class="save_item">Воздуховоды заднего ряда (Только для DCT)
             </li>
-            <li class="save_item">Подрулевые лепестки переключения передач
+            <li class="save_item">Подрулевые лепестки переключения передач (Только для DCT)
             </li>
         </ul>
     </div>

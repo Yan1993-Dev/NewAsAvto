@@ -15,7 +15,7 @@
                                 </div>
                                 <div class="compl">
                                     <li class="equipment_item_new_adapt">Финальная цена</li>
-                                    <li class="equipment_item_new_price">2 539 900 руб</li>
+                                    <li class="equipment_item_new_price">2 639 900 руб</li>
                                 </div>
                                 <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
                                 <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -27,16 +27,18 @@
                             <ul class="save">
                                 <li class="save_item">19-дюймовые алюминиевые литые диски</li>
                                 <li class="save_item">Наружная подсветка зеркал</li>
+                                <li class="save_item">Панорамная крыша</li>
                             </ul>
                             <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
                             <ul class="design">
                                 <li class="design_item">Передние датчики парковки</li>
-                                <li class="design_item">Система кругового обзора 360</li>
+                                <li class="design_item">Система кругового обзора 360°</li>
                                 <li class="design_item">Задние боковые ремни безопасности с блокировкой (слева с ограничением усилия и преднатяжителем)</li>
                                 <li class="design_item">Напоминание о непристегнутых ремнях безопасности сзади</li>
-                                <li class="design_item">Ассистент смены полосы LCA</li>
+                                <li class="design_item">Ассистент смены полосы LDA</li>
                                 <li class="design_item">Система мониторинга слепых зон BSD</li>
                                 <li class="design_item">Предупреждение о заднем перекрестном столкновении RCTW</li>
+                                <li class="design_item">Шторки безопасности</li>
                             </ul>
                             <h3 class="comfort_title">КОМФОРТ</h3>
                             <ul class="comfort">

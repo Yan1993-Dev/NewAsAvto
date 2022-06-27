@@ -190,71 +190,588 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             )
         ); ?>
     </div>
-    <div class="container_site">
-        <div id="complictation"></div>
-        <div class="equip">
-            <div class="equipment_wrapper">
-                <ul class="equipment_to_title">
-                    <li class="equipment_item_comp">Комплектации</li>
-                    <li class="equipment_item_price">Цена</li>
-                    <li class="equipment_item_final">Финальная цена</li>
-                </ul>
-            </div>
-            <div class="ex ex-3">
-                <ul class="accordion__list">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__comfort.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__elite.php"
-                        )
-                    ); ?>
-                        <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__premium.php"
-                        )
-                    ); ?>
-                         <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/f7x__tech.php"
-                        )
-                    ); ?>
-                </ul>
-            </div>
-        </div>
+    <div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>1.5T DCT 2WD Comfort</td>
+                    <td class="pcs equipment_item_old_price">2 819 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 489 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Галогеновые фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные дневные ходовые огни</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные передние противотуманные фары с функцией освещения поворотов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные задние фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний дворник</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антена в форме плавника</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденья с отделкой тканью</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кожаное рулевое колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Макияжные зеркала в солнцезащитных козырьках с подсветкой</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система выбора режима движения - ЭКО, Спорт, Нормальный, Снег</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронный усилитель руля с выбором режима управления (легкий, комфорт, спорт)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронный стояночный тормоз (EPB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подогрев передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденье пассажира с механической регулировкой в 4 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция удержания автомобиля на месте Auto Hold</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Регулировка рулевой колонки по высоте и вылету</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Климат-контроль, однозонный</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.5" цветной экран на панели приборов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденье водителя с механической регулировкой в 6 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъемник двери водителя с функцией защиты от защемления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мультифункциональное рулевое колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рулевое колесо с обогревом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые электрозеркала с обогревом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев лобового стекла в зоне покоя щеток стеклоочистителя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система бесключевого доступа с запуском двигателя кнопкой</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подрулевые лепестки коробки передач</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъемники передних и задних дверей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев заднего стекла</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Розетка 12 В для передних пассажиров</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бортовой компьютер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный подлокотник</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складываемый задний ряд сидений в соотношении 60:40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складываемый задний подлокотник</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механическая регулировка угла наклона спинок сидений второго ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик света/ датчик дождя</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мультимедийная система с 12,3” цветным сенсорным дисплеем</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Аудиосистема с радио AM/FM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Поддержка систем Apple CarPlay / Android Auto для интеграции со смартфонами</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Интерфейс Bluetooth для подключения мобильных устройств</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Разъемы USB (3 спереди, 1 сзади)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 динамиков аудиосистемы</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фронтальные подушки безопасности для водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние боковые подушки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние ремни безопасности с преднатяжителями</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Регулировка передних ремней безопасности по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние ремни безопасности с преднатяжителями</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Индикатор непристегнутого ремня безопасности для водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система курсовой устойчивости (ESP)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Противо-буксовочная система (TCS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система предотвращения переворота автомобиля (RMI)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при экстренном торможении автомобиля (BA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при трогании на подъеме (HHC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при спуске (HDC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система контроля давления в шинах (TPMS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система экстренного реагирования при авариях «ЭРА-ГЛОНАСС»</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система крепления детского кресла ISOFIX</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Противоугонные системы</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Иммобилайзер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сигнализация</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Блокировка дверей при трогании с места</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок с дистанционным управлением</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Колесные диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Легкосплавные колесные диски 17" с шинами размерностью 225/65</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Неполноразмерное запасное колесо (докатка)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>1.5T DCT 2WD Elite</td>
+                    <td class="pcs equipment_item_old_price">2 959 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 629 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 2WD Comfort:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний спойлер</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденья с комбинированной отделкой (ткань+экокожа)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Шторка в багажнике</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система выбора режима движения Terrain Response - ЭКО, Спорт, Нормальный, Снег, Грязь, Песок</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Климат-контроль, двухзонный</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цифровая панель приборов 7"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подогрев задних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденье водителя с электрорегулировкой в 6 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъемники передних и задних дверей с функцией защиты от защемления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые электрозеркала с обогревом и электроскладыванием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрообогрев всей поверхности лобового стекла</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зеркало заднего вида с автоматическим затемнением</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8 динамиков аудиосистемы</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Телематическая система T-Box с доступом в internet для обеспечения работы приложения</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камера заднего вида с динамической разметкой</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>1.5T DCT 4WD Elite</td>
+                    <td class="pcs equipment_item_old_price">3 079 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 749 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 2WD Elite:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технические характеристики</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Интеллектуальный полный привод</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>2.0T DCT 4WD Elite</td>
+                    <td class="pcs equipment_item_old_price">3 229 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 899 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 4WD Elite:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технические характеристики</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двигатель 2.0, турбированный, 190 л/с</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>1.5T DCT 4WD Premium</td>
+                    <td class="pcs equipment_item_old_price">3 229 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 899 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">За исключением к комплектации 2.0T DCT 4WD Elite:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технические характеристики</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двигатель 2.0, турбированный, 190 л/с</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="save_title_additionally">В дополнение к комплектации 2.0T DCT 4WD Elite:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Люк</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тонированные задние стекла</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденья с отделкой экокожей с перфорацией</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Черный интерьер (опционально)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Синий интерьер с бежевыми вставками (опционально)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Черный интерьер с красными вставками (опционально)</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденье водителя с электрорегулировкой в 8 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденье водителя с электрорегулировкой поясничной поддержки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вентиляция сиденья водителя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Беспроводная зарядка для смартфонов</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система камер кругового обзора 360⁰</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Шторки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние датчики парковки</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Колесные диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Легкосплавные колесные диски 19" с шинами размерностью 225/55</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>2.0T DCT 4WD Premium</td>
+                    <td class="pcs equipment_item_old_price">3 379 000 руб.</td>
+                    <td class="cur equipment_item_new_price">3 049 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 4WD Premium:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технические характеристики</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двигатель 2.0, турбированный, 190 л/с</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>2.0T DCT 4WD Tech Plus</td>
+                    <td class="pcs equipment_item_old_price">3 499 000 руб.</td>
+                    <td class="cur equipment_item_new_price">3 169 000 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 2.0T DCT 4WD Premium:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цифровая панель приборов 12,3"</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Адаптивный круиз-контроль (ACC) с функцией движения на малых скоростях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система предупреждения о возможном столкновении при движении вперед (FCW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Автоматическая система торможения (AEB) с функцией распознавания пешеходов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция предотвращения столкновений при проезде перекрестков (AEB Crossroad)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cистема мониторинга слепых зон (BSM)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при выезде с парковки задним ходом (RCTA) с функцией торможения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система распознавания дорожных знаков (TSR)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о наезде сзади (RCW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система предупреждения о выходе из полосы движения с функциями возврата в полосу</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение об открытой двери (DOW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция умное уклонение (Smart Dodge)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система управления дальним светом (Auto Hi-Beam)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система автоматической парковки</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <div class="wrapper__est">
             <button class="btn estimate_btn__js">
                 Оставить заявку
             </button>
         </div>
-        </section>
     </div>
     <div class="container_site">
         <div class="line__sale">

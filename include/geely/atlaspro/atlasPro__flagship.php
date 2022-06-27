@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.5T 4WD 7DCT FLAGSHIP</li>
+                <li class="equipment_item_model">1.5T+48V EMS 4WD 7DCT FLAGSHIP</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -17,12 +17,12 @@
                 <li class="equipment_item_new_adapt">Финальная цена</li>
                 <li class="equipment_item_new_price">2 623 990 руб</li>
             </div>
-            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес <br> или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации 1.5T Luxury 4WD 7DCT:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5T+48V EMS 4WD 7DCT LUXURY:</p>
         <h3 class="save_title">Экстерьер</h3>
         <ul class="save">
             <li class="save_item">Интеллектуальная система управления дальним светом (IHBC)
@@ -35,10 +35,12 @@
             <li class="design_item">Декоративная металлизированная накладка на порог багажного отделения</li>
             <li class="design_item">42-цветная атмосферная подсветка на передней панели, в дверях, спереди в пространстве для ног
             </li>
+            <li class="design_item">Материал отделки стенок багажника: ковровое покрытие
+            </li>
         </ul>
         <h3 class="comfort_title">Безопасность</h3>
         <ul class="comfort">
-            <li class="comfort_item">Система автоматического экстренного торможения с возможностью распознавания пешеходов (AEB)6
+            <li class="comfort_item">Система автоматического экстренного торможения с возможностью распознавания пешеходов (AEB)
             </li>
             <li class="comfort_item">Система предупреждения о выезде из полосы движения (LDW)
             </li>

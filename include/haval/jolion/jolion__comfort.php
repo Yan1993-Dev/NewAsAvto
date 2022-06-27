@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">COMFORT 2WD МКПП</li>
+                <li class="equipment_item_model">1.5T 6MT 2WD Comfort</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,7 +15,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">1 969 000 руб</li>
+                <li class="equipment_item_new_price">1 819 000 руб</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -24,7 +24,7 @@
     <div class="accordion__content" aria-hidden="true">
         <h3 class="save_title">ЭКСТЕРЬЕР</h3>
         <ul class="save">
-            <li class="save_item">Светодиодные фары
+            <li class="save_item">Галогеновые фары
             </li>
             <li class="save_item">Хромированная решетка радиатора
             </li>
@@ -34,15 +34,14 @@
             </li>
             <li class="save_item">Окрашенные в цвет кузова передний и задний бампер, ручки дверей, зеркала заднего вида
             </li>
-            <li class="save_item">Укороченная антенна "акулий плавник"
+            <li class="save_item">Укороченная антенна «акулий плавник»
             </li>
         </ul>
         <h3 class="design_title">ИНТЕРЬЕР</h3>
         <ul class="design">
-            <li class="design_item">Мягкий пластик торпедо, верхней части приборной панели</li>
             <li class="design_item">Потолочные ручки интерьера для посадки пассажиров
             </li>
-            <li class="design_item">Потолочные ручки интерьера для посадки пассажиров
+            <li class="design_item">Тканевая обивка сидений
             </li>
         </ul>
         <h3 class="comfort_title">ОБОРУДОВАНИЕ</h3>
@@ -57,7 +56,7 @@
             </li>
             <li class="comfort_item">Функция задержки света фар после закрытия центрального замка (follow-me-home)
             </li>
-            <li class="comfort_item">Электростеклоподъемники 4 дверей с автодоводчиком со стороны водителя, с функцией автозажима
+            <li class="comfort_item">Электростеклоподъемники 4 дверей с автодоводчиком со стороны водителя, с функцией антизащемления
             </li>
             <li class="comfort_item">Подогрев и электрорегулировка зеркал заднего вида
             </li>
@@ -79,6 +78,8 @@
             <li class="comfort_item">Механическая регулировка сиденья водителя в 6 направлениях
             </li>
             <li class="comfort_item">Механическая регулировка сиденья пассажира в 4 направлениях
+            </li>
+            <li class="comfort_item">Задний подлокотник, 2 подстаканника
             </li>
         </ul>
         <h3 class="comfort_title">Технологии и мультимедиа</h3>
@@ -113,8 +114,6 @@
             <li class="comfort_item">Круиз-контроль
             </li>
             <li class="comfort_item">Система ГЛОНАСС
-            </li>
-            <li class="comfort_item">Автоматическое включение аварийного света при экстренном торможении
             </li>
             <li class="comfort_item">Блокировка замков задних дверей от открывания изнутри (детский замок)
             </li>

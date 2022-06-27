@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.5T 4WD 7DCT LUXURY</li>
+                <li class="equipment_item_model">1.5T+48V EMS 4WD 7DCT LUXURY</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -17,7 +17,7 @@
                 <li class="equipment_item_new_adapt">Финальная цена</li>
                 <li class="equipment_item_new_price">2 423 990 руб</li>
             </div>
-            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес <br> или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
@@ -29,12 +29,11 @@
             </li>
             <li class="save_item">Система рекуперативного торможения
             </li>
-            <li class="save_item">Режимы движения: Eco / Comfort / Sport / Off-road (только для 4WD)
+            <li class="save_item">Режимы движения: Eco / Comfort / Sport / Off-road
             </li>
-        </ul>
-        <h3 class="design_title">ИНТЕРЬЕР</h3>
-        <ul class="design">
-            <li class="design_item">Декоративные металлические накладки на пороги дверей
+            <li class="save_item">Система мягкого гибрида с приводным стартер-генератором, конвентером м 48-вольтовой литий-ионной батареей
+            </li>
+            <li class="save_item">Интеллектуальный полный привод
             </li>
         </ul>
     </div>

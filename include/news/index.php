@@ -55,9 +55,106 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 		<div class="title__poster__contain">
 			<h1 class="text__poster" id="calculator">Новости нашей компании</h1>
 		</div>
+
+		<li class="category__item">
+					<a href="/novosti/omoda-novyy-avtomobilnyy-brend-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/OMODA_C5_4.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+						20.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="/novosti/omoda-novyy-avtomobilnyy-brend-v-rossii/index.php" class="category__title auto_desc_under">OMODA — новый автомобильный бренд в России</a>
+					</div>
+					<p class="category__desc">
+					В ближайшие месяцы российский автомобильный рынок ожидают новые перемены. Компания АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о расширении своего присутствия в России и намерена представить третий бренд – OMODA.
+					</p>
+					<a href="/novosti/omoda-novyy-avtomobilnyy-brend-v-rossii/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="/novosti/avtoparad-na-den-goroda-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_6233.JPG" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							05.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="/novosti/avtoparad-na-den-goroda-tolyatti/index.php" class="category__title auto_desc_under">Автопарад на День города Тольятти</a>
+					</div>
+					<p class="category__desc">
+					День города Тольятти прошёл , как всегда ярко и интересно!
+					</p>
+					<a href="/novosti/avtoparad-na-den-goroda-tolyatti/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="/novosti/kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3494.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							04.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="/novosti/kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php" class="category__title auto_desc_under">Кубок мэра по конному спорту в клубе HERMES</a>
+					</div>
+					<p class="category__desc">
+					4 июня  наш ДЦ АсАвто представлял автомобили бренда EXEED на городских соревнованиях по конному спорту в загородном комплексе HERMES.
+					</p>
+					<a href="/novosti/kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php" class="category__info">Читать далее</a>
+				</li>
+
 		<div class="category">
 			<ul class="category__list">
 			<li class="category__item">
+					<a href="./omoda-novyy-avtomobilnyy-brend-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/OMODA_C5_4.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+						20.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./omoda-novyy-avtomobilnyy-brend-v-rossii/index.php" class="category__title">OMODA — новый автомобильный бренд в России</a>
+					</div>
+					<p class="category__desc">
+					В ближайшие месяцы российский автомобильный рынок ожидают новые перемены. Компания АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о расширении своего присутствия в России и намерена представить третий бренд – OMODA.
+					</p>
+					<a href="./omoda-novyy-avtomobilnyy-brend-v-rossii/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./avtoparad-na-den-goroda-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_6233.JPG" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							05.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./avtoparad-na-den-goroda-tolyatti/index.php" class="category__title">Автопарад на День города Тольятти</a>
+					</div>
+					<p class="category__desc">
+					День города Тольятти прошёл , как всегда ярко и интересно!
+					</p>
+					<a href="./avtoparad-na-den-goroda-tolyatti/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3494.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							04.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php" class="category__title">Кубок мэра по конному спорту в клубе HERMES</a>
+					</div>
+					<p class="category__desc">
+					4 июня  наш ДЦ АсАвто представлял автомобили бренда EXEED на городских соревнованиях по конному спорту в загородном комплексе HERMES.
+					</p>
+					<a href="./kubok-mera-po-konnomu-sportu-v-klube-hermes/index.php" class="category__info">Читать далее</a>
+				</li>
+
+
+
+
+
+				<li class="category__item">
 					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
@@ -68,11 +165,41 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
 					</div>
 					<p class="category__desc">
-					Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
+						Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
 					</p>
 					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
 				</li>
-			<li class="category__item">
+				<li class="category__item">
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/IMG_3494.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							04.06.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Кубок мэра по конному спорту в клубе HERMES</a>
+					</div>
+					<p class="category__desc">
+						4 июня наш ДЦ АсАвто представлял автомобили бренда EXEED на городских соревнованиях по конному спорту в загородном комплексе HERMES.
+					</p>
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
+					<div class="date__info">
+						<p class="date__info-item">
+							15.04.2022
+						</p>
+					</div>
+					<div class="category__title__wrap">
+						<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+					</div>
+					<p class="category__desc">
+						Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
+					</p>
+					<a href="./prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
+				</li>
+				<li class="category__item">
 					<a href="./krossover-omoda-5-v-rossii/index.php"><img src="/local/templates/NewAsAvto/static/images/omagaUPD.jpg" class="category__image" alt=""></a>
 					<div class="date__info">
 						<p class="date__info-item">
@@ -83,7 +210,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						<a href="./krossover-omoda-5-v-rossii/index.php" class="category__title">Кроссовер OMODA 5 в России представит олимпийская чемпионка</a>
 					</div>
 					<p class="category__desc">
-					АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
+						АО «ЧЕРИ АВТОМОБИЛИ РУС» объявляет о намерении презентовать в России кроссовер OMODA 5 до конца 2022 года.
 					</p>
 					<a href="./krossover-omoda-5-v-rossii/index.php" class="category__info">Читать далее</a>
 				</li>
@@ -98,7 +225,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						<a href="./geely-coolray-nero/index.php" class="category__title">Geely Coolray новая комплектация NERO</a>
 					</div>
 					<p class="category__desc">
-					Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
+						Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
 					</p>
 					<a href="./geely-coolray-nero/index.php" class="category__info">Читать далее</a>
 				</li>
@@ -113,7 +240,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
 					</div>
 					<p class="category__desc">
-					28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
+						28 апреля в нашем дилерском центре «Самара Восток» прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
 					</p>
 					<a href="./prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
 				</li>
@@ -128,7 +255,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/news.css");
 						<a href="./priz-za-test-drayv-exeed/index.php" class="category__title">Приз за тест-драйв EXEED</a>
 					</div>
 					<p class="category__desc">
-					Друзья, рады объявить о старте новой акции совместно с порталом Автомобиль Года
+						Друзья, рады объявить о старте новой акции совместно с порталом Автомобиль Года
 					</p>
 					<a href="./priz-za-test-drayv-exeed/index.php" class="category__info">Читать далее</a>
 				</li>

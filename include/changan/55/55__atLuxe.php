@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.5 AT LUXE</li>
+                <li class="equipment_item_model">1.5T AT LUXE</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -25,13 +25,7 @@
     <p class="save_title_additionally">В дополнение к комплектации 1.5 MT LUXE:</p>
         <h3 class="save_title">ФУНКЦИОНАЛЬНОЕ ОСВЕЩЕНИЕ</h3>
         <ul class="save">
-            <li class="save_item">Эргономичное многофункциональное рулевое колесо с возможностью управления развлекательным центром, устройствами, подключенными по интерфейсу Bluetooth и круиз-контролем
-            </li>
-            <li class="save_item">Интеллектуальный (SMART) ключ с функциями дистанционного запуска двигателя, комфортного доступа, поиска автомобиля на парковке
-            </li>
-            <li class="save_item">Системы бесключевого доступа и запуска двигателя PEPS (Passive Entry Passive Start)
-            </li>
-            <li class="save_item">Круиз-контроль
+            <li class="save_item">Круиз-контроль с управлением на руле
             </li>
             <li class="save_item">2-х зонный климат-контроль с функцией ионизации воздуха
             </li>
@@ -44,20 +38,11 @@
             <li class="save_item">Аудиосистема Hi-END
             </li>
         </ul>
-        <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
-        <ul class="design">
-            <li class="design_item">Электромеханическая блокировка рулевого колеса</li>
-        </ul>
         <h3 class="comfort_title">ЭКСТЕРЬЕР</h3>
         <ul class="comfort">
             <li class="comfort_item">Легкосплавные колёсные диски 18х7J. Шины 225/55 R18
             </li>
             <li class="comfort_item">Электроскладываемые наружные зеркала заднего вида окрашенные в цвет кузова с интегрированными светодиодными указателями поворота, с электрорегулировкой и подогревом
-            </li>
-        </ul>
-        <h3 class="comfort_title">ИНТЕРЬЕР</h3>
-        <ul class="comfort">
-            <li class="comfort_item">Механическая регулировка положения рулевого колеса по высоте и по вылету
             </li>
         </ul>
     </div>

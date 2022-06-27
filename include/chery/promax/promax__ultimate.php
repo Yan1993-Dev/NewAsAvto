@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">2.0TGDI (197 л/с) DCT7 Ultimate</li>
+                <li class="equipment_item_model">2.0TGDI (197 л/с) DCT7 4WD Ultimate</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,14 +15,14 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">3 394 629 руб</li>
+                <li class="equipment_item_new_price">3 720 900 руб.</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации Dreamline:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 2.0TGDI (197 л/с) DCT7 4WD Dreamline:</p>
         <h3 class="save_title">Дизайн</h3>
         <ul class="save">
             <li class="save_item">Память настроек зеркал, наружная подсветка под зеркалами (Tiggo)
@@ -48,7 +48,7 @@
             <li class="design_item">Автоматическое переключение ближнего/дальнего света (IHC)
             </li>
         </ul>
-        <h3 class="comfort_title">Управление</h3>
+        <h3 class="comfort_title">Комфорт</h3>
         <ul class="comfort">
             <li class="comfort_item">Кожаная отделка сидений коричневого цвета
             </li>

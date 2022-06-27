@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Крупнейший официальный дилер китайских авто в Самаре, Тольятти и Саратове");
 $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
 ?>
-<main> 
+<main>
     <nav class="nav">
         <ul class="navigation">
             <li class="nav__item"><a href="../novye-avto/index.php" class="nav__item__link">Новые авто</a>
@@ -121,6 +121,17 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                 "AREA_FILE_SUFFIX" => "inc",
                                 "EDIT_TEMPLATE" => "",
                                 "PATH" => "/include/credit__changan.php"
+                            )
+                        ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_RECURSIVE" => "Y",
+                                "AREA_FILE_SHOW" => "file",
+                                "AREA_FILE_SUFFIX" => "inc",
+                                "EDIT_TEMPLATE" => "",
+                                "PATH" => "/include/credit__gwm.php"
                             )
                         ); ?>
                     </div>
@@ -1240,6 +1251,66 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/credit.css");
                                 </div>
                             </div>
                         </div>
+                        <input class="tab-radio" id="main-tab-7" name="main-group" type="radio" />
+                            <div class="tab-content">
+                                <div class="sub-tabs-container">
+                                    <!-- NOTE: due to id note below, remember to match the for-->
+                                    <label class="sub__tabs__item" for="sub-tab7-1">Wingle 7</label>
+                                </div>
+                                <input class="tab-radio" id="sub-tab7-1" name="sub-group2" type="radio">
+                                <div class="sub-tab-content">
+                                    <div class="container__model__view">
+                                        <section class="form_traid-in">
+                                            <h2 class="sub_title">
+                                                Заполните форму
+                                            </h2>
+                                            <form class="form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                                                <div class="field">
+                                                    <label for="calc__name" class="label__traid-in">Ваше имя*</label>
+                                                    <input type="text" id="calc__name" name="name" class="input__traid-in" data-validate-field="name__traid" placeholder="Ваше имя">
+                                                </div>
+                                                <div class="field__wrapper">
+                                                    <div class="field">
+                                                        <label for="calc__phone" class="label__traid-in">Телефон*</label>
+                                                        <input type="tel" id="calc__phone" name="phone" class="input__traid-in" data-validate-field="tel__traid" placeholder="Ваш телефон">
+                                                    </div>
+                                                </div>
+                                                <div class="field">
+                                                    <label for="input__manufacturer" class="label__traid-in">Размер первоначального взноса</label>
+                                                    <input type="number" id="input__manufacturer" name="select-credit" class="input__traid-in" data-validate-field="man__traid" placeholder="Укажите сумму">
+                                                </div>
+                                                <div class="field">
+                                                    <label for="input_traid" class="label__traid-in">Срок кредита</label>
+                                                    <input type="text" id="input_traid" name="credit-time" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите срок">
+                                                </div>
+                                                <div class="field">
+                                                    <label for="input_traid" class="label__traid-in">Комфортный ежемесячный платёж</label>
+                                                    <input type="number" id="input_traid" name="mounth_pay" class="input__traid-in" data-validate-field="model__traid" placeholder="Укажите сумму">
+                                                </div>
+                                                <div class="checkbox_popup">
+                                                    Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                                                </div>
+                                                <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                                                <input type="hidden" name="SUBJECT" value=" Заявка на Кредит GWM Wingle 7*">
+                                                <div class="popup__btn__flex">
+                                                    <button class="btn credit__btn open_thanks_js" type="submit">Отправить</button>
+                                                </div>
+                                            </form>
+                                        </section>
+                                        <? $APPLICATION->IncludeComponent(
+                                            "bitrix:main.include",
+                                            "",
+                                            array(
+                                                "AREA_FILE_RECURSIVE" => "Y",
+                                                "AREA_FILE_SHOW" => "file",
+                                                "AREA_FILE_SUFFIX" => "inc",
+                                                "EDIT_TEMPLATE" => "",
+                                                "PATH" => "/include/credit__wingle7.php"
+                                            )
+                                        ); ?>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
         </div>

@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">2.0TGDI (197 л/с) DCT7 Dreamline</li>
+                <li class="equipment_item_model">2.0TGDI (197 л/с) DCT7 4WD Dreamline</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -15,7 +15,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">3 151 629 руб</li>
+                <li class="equipment_item_new_price">3 440 900 руб.</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -48,7 +48,9 @@
         <h3 class="design_title">Безопасность</h3>
         <ul class="design">
             <li class="design_item">Эра Глонасс</li>
-            <li class="design_item">Система кругового обзора 3600 и задние датчики парковки
+            <li class="design_item">Система кругового обзора 360°
+            </li>
+            <li class="design_item">Задние датчики парковки
             </li>
             <li class="design_item">Система мониторинга давления и температуры в шинах (TMPS)
             </li>
@@ -64,7 +66,7 @@
             </li>
             <li class="design_item">Система снижения вероятности опрокидывания (RMF)
             </li>
-            <li class="design_item">Подушки безопасности
+            <li class="design_item">6 подушек безопасности
             </li>
             <li class="design_item">Передние ремни безопасности с регулировкой по высоте
             </li>
@@ -145,7 +147,7 @@
             </li>
             <li class="comfort_item">Навигация
             </li>
-            <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля*
+            <li class="comfort_item">Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля
             </li>
             <li class="comfort_item">Система «Свободные руки» (Hands free) с Bluetooth-связью с мобильным телефоном
             </li>

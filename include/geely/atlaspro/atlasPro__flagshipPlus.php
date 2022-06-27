@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.5T 4WD 7DCT FLAGSHIP+</li>
+                <li class="equipment_item_model">1.5T+48V EMS 4WD 7DCT FLAGSHIP+</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
@@ -17,15 +17,28 @@
                 <li class="equipment_item_new_adapt">Финальная цена</li>
                 <li class="equipment_item_new_price">2 728 990 руб</li>
             </div>
-            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес <br> или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
     <div class="accordion__content" aria-hidden="true">
-    <p class="save_title_additionally">В дополнение к комплектации 1.5T 4WD 7DCT Flagship:</p>
+    <p class="save_title_additionally">В дополнение к комплектации 1.5T+48V EMS 4WD 7DCT FLAGSHIP:</p>
         <h3 class="save_title">Экстерьер</h3>
         <ul class="save">
-            <li class="save_item">Антенна в стиле "плавник акулы"
+            <li class="save_item">Антенна в стиле «плавник акулы»
+            </li>
+        </ul>
+        <h3 class="save_title">Интерьер</h3>
+        <ul class="save">
+            <li class="save_item">Панорамная крыша с функцией антизащемления
+            </li>
+            <li class="save_item">Подсветка в солнцезащитных козырьках
+            </li>
+        </ul>
+        <p class="save_title_additionally">За исключением из комплектации 1.5T+48V EMS 4WD 7DCT FLAGSHIP</p>
+        <h3 class="save_title">Интерьер</h3>
+        <ul class="save">
+            <li class="save_item">Очечник
             </li>
         </ul>
     </div>

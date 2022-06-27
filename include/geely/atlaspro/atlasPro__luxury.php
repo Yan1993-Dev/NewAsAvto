@@ -17,7 +17,7 @@
                 <li class="equipment_item_new_adapt">Финальная цена</li>
                 <li class="equipment_item_new_price">2 328 990 руб</li>
             </div>
-            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
+            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес <br> или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
         </ul>
     </span>
@@ -28,10 +28,6 @@
             <li class="save_item">Легкосплавные колесные диски R18 с шинами 225/60 R18
             </li>
             <li class="save_item">Светодиодные фары ближнего и дальнего света
-            </li>
-            <li class="save_item">Задние динамические указатели поворота
-            </li>
-            <li class="save_item">Подсветка зоны выхода при открывании передних дверей (лампы в наружных зеркалах заднего вида)
             </li>
             <li class="save_item">Датчик дождя 
             </li>
@@ -44,22 +40,9 @@
             </li>
             <li class="design_item">Электрорегулировка сиденья водителя в 6 направлениях
             </li>
-            <li class="design_item">Спинки сидений второго ряда с возможностью регулировки угла наклона и складывания в соотношении 60/40
-            </li>
             <li class="design_item">Задний центральный подлокотник с интегрированными подстаканниками скрытого типа
             </li>
-        </ul>
-        <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>
-        <ul class="comfort">
-            <li class="comfort_item">Передние датчики парковки
-            </li>
-            <li class="comfort_item">Система кругового обзора 360°
-            </li>
-            <li class="comfort_item">Трёхточечные ремни безопасности передних и боковых задних сидений второго ряда с ограничителями нагрузки
-            </li>
-            <li class="comfort_item">Боковые подушки безопасности занавесочного типа
-            </li>
-            <li class="comfort_item">Функция предупреждения об оставленном в автомобиле ключе
+            <li class="design_item">Ручная регулировка передних сидений в 4 направлениях
             </li>
         </ul>
         <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>
@@ -79,9 +62,9 @@
         <ul class="comfort">
             <li class="comfort_item">Наружные зеркала заднего вида с электрорегулировкой, подогревом, автоматическим затемнением и электрическим складыванием
             </li>
-            <li class="comfort_item">4 входа USB-A
-            </li>
             <li class="comfort_item">Аудиосистема с 8 динамиками
+            </li>
+            <li class="comfort_item">Система безключевого доступа
             </li>
         </ul>
     </div>

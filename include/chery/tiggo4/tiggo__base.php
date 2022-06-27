@@ -11,11 +11,7 @@
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>
-                <li class="equipment_item_old_price">1 699 900 руб.</li>
-            </div>
-            <div class="compl">
-                <li class="equipment_item_new_adapt">Финальная цена</li>
-                <li class="equipment_item_new_price">1 410 917 руб</li>
+                <li class="equipment_item_new_price">1 699 900 руб.</li>
             </div>
             <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
             <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
@@ -40,7 +36,7 @@
             </li>
             <li class="save_item">Фары ближнего света прожекторного типа (линзы) c регулировкой светового потока по высоте
             </li>
-            <li class="save_item">Передние дневные светодиодные ходовые огни
+            <li class="save_item">Передние дневные светодиодные огни
             </li>
             <li class="save_item">Наружные зеркала заднего вида с электрической регулировкой, обогревом, повторителями поворотов
             </li>
@@ -50,8 +46,6 @@
         <h3 class="design_title">Безопасность</h3>
         <ul class="design">
             <li class="design_item">Эра Глонасс</li>
-            <li class="design_item">Иммобилайзер - электронное противоугонное устройство
-            </li>
             <li class="design_item">Задние датчики парковки
             </li>
             <li class="design_item">Система мониторинга давления и температуры в шинах (TMPS)
@@ -64,13 +58,9 @@
             </li>
             <li class="design_item">Система помощи при старте в гору (HSA)
             </li>
-            <li class="design_item">Система помощи при спуске с горы (HDC)
-            </li>
             <li class="design_item">Антипробуксовочная система (TCS)
             </li>
             <li class="design_item">Система снижения вероятности опрокидывания (RMF)
-            </li>
-            <li class="design_item">Датчик превышения заданной скорости
             </li>
             <li class="design_item">Подушки безопасности водителя и переднего пассажира
             </li>
@@ -114,9 +104,9 @@
             </li>
             <li class="comfort_item">Складная спинка сидения второго ряда в соотношении 1/3-2/3
             </li>
-            <li class="comfort_item">3 задних подголовника, регулируемые по высоте
+            <li class="comfort_item">3 задних подголовника, регулируемых по высоте
             </li>
-            <li class="comfort_item">Электрический кондиционер
+            <li class="comfort_item">Кондиционер
             </li>
             <li class="comfort_item">Рулевая колонка с регулировкой по высоте (2 положения)
             </li>
@@ -127,8 +117,6 @@
             <li class="comfort_item">Передний центральный подлокотник с ёмкостью для хранения
             </li>
             <li class="comfort_item">Ручки для пассажиров
-            </li>
-            <li class="comfort_item">Полка багажника
             </li>
         </ul>
         <h3 class="comfort_title">Технологии и мультимедиа</h3>
