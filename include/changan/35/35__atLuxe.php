@@ -7,7 +7,7 @@
                 </svg></li>
             <div class="compl">
                 <li class="equipment_item_adapt">Комплектация</li>
-                <li class="equipment_item_model">1.6 AT Comfort</li>
+                <li class="equipment_item_model">1.6 AT Luxe</li>
             </div>
             <div class="compl">
                 <li class="equipment_item_price_adapt">Цена</li>

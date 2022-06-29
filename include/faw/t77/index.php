@@ -211,225 +211,369 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         )
     ); ?>
 </div>
-<div class="container_site">
-    <div id="complictation"></div>
-    <div class="equip">
-        <div class="equipment_wrapper">
-            <ul class="equipment_to_title">
-                <li class="equipment_item_comp">Комплектации</li>
-                <li class="equipment_item_price">Цена</li>
-                <li class="equipment_item_final">Финальная цена</li>
-            </ul>
-        </div>
-        <div class="ex ex-3">
-            <ul class="accordion__list">
-                <li class="accordion">
-                    <button class="accordion__control" aria-expanded="false"></button>
-                    <span class="accordion__title">
-                        <ul class="equipment_title_two">
-                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
-                                </svg></li>
-                            <div class="compl">
-                                <li class="equipment_item_adapt">Комплектация</li>
-                                <li class="equipment_item_model">LUXURY MT</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_price_adapt">Цена</li>
-                                <li class="equipment_item_old_price">2 069 000 руб.</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_new_adapt">Финальная цена</li>
-                                <li class="equipment_item_new_price">1 919 000 руб</li>
-                            </div>
-                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                        </ul>
-                    </span>
-                    <div class="accordion__content" aria-hidden="true">
-                        <h3 class="save_title">ЭКСТЕРЬЕР</h3>
-                        <ul class="save">
-                            <li class="save_item">Светодиодные (LED) фары</li>
-                            <li class="save_item">Светодиодные (LED) задние фонари</li>
-                            <li class="save_item">Светодиодные (LED) дневные ходовые огни</li>
-                            <li class="save_item">Задняя противотуманная фара</li>
-                            <li class="save_item">Дополнительный стоп-сигнал</li>
-                            <li class="save_item">Рейлинги на крыше</li>
-                            <li class="save_item">Легкосплавные колесные диски R18</li>
-                            <li class="save_item">Хромированные ручки открывания дверей (внешние)</li>
-                            <li class="save_item">Боковые зеркала заднего вида с электроприводом и подогревом</li>
-                            <li class="save_item">Боковые зеркала заднего вида с повторителями поворотов</li>
-                            <li class="save_item">Электропривод складывания зеркал при блокировке автомобиля</li>
-                            <li class="save_item">Декоративная крышка двигателя</li>
-                            <li class="save_item">Нижняя защита двигателя</li>
-                        </ul>
-                        <h3 class="design_title">ИНТЕРЬЕР</h3>
-                        <ul class="design">
-                            <li class="design_item">Цифровая приборная панель диагональю 12.3"</li>
-                            <li class="design_item">Панорамная крыша с люком с функцией антизащемления</li>
-                            <li class="design_item">Шторка багажника</li>
-                            <li class="design_item">Передние и задние светодиодные лампы для чтения</li>
-                            <li class="design_item">Подсветка в солнцезащитных козырьках</li>
-                            <li class="design_item">Бокс для хранения очков</li>
-                            <li class="design_item">Центральный подлокотник передних сидений</li>
-                            <li class="design_item">Электростеклоподъемники с функцией «Auto»</li>
-                            <li class="design_item">Откидывание задних сидений в пропорции 40:60</li>
-                            <li class="design_item">Сиденья с кожаной отделкой</li>
-                        </ul>
-                        <h3 class="comfort_title">БЕЗОПАСНОСТЬ</h3>
-                        <ul class="comfort">
-                            <li class="comfort_item">Иммобилайзер</li>
-                            <li class="comfort_item">Фронтальные подушки безопасности</li>
-                            <li class="comfort_item">Боковые передние подушки безопасности</li>
-                            <li class="comfort_item">Антиблокировочная тормозная система (ABS)</li>
-                            <li class="comfort_item">Система распределения тормозных усилий (EBD)</li>
-                            <li class="comfort_item">Система аварийного торможения (EBA)</li>
-                            <li class="comfort_item">Система контроля тяги (TCS)</li>
-                            <li class="comfort_item">Электронная система контроля устойчивости (ESP)</li>
-                            <li class="comfort_item">Cистема помощи при старте на подъёме (HAC)</li>
-                            <li class="comfort_item">Система помощи при спуске</li>
-                            <li class="comfort_item">Электронный стояночный тормоз (EPB)</li>
-                            <li class="comfort_item">Функция удержания автомобиля на месте Autohold</li>
-                            <li class="comfort_item">Задние датчики парковки</li>
-                            <li class="comfort_item">Камера заднего вида</li>
-                            <li class="comfort_item">Функция блокировки замков при начале движения</li>
-                            <li class="comfort_item">Система мониторинга давления в шинах (TPMS)</li>
-                            <li class="comfort_item">Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС</li>
-                            <li class="comfort_item">Крепления для детских кресел стандарта ISOFIX на втором ряде сидений</li>
-                            <li class="comfort_item">Механизм блокировки открывания дверей второго ряда изнутри («Детский замок»)</li>
-                            <li class="comfort_item">Передние ремни безопасности с регулировкой по высоте</li>
-                            <li class="comfort_item">Сигнализация непристегнутого ремня водителя</li>
-                            <li class="comfort_item">Сигнализация непристегнутого ремня пассажира</li>
-                            <li class="comfort_item">Сигнализация непристегнутого ремня задних пассажиров</li>
-                            <li class="comfort_item">Малоразмерное запасное колесо</li>
-                        </ul>
-                        <h3 class="comfort_title">ИНТЕЛЕКТУАЛЬНЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ</h3>
-                        <ul class="comfort">
-                            <li class="comfort_item">Функция задержки выключения фар (follow me home)</li>
-                            <li class="comfort_item">Круиз-контроль</li>
-                        </ul>
-                        <h3 class="comfort_title">КОМФОРТ</h3>
-                        <ul class="comfort">
-                            <li class="comfort_item">Система бесключевого доступа Smartkey</li>
-                            <li class="comfort_item">Кнопка запуска двигателя</li>
-                            <li class="comfort_item">Центральный замок с дистанционным управлением</li>
-                            <li class="comfort_item">Однозонный климат контроль</li>
-                            <li class="comfort_item">Электрорегулировка сиденья водителя в 6 направлениях</li>
-                            <li class="comfort_item">Ручная регулировка сиденья переднего пассажира в 4 направлениях</li>
-                            <li class="comfort_item">Функция блокировки замков при начале движения</li>
-                            <li class="comfort_item">Передние и задние стеклоподъёмники с функцией Auto</li>
-                            <li class="comfort_item">Подогрев передних сидений</li>
-                            <li class="comfort_item">Мультифункциональное рулевое колесо</li>
-                            <li class="comfort_item">Индикатор температуры внешнего воздуха</li>
-                            <li class="comfort_item">Режим Sport / Eco mode</li>
-                            <li class="comfort_item">Электрический усилитель рулевого управления</li>
-                            <li class="comfort_item">Функция разблокировки двери багажника дистанционно кнопкой на ключе</li>
-                            <li class="comfort_item">Дефлекторы обдува для задних пассажиров</li>
-                        </ul>
-                        <h3 class="comfort_title">МУЛЬТИМЕДИА</h3>
-                        <ul class="comfort">
-                            <li class="comfort_item">Радио</li>
-                            <li class="comfort_item">Аудиосистема с 6 динамиками</li>
-                            <li class="comfort_item">Мультимедийная система с сенсорным экраном 12,3"</li>
-                            <li class="comfort_item">Bluetooth для подключения мобильных устройств</li>
-                            <li class="comfort_item">EasyConnection дублирование экрана смартфона на экране мультимедиa через USB, с поддержкой Android, iOS</li>
-                            <li class="comfort_item">Разъём USB зарядки в передней панели</li>
-                            <li class="comfort_item">Разъём USB зарядки для второго ряда</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="accordion">
-                    <button class="accordion__control" aria-expanded="false"></button>
-                    <span class="accordion__title">
-                        <ul class="equipment_title_two">
-                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
-                                </svg></li>
-                            <div class="compl">
-                                <li class="equipment_item_adapt">Комплектация</li>
-                                <li class="equipment_item_model">LUXURY DCT</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_price_adapt">Цена</li>
-                                <li class="equipment_item_old_price">2 173 000 руб.</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_new_adapt">Финальная цена</li>
-                                <li class="equipment_item_new_price">2 023 000 руб</li>
-                            </div>
-                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                        </ul>
-                    </span>
-                    <div class="accordion__content" aria-hidden="true">
-                        <p class="save_title_additionally">В дополнение к комплектации LUXURY MT</p>
-                        <h3 class="design_title">ИНТЕРЬЕР</h3>
-                        <ul class="design">
-                            <li class="design_item">Цифровая приборная панель диагональю 8"</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="accordion">
-                    <button class="accordion__control" aria-expanded="false"></button>
-                    <span class="accordion__title">
-                        <ul class="equipment_title_two">
-                            <li class="equipment_item accordion__icon"><svg max-width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.5951 0L9.71873 6.79892L2.84234 0L0.72998 2.09312L9.71873 11L18.7075 2.09312L16.5951 0Z" fill="black" />
-                                </svg></li>
-                            <div class="compl">
-                                <li class="equipment_item_adapt">Комплектация</li>
-                                <li class="equipment_item_model">PRESTIGE DCT</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_price_adapt">Цена</li>
-                                <li class="equipment_item_old_price">2 302 000 руб.</li>
-                            </div>
-                            <div class="compl">
-                                <li class="equipment_item_new_adapt">Финальная цена</li>
-                                <li class="equipment_item_new_price">2 152 000 руб</li>
-                            </div>
-                            <li class="equipment_item_credit_price">в кредит за 11 990 руб/мес или меньше!</li>
-                            <li class="credit__item"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></li>
-                        </ul>
-                    </span>
-                    <div class="accordion__content" aria-hidden="true">
-                        <p class="save_title_additionally">В дополнение к комплектации LUXURY DCT</p>
-                        <h3 class="design_title">ЭКСТЕРЬЕР</h3>
-                        <ul class="design">
-                            <li class="design_item">Легкосплавные колесные диски R19</li>
-                        </ul>
-                        <h3 class="design_title">ИНТЕРЬЕР</h3>
-                        <ul class="design">
-                            <li class="design_item">Цифровая приборная панель диагональю 12.3"</li>
-                            <li class="design_item">Атмосферная подсветка салона</li>
-                        </ul>
-                        <h3 class="design_title">БЕЗОПАСНОСТЬ</h3>
-                        <ul class="design">
-                            <li class="design_item">Боковые шторки безопасности</li>
-                            <li class="design_item">Система автономного экстренного торможения (AEB)</li>
-                        </ul>
-                        <h3 class="design_title">ИНТЕЛЕКТУАЛЬНЫЕ СИСТЕМЫ И ТЕХНОЛОГИИ</h3>
-                        <ul class="design">
-                            <li class="design_item">Датчик дождя</li>
-                            <li class="design_item">Датчик света</li>
-                            <li class="design_item">Ассистент управления дальним светом</li>
-                            <li class="design_item">Интеллектуальный круиз-контроль</li>
-                            <li class="design_item">Система предупреждения о выезде из полосы движения (LDW)</li>
-                            <li class="design_item">Система информирования об усталости водителя</li>
-                            <li class="design_item">Интеллектуальное оповещение об ограничениях скорости</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>LUXURY MT</td>
+                    <td class="pcs equipment_item_old_price">2 069 000 руб.</td>
+                    <td class="cur equipment_item_new_price">1 919 000 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные (LED) фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные (LED) задние фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные (LED) дневные ходовые огни</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задняя противотуманная фара</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дополнительный стоп-сигнал</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Легкосплавные колесные диски R18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Хромированные ручки открывания дверей (внешние)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые зеркала заднего вида с электроприводом и подогревом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые зеркала заднего вида с повторителями поворотов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электропривод складывания зеркал при блокировке автомобиля</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Декоративная крышка двигателя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Нижняя защита двигателя</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цифровая приборная панель диагональю 12.3"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Атмосферная подсветка салона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Панорамная крыша с люком с функцией антизащемления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Шторка багажника</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние и задние светодиодные лампы для чтения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка в солнцезащитных козырьках</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бокс для хранения очков</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный подлокотник передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъемники с функцией «Auto»</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Откидывание задних сидений в пропорции 40:60</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Иммобилайзер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фронтальные подушки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые передние подушки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антиблокировочная тормозная система (ABS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система распределения тормозных усилий (EBD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система аварийного торможения (EBA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система контроля тяги (TCS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система контроля устойчивости (ESP)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cистема помощи при старте на подъёме (HAC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при спуске</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронный стояночный тормоз (EPB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция удержания автомобиля на месте Autohold</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камера заднего вида</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция блокировки замков при начале движения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система мониторинга давления в шинах (TPMS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Крепления для детских кресел стандарта ISOFIX на втором ряде сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механизм блокировки открывания дверей второго ряда изнутри («Детский замок»)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние ремни безопасности с регулировкой по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сигнализация непристегнутого ремня водителя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сигнализация непристегнутого ремня пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сигнализация непристегнутого ремня задних пассажиров</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Малоразмерное запасное колесо</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интелектуальные системы и технологии</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция задержки выключения фар (follow me home)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Круиз-контроль</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система бесключевого доступа Smartkey</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кнопка запуска двигателя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок с дистанционным управлением</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Однозонный климат контроль</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрорегулировка сиденья водителя в 6 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ручная регулировка сиденья переднего пассажира в 4 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция блокировки замков при начале движения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние и задние стеклоподъёмники с функцией Auto</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подогрев передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мультифункциональное рулевое колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Индикатор температуры внешнего воздуха</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Режим Sport / Eco mode</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрический усилитель рулевого управления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция разблокировки двери багажника дистанционно кнопкой на ключе</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дефлекторы обдува для задних пассажиров</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Радио</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Аудиосистема с 6 динамиками</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мультимедийная система с сенсорным экраном 12,3"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bluetooth для подключения мобильных устройств</td>
+                                    </tr>
+                                    <tr>
+                                        <td>EasyConnection дублирование экрана смартфона на экране мультимедиa через USB, с поддержкой Android, iOS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Разъём USB зарядки в передней панели</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Разъём USB зарядки для второго ряда</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>LUXURY DCT</td>
+                    <td class="pcs equipment_item_old_price">2 173 000 руб.</td>
+                    <td class="cur equipment_item_new_price">2 023 000 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                        <p class="save_title_additionally">В дополнение к комплектации LUXURY MT:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цифровая приборная панель диагональю 8"</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+    <tr class="view">
+        <td>PRESTIGE DCT</td>
+        <td class="pcs equipment_item_old_price">2 302 000 руб.</td>
+        <td class="cur equipment_item_new_price">2 152 000 руб</td>
+        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+    </tr>
+    <tr class="fold">
+        <td colspan="7">
+            <div class="fold-content">
+                <p class="save_title_additionally">В дополнение к комплектации LUXURY DCT:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Интерьер</td>
+                        </tr>
+                        <tr>
+                            <td>Сиденья с кожаной отделкой</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Безопасность</td>
+                        </tr>
+                        <tr>
+                            <td>Боковые шторки безопасности</td>
+                        </tr>
+                        <tr>
+                            <td>Система автономного экстренного торможения (AEB)</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Интелектуальные системы и технологии</td>
+                        </tr>
+                        <tr>
+                            <td>Датчик дождя</td>
+                        </tr>
+                        <tr>
+                            <td>Датчик света</td>
+                        </tr>
+                        <tr>
+                            <td>Ассистент управления дальним светом</td>
+                        </tr>
+                        <tr>
+                            <td>Интеллектуальный круиз-контроль</td>
+                        </tr>
+                        <tr>
+                            <td>Система предупреждения о выезде из полосы движения (LDW)</td>
+                        </tr>
+                        <tr>
+                            <td>Система информирования об усталости водителя</td>
+                        </tr>
+                        <tr>
+                            <td>Интеллектуальное оповещение об ограничениях скорости</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </td>
+    </tr>
+    </tr>
+    </tbody>
+    </table>
     <div class="wrapper__est">
         <button class="btn estimate_btn__js">
             Оставить заявку
         </button>
     </div>
-    </section>
-</div>
+    </div>
+
 <div class="container_site">
     <div class="line__sale">
         <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>

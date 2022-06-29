@@ -190,318 +190,656 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 "PATH" => "/include/lx__technologies.php"
             )
         ); ?>
-            <div class="container_site">
-        <? $APPLICATION->IncludeComponent(
-            "bitrix:main.include",
-            "",
-            array(
-                "AREA_FILE_RECURSIVE" => "Y",
-                "AREA_FILE_SHOW" => "file",
-                "AREA_FILE_SUFFIX" => "inc",
-                "EDIT_TEMPLATE" => "",
-                "PATH" => "/include/lx__safe.php"
-            )
-        ); ?>
-    </div>
-    <div class="container_site">
-        <div id="complictation"></div>
-        <div class="equip">
-            <div class="equipment_wrapper">
-                <ul class="equipment_to_title">
-                    <li class="equipment_item_comp">Комплектации</li>
-                    <li class="equipment_item_price">Цена</li>
-                    <li class="equipment_item_final">Финальная цена</li>
-                </ul>
-            </div>
-            <div class="ex ex-3">
-                <ul class="accordion__list">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/lx__luxury.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/lx__flagship.php"
-                        )
-                    ); ?>
-                </ul>
-            </div>
+        <div class="container_site">
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                array(
+                    "AREA_FILE_RECURSIVE" => "Y",
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "",
+                    "PATH" => "/include/lx__safe.php"
+                )
+            ); ?>
         </div>
-        <div class="wrapper__est">
-            <button class="btn estimate_btn__js">
-                Оставить заявку
-            </button>
-        </div>
-        </section>
-    </div>
-    <div class="container_site">
-        <div class="line__sale">
-            <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>
-        </div>
-        <ul class="flex">
-            <li class="content__stock">
-                <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
-                    <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/fkpwne6m0lvb9dahewvjvx2eftt52k3s.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-            <li class="content__stock">
-                <a href="/aktsii/avtorassrochka-0-0-18/index.php">
-                    <p class="content__title">Авторассрочка 0/0/30</p>
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
-                    <div class="content__btn">
-                        <a href="/aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="container_site">
-        <section class="news">
-            <div class="line">
-                <h2 class="slider_title_news"><a href="/novosti/index.php" class="title__desc__inner">Новости</a></h2>
+        <div class="container_complictation">
+            <table class="fold-table">
+                <thead>
+                    <tr>
+                        <th>Комплектации</th>
+                        <th>Цена</th>
+                        <th class="final__price">Финальная цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="view">
+                        <td>LUXURY</td>
+                        <td class="pcs equipment_item_old_price">2 999 900 руб.</td>
+                        <td class="cur equipment_item_new_price">2 339 900 руб.</td>
+                        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                    </tr>
+                    <tr class="fold">
+                        <td colspan="7">
+                            <div class="fold-content">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Дизайн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18-дюймовые алюминиевые литые диски</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Окраска металлик (на выбор)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Рейлинги на крыше</td>
+                                        </tr>
 
-            </div>
-            <div class="category">
-                <ul class="category__list">
-                <li class="category__item">
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                15.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
-                        </div>
-                        <p class="category__desc">
-                            Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
-                        </p>
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
-                    </li>
-                    <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                01.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
-                        </div>
-                        <p class="category__desc">
-                        Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
-                        </p>
-                        <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
-                    </li>
-                    <li class="category__item"> <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
-                        <div class="date__info">
-                            <p class="date__info-item">
-                                01.04.2022
-                            </p>
-                        </div>
-                        <div class="category__title__wrap">
-                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
-                        </div>
-                        <p class="category__desc">
-                        28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
-                        </p>
-                        <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </div>
-    <div class="container_site">
-        <section class="feedback">
-            <div class="line__feedback">
-            <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
-            </div>
-            <div class="category">
-                <ul class="category__list">
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            31.05.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
-                    </p>
-                    <p class="category__desc">
-                        Понравилась хорошая атмосфера и работа менеджера
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/graaj6qf31ybav6a55n89eiakfm0mm2l.jpeg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            30.05.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
-                    </p>
-                    <p class="category__desc">
-                        Вежливый персонал. Хорошо оценили старую машину. Подобрали и заказали нужную комплектацию и цвет. Машина пришла в заданный период. Обязательно порекомендую знакомым и друзьям.
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xqjrqlrsnlw5vqria24iyxj8pt1j1yu2.jpeg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            28.05.2022
-                        </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> HAVAL H9
-                    </p>
-                    <p class="category__desc">
-                        Купил автомобиль который и хотел, порадовали скидки и профессионализм сотрудников
-                    </p>
-                </li>
-                </ul>
-            </div>
-        </section>
-    </div>
-    <div class="popup_overlay"></div>
-    <div class="popup__container">
-    <form class="form title__popup__js  title__popup" id="popup__form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
-            <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
-            <h2 class="popup_drive">Тест драйв</h2>
-            <div class="popup_cont">
-                <div class="field_name">
-                    <label for="drive__name" class="label__popup">Имя*</label>
-                    <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
-                </div>
-                <div class="field__wrapper">
-                    <div class="field_phone">
-                        <label for="drive__phone" class="label__popup">Телефон*</label>
-                        <input type="phone" id="drive__phone" data-validate-field="tel" class="input__popup" name="phone" placeholder="Ваш телефон">
-                    </div>
-                </div>
-                <div class="field__wrapper">
-                    <div class="field_calendar">
-                        <label for="drive__calendar" class="label__popup">Выберите день*</label>
-                        <input type="date" name="datepicker" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
-                    </div>
-                </div>
-            </div>
-            <div class="checkbox_popup">
-                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
-            </div>
-            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-            <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв TXL FL*">
-            <div class="popup__btm__submit open_thanks_js">
-                <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
-            </div>
-        </form>
-    </div>
-    <div class="popup__container">
-        <form id="popup__form" class="title__popup__js  title__popup" name="popupIn" enctype="multipart/form-data" method="POST">
-            <button class="popup_drive__btn popup_drive__btn__js" type="button" aria-label="Close button"></button>
-            <h2 class="popup_drive">Заявка на обратный звонок</h2>
-            <div class="popup_cont">
-                <div class="field_name">
-                    <label for="drive__name" class="label__popup">Имя*</label>
-                    <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
-                </div>
-                <div class="field__wrapper">
-                    <div class="field_phone">
-                        <label for="drive__phone" class="label__popup">Телефон*</label>
-                        <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
-                    </div>
-                </div>
-                <div class="field__wrapper">
-                    <div class="field_calendar">
-                        <label for="drive__calendar" class="label__popup">Выберите день*</label>
-                        <input type="date" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
-                    </div>
-                </div>
-            </div>
-            <div class="checkbox_popup">
-                <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
-                <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
-            </div>
-            <div class="popup__btm__submit">
-                <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
-            </div>
-        </form>
-    </div>
+                                        <tr>
+                                            <td>Задний спортивный спойлер</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Двойные патрубки выхлопной трубы</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Светодиодные фары основного света c электрической регулировкой светового потока по высоте</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Светодиодные передние дневные ходовые огни</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Светодиодные задние фонари</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Динамические сигналы поворота</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Боковые зеркала с электрической регулировкой, обогревом, повторителями поворотов</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электропривод складывания зеркал при блокировке автомобиля</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пороги спереди и сзади</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Отделка линии окон и элементов дверей хромом</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Безопасность</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Эра Глонасс</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Иммобилайзер - электронное противоугонное устройство</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Задние датчики парковки</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Камера заднего вида (с системой динамической разметки и визуализацией шасси)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система мониторинга давления и температуры в шинах (TMPS)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Антиблокировочная тормозная система (ABS)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система стабилизации курсовой устойчивости (ESP)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электронный регулятор тормозных сил (EBD)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система помощи при экстренном торможении (HBA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система помощи при старте в гору (HSA)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система помощи при спуске с горы (HDC)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Антипробуксовочная система (TCS)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система контроля крутящего момента (DTC)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система снижения вероятности опрокидывания (RMF)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Подушки безопасности водителя и переднего пассажира</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Боковые передние подушки безопасности</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Передние ремни безопасности с регулировкой по высоте</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Передние ремни безопасности с преднатяжителями и ограничением усилия</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Задние боковые ремни безопасности с блокировкой</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Напоминание о непристегнутых ремнях безопасности спереди</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система удержания детских кресел Isofix для задних сидений</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Блокировка замков задних дверей от открывания детьми (детский замок)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Автоматическая блокировка дверей на скорости</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Функция автоматического включения фар при вождении в темное время (датчик света)</td>
+                                        </tr>
 
-    <!-- заявка -->
-    <div class="estimate__container">
-        <form class="form form__js estimate" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
-            <button class="popup_request__btn" type="button" aria-label="Close button"></button>
-            <h2 class="popup_request">Оставить заявку</h2>
-            <div class="popup_cont">
-                <div class="field_name">
-                    <label for="estimate__name" class="label__popup">Имя*</label>
-                    <input type="text" id="estimate__name" name="name" class="input__popup" data-validate-field="name__est" placeholder="Ваше имя">
+                                        <tr>
+                                            <td>Функция автоматического включения работы дворников при дожде (датчик дождя)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Функция отсрочки выключения фар (follow me home)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Уменьшенное запасное колесо</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Управление</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Круиз-контроль</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Режим Sport/Normal/Eco mode c памятью настройки</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электрический усилитель рулевого управления</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электрический стояночный тормоз с функцией AutoHold</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Бесключевой доступ и запуск двигателя кнопкой (ключ в кармане)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Центральный замок с дистанционным управлением</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электропривод двери багажника (открытие багажника без помощи рук)</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Комфорт</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Атмосферная многоцветная подсветка</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система дистанционного запуска двигателя и прогрева салона</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Обогрев передних сидений</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Обогрев сидений 2-го ряда</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Обогрев рулевого колеса</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Обогрев лобового стекла</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Обогрев форсунок стеклоомывателя</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Кожаная отделка сидений</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Водительское сиденье с электрической регулировкой в 6 направлениях, с памятью настроек</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Водительское сиденье с электрической регулировкой поясничного упора</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пассажирское сиденье с электрической регулировкой в 4 направлениях</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Складная спинка сидения 2го ряда в соотношении 1/3-2/3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Подголовники всех сидений с регулировкой по высоте</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Климат-контроль, 2 зоны с системой оценки качества воздуха AQS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Дефлекторы для 2го ряда</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Многофункциональное кожаное рулевое колесо</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Рулевая колонка с регулировкой в 4х направлениях (по вылету и углу наклона)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Передние и задние стеклоподъемники с защитой от защемления, авто</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Передний центральный выдвижной подлокотник с ёмкостью для хранения</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Задний центральный подлокотник с подстаканниками</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ручки для пассажиров с микролифтом</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Очечник</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Технологии и мультимедиa</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Радио</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6 динамиков</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Аудио-система премиум-класса Arkamys</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Беспроводная зарядка для телефона</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Большой сенсорный емкостный дисплей 12.3"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Цветной экран с бортовым компьютером в панели приборов 12.3"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Система «Свободные руки»(Hands free) с Bluetooth-связью с мобильным телефоном</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 USB-разъема спереди</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 USB-разъем сзади</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Розетка на 12V спереди</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="view">
+                        <td>PRESTIGE</td>
+                        <td class="pcs equipment_item_old_price">3 299 900 руб.</td>
+                        <td class="cur equipment_item_new_price">2 639 900 руб.</td>
+                        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                    </tr>
+                    <tr class="fold">
+                        <td colspan="7">
+                            <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации LUXURY:</p>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Дизайн</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19-дюймовые алюминиевые литые диски</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Наружная подсветка зеркал</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Панорамная крыша</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Безопасность</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Передние датчики парковки</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система кругового обзора 360°</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Задние боковые ремни безопасности с блокировкой (слева с ограничением усилия и преднатяжителем)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Напоминание о непристегнутых ремнях безопасности сзади</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ассистент смены полосы LDA</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Система мониторинга слепых зон BSD</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Предупреждение о заднем перекрестном столкновении RCTW</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Шторки безопасности</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Комфорт</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Электрохромное зеркало заднего вида</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Подсветка зеркал в солнцезащитном козырьке водителя и пассажира</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td class="save_title">Технологии и мультимедиа</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8 динамиков</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Встроенный регистратор</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="wrapper__est">
+                <button class="btn estimate_btn__js">
+                    Оставить заявку
+                </button>
+            </div>
+        </div>
+        <div class="container_site">
+            <div class="line__sale">
+                <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>
+            </div>
+            <ul class="flex">
+                <li class="content__stock">
+                    <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php">
+                        <p class="content__title">ТРИ новые кредитные программы для CHERY и EXEED</p>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/fkpwne6m0lvb9dahewvjvx2eftt52k3s.jpg" alt="stock" class="content__img">
+                        <div class="content__btn">
+                            <a href="/aktsii/tri-novye-kreditnye-programmy-dlya-chery-i-exeed/index.php" class="btn__info">Узнать больше</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="content__stock">
+                    <a href="/aktsii/avtorassrochka-0-0-18/index.php">
+                        <p class="content__title">Авторассрочка 0/0/30</p>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/static/images/RassrochkaZero30.jpg" alt="stock" class="content__img">
+                        <div class="content__btn">
+                            <a href="/aktsii/avtorassrochka-0-0-18/index.php" class="btn__info">Узнать больше</a>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container_site">
+            <section class="news">
+                <div class="line">
+                    <h2 class="slider_title_news"><a href="/novosti/index.php" class="title__desc__inner">Новости</a></h2>
+
                 </div>
-                <div class="field__wrapper">
-                    <div class="field_phone">
-                        <label for="estimate__phone" class="label__popup">Телефон*</label>
-                        <input type="phone" id="estimate__phone" name="phone" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
+                <div class="category">
+                    <ul class="category__list">
+                        <li class="category__item">
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    15.04.2022
+                                </p>
+                            </div>
+                            <div class="category__title__wrap">
+                                <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «АсАвто Тольятти»</a>
+                            </div>
+                            <p class="category__desc">
+                                Презентация нового CHERY TIGGO 8 PRO MAX в «АсАвто» в г. Тольятти прошла ярко и интересно и необычно. Долгожданное событие состоялось 19 мая.
+                            </p>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php" class="category__info">Читать далее</a>
+                        </li>
+                        <li class="category__item"> <a href="/novosti/geely-coolray-nero/index.php"><img src="/local/templates/NewAsAvto/static/images/coolrayNero.jpg" class="category__image" alt=""></a>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    01.04.2022
+                                </p>
+                            </div>
+                            <div class="category__title__wrap">
+                                <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
+                            </div>
+                            <p class="category__desc">
+                                Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
+                            </p>
+                            <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
+                        </li>
+                        <li class="category__item"> <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php"><img src="/local/templates/NewAsAvto/static/images/exeedPromo.jpg" class="category__image" alt=""></a>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    01.04.2022
+                                </p>
+                            </div>
+                            <div class="category__title__wrap">
+                                <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
+                            </div>
+                            <p class="category__desc">
+                                28 апреля в нашем дилерском центре «Самара Восток» прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
+                            </p>
+                            <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="container_site">
+            <section class="feedback">
+                <div class="line__feedback">
+                    <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
+                </div>
+                <div class="category">
+                    <ul class="category__list">
+                        <li class="category__item">
+                            <div class="image__wrapper">
+                                <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
+                            </div>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    31.05.2022
+                                </p>
+                            </div>
+                            <div class="auto__desc">
+                                <span class="auto_desc_under">Дилерский центр:</span> Самара
+                            </div>
+                            <p class="auto__desc">
+                                <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
+                            </p>
+                            <p class="category__desc">
+                                Понравилась хорошая атмосфера и работа менеджера
+                            </p>
+                        </li>
+                        <li class="category__item">
+                            <div class="image__wrapper">
+                                <img alt="feedback" src="/local/templates/NewAsAvto/static/images/graaj6qf31ybav6a55n89eiakfm0mm2l.jpeg" class="category__image minimized">
+                            </div>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    30.05.2022
+                                </p>
+                            </div>
+                            <div class="auto__desc">
+                                <span class="auto_desc_under">Дилерский центр:</span> Самара
+                            </div>
+                            <p class="auto__desc">
+                                <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
+                            </p>
+                            <p class="category__desc">
+                                Вежливый персонал. Хорошо оценили старую машину. Подобрали и заказали нужную комплектацию и цвет. Машина пришла в заданный период. Обязательно порекомендую знакомым и друзьям.
+                            </p>
+                        </li>
+                        <li class="category__item">
+                            <div class="image__wrapper">
+                                <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xqjrqlrsnlw5vqria24iyxj8pt1j1yu2.jpeg" class="category__image minimized">
+                            </div>
+                            <div class="date__info">
+                                <p class="date__info-item">
+                                    28.05.2022
+                                </p>
+                            </div>
+                            <div class="auto__desc">
+                                <span class="auto_desc_under">Дилерский центр:</span> Самара
+                            </div>
+                            <p class="auto__desc">
+                                <span class="auto_desc_under">Автомобиль:</span> HAVAL H9
+                            </p>
+                            <p class="category__desc">
+                                Купил автомобиль который и хотел, порадовали скидки и профессионализм сотрудников
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="popup_overlay"></div>
+        <div class="popup__container">
+            <form class="form title__popup__js  title__popup" id="popup__form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
+                <h2 class="popup_drive">Тест драйв</h2>
+                <div class="popup_cont">
+                    <div class="field_name">
+                        <label for="drive__name" class="label__popup">Имя*</label>
+                        <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_phone">
+                            <label for="drive__phone" class="label__popup">Телефон*</label>
+                            <input type="phone" id="drive__phone" data-validate-field="tel" class="input__popup" name="phone" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_calendar">
+                            <label for="drive__calendar" class="label__popup">Выберите день*</label>
+                            <input type="date" name="datepicker" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
+                        </div>
                     </div>
                 </div>
-                <div class="field_est">
-                    <label for="input__text" class="label__popup">Ваш вопрос</label>
-                    <textarea class="input__est" id="input__text" name="input-text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
+                <div class="checkbox_popup">
+                    Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
                 </div>
-            </div>
-            <div class="checkbox_popup">
-                Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
-            </div>
-            <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
-            <input type="hidden" name="SUBJECT" value=" Оставить заявку*">
-            <div class="wrapper__submit-est">
-                <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
-            </div>
-        </form>
-    </div>
-    <div class="thanks__container">
-        <section class="thanks__popup thanks">
-            <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
-            <div class="thanks__content">
-                <p class="thanks_title">Заявка успешно отправлена</p>
-                <p class="thanks_app">Мы получили Вашу заявку,
-                    наши сотрудники скоро свяжуться с вами.
-                    Будьте на связи!</p>
-            </div>
-        </section>
-    </div>
+                <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                <input type="hidden" name="SUBJECT" value=" Заявка на Тест-драйв TXL FL*">
+                <div class="popup__btm__submit open_thanks_js">
+                    <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+        <div class="popup__container">
+            <form id="popup__form" class="title__popup__js  title__popup" name="popupIn" enctype="multipart/form-data" method="POST">
+                <button class="popup_drive__btn popup_drive__btn__js" type="button" aria-label="Close button"></button>
+                <h2 class="popup_drive">Заявка на обратный звонок</h2>
+                <div class="popup_cont">
+                    <div class="field_name">
+                        <label for="drive__name" class="label__popup">Имя*</label>
+                        <input type="text" id="drive__name" class="input__popup _req" data-validate-field="name" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_phone">
+                            <label for="drive__phone" class="label__popup">Телефон*</label>
+                            <input type="tel" id="drive__phone" data-validate-field="tel" class="input__popup" name="tel" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_calendar">
+                            <label for="drive__calendar" class="label__popup">Выберите день*</label>
+                            <input type="date" id="drive__datapicker" class="input__popup _req" placeholder="Нажмите">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox_popup">
+                    <input id="drive__personal-inf" type="checkbox" class="checkbox__input _req" checked value="drive" data-validate-field="personal">
+                    <label for="drive__personal-inf" class="checkbox__drive">Согласие на обработку ПД</label>
+                </div>
+                <div class="popup__btm__submit">
+                    <button class="btn popup__btn open_thanks_js" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- заявка -->
+        <div class="estimate__container">
+            <form class="form form__js estimate" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+                <button class="popup_request__btn" type="button" aria-label="Close button"></button>
+                <h2 class="popup_request">Оставить заявку</h2>
+                <div class="popup_cont">
+                    <div class="field_name">
+                        <label for="estimate__name" class="label__popup">Имя*</label>
+                        <input type="text" id="estimate__name" name="name" class="input__popup" data-validate-field="name__est" placeholder="Ваше имя">
+                    </div>
+                    <div class="field__wrapper">
+                        <div class="field_phone">
+                            <label for="estimate__phone" class="label__popup">Телефон*</label>
+                            <input type="phone" id="estimate__phone" name="phone" class="input__popup" data-validate-field="telephone" placeholder="Ваш телефон">
+                        </div>
+                    </div>
+                    <div class="field_est">
+                        <label for="input__text" class="label__popup">Ваш вопрос</label>
+                        <textarea class="input__est" id="input__text" name="input-text" cols="5" rows="5" placeholder="Опишите Ваш вопрос"></textarea>
+                    </div>
+                </div>
+                <div class="checkbox_popup">
+                    Нажимая кнопку «Отправить», вы даете Согласие на обработку персональных данных
+                </div>
+                <input type="hidden" name="url" value="<?= $_SERVER['REQUEST_URI'] ?>">
+                <input type="hidden" name="SUBJECT" value=" Оставить заявку*">
+                <div class="wrapper__submit-est">
+                    <button class="btn popup_req__js open_thanks_js" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+        <div class="thanks__container">
+            <section class="thanks__popup thanks">
+                <button class="thanks_request__btn" type="button" aria-label="Close button"></button>
+                <div class="thanks__content">
+                    <p class="thanks_title">Заявка успешно отправлена</p>
+                    <p class="thanks_app">Мы получили Вашу заявку,
+                        наши сотрудники скоро свяжуться с вами.
+                        Будьте на связи!</p>
+                </div>
+            </section>
+        </div>
 </main>
 <section class="map">
     <div class="container">
@@ -566,4 +904,4 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
 
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");
-?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

@@ -201,71 +201,420 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             )
         ); ?>
     </div>
-    <div class="container_site">
-        <div id="complictation"></div>
-        <div class="equip">
-            <div class="equipment_wrapper">
-                <ul class="equipment_to_title">
-                    <li class="equipment_item_comp">Комплектации</li>
-                    <li class="equipment_item_price">Цена</li>
-                    <li class="equipment_item_final">Финальная цена</li>
-                </ul>
+    <div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>1.5T MT COMFORT</td>
+                    <td class="pcs equipment_item_old_price">2 159 900 руб.</td>
+                    <td class="cur equipment_item_new_price">2 059 900 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Функциональное оснащение</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Эргономичное многофункциональное рулевое колесо с возможностью управления развлекательным центром и устройствами, подключенными по интерфейсу Bluetooth</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок с функцией автоматической блокировки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок с дистанционным управлением с ключа и функцией удалённого отпирания двери багажника</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складной ключ с функцией поиска автомобиля на парковке</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бортовой компьютер с многофункциональным 3,5-х дюймовым цветным дисплеем на приборной панели</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка багажного отделения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электромеханический стояночный тормоз (EPB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кондиционер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Атермальная тонировка</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Стеклоочиститель задней двери</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъёмники передних и задних дверей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система Hands Free с функцией шумоподавления</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Возможность подключения мобильного телефона и мультимедиа устройств по протоколу Bluetooth</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сенсорный 8-дюймовый дисплей управления мультимедийным развлекательным центром</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Многофункциональный USB порт для передних пассажиров</td>
+                                    </tr>
+                                    <tr>
+                                        <td>USB -порт для задних пассажиров, с возможностью зарядки мобильных устройств</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4 динамика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антенна на крыше («плавник»)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система вызова экстренных оперативных служб «ЭРА ГЛОНАСС»</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Автомобильная розетка 12В для передних пассажиров и в багажном отделении</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Аварийное запасное колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Набор инструментов и домкрат</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Интегрированный органайзер под полом багажного отделения</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Энергопоглощающая рулевая колонка</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механическая блокировка рулевого колеса</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подушки безопасности водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Преднатяжители ремней безопасности для водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Регулировка положения ремня безопасности по высоте для водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3-х точечные ремни безопасности для пассажиров второго ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Замок безопасности для детей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система контроля давления воздуха в шинах (TPMS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антиблокировочная система (ABS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система распределения тормозных усилий (EBD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система курсовой устойчивости (ESC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система помощи при торможении (ВА)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антипробуксовочная система (TCS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система динамического торможения (DBF)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронная система помощи при подъёме (HHC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при спуске (HDC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при экстренном торможении (HBB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электромеханический корректор фар</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система ISOFIX для крепления детского удерживающего устройства на сиденье второго ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронный иммобилайзер</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Галогеновые фары с программируемой функцией отложенного выключения (Follow me home)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные дневные ходовые огни</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Комбинированные задние фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Спойлер на задней двери со светодиодным повторителем стоп сигнала</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Легкосплавные колёсные диски 17х7J. Шины 225/60/ R17</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние противотуманные фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодная подсветка заднего хода и заднего номерного знака</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Наружные зеркала заднего вида окрашенные в цвет кузова с интегрированными светодиодными указателями поворота, с электрорегулировкой и подогревом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Наружные ручки дверей окрашенные в цвет кузова</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рулевое колесо с отделкой искусственной кожей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Комбинированная отделка сидений тканью</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Органайзеры в спинках передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Эргономичное сиденье водителя с боковой поддержкой, продольной регулировкой, регулировкой по высоте и углу наклона спинки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Эргономичное сиденье пассажира с боковой поддержкой, продольной регулировкой и регулировкой угла наклона спинки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двухцветная комбинированная отделка салона (Черный + Красный)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подголовники передних сидений с механизмом травмобезопасного демпфирования</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Внутрисалонное зеркало заднего вида с антибликовым покрытием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передний подлокотник с отделением для хранения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подстаканники на центральной консоли (2 шт.)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Индивидуальные зеркала в солнцезащитных козырьках с подсветкой</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Регулировка спинки сидений второго ряда по углу наклона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный подголовник сиденья второго ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный подлокотник с подстаканниками для задних пассажиров</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механизм складывания спинки задних сидений (в пропорции 60/40)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Индивидуальная светодиодная подсветка для пассажиров переднего и заднего ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Механическая регулировка положения рулевого колеса по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Съёмная выдвижная шторка багажного отделения</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>1.5T MT LUXE</td>
+                    <td class="pcs equipment_item_old_price">2 199 900 руб.</td>
+                    <td class="cur equipment_item_new_price">2 099 900 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T MT COMFORT:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ассистент управления головным светом в зависимости от уровня освещенности</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Комбинированная отделка сидений искусственной кожей</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Функциональное оснащение</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камера заднего вида с динамической разметкой</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при парковке с отображением расстояния до объекта и звуковым информированием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электростеклоподъёмники передних и задних дверей с функцией комфортного управления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 динамиков</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двухрежимный подогрев передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Шумо- и теплоизоляция моторного отсека</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+    <tr class="view">
+        <td>1.5T AT COMFORT</td>
+        <td class="pcs equipment_item_old_price">2 289 900 руб.</td>
+        <td class="cur equipment_item_new_price">2 189 900 руб</td>
+        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+    </tr>
+    <tr class="fold">
+        <td colspan="7">
+            <div class="fold-content">
+                <p class="save_title_additionally">В дополнение к комплектации 1.5T MT LUXE:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Функциональное оснащение</td>
+                        </tr>
+                        <tr>
+                            <td>Интеллектуальный (SMART) ключ с функциями дистанционного запуска двигателя, комфортного доступа, поиска автомобиля на парковке</td>
+                        </tr>
+                        <tr>
+                            <td>Системы бесключевого доступа и запуска двигателя PEPS (Passive Entry Passive Start)</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Безопасность</td>
+                        </tr>
+                        <tr>
+                            <td>Электромеханическая блокировка рулевого колеса</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Интерьер</td>
+                        </tr>
+                        <tr>
+                            <td>Механическая регулировка положения рулевого колеса по высоте и по вылету</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="ex ex-3">
-                <ul class="accordion__list">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/55__mtComfort.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/55__mtLuxe.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/55__atComfort.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/55__atLuxe.php"
-                        )
-                    ); ?>
-                </ul>
+        </td>
+    </tr>
+    <tr class="view">
+        <td>1.5T AT LUXE</td>
+        <td class="pcs equipment_item_old_price">2 359 900 руб.</td>
+        <td class="cur equipment_item_new_price">2 259 900 руб</td>
+        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+    </tr>
+    <tr class="fold">
+        <td colspan="7">
+            <div class="fold-content">
+                <p class="save_title_additionally">В дополнение к комплектации 1.5T AT COMFORT:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Функциональное оснащение</td>
+                        </tr>
+                        <tr>
+                            <td>Круиз-контроль с управлением на руле</td>
+                        </tr>
+                        <tr>
+                            <td>2-х зонный климат-контроль с функцией ионизации воздуха</td>
+                        </tr>
+                        <tr>
+                            <td>Воздуховоды для задних пассажиров, интегрированные в центральную консоль</td>
+                        </tr>
+                        <tr>
+                            <td>Датчик дождя</td>
+                        </tr>
+                        <tr>
+                            <td>Электромеханический люк с функцией дистанционного управления и защитой от защемления</td>
+                        </tr>
+                        <tr>
+                            <td>Аудиосистема Hi-END</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Экстерьер</td>
+                        </tr>
+                        <tr>
+                            <td>Легкосплавные колёсные диски 18х7J. Шины 225/55 R18</td>
+                        </tr>
+                        <tr>
+                            <td>Электроскладываемые наружные зеркала заднего вида окрашенные в цвет кузова с интегрированными светодиодными указателями поворота, с электрорегулировкой и подогревом</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <div class="wrapper__est">
-            <button class="btn estimate_btn__js">
-                Оставить заявку
-            </button>
-        </div>
-        </section>
+        </td>
+    </tr>
+    </tbody>
+    </table>
+    <div class="wrapper__est">
+        <button class="btn estimate_btn__js">
+            Оставить заявку
+        </button>
+    </div>
     </div>
     <div class="container_site">
         <div class="line__sale">

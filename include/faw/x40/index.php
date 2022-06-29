@@ -197,61 +197,306 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         )
     ); ?>
 </div>
-<div class="container_site">
-    <div id="complictation"></div>
-    <div class="equip">
-        <div class="equipment_wrapper">
-            <ul class="equipment_to_title">
-                <li class="equipment_item_comp">Комплектации</li>
-                <li class="equipment_item_price">Цена</li>
-                <li class="equipment_item_final">Финальная цена</li>
-            </ul>
-        </div>
-        <div class="ex ex-3">
-            <ul class="accordion__list">
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/x40__comfort.php"
-                    )
-                ); ?>
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/x40__mtluxury.php"
-                    )
-                ); ?>
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:main.include",
-                    "",
-                    array(
-                        "AREA_FILE_RECURSIVE" => "Y",
-                        "AREA_FILE_SHOW" => "file",
-                        "AREA_FILE_SUFFIX" => "inc",
-                        "EDIT_TEMPLATE" => "",
-                        "PATH" => "/include/x40__atluxury.php"
-                    )
-                ); ?>
-            </ul>
-        </div>
-    </div>
+<div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>COMFORT MT</td>
+                    <td class="cur equipment_item_new_price">1 602 900 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17" легкосплавные колесные диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Наружные зеркала заднего вида с повторителем указателя поворота</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Наружные зеркала заднего вида с регулировкой и подогревом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Галогеновые фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние противотуманные фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные задние фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний спойлер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дополнительный стоп-сигнал в заднем спойлере на пятой двери</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние ходовые огни</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электроусилитель рулевого колеса</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кондиционер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденья с отделкой экокожей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Регулировка рулевой колонки по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подогрев передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрорегулировка сиденья водителя в 6 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние и задние электрические стеклоподъемники</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складывание задних сидений в пропорции 60:40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передний центральный подлокотник с емкостью для хранения</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антиблокировочная система тормозов (ABS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при экстренном торможении (EBA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система курсовой устойчивости (ESP)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при трогании на уклоне (HAS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция электронного распределения тормозного усилия (EBD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антипробуксовочная или противопробуксовочная система (TCS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подушки безопасности водителя и пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые подушки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Иммобилайзер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок с ДУ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Трехточечные ремни безопасности для передних и задних пассажиров</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ремни безопасности передних сидений с регулировкой высоты</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сигнализация о непристегнутом ремне безопасности водителя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Автоматическая блокировка (при движении) и разблокировка (при столкновении) дверей</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Устройство вызова экстренных служб Эра-Глонасс</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Блокировка открытия задних боковых дверей изнутри («детский замок»)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система крепления для детского кресла ISOFIX</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт и удобства</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бортовой компьютер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик наружной температуры</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик света</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчики давления в шинах</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний центральный подлокотник</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подстаканники в центральной консоли спереди</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зеркало заднего вида с антибликовым покрытием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Центральный замок</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Полка багажного отделения</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Мультемедийные системы</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Магнитола (AM/FM, MP3)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4 динамика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мультимедийные системы с сенсорным дисплеем 8"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bluetooth для подключения мобильных устройств</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Разъем для подключения USB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>LUXURY MT</td>
+                    <td class="cur equipment_item_new_price">1 687 000 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                        <p class="save_title_additionally">В дополнение к комплектации COMFORT MT:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Экстерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Люк с электроприводом</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Интерьер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Многофункциональное рулевое колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция опускания водительского стекла одним нажатием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Розетка 12V в салоне</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт и удобства</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бесключевой запуск двигателя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Камера заднего вида</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Круиз контроль</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система бесключевого доступа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция задержки выключения головного света</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Мультемедийные системы/td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 динамиков</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+    <tr class="view">
+        <td>LUXURY AT</td>
+        <td class="cur equipment_item_new_price">1 754 000 руб</td>
+        <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+        <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+    </tr>
+    <tr class="fold">
+        <td colspan="7">
+            <div class="fold-content">
+                <p class="save_title_additionally">В дополнение к комплектации LUXURY MT:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="save_title">Комфорт</td>
+                        </tr>
+                        <tr>
+                            <td>Защита двигателя</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </td>
+    </tr>
+    </tr>
+    </tbody>
+    </table>
     <div class="wrapper__est">
         <button class="btn estimate_btn__js">
             Оставить заявку
         </button>
     </div>
-    </section>
-</div>
+    </div>
+
 <div class="container_site">
         <div class="line__sale">
             <h2 class="slider_title_sale"><a href="/aktsii/index.php" class="title__desc__inner">акции</a></h2>

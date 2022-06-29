@@ -534,7 +534,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                     </td>
                 </tr>
                 <tr class="view">
-                    <td>1.5t DCT 4WD Elite</td>
+                    <td>1.5T DCT 4WD Elite</td>
                     <td class="pcs equipment_item_old_price">3 009 000 руб.</td>
                     <td class="cur equipment_item_new_price">2 979 000 руб.</td>
                     <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
@@ -550,7 +550,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                                         <td class="save_title">Технические характеристики</td>
                                     </tr>
                                     <tr>
-                                        <td>Двигатель 2.0, турбированный, 190 л/с</td>
+                                        <td>Интеллектуальный полный привод</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -567,7 +567,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <tr class="fold">
                     <td colspan="7">
                         <div class="fold-content">
-                            <p class="save_title_additionally">В дополнение к комплектации 2.0T DCT 4WD Elite:</p>
+                            <p class="save_title_additionally">В дополнение к комплектации 1.5T DCT 4WD Elite:</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -575,9 +575,6 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                                     </tr>
                                     <tr>
                                         <td>Двигатель 2.0, турбированный, 190 л/с</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Тонированные задние стекла</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -594,7 +591,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <tr class="fold">
                     <td colspan="7">
                         <div class="fold-content">
-                            <p class="save_title_additionally">За исключением к комплектации 2.0T DCT 4WD Elite:</p>
+                            <p class="save_title_additionally">За исключением из комплектации 2.0T DCT 4WD Elite:</p>
                             <table>
                                 <tbody>
                                     <tr>
@@ -709,7 +706,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <tr class="fold">
                     <td colspan="7">
                         <div class="fold-content">
-                            <p class="save_title_additionally">За исключением к комплектации 2.0T DCT 4WD Premium:</p>
+                            <p class="save_title_additionally">В дополнение к комплектации 2.0T DCT 4WD Premium:</p>
                             <table>
                                 <tbody>
                                     <tr>

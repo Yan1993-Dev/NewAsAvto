@@ -207,49 +207,319 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         ); ?>
 
     </div>
-    <div class="container_site">
-        <div id="complictation"></div>
-        <div class="equip">
-            <div class="equipment_wrapper">
-                <ul class="equipment_to_title">
-                    <li class="equipment_item_comp">Комплектации</li>
-                    <li class="equipment_item_price">Цена</li>
-                    <li class="equipment_item_final">Финальная цена</li>
-                </ul>
-            </div>
-            <div class="ex ex-3">
-                <ul class="accordion__list">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/promax__dreamline.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/promax__ultimate.php"
-                        )
-                    ); ?>
-                </ul>
-            </div>
-        </div>
+    <div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>2.0TGDI (197 л/с) DCT7 4WD Dreamline</td>
+                    <td class="pcs equipment_item_old_price">3 890 900 руб.</td>
+                    <td class="cur equipment_item_new_price">3 440 900 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Дизайн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18-дюймовые алюминиевые литые диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Окраска металлик на выбор</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодная оптика (основной свет, дневные ходовые огни, задние фонари)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние противотуманные фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Динамические указатели поворота</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые зеркала с обогревом, повторителями поворотов, электроприводом складывания</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Пороги с подсветкой спереди</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Атмосферная подсветка интерьера</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Панорамная крыша с люком и шторкой</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Эра Глонасс</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система кругового обзора 360°</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система мониторинга давления и температуры в шинах (TMPS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система стабилизации курсовой устойчивости (ESP Bosch 9.3)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электронный регулятор тормозных сил (EBD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при спуске с горы (HDC) и старте в гору (HHC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антипробуксовочная система (TCS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система контроля крутящего момента (DTC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система снижения вероятности опрокидывания (RMF)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 подушек безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние ремни безопасности с регулировкой по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система удержания детских кресел Isofix для сидений 2-го ряда и детский замок</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик света и датчик дождя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция отсрочки выключения фар (Follow me home)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Уменьшенное запасное колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Газовые упоры капота</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Управление</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Круиз-контроль</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрический усилитель рулевого управления с переменным усилием</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрический ручной стояночный тормоз с функцией AutoHold</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бесключевой доступ и запуск двигателя кнопкой (ключ в кармане)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электропривод двери багажника (открытие багажника без помощи рук)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система напоминания об усталости водителя</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система дистанционного запуска двигателя и прогрева салона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев сидений 1-го и 2-го ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев рулевого колеса, лобового стекла, форсунок</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция авто-отпотевания стекла</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кожаная отделка сидений черного цвета</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрическая регулировка сидений, 6 направлений для водителя и 4 для пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сиденья 2-го ряда с механической продольной регулировкой</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складная спинка сидений 2-го ряда (в соотношении 1/3-2/3) и 3-го ряда (1/2-1/2)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрохромное зеркало заднего вида</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Климат-контроль (2 зоны) и система улучшенной фильтрации воздуха (фильтр N95)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дефлекторы для 2-го ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Многофункциональный кожаный руль с регулировкой в 4-х направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка в солнцезащитном козырьке водителя и пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние и задние электростеклоподъемники с защитой от защемления, авто</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передний центральный подлокотник с охлаждаемой ёмкостью для хранения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Потолочные светодиодные светильники для 1,2,3 ряда сидений</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технологии и мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Беспроводная зарядка для смартфона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Большой сенсорный емкостный дисплей 12.3"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цветной экран с бортовым компьютером в панели приборов 12.3"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сдвоенные экраны мультимедиа и панели приборов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цветная сенсорная боковая панель управления климат-контролем 8''</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Голосовое управление</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Навигация</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система «Свободные руки» (Hands free) с Bluetooth-связью с мобильным телефоном</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Радио</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8 динамиков</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3 USB-разъема (2 спереди + 1 сзади)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>2.0TGDI (197 л/с) DCT7 4WD Ultimate</td>
+                    <td class="pcs equipment_item_old_price">4 190 900 руб.</td>
+                    <td class="cur equipment_item_new_price">3 720 900 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 2.0TGDI (197 л/с) DCT7 4WD Dreamline:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Дизайн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Память настроек зеркал, наружная подсветка под зеркалами (Tiggo)</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система мониторинга слепых зон (BSD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о покидании полосы (LDW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ассистент удержания в полосе (LKA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при движении в пробках (TJA/ICA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Адаптивный круиз-контроль (ACC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система автономного экстренного торможения (AEB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение при опасности при открытии дверей (DOW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Автоматическое переключение ближнего/дальнего света (IHC)</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кожаная отделка сидений коричневого цвета</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вентиляция передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Водительское сиденье с электрической регулировкой поясничного упора, память настроек</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ионизация воздуха</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <div class="wrapper__est">
             <button class="btn estimate_btn__js">
                 Оставить заявку
             </button>
         </div>
-        </section>
     </div>
     <div class="container_site">
         <div class="line__sale">
@@ -283,7 +553,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             </div>
             <div class="category">
                 <ul class="category__list">
-                <li class="category__item">
+                    <li class="category__item">
                         <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">

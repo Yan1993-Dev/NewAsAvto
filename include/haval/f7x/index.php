@@ -589,7 +589,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                 <tr class="fold">
                     <td colspan="7">
                         <div class="fold-content">
-                            <p class="save_title_additionally">За исключением к комплектации 2.0T DCT 4WD Elite:</p>
+                            <p class="save_title_additionally">За исключением из комплектации 2.0T DCT 4WD Elite:</p>
                             <table>
                                 <tbody>
                                     <tr>

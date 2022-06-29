@@ -217,6 +217,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             <tbody>
                 <tr class="view">
                     <td>1,5 МТ Base</td>
+                    <td class="pcs equipment_item_old_price"></td>
                     <td class="cur equipment_item_new_price">1 699 900 руб.</td>
                     <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
                     <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>

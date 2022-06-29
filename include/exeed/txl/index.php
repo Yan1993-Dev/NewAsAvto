@@ -205,49 +205,451 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
         ); ?>
 
     </div>
-    <div class="container_site">
-        <div id="complictation"></div>
-        <div class="equip">
-            <div class="equipment_wrapper">
-                <ul class="equipment_to_title">
-                    <li class="equipment_item_comp">Комплектации</li>
-                    <li class="equipment_item_price">Цена</li>
-                    <li class="equipment_item_final">Финальная цена</li>
-                </ul>
-            </div>
-            <div class="ex ex-3">
-                <ul class="accordion__list">
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/txl__luxury.php"
-                        )
-                    ); ?>
-                    <? $APPLICATION->IncludeComponent(
-                        "bitrix:main.include",
-                        "",
-                        array(
-                            "AREA_FILE_RECURSIVE" => "Y",
-                            "AREA_FILE_SHOW" => "file",
-                            "AREA_FILE_SUFFIX" => "inc",
-                            "EDIT_TEMPLATE" => "",
-                            "PATH" => "/include/txl__flagship.php"
-                        )
-                    ); ?>
-                </ul>
-            </div>
-        </div>
+    <div class="container_complictation">
+        <table class="fold-table">
+            <thead>
+                <tr>
+                    <th>Комплектации</th>
+                    <th>Цена</th>
+                    <th class="final__price">Финальная цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="view">
+                    <td>1.6T 7DCT 4WD 186 л.с. LUXURY</td>
+                    <td class="pcs equipment_item_old_price">3 999 900 руб.</td>
+                    <td class="cur equipment_item_new_price">3 199 900 руб.</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Дизайн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18-дюймовые алюминиевые литые диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Окраска металлик (на выбор), зеркала и ручки в цвет кузова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рейлинги на крыше</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Двойная выхлопная труба</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний спортивный спойлер</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние противотуманные фары</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние светодиодные фонари</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Светодиодные фары основного света c регулировкой светового потока по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние дневные светодиодные ходовые огни</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые зеркала с электрической регулировкой, обогревом, повторителями поворотов</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электропривод складывания зеркал и память настроек</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Наружная подсветка под зеркалами</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Мерцающий логотип Star Story</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка порогов спереди</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Пороги сзади</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Эра Глонасс</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Иммобилайзер - электронное противоугонное устройство</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антиблокировочная тормозная система (ABS + EBD + CBC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система стабилизации курсовой устойчивости и динамического управления (ESP + VDC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при экстренном торможении (HBA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Гидравлический усилитель тормозов (HBB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система автоматической очистки и сушки тормозных дисков (BDW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при старте в гору (HSA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи при спуске с горы (HDC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Антипробуксовочная система с электронной блокировкой дифференциала (TCS + EDL)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система контроля крутящего момента при замедлении (DTC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система уменьшения крена и уменьшения вероятности опрокидывания (RMI + RMF)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние датчики парковки</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система кругового обзора 360°</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система мониторинга слепых зон (BSD)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система смены полосы движения (LCA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о заднем перекрестном столкновении (RCTW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о наезде сзади (RCW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о быстром приближении автомобиля (CVW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ассистент открывания дверей (DOW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система мониторинга давления и температуры в шинах (TMPS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ограничитель заданной скорости</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик превышения заданной скорости</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подушки безопасности водителя и переднего пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Боковые передние подушки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Шторки безопасности</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Напоминание о непристегнутых ремнях спереди</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ремни безопасности с преднатяжителями спереди и сзади</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система удержания детских кресел Isofix для задних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Блокировка дверей на скорости</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Блокировка замков задних дверей от открывания детьми (детский замок)</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Функция автоматического включения фар при вождении в темное время (датчик света)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция автоматического включения работы дворников при дожде (датчик дождя)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Функция отсрочки выключения фар (Follow me home)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний стеклоочиститель</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Уменьшенное запасное колесо</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Управление</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Круиз-контроль</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Выбор режима вождения Normal/ Eco/ Sport mode с фукцией памяти</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрический усилитель рулевого управления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электрический стояночный тормоз с функцией AutoHold</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бесключевой запуск двигателя кнопкой</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бесключевой доступ в автомобиль (ключ в кармане)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дистанционный запуск двигателя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Полка багажника</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Электропривод двери багажника (открытие багажника без помощи рук)</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Атмосферная подсветка интерьера (2 цвета)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка багажника</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев задних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев лобового стекла</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев форсунок</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев рулевого колеса</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Обогрев заднего стекла</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кожаная отделка сидений (Comfort)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Водительское сиденье с электрической регулировкой в 6 направлениях, с памятью настроек</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Водительское сиденье с электрической регулировкой поясничного упора</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Пассажирское сиденье с электрической регулировкой в 6 направлениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Складная спинка сидения 2-го ряда в соотношении 1/3-2/3 (в ровный пол)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Спинка сидения 2-го ряда с регулировкой угла наклона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подголовники всех 5 сидений с регулировкой по высоте</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Климат-контроль, 2 зоны, c интеллектуальной системой очистки воздуха</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ионизация воздуха в салоне</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Дефлекторы для 2-го ряда</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Многофункциональное кожаное рулевое колесо</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подрулевые лепестки управления</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Рулевая колонка с регулировкой в 4х направлениях (по вылету и углу наклона)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Подсветка зеркал в солнцезащитном козырьке водителя и пассажира</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передние и задние стеклоподъемники с защитой от защемления, авто, с ДУ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Передний центральный подлокотник с ёмкостью для хранения и подстаканниками</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Задний центральный подлокотник с подстаканниками</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Карманы в передних сидениях</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ручки для пассажиров с микролифтом</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Потолочные светодиодные светильники для 1-го и 2-го ряда сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Очечник</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик усталости водителя</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Датчик внешней температуры</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технологии и мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Беспроводная зарядка для смартфона</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Радио</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Аудио-система премиум-класса Arkamys (8 динамиков)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Автоматическая регулировка громкости в зависимости от скорости движения</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Большой сенсорный емкостный дисплей 12.3''</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цветной экран с бортовым компьютером в панели приборов 12.3'', сдвоенный с основным</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Тачпад для управления радио и другими функциями мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система «Свободные руки»(Hands free) с Bluetooth-связью с мобильным телефоном</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4 USB-разъема + розетка 12V спереди и в багажнике</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="view">
+                    <td>1.6T 7DCT 4WD 186 л.с. FLAGSHIP</td>
+                    <td class="pcs equipment_item_old_price">4 249 900 руб.</td>
+                    <td class="cur equipment_item_new_price">3 449 900 руб</td>
+                    <td>в кредит за 11 990 руб/мес <br> или меньше!</td>
+                    <td class="per"><a class="equipment_item_credit_btn btn" href="#calculator">Рассчитать кредит</a></td>
+                </tr>
+                <tr class="fold">
+                    <td colspan="7">
+                        <div class="fold-content">
+                            <p class="save_title_additionally">В дополнение к комплектации 1.6T 7DCT 4WD 186 л.с. LUXURY:</p>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Дизайн</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19-дюймовые алюминиевые литые диски</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Панорамная крыша с люком</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Безопасность</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Адаптивный круиз-контроль (АСС)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система предотвращения столкновений (FCW+AEB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Контроль дистанции спереди (FDM)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система удержания в полосе (LKA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система помощи в пробках (TJA+ICA)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Предупреждение о покидании полосы (LDW)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система авто переключения ближний / дальний свет (IHC)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Система распознавания знаков (TSR)</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Комфорт</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Атмосферная подсветка интерьера (многоцветная)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Кожаная отделка сидений (Premium)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вентиляция передних сидений</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зеркало заднего вида с автозатемнением</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td class="save_title">Технологии и мультимедиа</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Аудио-система премиум-класса Sony (8 динамиков)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <div class="wrapper__est">
             <button class="btn estimate_btn__js">
                 Оставить заявку
             </button>
         </div>
-        </section>
     </div>
     <div class="container_site">
         <div class="line__sale">
@@ -282,7 +684,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
             </div>
             <div class="category">
                 <ul class="category__list">
-                <li class="category__item">
+                    <li class="category__item">
                         <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max-v-dts-asavto-tolyatti/index.php"><img src="/local/templates/NewAsAvto/static/images/cherytiggopromaxDCtltlprev.jpg" class="category__image" alt=""></a>
                         <div class="date__info">
                             <p class="date__info-item">
@@ -307,7 +709,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             <a href="/novosti/geely-coolray-nero/index.php" class="category__title auto_desc_under">Geely Coolray новая комплектация NERO</a>
                         </div>
                         <p class="category__desc">
-                        Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
+                            Компания Geely объявляет о выходе на российский рынок новой специальной серии кроссовера - Geely Coolray NERO
                         </p>
                         <a href="/novosti/geely-coolray-nero/index.php" class="category__info">Читать далее</a>
                     </li>
@@ -321,7 +723,7 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
                             <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__title auto_desc_under">Презентация Chery Tiggo 8 PRO MAX в ДЦ «Самара Восток»</a>
                         </div>
                         <p class="category__desc">
-                        28 апреля в нашем дилерском центре «Самара Восток»  прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
+                            28 апреля в нашем дилерском центре «Самара Восток» прошла презентация долгожданного CHERY TIGGO 8 PRO MAX
                         </p>
                         <a href="/novosti/prezentatsiya-chery-tiggo-8-pro-max/index.php" class="category__info">Читать далее</a>
                     </li>
@@ -332,74 +734,74 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/card__auto.css");
     <div class="container_site">
         <section class="feedback">
             <div class="line__feedback">
-            <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
+                <h2 class="slider_title_feedback"><a href="/otzyvy/index.php" class="title__desc__inner">Отзывы</a></h2>
             </div>
             <div class="category">
                 <ul class="category__list">
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            31.05.2022
+                    <li class="category__item">
+                        <div class="image__wrapper">
+                            <img alt="feedback" src="/local/templates/NewAsAvto/static/images/lps6h3ckt3wd7xsletxzc0434ytr8uxo.jpg" class="category__image minimized">
+                        </div>
+                        <div class="date__info">
+                            <p class="date__info-item">
+                                31.05.2022
+                            </p>
+                        </div>
+                        <div class="auto__desc">
+                            <span class="auto_desc_under">Дилерский центр:</span> Самара
+                        </div>
+                        <p class="auto__desc">
+                            <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
                         </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> GEELY COOLRAY
-                    </p>
-                    <p class="category__desc">
-                        Понравилась хорошая атмосфера и работа менеджера
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/graaj6qf31ybav6a55n89eiakfm0mm2l.jpeg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            30.05.2022
+                        <p class="category__desc">
+                            Понравилась хорошая атмосфера и работа менеджера
                         </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
-                    </p>
-                    <p class="category__desc">
-                        Вежливый персонал. Хорошо оценили старую машину. Подобрали и заказали нужную комплектацию и цвет. Машина пришла в заданный период. Обязательно порекомендую знакомым и друзьям.
-                    </p>
-                </li>
-                <li class="category__item">
-                    <div class="image__wrapper">
-                        <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xqjrqlrsnlw5vqria24iyxj8pt1j1yu2.jpeg" class="category__image minimized">
-                    </div>
-                    <div class="date__info">
-                        <p class="date__info-item">
-                            28.05.2022
+                    </li>
+                    <li class="category__item">
+                        <div class="image__wrapper">
+                            <img alt="feedback" src="/local/templates/NewAsAvto/static/images/graaj6qf31ybav6a55n89eiakfm0mm2l.jpeg" class="category__image minimized">
+                        </div>
+                        <div class="date__info">
+                            <p class="date__info-item">
+                                30.05.2022
+                            </p>
+                        </div>
+                        <div class="auto__desc">
+                            <span class="auto_desc_under">Дилерский центр:</span> Самара
+                        </div>
+                        <p class="auto__desc">
+                            <span class="auto_desc_under">Автомобиль:</span> EXEED TXL
                         </p>
-                    </div>
-                    <div class="auto__desc">
-                        <span class="auto_desc_under">Дилерский центр:</span> Самара
-                    </div>
-                    <p class="auto__desc">
-                        <span class="auto_desc_under">Автомобиль:</span> HAVAL H9
-                    </p>
-                    <p class="category__desc">
-                        Купил автомобиль который и хотел, порадовали скидки и профессионализм сотрудников
-                    </p>
-                </li>
+                        <p class="category__desc">
+                            Вежливый персонал. Хорошо оценили старую машину. Подобрали и заказали нужную комплектацию и цвет. Машина пришла в заданный период. Обязательно порекомендую знакомым и друзьям.
+                        </p>
+                    </li>
+                    <li class="category__item">
+                        <div class="image__wrapper">
+                            <img alt="feedback" src="/local/templates/NewAsAvto/static/images/xqjrqlrsnlw5vqria24iyxj8pt1j1yu2.jpeg" class="category__image minimized">
+                        </div>
+                        <div class="date__info">
+                            <p class="date__info-item">
+                                28.05.2022
+                            </p>
+                        </div>
+                        <div class="auto__desc">
+                            <span class="auto_desc_under">Дилерский центр:</span> Самара
+                        </div>
+                        <p class="auto__desc">
+                            <span class="auto_desc_under">Автомобиль:</span> HAVAL H9
+                        </p>
+                        <p class="category__desc">
+                            Купил автомобиль который и хотел, порадовали скидки и профессионализм сотрудников
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
     </div>
     <div class="popup_overlay"></div>
     <div class="popup__container">
-    <form class="form title__popup__js  title__popup" id="popup__form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
+        <form class="form title__popup__js  title__popup" id="popup__form" enctype="multipart/form-data" action="/ajax/feedback.php" method="POST">
             <button class="popup_drive__btn" type="button" aria-label="Close button"></button>
             <h2 class="popup_drive">Тест драйв</h2>
             <div class="popup_cont">

@@ -178,7 +178,6 @@ nav ul li a {
 nav ul ul {
     display: none;
     position: absolute;
-    margin-top: 5px;
 }
 
 nav ul ul li {
